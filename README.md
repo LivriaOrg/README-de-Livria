@@ -11,11 +11,10 @@
 
 <p align="center">Defontes</p>
 <p align="center">Binda Arbañil, Marcelo Alejandro U202311157</p>
-<p align="center">Borja Molina, Gabriel Sebastián U20221C275</p>
-<p align="center">Castillo Garay, Ainhoa Lucía u202311701</p>
+<p align="center">Borja Molina, Gabriel Sebastián U202310308</p>
+<p align="center">Castillo Garay, Ainhoa Lucía U202311701</p>
 <p align="center">Martel Andrade, Cassius Estefano U202312287</p>
 <p align="center">Nakamurake Teruya, Alex Tomio U20201f855</p>
-<p align="center">Castillo Garay, Ainhoa Lucía u202311701</p>
 
 <p align="center">Septiembre 2025</p>
 
