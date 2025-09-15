@@ -632,3 +632,51 @@ Respecto a la tecnología, Fabricio no utiliza plataformas específicas para res
 
 Una plataforma ideal para Fabricio debería tener un buscador inteligente capaz de recomendarle libros basados en sus intereses, evitando el spam o la publicidad excesiva de títulos que no le interesan, un aspecto que le resulta frustrante. Valora que una plataforma combine la lectura con la interacción social, ya que considera que esta combinación amplía su conocimiento de forma significativa. Finalmente, revela que sí ha comprado libros basándose en las sugerencias de una comunidad en línea, específicamente un grupo en Discord, lo que refuerza su confianza en las recomendaciones de este tipo de espacios virtuales.
 
+## 2.2.3. Análisis de entrevistas
+
+En base en las entrevistas recopiladas para cada segmento, se llevó a cabo un análisis, el cual destaca los principales hallazgos y las conclusiones derivadas.
+
+***Segmento objetivo #1: Personas que desean desarrollar y expandir el hábito de la lectura***
+
+**Hallazgos:**
+
+| Característica           | Hallazgos                                                                      | Porcentaje |
+|--------------------------|---------------------------------------------------------------------------------|------------|
+| Hábito de Lectura        | Es esporádico o poco frecuente, a diferencia de su etapa escolar o juventud.   | 100%       |
+| Obstáculo Principal      | La falta de tiempo debido a responsabilidades académicas y laborales.           | 100%       |
+| Motivación               | La búsqueda de entretenimiento, para "engancharse" en una historia.            | 100%       |
+| Género Preferido         | El terror es el género más popular.                                            | 75%        |
+| Intereses Adicionales    | Lectura con fines profesionales o de desarrollo personal                        | 50%        |
+| Factores de Elección     | Basan su decisión en recomendaciones o reseñas.                                 | 100%       |
+| Influencia de Amigos     | Confían en las recomendaciones de su círculo cercano.                           | 50%        |
+| Influencia de Reseñas    | Se guían por la reputación del autor y las reseñas en línea.                    | 50%        |
+| Preferencia de Formato   | Prefieren los libros físicos por la experiencia táctil y la ausencia de distracciones. | 75%        |
+| Experiencia Digital      | Tienen una experiencia limitada o nula con plataformas digitales.               | 100%       |
+| Expectativas Digitales   | Valoran que las plataformas ofrezcan una amplia variedad de títulos.            | 100%       |
+
+**Conclusiones:**
+
+Los lectores de este segmento integran la lectura en su vida de forma esporádica para satisfacer una necesidad específica, ya sea de entretenimiento o de aprendizaje. El obstáculo principal para ellos es la falta de tiempo, lo que los lleva a buscar soluciones convenientes y eficientes. Aunque algunos prefieren los libros físicos, no se oponen a lo digital, valorando la practicidad de los audiolibros o la accesibilidad que ofrecen las plataformas digitales cuando la experiencia es cómoda.
+
+Para que una aplicación como Livria sea atractiva para este segmento, debe enfocarse en ofrecer una experiencia sin fricciones. Es crucial que la plataforma facilite la búsqueda y el descubrimiento de libros con un sistema de recomendaciones robusto, que no solo sugiera títulos populares, sino que también tenga una gran variedad en nichos específicos, como la gastronomía o el marketing. Además, es fundamental que la interfaz sea intuitiva y fácil de usar, ya que muchos tienen una experiencia limitada o nula con plataformas digitales.
+
+***Segmento objetivo #2: Personas interesadas en compartir intereses literarios e interactuar con otros lectores***
+
+**Hallazgos:**
+
+| Característica               | Hallazgos                                                                                                                                                                                                                                    | Porcentaje   |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| Importancia de Compartir    | Compartir opiniones y lecturas es fundamental. Lo ven como una forma de enriquecer su experiencia y conocer nuevos puntos de vista.                                                                                                           | 100%         |
+| Participación en Comunidades| Participan activamente en comunidades de lectura, ya sea en grupos de amigos, Facebook, Instagram o Discord.                                                                                                                                  | 100%         |
+| Uso de Plataformas Digitales| El 75% (Roxana, Sofía y Nicole) utiliza plataformas como Instagram, TikTok y Facebook para descubrir libros y conectar. El otro 25% utiliza Google y Discord (Fabricio).                                                                     | 75% - 25%    |
+| Valor Agregado              | La principal motivación para unirse a una comunidad es la interacción social.                                                                                                                                                                 | 100%         |
+| Punto de Dolor              | La principal frustración es la falta de calidad en la conversación o cuando las comunidades son cerradas y no permiten la libre expresión de ideas.                                                                                           | 100%         |
+| Preferencia de Recomendaciones | Todos prefieren las recomendaciones de personas cercanas o de comunidades online con las que se sienten identificados, ya que les genera confianza.                                                                                       | 100%         |
+| Plataforma Ideal            | Una plataforma ideal debe ser amigable, práctica, fácil de usar y rápida. Roxana, Sofía y Nicole también destacan la importancia de un espacio para recomendar libros y una interacción de calidad.                                           | 100%         |
+| Obstáculo Principal         | La falta de tiempo debido a responsabilidades, mencionada por el 50% de los entrevistados (Roxana y Sofía), limita su frecuencia de lectura.                                                                                                  | 50%          |
+
+**Conclusiones:**
+
+Los entrevistados de este segmento se definen como "Lectores Sociales", que ven la lectura como una actividad compartida. Su principal motor no es simplemente la lectura, sino la experiencia de compartir y conectar que esta genera. Para ellos, el acto de leer no es una actividad solitaria, sino una oportunidad para debatir, aprender y conocer a personas con intereses similares.
+
+Las plataformas digitales tienen un gran potencial para este segmento si logran crear un ecosistema social robusto y de calidad. Los hallazgos muestran que una solución exitosa debe priorizar la interacción genuina y profunda, ofreciendo un diseño que facilite la conversación y la conexión entre usuarios. El éxito no se medirá solo por el catálogo de libros, sino por la calidad de la comunidad y la fluidez de la experiencia social que ofrezca.
