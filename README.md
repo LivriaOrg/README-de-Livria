@@ -1350,3 +1350,503 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **Acceptance Criteria – Escenario 2: Almacenamiento de archivos digitales** | Dado que los libros digitales y audiolibros son archivos que deben ser gestionados, Cuando el desarrollador investiga y prototipa el almacenamiento de archivos en la nube para manejar estos activos digitales, Entonces el desarrollador documenta el flujo de carga y acceso a los archivos de forma segura. |
 | **Acceptance Criteria – Escenario 3: Poblamiento del catálogo con APIs públicas** | Dado que se necesita poblar el catálogo, Cuando el desarrollador investiga la viabilidad de utilizar APIs de catálogos públicos para enriquecer la información de los libros, Entonces el desarrollador incluye en el informe un plan para la ingestión inicial de datos y la actualización del catálogo. |
 
+### 2.4.2. Impact Mapping
+
+**Business Goal 1: Aumentar el crecimiento inicial y adopción de Livria**
+
+Objetivo SMART: Alcanzar 50,000 descargas de la aplicación en los primeros seis meses posteriores al lanzamiento oficial, para establecer una base de usuarios sólida que valide la demanda del mercado y el modelo de negocio.
+
+<p align="center">
+  <img src="https://imgur.com/meN3bY8.jpg" alt="12231">
+</p>
+
+**Business Goal 2: Fomento de compra de libros**
+
+Objetivo SMART: Lograr que el 25% de los usuarios activos mensuales realicen al menos una compra de libro en un periodo de 3 meses, para generar un flujo de ingresos constante que asegure la rentabilidad de la operación.
+
+<p align="center">
+  <img src="https://imgur.com/BfE5rBc.jpg" alt="12231">
+</p>
+
+**Business Goal 3: Construcción de la comunidad de Livria**
+
+Objetivo SMART: Conseguir que el 30% de los usuarios activos participen en al menos una actividad de la comunidad en los primeros 6 meses, para validar que la plataforma está logrando su objetivo de conectar a los lectores.
+
+<p align="center">
+  <img src="https://imgur.com/t87vZOy.jpg" alt="12231">
+</p>
+
+### 2.4.3. Product Backlog
+
+| # Orden | User Story Id | Título                                                                 | Story Points (1 / 2 / 3 / 5 / 8) |
+|:------:|:--------------:|------------------------------------------------------------------------|:---------------------------------:|
+| 1 | SS02 | Investigación de Estructura de Comunidades | 3 |
+| 2 | SS01 | Prototipado de Algoritmo de Recomendación | 5 |
+| 3 | SS03 | Investigación y Integración de Métodos de Pago | 5 |
+| 4 | SS05 | Investigación de Gestión de Libros Físicos y Digitales | 5 |
+| 5 | SS04 | Prototipado de Gestor de Notificaciones Personalizadas | 3 |
+| 6 | US21 | Compra de libros digitales y físicos | 8 |
+| 7 | US16 | Visualización de recomendaciones en la plataforma | 2 |
+| 8 | US12 | Interacción con recomendaciones según preferencias literarias | 3 |
+| 9 | US22 | Barra de búsqueda | 2 |
+| 10 | US01 | Presentación de servicios de Livria | 1 |
+| 11 | US19 | Gestión de comunidades | 5 |
+| 12 | US23 | Procesos de pago | 3 |
+| 13 | US14 | Notificaciones instantáneas | 2 |
+| 14 | US18 | Creación de publicaciones en comunidades | 2 |
+| 15 | US15 | Registro e inicio de sesión | 3 |
+| 16 | US20 | Comentarios en publicaciones | 2 |
+| 17 | US25 | Actualización y gestión de suscripción | 3 |
+| 18 | US13 | Configuración de notificaciones | 2 |
+| 19 | US07 | Diseño atractivo de la Landing Page | 1 |
+| 20 | US24 | Valoración y reseñas de libros | 3 |
+| 21 | US17 | Cierre de sesión | 1 |
+| 22 | US29 | Filtro lateral por atributos del libro | 2 |
+| 23 | US06 | Navegación simple entre secciones en la Landing Page | 1 |
+| 24 | TS10 | Añadir un libro al inventario | 3 |
+| 25 | TS03 | Búsquedas de libros como administrador | 1 |
+| 26 | TS09 | Visualización de los libros en el inventario | 1 |
+| 27 | TS04 | Visualización de detalles completos de un libro | 1 |
+| 28 | TS01 | Acceso rápido a las secciones del sistema desde el Dashboard | 1 |
+| 29 | TS02 | Visualización de estadísticas de libros | 2 |
+| 30 | TS05 | Visualización de estadísticas y análisis de órdenes | 3 |
+| 31 | TS08 | Búsqueda y filtrado de libros en el Inventario | 2 |
+| 32 | TS06 | Búsqueda y filtrado de órdenes | 2 |
+| 33 | TS07 | Visualización de la tabla con detalles de las órdenes | 1 |
+| 34 | TS11 | Visualización de estadísticas de negocio | 2 |
+| 35 | US28 | Soporte Multiplataforma | 5 |
+| 36 | TS12 | Gestión de la configuración del perfil | 2 |
+| 37 | TS13 | Gestión de la configuración de la aplicación | 2 |
+| 38 | TS14 | Barra lateral de navegación en el dashboard del administrador | 1 |
+| 39 | US26 | Disponibilidad 24/7 | 2 |
+| 40 | US27 | Interfaz amigable y navegación sencilla de la aplicación móvil | 3 |
+| 41 | US08 | Botón de redirección de descargar de la aplicación móvil | 1 |
+| 42 | US03 | Cambio de idioma en la Landing Page | 2 |
+| 43 | US05 | Acceso a la sección “Contáctanos” desde la Landing Page | 1 |
+| 44 | US02 | Acceso a la sección “Sobre Nosotros” desde la Landing Page | 1 |
+| 45 | US04 | Visualización de la sección “Home” en la Landing Page | 1 |
+| 46 | US09 | Acceder a las redes sociales de Livria | 1 |
+| 47 | US11 | Formulario de contacto | 2 |
+| 48 | US10 | Footer de la Landing Page | 1 |
+| 49 | TS15 | Registro de cuenta con control y seguridad | 3 |
+
+Evidencias de la implementación del Product Backlog en Pivotal Tracker:
+
+<p align="center">
+  <img src="https://imgur.com/7F2Y29E.jpg" alt="12231">
+</p>
+
+## 2.5. Strategic-Level Domain-Driven Design
+
+En esta sección se introduce el proceso de Domain-Driven Design a nivel estratégico para Livria. Este enfoque nos ha permitido conceptualizar el sistema a partir de la lógica del negocio, con el fin de modelar una arquitectura de microservicios coherente. Para ello se identificaron los subconjuntos del sistema con límites claros y naturales, conocidos como Bounded Contexts. Las herramientas utilizadas para este propósito son el EventStorming, que nos permitió visualizar el flujo de eventos del negocio, y el Bounded Context Canvas, una herramienta para definir formalmente cada contexto y sus relaciones, garantizando así una base sólida para el desarrollo.
+
+### 2.5.1. Event Storming
+
+Event Storming es una técnica que consiste en la realización de una especie de taller facilitado en el que los integrantes del equipo identifican eventos clave del negocio y los requisitos para su funcionamiento, a lo largo de diferentes pasos que deben ser realizados colaborativamente.
+
+Esta herramienta nos permite elaborar una arquitectura de aplicación más robusta, estructurada y acorde con el enfoque del Domain-Driven Design (DDD), además de visualizar posibles flujos de usuario y estructuras de código a utilizar. En nuestro caso, por motivos de mejor visualización y facilidad, se utilizó la plataforma Miro para la realización de los diferentes pasos de manera colaborativa.
+
+
+Enlace: https://miro.com/app/board/uXjVJJR3Sds=/?share_link_id=413356063825
+
+●	Step 1: Unstructured Exploration
+
+<p align="center">
+  <img src="https://imgur.com/391o69b.jpg" alt="12231">
+</p>
+
+El primer paso del Event Storming, Unstructured Exploration (Exploración No Estructurada), consiste en escribir en post-its los eventos propios del negocio que cada miembro del equipo pueda detectar, generando una lluvia de ideas masiva con el objetivo de identificar la mayor cantidad de eventos de dominio posibles, estimar la complejidad del proyecto y permitir que se forme una base de conocimiento compartido entre los participantes.
+
+●	Step 2: Timelines
+
+<p align="center">
+  <img src="https://imgur.com/cmderHR.jpg" alt="12231">
+</p>
+
+El segundo paso del Event Storming, Timelines (Líneas de tiempo), consiste en organizar los post-its escritos en el paso anterior de izquierda a derecha a través de flechas y en orden cronológico, pudiendo seguir diferentes flujos según los eventos de dominio involucrados. El objetivo es organizar todos los eventos de dominio identificados de una manera más comprensible y clara para todos los miembros del equipo, ilustrando cómo es la secuencia en la que suceden.
+
+●	Step 3: Pain Points
+
+<p align="center">
+  <img src="https://imgur.com/Y0RnyN5.jpg" alt="12231">
+</p>
+
+El tercer paso, Pain Points (Puntos de Dolor), consiste en identificar problemas y áreas de mejora dentro del flujo de eventos de dominio. Esto se realiza con el objetivo de visibilizar puntos críticos en los que concentrar esfuerzos de desarrollo y oportunidades de optimización a futuro para aumentar el impacto de la solución.
+
+●	Step 4: Pivotal Points
+
+<p align="center">
+  <img src="https://imgur.com/tmbX4f9.jpg" alt="12231">
+</p>
+
+El cuarto paso, Pivotal Points (Puntos Pivotes), consiste en identificar las causas y consecuencias de los eventos de dominio identificados, analizando cómo y por qué suceden. El objetivo es tener un mayor entendimiento de lo que sucede “antes” de un evento de dominio y descubrir reglas de dominio previamente no identificadas.
+En nuestro caso, utilizamos post-its en forma de rombo para señalizar los Pain Points detectados.
+
+●	Step 5: Commands
+
+<p align="center">
+  <img src="https://imgur.com/leGXzSJ.jpg" alt="12231">
+</p>
+
+El quinto paso, Commands (Comandos), se trata de identificar las intenciones y solicitudes que dan paso a los eventos de dominio, esto permite detectar las causas presentes justo antes de que se desencadene un evento determinado.
+
+●	Step 6: Policies
+
+<p align="center">
+  <img src="https://imgur.com/eQkhJBL.jpg" alt="12231">
+</p>
+
+El sexto paso, Policies (Políticas), permite al equipo identificar la lógica reactiva del negocio, es decir, lo que ocurre de forma automática inmediatamente después de un evento de dominio. Este paso es muy importante para modelar el comportamiento autónomo y la automatización presente dentro de la aplicación.
+
+●	Step 7: Read Models
+
+<p align="center">
+  <img src="https://imgur.com/i7ubvEL.jpg" alt="12231">
+</p>
+
+El séptimo paso, Read Models (Modelos de Lectura), consiste en realizar una revisión de todo el modelo y señalar los datos o información dentro del dominio, que están al alcance del usuario en determinado momento. Realizar este paso nos permite visualizar de una mejor manera cómo diseñar las vistas de usuario y tener en consideración la información a mostrar en diferentes etapas del flujo de uso.
+
+●	Step 8: External Systems
+
+<p align="center">
+  <img src="https://imgur.com/yiwBoz0.jpg" alt="12231">
+</p>
+
+Durante el octavo paso del Event Storming, External Systems (Sistemas Externos), el equipo debe identificar y colocar los componentes que no forman parte de la aplicación, usualmente dependencias externas y APIs pertenecientes a servicios de terceros. Este paso nos permite tener una visión más clara del funcionamiento de nuestra aplicación, permitiéndonos diseñar una arquitectura incluso más robusta, al identificar partes del sistema que interactúan con servicios que están fuera del control del equipo.
+
+#### 2.5.1.1.	Candidate Context Discovery
+
+Tras la sesión de Event Storming para modelar el dominio de negocio, el equipo se enfocó en el proceso de Candidate Context Discovery con el objetivo de identificar los bounded contexts preliminares. Para ello, aplicamos una combinación de técnicas, utilizando look-for-pivotal-events para hallar eventos de dominio clave que indican cambios de estado significativos, start-with-simple para crear modelos con propósito y descomponer el timeline en pasos secuenciales, y start-with-value para priorizar los contextos que representan el core domain del negocio.
+
+En primera instancia, a partir del Event Storming, se delimitaron los bounded contexts identificando los flujos de negocio clave de la plataforma. Este proceso permitió agrupar comandos, eventos y vistas relacionados para crear modelos de dominio cohesionados y bien definidos. Los contextos que emergieron de este análisis inicial, centrados en funcionalidades como las reseñas, la gestión de comunidades, el proceso de compra y el inventario, son el resultado de aplicar técnicas de descubrimiento que buscan aislar las partes más valiosas y críticas del negocio.
+
+<p align="center">
+  <img src="https://imgur.com/GoTtHLq.jpg" alt="12231">
+</p>
+
+El Bounded Context de Búsqueda se centra en el comando principal "Buscar Libro". Esta acción es crucial porque inicia la interacción más frecuente y valiosa para el Usuario de Livria, facilitando el acceso a los productos del negocio. Por esta razón, la funcionalidad ha sido identificada como un dominio de soporte fundamental para el negocio. La cohesión de este comando y todas las funcionalidades asociadas como filtros, ordenación y sugerencia, justifican la delimitación de un Bounded Context independiente.
+
+<p align="center">
+  <img src="https://imgur.com/eAXqepl.jpg" alt="12231">
+</p>
+
+El Bounded Context de Libro se centra en el evento de "Vista de información de un libro". Esta acción es crucial porque representa la interacción con el producto principal del negocio: el libro.
+Por esta razón, la funcionalidad se ha identificado como un dominio central para el negocio. La cohesión de este evento y todas las funcionalidades asociadas, como ver reseñas, publicar una nueva, y marcar un libro como favorito o para no recomendar, justifican la delimitación de un Bounded Context independiente.
+
+<p align="center">
+  <img src="https://imgur.com/ckPfuaz.jpg" alt="12231">
+</p>
+
+El Bounded Context de Perfil se centra en el comando principal de "Crear cuenta" e "Iniciar sesión". Estas acciones son cruciales porque habilitan la interacción del usuario con la plataforma, siendo la puerta de entrada a todas las demás funcionalidades.
+Por esta razón, la funcionalidad se ha identificado como un dominio de soporte fundamental para el negocio. La cohesión de estas acciones y todas las funcionalidades asociadas, como modificar el perfil y validar credenciales, justifican la delimitación de un Bounded Context independiente.
+
+<p align="center">
+  <img src="https://imgur.com/oxjuYNg.jpg" alt="12231">
+</p>
+
+El Bounded Context de Comunidades se centra en el comando de "Crear comunidad". Esta acción es fundamental para el negocio, ya que fomenta la interacción social y aumenta la retención de usuarios, generando un valor significativo para la plataforma.
+
+La funcionalidad se identifica como un dominio central debido a que toda la lógica crucial para la interacción de la comunidad, desde la asignación de roles y permisos hasta la publicación de contenido, la moderación y las notificaciones, se agrupan de manera coherente. Esta cohesión justifica la delimitación de un contexto independiente, asegurando que todas las funcionalidades relacionadas con los grupos se gestionen de forma autónoma.
+
+<p align="center">
+  <img src="https://imgur.com/eIIX31K.jpg" alt="12231">
+</p>
+
+El Bounded Context de Carrito se centra en el comando de "Agregar libro a carrito de compra". Esta acción es fundamental, ya que inicia un flujo de valor que monetiza el catálogo y gestiona la interacción directa del cliente con los productos.
+
+Esta funcionalidad se identifica como un dominio central porque la lógica de la compra, la integración con la pasarela de pagos y la gestión de la transacción son críticas para el negocio. La cohesión de estas accione, desde la eliminación de ítems hasta la suscripción a planes, justifican su delimitación en un contexto independiente, asegurando que todo el proceso de compra se gestione de forma coherente y segura.
+
+<p align="center">
+  <img src="https://imgur.com/9xbekUP.jpg" alt="12231">
+</p>
+
+El Bounded Context de Stock se centra en los comandos de "Agregar" y "Eliminar libros del inventario". Estas acciones, ejecutadas por un administrador, son fundamentales para el negocio, ya que aseguran la disponibilidad de productos para la venta y mantienen la información de inventario actualizada.
+
+Esta funcionalidad se identifica como un dominio central porque el stock es crítico para la operación del negocio. La cohesión de las acciones relacionadas con la gestión de existencias y los metadatos de los libros justifica la delimitación de un contexto independiente, lo que permite que esta lógica de negocio se maneje de forma centralizada y eficiente.
+
+<p align="center">
+  <img src="https://imgur.com/9x9CeEd.jpg" alt="12231">
+</p>
+
+El Bounded Context de Órdenes se centra en los comandos de "Buscar pedidos por ID" y "Buscar pedidos por cliente". Estas acciones, ejecutadas por administradores, son cruciales porque permiten la trazabilidad y la auditoría de ventas.
+
+Este dominio se identifica como un subdominio de soporte, ya que proporciona las herramientas necesarias para que el equipo de administración monitoree y gestione el flujo de capital y la actividad de los clientes. La cohesión de estas funcionalidades de búsqueda y visualización justifica la delimitación de un contexto independiente, asegurando que las herramientas de gestión interna operen de manera eficiente y autónoma.
+
+<p align="center">
+  <img src="https://imgur.com/Ngzy8R1.jpg" alt="12231">
+</p>
+
+El Bounded Context de Recomendaciones se centra en la "Funcionalidad de recomendaciones". Esta acción es fundamental para el negocio, ya que personaliza la experiencia del usuario y promueve el descubrimiento de nuevos productos.
+
+Esta funcionalidad se identifica como un dominio central porque un sistema de recomendaciones de calidad es una ventaja competitiva clave para la plataforma. La cohesión de las acciones relacionadas con la generación de recomendaciones, basada en favoritos y exclusiones, y su posterior visualización, justifica la delimitación de un contexto independiente, lo que permite el desarrollo y la mejora de algoritmos de forma autónoma.
+
+#### 2.5.1.2.	Domain Message Flows Modelling
+
+En esta sección se modelan los Domain Message Flows para representar cómo los bounded contexts de Livria colaboran en la resolución de los casos de negocio. Para ello se utiliza la técnica de Domain Storytelling, que permite narrar e ilustrar los flujos de mensajes entre actores y contextos, mediante diagramas elaborados que evidencian dichas interacciones en escenarios clave del sistema.
+
+**Escenario 1: Compra de libro del catálogo de Livria**
+
+<p align="center">
+  <img src="https://imgur.com/v2pgFZF.jpg" alt="12231">
+</p>
+
+Este diagrama ilustra el flujo que sigue el usuario para completar la compra de un libro en Livria. Una vez agregado el libro al carrito, se genera un evento que confirma al usuario que el producto ha sido añadido con éxito. Al acceder al carrito, el usuario puede visualizar los artículos seleccionados y, al hacer clic en “Realizar pago”, el sistema valida la disponibilidad de los libros antes de redirigirlos a la pantalla de pago. Cuando el usuario selecciona la opción “Pagar”, el sistema valida sus credenciales a través de Izipay. Tras la confirmación, se dispara el evento de Pago exitoso, se actualiza el stock correspondiente y, finalmente, se emite el comprobante de compra.
+
+**Escenario 2: Creación de una publicación dentro de una comunidad existente**
+
+<p align="center">
+  <img src="https://imgur.com/nn7Z0GO.jpg" alt="12231">
+</p>
+
+Este diagrama representa el flujo para la creación de una publicación dentro de una comunidad en Livria. El proceso inicia cuando el usuario accede a una comunidad específica, momento en el que el sistema lo redirige y despliega la pantalla correspondiente, pudiendo unirse a la comunidad si no lo ha hecho ya. Desde allí, el usuario puede crear una nueva publicación proporcionando una descripción y una imagen; al enviarla, se genera un evento que confirma su creación exitosa y, de forma inmediata, se activa una política de moderación automatizada en el contexto de la comunidad. Además, el diagrama refleja un flujo secundario que permite al usuario navegar desde la comunidad hacia su perfil, donde se le muestra tanto su información personal como la lista de comunidades a las que pertenece.
+
+**Escenario 3: Vista de libros recomendados**
+
+<p align="center">
+  <img src="https://imgur.com/asKrnyt.jpg" alt="12231">
+</p>
+
+Este diagrama de flujo describe el proceso de visualización de libros recomendados en Livria. La secuencia comienza cuando el usuario selecciona un libro de su interés y es redirigido a la pantalla de detalle, donde puede consultar su título, descripción y autor, además de contar con la opción de marcarlo como “favorito”. Al hacerlo, el sistema muestra una notificación que confirma que el libro ha sido agregado a sus favoritos, acción que impacta directamente en su perfil. Posteriormente, al acceder a la sección de recomendaciones, el sistema despliega una lista personalizada de libros sugeridos en función de sus preferencias, sobre la cual se aplica una política de moderación automática para garantizar la calidad del contenido presentado.
+
+**Escenario 4: Agregar stock a un nuevo libro**
+
+<p align="center">
+  <img src="https://imgur.com/vbHGRsk.jpg" alt="12231">
+</p>
+
+Este diagrama ilustra el flujo que sigue un administrador para agregar stock a un libro nuevo en el sistema de Livria. El proceso comienza cuando el administrador registra un libro en el inventario, ingresando datos como título, autor y género, tras lo cual se ejecuta una política de validación de duplicados para garantizar que el libro no exista previamente. Si la validación es exitosa, se genera un evento que confirma la creación del libro. Luego, el administrador localiza el libro recién creado mediante una búsqueda y accede a su vista de datos iniciales, desde donde ejecuta el comando para añadir stock. Finalmente, esta acción desencadena una política que confirma la actualización del inventario y una notificación visual que informa al administrador que la operación se ha completado satisfactoriamente.
+
+#### 2.5.1.3.	Bounded Context Canvases
+
+En esta sección se presentan los candidate bounded contexts identificados para el dominio de Livria. Su elaboración se desarrolló mediante un proceso iterativo que incluyó la definición de cada contexto, la captura del lenguaje ubicuo, el análisis de reglas de negocio, capacidades y dependencias, así como la crítica de diseño. Este abordaje permitió establecer límites claros y responsabilidades bien delimitadas, asegurando la independencia y escalabilidad de cada contexto y, al mismo tiempo, la coherencia integral del sistema.
+
+Cabe señalar que algunos de estos bounded contexts no presentan comunicación de salida, ya que representan pasos finales dentro del flujo de la aplicación. Sin embargo, todos ellos fueron considerados y empleados en el modelado, puesto que resultan esenciales para completar el ciclo de negocio de Livria y garantizar la trazabilidad de los procesos.
+
+**Bounded Context de Búsqueda:**
+
+<p align="center">
+  <img src="https://imgur.com/ChCGqBL.jpg" alt="12231">
+</p>
+
+**Bounded Context de Libro:**
+
+<p align="center">
+  <img src="https://imgur.com/gzhsxMI.jpg" alt="12231">
+</p>
+
+**Bounded Context de Recomendaciones:**
+
+<p align="center">
+  <img src="https://imgur.com/FXkiqIG.jpg" alt="12231">
+</p>
+
+**Bounded Context de Carrito:**
+
+<p align="center">
+  <img src="https://imgur.com/msJt9yh.jpg" alt="12231">
+</p>
+
+**Bounded Context de Perfil:**
+
+<p align="center">
+  <img src="https://imgur.com/Sxsz71t.jpg" alt="12231">
+</p>
+
+**Bounded Context de Órdenes:**
+
+<p align="center">
+  <img src="https://imgur.com/U6UwNt4.jpg" alt="12231">
+</p>
+
+**Bounded Context de Stock:**
+
+<p align="center">
+  <img src="https://imgur.com/U1HWDiu.jpg" alt="12231">
+</p>
+
+**Bounded Context de Comunidades:**
+
+<p align="center">
+  <img src="https://imgur.com/PWTuLPJ.jpg" alt="12231">
+</p>
+
+### 2.5.2.	Context Mapping
+
+Luego de identificar y organizar las funcionalidades principales dentro de los ocho bounded contexts, se procedió a establecer las interacciones y dependencias entre ellos. Este paso permite pasar de una visión aislada de cada módulo a una perspectiva integral del sistema, mostrando cómo se comunican y qué información comparten. A continuación, se definieron las relaciones entre los bounded contexts delimitados previamente, representando los flujos de datos y procesos que darán soporte a la experiencia del usuario y a la operatividad de la plataforma.
+
+**Bounded Context de Perfil → Bounded Context de Búsqueda**
+
+<p align="center">
+  <img src="https://imgur.com/souQBYs.jpg" alt="12231">
+</p>
+
+El bounded context de Perfil tiene una relación de Upstream con el bounded context de Búsqueda (Downstream) para las funcionalidades de exploración de libros dentro de la plataforma, ya que, solo después de que el usuario haya iniciado sesión con una cuenta registrada, podrá tener acceso a la interfaz principal del servicio. Este caso presenta un patrón de Comformist, ya que no se presenta una relación de dependencia directa, pero ambos se integran entre sí para realizar un proceso de autenticación necesario para otras funcionalidades de la aplicación, lo que genera una relación unilateral en la que Perfil comunica la información del estado de la sesión del usuario a Búsqueda.
+
+**Bounded Context de Búsqueda → Bounded Context de Libro**
+
+<p align="center">
+  <img src="https://imgur.com/rqwv0xj.jpg" alt="12231">
+</p>
+
+El bounded context de Búsqueda sirve como Upstream para el bounded context de Libro, ya que este primer bounded context provee la funcionalidad de encontrar el identificador específico de un libro y pasarlo al bounded context de Libros, que actúa como el Downstream, para poder obtener su información específica, como su autor, descripción y lista de reseñas.
+
+**Bounded Context de Libro → Bounded Context de Carrito*
+
+<p align="center">
+  <img src="https://imgur.com/zpTtM5q.jpg" alt="12231">
+</p>
+
+El bounded context de Libro actúa como el Upstream del bounded context de Carrito (Downstream), debido a que este último bounded context consume la información detallada que provee el primero, permitiéndole elaborar una lista de compras con información útil a la que el usuario puede acceder en cualquier momento.
+
+**Bounded Context de Stock ↔ Bounded Context de Carrito*
+
+<p align="center">
+  <img src="https://imgur.com/k81jwRu.jpg" alt="12231">
+</p>
+
+El bounded context de Stock actúa como Upstream para el bounded context de Carrito (Downstream), pero ambos presentan una relación de dependencia bidireccional, lo que quiere decir que ambos comparten información entre sí en diferentes momentos del funcionamiento del servicio. Stock provee información sobre la cantidad de libros en existencia a Carrito durante la compra de productos, lo que limita la cantidad de libros que pueden ser comprados en determinado momento, mientras que Carrito disminuye el número de existencias disponibles de los libros solicitados en el Stock tras completarse un pedido. Estos bounded contexts presentan una relación de Cliente/Proveedor, ya que el contexto de Carrito (el “cliente”) consulta sobre la información del inventario al “proveedor” (Stock) y le notifica los cambios a realizar tras efectuarse un pedido.
+
+**Bounded Context de Perfil → Bounded Context de Stock**
+
+<p align="center">
+  <img src="https://imgur.com/fxixhGa.jpg" alt="12231">
+</p>
+
+El bounded context de Perfil presenta una relación de Upstream con el bounded context de Stock (Downstream), ya que, la visualización de inventario solo puede ser accedida tras un inicio de sesión como administrador, lo que requiere de un proceso de autenticación validado. Estos bounded contexts presentan un patrón de Comformist, ya que, se trata de una relación unidireccional en la que Perfil se encarga de comunicar la información de la sesión del usuario al contexto de Stock y no se transmite información del otro sentido.
+
+**Bounded Context de Libro ↔ Bounded Context de Recomendaciones**
+
+<p align="center">
+  <img src="https://imgur.com/eddgpMP.jpg" alt="12231">
+</p>
+
+El bounded context de Libro actúa como Upstream del bounded context de Recomendaciones (Downstream), debido a que su función es asignar un libro como “favorito” y compartir esa información con el algoritmo de recomendación para seleccionar qué libros mostrar en base a sus coincidencias. Presentan un patrón de Cliente/Proveedor, debido a que ambos intercambian información para funcionar correctamente, Recomendaciones busca libros con el atributo “favorito” asignado por el bounded context Libros, mientras que Libros identifica coincidencias con los atributos solicitados por Recomendaciones y los muestra en una lista ordenada.
+
+**Bounded Context de Perfil → Bounded Context de Órdenes**
+
+<p align="center">
+  <img src="https://imgur.com/dCQMWMx.jpg" alt="12231">
+</p>
+
+El bounded context de Perfil sirve como Upstream para el bounded context de Órdenes, ya que este primer bounded context provee la funcionalidad de encontrar el identificador específico de un usuario y recopilar la información sobre sus pedidos realizados para pasarlos al bounded context de Órdenes, que actúa como el Downstream, para poder generar una lista actualizada con información relevante. Esta funcionalidad solo puede ser accedida tras un inicio de sesión exitoso.
+
+**Bounded Context de Perfil → Bounded Context de Comunidades**
+
+<p align="center">
+  <img src="https://imgur.com/CZiBC8g.jpg" alt="12231">
+</p>
+
+El Bounded Context de Cuenta sirve como Upstream para el Bounded Context de Comunidades, ya que el primero provee la funcionalidad de identificar al usuario y recopilar la información necesaria para que este pueda suscribirse a un plan de comunidad y unirse a ellas. Comunidades, por su parte, actúa como el Downstream, consumiendo esta información para poder generar y mostrar las comunidades a las que el usuario puede acceder. Esta funcionalidad solo puede ser utilizada tras un inicio de sesión exitoso.
+
+### 2.5.3.	 Software Architecture
+
+Para abordar el diseño de la arquitectura de software de Livria, se ha adoptado el Modelo C4, una técnica que permite visualizar la arquitectura en diferentes niveles de abstracción: Contexto, Contenedores y Despliegue. Este enfoque escalonado facilita la comprensión del sistema tanto a nivel macro, mostrando cómo Livria se relaciona con sus usuarios y sistemas externos, como a nivel micro, detallando la estructura interna de sus servicios y su despliegue en infraestructura. A continuación, se presenta esta representación arquitectónica, que no solo explica la composición de la solución, sino que también ilustra las interacciones y responsabilidades de cada elemento, asegurando un diseño robusto, escalable y acorde a la visión del proyecto.
+
+#### 2.5.3.1.	Software Architecture Context Level Diagrams 
+
+El Diagrama de Contexto es el primer nivel de abstracción del Modelo C4. Su propósito es definir el sistema a construir, en este caso Livria, y su interacción con los usuarios y otros sistemas externos. Este diagrama nos ofrece una vista de alto nivel que ayuda a entender el rol de Livria en su entorno sin profundizar en su estructura interna, lo que lo hace ideal para comunicárselo a las partes interesadas, tanto técnicas como no técnicas.
+
+<p align="center">
+  <img src="https://imgur.com/eZyBU79.jpg" alt="12231">
+</p>
+
+El diagrama de contexto de Livria ilustra los principales actores y sistemas externos con los que interactúa la aplicación. Se identifican dos tipos de usuarios: el Administrador de Livria, responsable de la supervisión y gestión de la plataforma, y el Usuario Cliente, que utiliza la aplicación para explorar, comprar libros y participar en la comunidad.
+En el ámbito de los sistemas externos, Livria se integra con servicios de terceros especializados para delegar funcionalidades específicas. Se utiliza Izipay para procesar los pagos de manera segura, permitiendo a los usuarios realizar transacciones sin que Livria tenga que gestionar directamente la lógica financiera. Para la autenticación y validación de cuentas, la plataforma se apoya en Gmail, que gestiona el envío de correos electrónicos de verificación. La comunicación entre todos estos componentes se establece a través del protocolo HTTPS, lo que garantiza la seguridad e integridad de la información transferida.
+
+#### 2.5.3.2.	Software Architecture Container Level Diagrams
+
+El Diagrama de Contenedores es el segundo nivel del Modelo C4. Este diagrama descompone el sistema de Livria en contenedores, que son unidades de despliegue y ejecución (como aplicaciones web, bases de datos o servicios de microservicios). Su objetivo es mostrar la arquitectura interna de Livria, especificando los roles y las interacciones entre los diferentes contenedores, lo cual es útil para los desarrolladores.
+
+<p align="center">
+  <img src="https://imgur.com/9MsTQ7m.jpg" alt="12231">
+</p>
+
+El diagrama de contenedores de Livria detalla la arquitectura de la aplicación, Livria Software System, que se ha diseñado con un enfoque de aplicación web única (SPA) y aplicaciones móviles separadas para los usuarios y los administradores. En el centro del sistema se encuentra el Livria API, un contenedor que expone todas las funcionalidades y servicios de la aplicación. Esta API se comunica con el Web Application y las Single Page Applications (tanto para el usuario como para el administrador) a través de llamadas JSON/HTTPS. Para la persistencia de datos, la API se conecta a una Base de datos (MySQL) donde se almacenan todos los registros del negocio. Además, las aplicaciones móviles –nativa y cross-platform, respectivamente– el administrador (Admin Mobile Application) y para el usuario (User Mobile Application) se comunican directamente con el Livria API. El sistema también mantiene sus interacciones con los servicios externos de Izipay y Gmail, que se detallaron en el diagrama de contexto.
+
+#### 2.5.3.3.	Software Architecture Deployment Diagrams
+
+El Diagrama de Despliegue es el último nivel de abstracción del Modelo C4 y tiene como objetivo mostrar cómo se mapean los contenedores a la infraestructura física. Este diagrama visualiza los nodos de despliegue (servidores, dispositivos, etc.) y cómo los componentes de software (las aplicaciones, la API y la base de datos) se ejecutan en ellos, ilustrando la topología del sistema en producción.
+
+<p align="center">
+  <img src="https://imgur.com/Jne87Ym.jpg" alt="12231">
+</p>
+
+El diagrama de despliegue de Livria despliega una arquitectura robusta y escalable, meticulosamente segregada entre nodos de cliente y nodos de servidor. Cada artefacto del frontend —la Software Mobile Application (Flutter) para clientes, la Software Mobile Application (Kotlin) para administradores y el Livria Web Service (JS/Vue)— reside en su propio entorno de ejecución, optimizado para su respectiva plataforma. Estos frontends actúan como interfaces ligeras, delegando toda la lógica de negocio al backend centralizado.
+El corazón de la solución reside en el Application Server, que aloja múltiples microservicios que gestionan las distintas funcionalidades del sistema. Desde el API Gateway y el Auth Service que controlan el acceso y el enrutamiento, hasta servicios especializados como el Catalog Service y el Recommendation Engine, cada componente está dedicado a una función específica del negocio. El Admin Console API proporciona un acceso seguro para la gestión. Todos estos servicios persisten sus datos críticos en un DB Server (MySQL), asegurando la integridad y disponibilidad de la información. Esta disposición estratégica minimiza las dependencias y maximiza la resiliencia, estableciendo una base sólida para el crecimiento y la evolución de la plataforma.
+
+## 2.6.	Tactical-Level Domain-Driven Design
+
+### 2.6.1. Bounded Context: Búsqueda
+
+#### 2.6.1.1.	Domain Layer
+
+**ConsultaBusqueda (Entity):** Representa la búsqueda iniciada por un usuario, es parte del agregado BusquedaActiva.
+* Atributos: idConsulta, textoBusqueda, fechaHora, usuarioId.
+* Métodos: validarConsulta(), registrarHistorial().
+
+**FiltroBusqueda (ValueObject):** Representa criterios inmutables de filtrado, se asocia a ConsultaBusqueda.
+* Atributos: categoria, rangoPrecio, idioma, disponibilidad.
+* Métodos: aplicarAFiltros(resultados).
+
+**ResultadoBusqueda (Entity):** Representa un libro encontrado como resultado, hace referencia a la entidad Libro del contexto Libro.
+* Atributos: libroId, titulo, autor, coincidenciaRelevancia.
+* Métodos: calcularRelevancia().
+
+**BusquedaActiva (Aggregate):** Agrupa la consulta, filtros y resultados de una sesión de búsqueda. Además, orquesta las entidades del contexto.
+* Atributos: consulta, listaFiltros, listaResultados.
+* Métodos: ejecutarBusqueda(), limpiarResultados().
+
+**MotorBusqueda (DomainService):** Ejecuta la lógica de búsqueda (indexación, coincidencia, ranking). Opera sobre BusquedaActiva, accede a datos de libros.
+* Métodos: buscar(consulta, filtros).
+
+**BusquedaRepository (Repository):** Define operaciones para guardar y recuperar búsquedas previas. Implementación en Infrastructure Layer.
+* Métodos: guardar(busqueda), obtenerPorUsuario(usuarioId).
+
+#### 2.6.1.2.	Interface Layer
+
+BusquedaController (Controller): Gestiona las peticiones HTTP del usuario para realizar búsquedas. Llama a Application Layer (CommandHandlers).
+●	Métodos: buscarLibros(request), verHistorial(usuarioId).
+
+#### 2.6.1.3.	Application Layer
+
+EjecutarBusquedaHandler (Command Handler): Maneja el comando de ejecutar una nueva búsqueda. Invoca a MotorBusqueda y guarda resultados en BusquedaRepository.
+* Métodos: handle(ejecutarBusquedaCommand).
+
+VerHistorialBusquedaHandler (Command Handler): Maneja el comando para recuperar búsquedas pasadas. Accede a BusquedaRepository.
+* Métodos: handle(verHistorialCommand).
+
+NuevaBusquedaRegistradaHandler (Event Handler): Reacciona al evento de nueva búsqueda registrada.
+* Métodos: onNuevaBusqueda(event).
+
+#### 2.6.1.4.	Infrastructure Layer
+
+BusquedaRepositoryImpl (Repository Impl):  Implementa la persistencia de búsquedas y la interfaz BusquedaRepository.
+* Métodos: guardar(busqueda), obtenerPorUsuario(usuarioId).
+
+#### 2.6.1.5.	Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/sln3W2x.jpg" alt="12231">
+</p>
+
+Este diagrama representa la arquitectura simplificada del Bounded Context de Búsqueda para una plataforma de libros, utilizando un enfoque de Arquitectura Limpia y Domain-Driven Design. Muestra cómo un Usuario interactúa con la Búsqueda API para buscar libros y ver su historial. La API orquesta internamente el flujo de trabajo: el BusquedaController recibe las peticiones y las delega a los Handlers de la Capa de Aplicación. Estos handlers, a su vez, usan el Motor de Búsqueda y el Repositorio para ejecutar la lógica de negocio y acceder a los datos de la Base de Datos. La arquitectura está diseñada para mantener una clara separación de responsabilidades y una baja dependencia entre las capas.
+
+#### 2.6.1.6.	Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.1.6.1.	 Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/2gFHXt6.jpg" alt="12231">
+</p>
+
+Este diagrama de clases UML detalla la capa de dominio del contexto Búsqueda. La clase BusquedaActiva, como la raíz del agregado, asegura la coherencia de una sesión de búsqueda. Se compone de una ConsultaBusqueda (la entidad de la búsqueda en sí), una lista de FiltroBusqueda (un objeto de valor inmutable) y una lista de ResultadoBusqueda. El MotorBusqueda es un servicio de dominio que encapsula la lógica de búsqueda, mientras que la interfaz IBusquedaRepository define el contrato para la persistencia, manteniendo el dominio desacoplado de la implementación de la base de datos.
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+<p align="center">
+  <img src="https://imgur.com/LILcKls.jpg" alt="12231">
+</p>
+
+Debido a la funcionalidad específica del bounded context de Búsqueda, no es necesario incluir una tabla representativa dentro de la base de datos, ya que este se basa en un algoritmo que emplea la información de la entidad “Book" para mostrar resultados relacionados a una consulta escrita por el usuario en determinado momento. En este caso, la función de búsqueda realiza comparaciones con información como el título y autor para encontrar resultados asociados, facilitando la exploración del amplio catálogo de Livria y el descubrimiento de material relevante para el usuario.
+
+### 2.6.2.	 Bounded Context: Libro
