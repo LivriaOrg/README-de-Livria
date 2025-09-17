@@ -1850,3 +1850,539 @@ Este diagrama de clases UML detalla la capa de dominio del contexto Búsqueda. L
 Debido a la funcionalidad específica del bounded context de Búsqueda, no es necesario incluir una tabla representativa dentro de la base de datos, ya que este se basa en un algoritmo que emplea la información de la entidad “Book" para mostrar resultados relacionados a una consulta escrita por el usuario en determinado momento. En este caso, la función de búsqueda realiza comparaciones con información como el título y autor para encontrar resultados asociados, facilitando la exploración del amplio catálogo de Livria y el descubrimiento de material relevante para el usuario.
 
 ### 2.6.2.	 Bounded Context: Libro
+
+#### 2.6.2.1.	Domain Layer
+**Libro (Entity):** Representa un libro dentro del sistema. Puede recibir reseñas y ser marcado como favorito por los usuarios.
+* Atributos: id, titulo, autor, descripcion, fechaPublicacion.
+* Métodos: agregarReseña(reseña), calcularPromedioReseñas(), marcarFavorito(usuarioId).
+
+**Reseña (Entity):** Representa una reseña asociada a un libro, creada por un usuario.
+* Atributos: id, usuarioId, contenido, puntuacion, fecha.
+* Métodos: editarContenido(nuevoContenido), editarPuntuacion(nuevaPuntuacion).
+
+**Autor (ValueObject):** Representa al autor del libro como un valor inmutable.
+* Atributos: nombre, biografia.
+* Métodos: validarNombre().
+
+**Titulo (ValueObject):** Representa el título del libro, asegurando su validez.
+* Atributos: valor.
+* Métodos: validarNoVacio().
+
+**Descripcion (ValueObject):** Representa la descripción del libro con una longitud controlada.
+* Atributos: texto.
+* Métodos: validarLongitudMaxima().
+
+**LibroAggregate (Aggregate):** Agrupa un libro con sus reseñas, garantizando consistencia en las operaciones.
+* Atributos: libro, listaReseñas.
+* Métodos: validarReseñaUnica(usuarioId), agregarReseñaValidada(reseña).
+
+**ReseñaService (DomainService):** Gestiona reglas de negocio relacionadas a reseñas.
+* Métodos: validarReseñaDuplicada(libroId, usuarioId), calcularPromedioLibro(libroId).
+
+**LibroRepository (Repository):** Define operaciones de persistencia para libros.
+* Métodos: guardar(libro), buscarPorId(id), buscarPorTitulo(titulo).
+
+**ReseñaRepository (Repository):** Define operaciones de persistencia para reseñas.
+* Métodos: guardar(reseña), buscarPorLibro(libroId), eliminar(reseñaId).
+
+#### 2.6.2.2.	Interface Layer
+**LibroController (Controller):** Gestiona las peticiones HTTP relacionadas con libros.
+* Métodos: crearLibro(request), obtenerLibro(id), listarLibrosPorTitulo(titulo).
+
+ReseñaController (Controller): Gestiona las operaciones sobre reseñas de libros.
+* Métodos: agregarReseña(libroId, request), editarReseña(reseñaId, request), eliminarReseña(reseñaId).
+
+#### 2.6.2.3.	Application Layer
+**CrearLibroHandler (Command Handler):** Maneja el comando de crear un nuevo libro.
+* Métodos: handle(crearLibroCommand).
+
+**AgregarReseñaHandler (Command Handler):** Maneja el comando de agregar una reseña a un libro.
+* Métodos: handle(agregarReseñaCommand).
+
+**EditarReseñaHandler (Command Handler):** Maneja el comando para modificar una reseña existente.
+* Métodos: handle(editarReseñaCommand).
+
+**ReseñaAgregadaHandler (Event Handler):** Reacciona al evento de reseña agregada.
+* Métodos: onReseñaAgregada(event).
+
+#### 2.6.2.4.	Infrastructure Layer
+**LibroRepositoryImpl (Repository Impl):** Implementa la persistencia de libros y la interfaz LibroRepository.
+* Métodos: guardar(libro), buscarPorId(id), buscarPorTitulo(titulo).
+
+**ReseñaRepositoryImpl (Repository Impl):** Implementa la persistencia de reseñas y la interfaz ReseñaRepository.
+* Métodos: guardar(reseña), buscarPorLibro(libroId), eliminar(reseñaId).
+
+#### 2.6.2.5.	Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/ndohIaH.jpg" alt="12231">
+</p>
+
+Este diagrama detalla la arquitectura para el Bounded Context de Libro. La Libro API actúa como la puerta de entrada, manejando las peticiones de un Usuario para crear, obtener o gestionar libros y reseñas. La lógica de negocio está segregada en la Capa de Aplicación y la Capa de Dominio, asegurando que el código de negocio sea independiente de la tecnología. 
+
+#### 2.6.2.6.	Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.2.6.1.	 Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/TDyWhTD.jpg" alt="12231">
+</p>
+
+Este diagrama de clases UML detalla la capa de dominio del contexto Libro. El agregado LibroAggregate es la raíz del contexto, encapsulando y garantizando la consistencia de una Libro y sus Reseñas asociadas. Las entidades Libro y Reseña tienen relaciones de composición con el agregado, lo que significa que no pueden existir fuera de él. El Libro también se compone de objetos de valor inmutables como Autor, Titulo y Descripcion, que aseguran la validez de los datos. Además, el ReseñaService es un servicio de dominio que encapsula la lógica de negocio, como la validación de reseñas. Las interfaces de los repositorios, ILibroRepository e IReseñaRepository, definen los contratos para la persistencia, manteniendo el dominio desacoplado de la infraestructura.
+
+##### 2.6.2.6.2.	 Bounded Context Database Design Diagram
+
+<p align="center">
+  <img src="https://imgur.com/itCc0rF.jpg" alt="12231">
+</p>
+
+El diseño de la base de datos para el bounded context de Libros se basa en la separación de sus entidades centrales libro y reseña. Esta división estratégica en las tablas Book y Review asegura que cada entidad tenga su propia responsabilidad, lo que refuerza la cohesión del dominio.
+
+La tabla Book es el corazón de este contexto. Su importancia radica en que actúa como el agregado principal y se relaciona con múltiples tablas, como UserFavoriteBooks, UserBannedBooks, y CartItem, demostrando su papel central en el ecosistema de la aplicación. Por otro lado, la tabla Review tiene un rol más específico. Se relaciona solo con las tablas UserClient y Book, lo que refleja su naturaleza simple pero vital. Una reseña solo puede ser escrita por un único usuario y está ligada a un solo libro, lo que se representa con una relación de uno a muchos, manteniendo la integridad y la coherencia de los datos.
+
+### 2.6.3. Bounded Context: Recomendaciones
+
+#### 2.6.3.1.	Domain Layer
+
+**Recomendacion (Entity):** Representa una recomendación generada para un usuario, basada en su historial o preferencias.
+* Atributos: id, usuarioId, listaLibros, fechaGeneracion.
+* Métodos: actualizarListaLibros(nuevaLista), marcarComoVista().
+
+**AlgoritmoRecomendacion (DomainService):** Encapsula la lógica de generación de recomendaciones.
+* Métodos: generar(usuarioId), reentrenarModelo().
+
+**PreferenciasUsuario (ValueObject):** Representa las preferencias inmutables del usuario que influyen en las recomendaciones.
+* Atributos: generosFavoritos, autoresFavoritos, rangoPrecio, idioma.
+* Métodos: validarPreferencias().
+
+**HistorialLectura (Entity):** Representa el conjunto de libros consumidos por el usuario.
+* Atributos: usuarioId, listaLibrosLeidos.
+* Métodos: registrarLectura(libroId), obtenerLibrosRecientes().
+
+**RecomendacionAggregate (Aggregate):** Agrupa la recomendación, el historial y las preferencias para generar sugerencias consistentes.
+* Atributos: recomendacion, historialLectura, preferenciasUsuario.
+* Métodos: generarRecomendacion(), validarRecomendacion().
+
+**RecomendacionRepository (Repository):** Define operaciones de persistencia para las recomendaciones.
+* Métodos: guardar(recomendacion), obtenerPorUsuario(usuarioId).
+
+#### 2.6.3.2.	Interface Layer
+**RecomendacionController (Controller):** Gestiona las peticiones HTTP relacionadas con recomendaciones.
+* Métodos: obtenerRecomendaciones(usuarioId), refrescarRecomendaciones(usuarioId).
+
+#### 2.6.3.3.	Application Layer
+**GenerarRecomendacionHandler (Command Handler):** Maneja el comando de generar una nueva recomendación para un usuario.
+* Métodos: handle(generarRecomendacionCommand).
+
+**ActualizarRecomendacionHandler (Command Handler):** Maneja el comando de actualizar la lista de recomendaciones de un usuario.
+* Métodos: handle(actualizarRecomendacionCommand).
+
+**RecomendacionGeneradaHandler (Event Handler):** Reacciona al evento de recomendación generada.
+* Métodos: onRecomendacionGenerada(event).
+
+#### 2.6.3.4.	Infrastructure Layer
+**RecomendacionRepositoryImpl (Repository Impl):** Implementa la persistencia de recomendaciones y la interfaz RecomendacionRepository.
+* Métodos: guardar(recomendacion), obtenerPorUsuario(usuarioId).
+
+#### 2.6.3.5.	Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/H2UiVZS.jpg" alt="12231">
+</p>
+
+La Recomendaciones API gestiona las solicitudes de un Usuario para obtener sugerencias de libros. Internamente, un RecomendacionController delega las peticiones a los Handlers de la Capa de Aplicación, quienes utilizan el AlgoritmoRecomendacion (un servicio de dominio) para generar las sugerencias. Este algoritmo accede a los datos de usuario y libros a través del IRecomendacionRepository, que se comunica con la base de datos MySQL.
+
+#### 2.6.3.6.	Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/8r7DsdW.jpg" alt="12231">
+</p>
+
+Este diagrama de clases UML detalla la capa de dominio del contexto de Recomendaciones. La clase RecomendacionAggregate, como la raíz del agregado, orquesta la lógica de negocio central. Se compone de una Recomendacion (una entidad que representa la sugerencia generada), y se basa en el HistorialLectura del usuario y sus PreferenciasUsuario. Las relaciones de asociación indican que el agregado utiliza estas clases para su funcionamiento, pero no las posee de manera exclusiva. El AlgoritmoRecomendacion es un servicio de dominio que encapsula la lógica compleja para generar las recomendaciones, utilizando la interfaz IRecomendacionRepository para acceder a los datos persistidos.
+
+##### 2.6.3.6.2.	 Bounded Context Database Design Diagram
+
+<p align="center">
+  <img src="https://imgur.com/1DtnCPm.jpg" alt="12231">
+</p>
+
+Para el bounded context de Recomendaciones, existe una tabla designada en la base de datos que actúa como intermediario entre las tablas Book y UserClient. Sin embargo, la funcionalidad de este bounded context se basa en un algoritmo que obtiene información de tablas ya existentes para procesar posibles títulos de interés para un usuario en específico. Este algoritmo utiliza la información del detalle de todos los libros, un historial de compra y visualizaciones del usuario, una lista de libros marcados como “Favoritos” y “No recomendar” y la información de un usuario individual, obtenida a través de su identificador único.
+
+Los atributos de la entidad “Recommendation” son tres: una foreign key de una tabla UserClient, una lista de identificadores de libros (foreign keys de tablas Book) y un identificador único (id) debido a las propiedades del gestor de base de datos. El uso del identificador único de esta entidad no es requerido para el funcionamiento de la aplicación, por lo que fue omitido durante el diseño del diagrama de base de datos.
+
+### 2.6.4.	 Bounded Context:  Carrito
+
+#### 2.6.4.1. Domain Layer
+**Carrito (Entity):** Representa el carrito de un usuario, donde se almacenan los libros seleccionados para compra.
+*	Atributos: idCarrito, usuarioId, listaItems, fechaCreacion.
+*	Métodos: agregarItem(item), eliminarItem(itemId), vaciarCarrito(), calcularTotal().
+
+**ItemCarrito (Entity):** Representa un libro específico dentro del carrito con su cantidad.
+*	Atributos: libroId, cantidad, precioUnitario.
+*	Métodos: actualizarCantidad(nuevaCantidad), calcularSubtotal().
+
+**CarritoAggregate (Aggregate):** Agrupa el carrito y sus ítems para mantener consistencia en las operaciones.
+*	Atributos: carrito, listaItems.
+*	Métodos: confirmarCarrito(), validarStock().
+
+**CarritoRepository (Repository):** Define operaciones de persistencia sobre los carritos.
+*	Métodos: guardar(carrito), obtenerPorUsuario(usuarioId), eliminar(carritoId).
+
+#### 2.6.4.2.	Interface Layer
+**CarritoController (Controller):** Gestiona las peticiones HTTP relacionadas con el carrito.
+*	Métodos: verCarrito(usuarioId), agregarLibro(request), eliminarLibro(request), vaciar(usuarioId), confirmarCompra(usuarioId).
+
+#### 2.6.4.3.	Application Layer
+**AgregarItemCarritoHandler (Command Handler):** Maneja el comando para agregar un libro al carrito.
+*	Métodos: handle(agregarItemCarritoCommand).
+
+**EliminarItemCarritoHandler (Command Handler):** Maneja el comando para eliminar un libro del carrito.
+*	Métodos: handle(eliminarItemCarritoCommand).
+
+**ConfirmarCarritoHandler (Command Handler):** Maneja el comando de confirmar un carrito antes de generar una orden.
+*	Métodos: handle(confirmarCarritoCommand).
+
+**CarritoConfirmadoHandler (Event Handler):** Reacciona al evento de carrito confirmado (ej. generar una orden en el contexto Órdenes).
+*	Métodos: onCarritoConfirmado(event).
+
+#### 2.6.4.4.	Infrastructure Layer
+**CarritoRepositoryImpl (Repository Impl):** Implementa la persistencia de carritos y la interfaz CarritoRepository.
+*	Métodos: guardar(carrito), obtenerPorUsuario(usuarioId), eliminar(carritoId).
+
+#### 2.6.4.5.	Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/P5UHQTD.jpg" alt="12231">
+</p>
+
+La Carrito API gestiona todas las interacciones de un Usuario con su carrito de compras. Internamente, el CarritoController delega las operaciones a los Handlers de la Capa de Aplicación, los cuales son responsables de orquestar la lógica para agregar, eliminar o confirmar ítems. Estas acciones se llevan a cabo utilizando el ICarritoRepository, que define las operaciones de persistencia.
+
+#### 2.6.4.6.	Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.4.6.1.	 Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/1EeF5nd.jpg" alt="12231">
+</p>
+
+Este diagrama de clases UML muestra el diseño de la capa de dominio para el contexto de Carrito. El CarritoAggregate es la raíz del agregado, asegurando que las operaciones sobre el Carrito y sus ItemCarrito sean consistentes. Las flechas de composición indican que la vida de los ItemCarrito y del Carrito está ligada a la del CarritoAggregate. La interfaz ICarritoRepository define el contrato para la persistencia, permitiendo que la lógica del dominio, encapsulada en el agregado, interactúe con la base de datos de manera abstracta y desacoplada. Este diseño separa claramente el comportamiento del negocio de los detalles de la infraestructura.
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+<p align="center">
+  <img src="https://imgur.com/F72xCNp.jpg" alt="12231">
+</p>
+
+El diseño de la base de datos para el bounded context de Carrito se basa en la división de sus entidades centrales el carrito y los artículos dentro del carrito. Esta segmentación en las tablas Cart y CartItem es fundamental para reflejar la lógica de negocio de la compra. La tabla Cart actúa como el contenedor principal que representa el carrito de un usuario, mientras que la tabla CartItem almacena los libros específicos y sus detalles de compra. Esta separación es clave para mantener la cohesión del dominio, permitiendo una gestión eficiente y autónoma del proceso de compra.
+
+La relación entre las tablas Cart y CartItem es de uno a muchos. Un carrito de compras puede contener múltiples artículos, pero cada artículo pertenece a un único carrito. Esta relación es crucial para reflejar con precisión la cantidad de libros agregados a un carrito de compra específico.
+
+### 2.6.5. Bounded Context: Perfil
+
+#### 2.6.5.1.	Domain Layer
+**Perfil (Entity):** Representa la información personal de un usuario en Livria.
+* Atributos: perfilId, usuarioId, nombre, fotoPerfil, frase, preferencias.
+* Métodos: actualizarDatos(datos), actualizarFoto(nuevaFoto), actualizarFrase(nuevaFrase).
+
+**Preferencias (ValueObject):** Define las configuraciones y gustos literarios de un usuario.
+* Atributos: generosFavoritos, idiomaPreferido, notificaciones.
+* Métodos: actualizarPreferencias(nuevasPreferencias).
+
+**PerfilAggregate (Aggregate):** Agrupa al perfil y sus preferencias, asegurando consistencia en las actualizaciones.
+* Atributos: perfil, preferencias.
+* Métodos: personalizarPerfil(), validarDatos().
+
+**PerfilRepository (Repository):** Define operaciones de persistencia de perfiles.
+* Métodos: guardar(perfil), obtenerPorUsuario(usuarioId), eliminar(perfilId).
+
+#### 2.6.5.2.	Interface Layer
+**PerfilController (Controller):** Gestiona las peticiones HTTP relacionadas con el perfil.
+* Métodos: verPerfil(usuarioId), actualizarPerfil(request), actualizarFoto(request), actualizarFrase(request).
+
+#### 2.6.5.3.	Application Layer
+**ActualizarPerfilHandler (Command Handler):** Maneja el comando de actualización de datos del perfil.
+* Métodos: handle(actualizarPerfilCommand).
+
+**ActualizarFotoHandler (Command Handler):** Maneja el comando de actualización de foto.
+* Métodos: handle(actualizarFotoCommand).
+
+**ActualizarFraseHandler (Command Handler):** Maneja el comando de actualización de frase en el perfil.
+* Métodos: handle(actualizarFraseCommand).
+
+**PerfilActualizadoHandler (Event Handler):** Reacciona al evento de perfil actualizado.
+* Métodos: onPerfilActualizado(event).
+
+#### 2.6.5.4.	Infrastructure Layer
+**PerfilRepositoryImpl (Repository Impl):** Implementa la persistencia de perfiles y la interfaz PerfilRepository.
+* Métodos: guardar(perfil), obtenerPorUsuario(usuarioId), eliminar(perfilId).
+
+#### 2.6.5.5.	Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/HEAN5BG.jpg" alt="12231">
+</p>
+
+El servicio expone una API que permite al Usuario ver y actualizar sus datos. Las peticiones son recibidas por el PerfilController y delegadas a los Handlers de la Capa de Aplicación, los cuales encapsulan la lógica para cada operación. Estos Handlers utilizan el IPerfilRepository para interactuar con la base de datos MySQL
+
+#### 2.6.5.6.	Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.5.6.1.	 Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/pXcvDwa.jpg" alt="12231">
+</p>
+
+Este diagrama de clases UML muestra la estructura de la capa de dominio del contexto Perfil. El PerfilAggregate actúa como la raíz del agregado, garantizando la consistencia de las operaciones sobre un Perfil y sus Preferencias. La relación de composición indica que tanto la entidad Perfil como el objeto de valor Preferencias son partes esenciales del agregado y no pueden existir de forma independiente. La interfaz IPerfilRepository define el contrato para las operaciones de persistencia, manteniendo el dominio desacoplado de los detalles de la base de datos. Este diseño permite que toda la lógica de negocio relacionada con la gestión del perfil esté encapsulada y protegida dentro del agregado.
+
+##### 2.6.5.6.2.	 Bounded Context Database Design Diagram
+
+<p align="center">
+  <img src="https://imgur.com/evVrQGi.jpg" alt="12231">
+</p>
+
+El diseño de la base de datos para el bounded context de Perfil se basa en la separación de las entidades UserClient y Preferences. La tabla UserClient encapsula el perfil público del usuario, mientras que la tabla Preferences funciona como un value object, conteniendo atributos que, aunque son cruciales, no requieren una identidad propia. Esta segmentación es fundamental para la cohesión del dominio, asegurando que la información de perfil y las preferencias de configuración se gestionen de manera eficiente y autónoma.
+
+La tabla UserClient es fundamental para el negocio, ya que representa la identidad del usuario y actúa como el centro de diversas funcionalidades clave. Su rol es crucial al interactuar con tablas como Order, Cart y la tabla intermedia de Comunidades, lo que demuestra su participación en los flujos de negocio más importantes de la plataforma. La relación de uno a uno con la tabla Preferences se ha diseñado intencionalmente, ya que Preferences funciona como un value object que encapsula la configuración personal del usuario sin requerir una identidad propia.
+
+### 2.6.6. Bounded Context: Órdenes
+
+#### 2.6.6.1.	Domain Layer
+**Orden (Entity):** Representa una compra realizada por un usuario.
+* Atributos: ordenId, usuarioId, fecha, estado, total, listaItems.
+* Métodos: calcularTotal(), cambiarEstado(nuevoEstado).
+
+**ItemOrden (ValueObject):** Representa un libro dentro de una orden, con su cantidad y precio en el momento de la compra.
+* Atributos: libroId, titulo, cantidad, precioUnitario.
+* Métodos: calcularSubtotal().
+
+**OrdenAggregate (Aggregate):** Agrupa la orden y sus ítems, asegurando la consistencia en el flujo de compra.
+* Atributos: orden, listaItems.
+* Métodos: agregarItem(item), eliminarItem(libroId), confirmarOrden().
+
+**OrdenRepository (Repository):** Define operaciones de persistencia de órdenes.
+* Métodos: guardar(orden), obtenerPorId(ordenId), obtenerPorUsuario(usuarioId).
+
+#### 2.6.6.2.	Interface Layer
+**OrdenController (Controller):** Gestiona las peticiones HTTP relacionadas con las órdenes.
+* Métodos: verOrden(ordenId), verOrdenesPorUsuario(usuarioId), crearOrden(request), actualizarEstado(request).
+
+#### 2.6.6.3.	Application Layer
+**CrearOrdenHandler (Command Handler):** Maneja el comando para crear una nueva orden.
+* Métodos: handle(crearOrdenCommand).
+
+**ActualizarEstadoOrdenHandler (Command Handler):** Maneja el comando de cambio de estado de una orden.
+* Métodos: handle(actualizarEstadoOrdenCommand).
+
+**OrdenCreadaHandler (Event Handler):** Reacciona al evento de orden creada.
+* Métodos: onOrdenCreada(event).
+
+**OrdenActualizadaHandler (Event Handler):** Reacciona al evento de cambio de estado en la orden.
+* Métodos: onOrdenActualizada(event).
+
+#### 2.6.6.4.	Infrastructure Layer
+**OrdenRepositoryImpl (Repository Impl):** Implementa la persistencia de órdenes y la interfaz OrdenRepository.
+* Métodos: guardar(orden), obtenerPorId(ordenId), obtenerPorUsuario(usuarioId).
+
+#### 2.6.6.5.	Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/E9RXaSG.jpg" alt="12231">
+</p>
+
+La API permite al Administrador ver los pedidos. El OrdenController en la Capa de Interfaz delega las operaciones a los Handlers de la Capa de Aplicación. Estos Handlers utilizan el IOrdenRepository para interactuar con la base de datos MySQL a través de Entity Framework Core, gestionando la persistencia de las órdenes.
+
+#### 2.6.6.6.	Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/djGlbY0.jpg" alt="12231">
+</p>
+
+Este diagrama de clases UML muestra la estructura de la capa de dominio del contexto de Órdenes. El OrdenAggregate es la raíz principal que asegura la integridad de una compra. Está compuesto por una entidad Orden y una lista de ItemOrden, que son objetos de valor inmutables que capturan el estado del libro en el momento de la compra. La relación de composición indica que los ItemOrden y la Orden no pueden existir sin el OrdenAggregate. Por último, la interfaz IOrdenRepository define el contrato de persistencia para el agregado, permitiendo que la lógica del negocio se mantenga independiente de la tecnología de la base de datos.
+
+##### 2.6.6.6.2.	 Bounded Context Database Design Diagram
+
+<p align="center">
+  <img src="https://imgur.com/4pJf81f.jpg" alt="12231">
+</p>
+
+El diseño de la base de datos para el bounded context de Órdenes se fundamenta en la distinción clara entre la orden en sí y los artículos que la componen. Esta segmentación en las tablas Order y OrderItem es esencial para modelar la naturaleza inmutable de una transacción finalizada. La tabla Order actúa como un agregado raíz que encapsula la información de la compra completa, mientras que OrderItem almacena los detalles específicos de cada libro adquirido. Esta separación asegura la cohesión del dominio y la integridad de los datos de la transacción.
+
+La tabla Order mantiene una relación de uno a muchos con la tabla OrderItem. Esta conexión es fundamental, ya que una orden puede contener uno o varios artículos, pero cada artículo pertenece a una sola orden. Por otro lado, la decisión de no relacionar directamente Order con Cart se alinea con una arquitectura orientada a eventos. El Carrito es una entidad temporal y mutable que representa una intención de compra. Una vez que se confirma la transacción, la orden se convierte en una entidad inmutable y permanente. Así, la orden se crea a partir del contenido del carrito, pero no depende de su existencia posterior. Este enfoque asegura la cohesión de cada dominio y evita dependencias innecesarias, lo que hace que el sistema sea más robusto y fácil de mantener.
+
+### 2.6.7.	Bounded Context: Stock
+
+#### 2.6.7.1.	Domain Layer
+**Inventario (Entity):** Representa el estado del inventario de un libro.
+* Atributos: inventarioId, libroId, cantidadDisponible, ultimaActualizacion.
+* Métodos: aumentarStock(cantidad), disminuirStock(cantidad), verificarDisponibilidad(cantidad).
+
+**MovimientoStock (ValueObject):** Representa una variación puntual en el stock (entrada o salida).
+* Atributos: tipoMovimiento (entrada/salida), cantidad, fechaHora.
+* Métodos: esEntrada(), esSalida().
+
+**StockAggregate (Aggregate):** Agrupa el inventario y los movimientos de stock, asegurando consistencia en las actualizaciones.
+* Atributos: inventario, listaMovimientos.
+* Métodos: registrarEntrada(cantidad), registrarSalida(cantidad).
+
+**StockRepository (Repository):** Define operaciones de persistencia del inventario.
+* Métodos: guardar(inventario), obtenerPorLibro(libroId), registrarMovimiento(movimiento).
+
+#### 2.6.7.2.	Interface Layer
+**StockController (Controller):** Gestiona las peticiones HTTP relacionadas con el inventario.
+* Métodos: verStock(libroId), actualizarStock(request), registrarEntrada(request), registrarSalida(request).
+
+#### 2.6.7.3.	Application Layer
+**ActualizarStockHandler (Command Handler):** Maneja el comando de modificar las existencias de un libro.
+* Métodos: handle(actualizarStockCommand).
+
+**RegistrarEntradaHandler (Command Handler):** Maneja el comando de registrar una nueva entrada de inventario.
+* Métodos: handle(registrarEntradaCommand).
+
+**RegistrarSalidaHandler (Command Handler):** Maneja el comando de registrar una salida de inventario.
+* Métodos: handle(registrarSalidaCommand).
+
+**StockActualizadoHandler (Event Handler):** Reacciona al evento de stock actualizado.
+* Métodos: onStockActualizado(event).
+
+#### 2.6.7.4.	Infrastructure Layer
+**StockRepositoryImpl (Repository Impl):** Implementa la persistencia de inventarios y la interfaz StockRepository.
+* Métodos: guardar(inventario), obtenerPorLibro(libroId), registrarMovimiento(movimiento).
+
+#### 2.6.7.5.	Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/EmLGzAn.jpg" alt="12231">
+</p>
+
+La API permite al Administrador consultar y actualizar el stock de libros. El flujo de trabajo es gestionado por los Handlers en la Capa de Aplicación, quienes encapsulan la lógica para cada tipo de movimiento de inventario. Estos Handlers se comunican con el IStockRepository para interactuar con la base de datos MySQL a través de Entity Framework Core, asegurando que el estado del inventario se mantenga consistente y que la lógica del dominio esté aislada de la infraestructura.
+
+#### 2.6.7.6.	Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.7.6.1.	 Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/0E2vCv1.jpg" alt="12231">
+</p>
+
+Este diagrama de clases UML muestra la estructura del Domain Layer para el contexto Stock. La clase StockAggregate actúa como la raíz del agregado, asegurando que las operaciones sobre el Inventario y sus MovimientoStock sean consistentes. La composición indica que tanto la entidad Inventario como los objetos de valor MovimientoStock son partes fundamentales del agregado. El Inventario encapsula el estado actual del stock, mientras que los MovimientoStock registran las variaciones de forma inmutable. La interfaz IStockRepository define el contrato de persistencia, manteniendo la lógica de negocio, encapsulada en el agregado, independiente de los detalles de la base de datos. Este diseño garantiza la integridad del inventario al centralizar su gestión en una única unidad transaccional.
+
+##### 2.6.7.6.2. Bounded Context Database Design Diagram
+
+<p align="center">
+  <img src="https://imgur.com/Xa6HYxx.jpg" alt="12231">
+</p>
+
+El bounded context de Stock no presenta tablas dentro de la base de datos debido a su funcionamiento específico, que utiliza la información contenida en tablas ya existentes, como Book y Order, para mostrar datos relevantes dentro de la vista de administrador tras una verificación exitosa (inicio de sesión de administrador). En el caso de esta funcionalidad, se muestran datos como la cantidad de libros en el inventario (atributo “stock” de la tabla Book) en una lista que permite una visualización rápida de sus detalles (atributos “title”, “cover” y “price”), lo que facilita el uso de la vista del administrador y optimiza los procesos de análisis de inventario.
+
+### 2.6.8. Bounded Context: Comunidades
+
+#### 2.6.8.1.	Domain Layer
+**Comunidad (Entity):** Representa una comunidad dentro de la plataforma.
+* Atributos: comunidadId, nombre, descripcion, politicaVisibilidad, fechaCreacion, creadorId.
+* Métodos: cambiarNombre(nuevoNombre), cambiarDescripcion(nuevaDescripcion), actualizarPolitica(visibilidad).
+
+**Miembro (Entity):** Representa a un usuario dentro de una comunidad.
+* Atributos: comunidadId, usuarioId.
+
+**Publicacion (Entity):** Representa una publicación dentro de una comunidad.
+* Atributos: publicacionId, comunidadId, autorId, contenido, fechaHora.
+* Métodos: editarContenido(nuevoContenido), eliminarPublicacion().
+
+**Comentario (ValueObject):** Representa un comentario asociado a una publicación.
+* Atributos: comentarioId, autorId, contenido, fechaHora.
+* Métodos: esValido().
+
+**ComunidadAggregate (Aggregate):** Agrupa comunidad, miembros y publicaciones para mantener consistencia en interacciones.
+* Atributos: comunidad, listaMiembros, listaPublicaciones.
+* Métodos: agregarMiembro(usuarioId, rol), removerMiembro(usuarioId), crearPublicacion(contenido).
+
+**ComunidadRepository (Repository):** Define operaciones de persistencia sobre comunidades y sus interacciones.
+* Métodos: guardar(comunidad), obtenerPorId(comunidadId), obtenerPorUsuario(usuarioId).
+
+#### 2.6.8.2.	Interface Layer
+**ComunidadController (Controller):** Gestiona las peticiones HTTP relacionadas con comunidades.
+* Métodos: crearComunidad(request), verComunidad(comunidadId), unirseComunidad(usuarioId, comunidadId), publicar(comunidadId, request).
+
+#### 2.6.8.3.	Application Layer
+**CrearComunidadHandler (Command Handler):** Maneja el comando de creación de una nueva comunidad.
+* Métodos: handle(crearComunidadCommand).
+
+**UnirseComunidadHandler (Command Handler):** Maneja el comando de adhesión de un usuario a una comunidad.
+* Métodos: handle(unirseComunidadCommand).
+
+**PublicarHandler (Command Handler):** Maneja el comando de crear una nueva publicación en una comunidad.
+* Métodos: handle(publicarCommand).
+
+**NuevaPublicacionHandler (Event Handler):** Reacciona al evento de publicación creada (ej. notificar a miembros).
+* Métodos: onNuevaPublicacion(event).
+
+#### 2.6.8.4.	Infrastructure Layer
+**ComunidadRepositoryImpl (Repository Impl):** Implementa la persistencia de comunidades y la interfaz ComunidadRepository.
+* Métodos: guardar(comunidad), obtenerPorId(comunidadId), obtenerPorUsuario(usuarioId).
+
+#### 2.6.8.5.	Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/cOUSoVD.jpg" alt="12231">
+</p>
+
+Utilizando una API, el servicio permite al Usuario crear, unirse y participar en comunidades. Las peticiones son gestionadas por el ComunidadController y delegadas a los Handlers de la Capa de Aplicación. Estos Handlers utilizan el IComunidadRepository para interactuar con la base de datos MySQL a través de Entity Framework Core.
+
+#### 2.6.8.6.	Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.8.6.1.	 Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="https://imgur.com/lwMyIFY.jpg" alt="12231">
+</p>
+
+Este diagrama de clases UML detalla la estructura del Domain Layer del contexto de Comunidades. El ComunidadAggregate es la raíz del agregado, asegurando la consistencia de una Comunidad, sus Miembros y Publicaciones. La relación de composición indica que las entidades Comunidad, Miembro y Publicacion no pueden existir de forma independiente. Cada Publicacion puede tener múltiples Comentarios, que se modelan como objetos de valor inmutables. La interfaz IComunidadRepository define el contrato para la persistencia, permitiendo que la lógica del negocio, encapsulada en el agregado, interactúe con la base de datos de manera abstracta y desacoplada.
+
+##### 2.6.8.6.2. Bounded Context Database Design Diagram
+
+<p align="center">
+  <img src="https://imgur.com/4dhzi4m.jpg" alt="12231">
+</p>
+
+El diseño de base de datos para el bounded context de Comunidades se basa en la segmentación de sus entidades clave en las tablas Community, UserCommunity, Post y Comment. Esta separación es crucial para la cohesión del dominio, ya que permite que cada entidad sea gestionada de manera autónoma, reflejando la complejidad del aspecto social del negocio de Livria. La tabla UserCommunity actúa como una tabla intermedia que resuelve la relación de muchos a muchos entre usuarios y comunidades, mientras que Post y Comment se relacionan con sus respectivos agregados y usuarios a través de claves foráneas, garantizando que el ecosistema social opere con integridad y eficiencia.
+
+# Conclusiones y Recomendaciones
+
+**Conclusiones**
+
+1.	El proceso Lean UX constituye una herramienta clave para orientar estratégicamente el negocio, ya que permite validar tempranamente hipótesis y explorar diferentes enfoques antes de comprometer recursos de desarrollo. Gracias a este proceso, fue posible identificar con claridad los segmentos de usuarios más relevantes y las oportunidades de valor que guiarán el diseño del producto.
+
+2.	La etapa de needfinding resulta fundamental en la construcción de un producto centrado en el usuario, dado que proporciona información directa sobre sus necesidades, expectativas y motivaciones. Este proceso asegura que las decisiones de diseño y desarrollo respondan a problemas reales, incrementando la probabilidad de adopción y satisfacción del usuario final.
+
+3.	La aplicación de Domain-Driven Design (DDD) favorece la definición temprana de bounded contexts y clases esenciales del dominio, lo cual aporta claridad conceptual y una arquitectura más limpia. Este enfoque permite separar responsabilidades de manera ordenada, reducir la complejidad técnica y facilitar la escalabilidad del sistema en el largo plazo.
+
+**Recomendaciones**
+
+1.	Se recomienda continuar aplicando los principios de Domain-Driven Design en el desarrollo tanto del frontend como del backend, asegurando que la lógica de negocio y las reglas del dominio estén alineadas con las necesidades identificadas en el proceso de investigación. Esto permitirá mantener una arquitectura coherente y sostenible.
+
+2.	Es aconsejable adoptar Material Design como marco de referencia para el diseño de la interfaz, dado que proporciona consistencia visual, buenas prácticas de usabilidad y un sistema estandarizado de componentes. Esto contribuirá a que la experiencia del usuario sea más intuitiva, atractiva y alineada con tendencias actuales en aplicaciones modernas.
+
+3.	Se recomienda realizar reuniones de planeación de sprint de manera estructurada en las entregas parciales, con el fin de organizar tareas, priorizar funcionalidades y alinear al equipo en torno a objetivos comunes. Esta práctica fomenta la transparencia, la colaboración y asegura un mejor seguimiento del avance del proyecto.
+
+
+
+# Bibliografía
+
+Ministerio de Cultura del Perú & Instituto Nacional de Estadística e Informática. (2023). Encuesta Nacional de Lectura 2022: Informe de lectores y no lectores. Recuperado de https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf
+
+Allen, C. (2024). The impact of book clubs on millennials: Best way to instill a love of reading. Recuperado de https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading
+
+Statista. (2024). Hablemos de los clubes de lectura y por qué esta tendencia va en aumento. Recuperado de https://globaltag.mx/uncategorized/leer-esta-de-moda-hablemos-de-los-clubes-de-lectura-y-por-que-esta-tendencia-va-en-aumento/
+
+
+Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qué-significa-para-qué-sirve-cómo-aplicarla-y-algunos-ejemplos
+ 
+Fabiana, E., & Vega, J. (2022). La motivación en el aprendizaje de la lectura en los estudiantes. Revista EDUCARE - UPEL-IPB - Segunda Nueva Etapa 2.0, 26(Extraordinario), 476–493. https://doi.org/10.46498/reduipb.v26iExtraordinario.1641 
+Mamani, B., Chata, L., & Choque, D. (2024). Efecto del uso de Tik Tok en el rendimiento académico de estudiantes de 5to grado . Revista Tribunal, 4(9), 161-175. https://doi.org/10.59659/revistatribunal.v4i9.71
+
+Torres-Vega, E. (2025). Comprensión lectora en estudiantes de secundaria en Perú. Horizontes. Revista De Investigación En Ciencias De La Educación, 9(36), 177–187. https://doi.org/10.33996/revistahorizontes.v9i36.909 
+
