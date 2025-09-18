@@ -37,17 +37,46 @@ Para la elaboración del informe, se utilizó Google Docs como plataforma de tra
 
 # Contenido
 
-- [Livria](#livria)
+- [STUDENT OUTCOME](#student-outcome)
+- [OBJETIVOS SMART](#objetivos-smart)
 
-- [Registro de versiones del informe](#registro-de-versiones-del-informe)
- 
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [CAPÍTULO I: Presentación](#capítulo-i-presentación)
+  * [1.1. Startup Profile](#11-startup-profile)
+    + [1.1.1. Descripción del Startup](#111-descripción-del-startup)
+    + [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  * [1.2. Solution Profile](#12-solution-profile)
+    + [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
+    + [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis](#1223-lean-ux-hypothesis)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  * [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 
-- [Contenido](#contenido)
-
-- [Student Outcome](#student-outcome)
-
-- [Objetivos Smart](#objetivos-smart)
+- [CAPÍTULO II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  * [2.1. Competidores](#21-competidores)
+    + [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
+    + [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  * [2.2. Entrevistas](#22-entrevistas)
+    + [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [Segmento Objetivo #1: Personas que desean desarrollar y expandir el hábito de la lectura](#segmento-objetivo-1-personas-que-desean-desarrollar-y-expandir-el-hábito-de-la-lectura)
+      - [Segmento objetivo #2: Personas interesadas en compartir intereses literarios e interactuar con otros lectores](#segmento-objetivo-2-personas-interesadas-en-compartir-intereses-literarios-e-interactuar-con-otros-lectores)
+    + [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    + [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [Segmento objetivo #2: Personas interesadas en compartir intereses literarios e interactuar con otros lectores](#segmento-objetivo-2-personas-interesadas-en-compartir-intereses-literarios-e-interactuar-con-otros-lectores-1)
+  * [2.3. Needfinding](#23-needfinding)
+    + [2.3.1. User Personas](#231-user-personas)
+    + [2.3.2. User Task Matrix](#232-user-task-matrix)
+    + [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    + [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    + [2.3.5. Ubiquitous Language](#235-ubiquitous-language)
+  * [2.4. Requirements Specification](#24-requirements-specification)
+    + [2.4.1. User Stories](#241-user-stories)
+    + [2.4.2. Impact Mapping](#242-impact-mapping)
+    + [2.4.3. Product Backlog](#243-product-backlog)
+  * [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
+    + [2.5.1. Event Storming](#251-event-storming)
+      - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
 
 # Student Outcome
 
