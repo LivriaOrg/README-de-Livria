@@ -24,15 +24,16 @@
 
 | Versión   | Fecha     | Autor(es)                                                                                 | Descripción                                                                                   |
 |-----------|-----------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| 1.0 (TB1) | 25/04/25  | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio<br> | Capítulo I: Presentación
-<br>Capítulo II: Requirements Development and Software Solution Design |
+| 1.0 (TB1) | 25/04/25  | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio<br> | Capítulo I: Presentación <br>Capítulo II: Requirements Development and Software Solution Design |
 
 # Project Report Collaboration Insights
+<p align="center">
+  <img src="https://i.imgur.com/ZNgi6W7.png" alt="project report collaboration insights">
+</p>
 
-Repositorio donde está el project report: 
+Repositorio donde está el project report: https://github.com/LivriaOrg/README-de-Livria
 
-
-
+Para la elaboración del informe, se utilizó Google Docs como plataforma de trabajo colaborativo, para posteriormente migrar el contenido al archivo README.md presente en su respectivo repositorio.
 
 # Contenido
 
@@ -45,6 +46,39 @@ Repositorio donde está el project report:
 - [Contenido](#contenido)
 
 - [Student Outcome](#student-outcome)
+
+- [Objetivos Smart](#objetivos-smart)
+
+# Student Outcome
+
+# Objetivos Smart
+
+**Marcelo Alejandro Binda Arbañil**
+
+Uno de mis objetivos profesionales es obtener la certificación MongoDB Certified Developer Associate en los próximos 12 meses. Esta decisión se basa en mi meta de dominar las bases de datos NoSQL, una tecnología esencial para manejar grandes volúmenes de datos no estructurados en aplicaciones modernas. Una vez certificada, esta habilidad me posicionará como un candidato valioso en el mercado laboral, capaz de diseñar esquemas de bases de datos flexibles y escalables.
+
+A largo plazo, esta certificación me servirá como un paso estratégico hacia un objetivo más ambicioso: obtener la AWS Certified Database - Specialty. Mi plan es usar el conocimiento de MongoDB como base para entender los diferentes tipos de bases de datos en la nube de AWS. Esta combinación de certificaciones me permitirá, en el futuro, no solo ser un desarrollador competente, sino también un arquitecto de software con la credibilidad y el conocimiento integral para diseñar soluciones de datos a gran escala y liderar equipos técnicos en un entorno de nube.
+
+**Gabriel Sebastián Borja Molina**
+
+Mi objetivo principal a corto plazo es obtener la certificación Google Cloud Professional Machine Learning Engineer en los próximos 12 meses. Esta es una decisión crucial para mi desarrollo, ya que me permitirá dominar los principios de la inteligencia artificial y su aplicación en la nube. Con este conocimiento, no solo podré crear modelos de IA, sino también integrarlos en sistemas de software escalables y eficientes. A la par, utilizaré GitHub como una plataforma para compartir mis logros y progresos. Planeo documentar mis proyectos, compartir mis aprendizajes sobre algoritmos y dar a conocer los modelos que he desarrollado.
+
+A largo plazo, mi plan es utilizar esta certificación y mi portafolio digital como un escalón hacia roles de mayor responsabilidad. La experiencia y la credibilidad que gane en ingeniería de machine learning me servirán para convertirme en un líder en el desarrollo de productos basados en IA. Esto significa que en el futuro podré guiar a los equipos para entregar no solo soluciones técnicamente robustas, sino también productos inteligentes que resuelvan problemas complejos y generen valor para las personas. Mi portafolio en GitHub me permitirá conectar con otros profesionales y construir una marca personal sólida en el ámbito del desarrollo de IA.
+
+**Ainhoa Lucía Castillo Garay**
+
+Mi objetivo principal a corto plazo es obtener la certificación Certified UX Professional (UXC) de Nielsen Norman Group en los próximos 12 meses. Esta es una decisión crucial para mi desarrollo, ya que me permitirá dominar los principios de diseño de experiencia de usuario y aplicarlos en la práctica. Con este conocimiento, no solo podré crear interfaces visualmente atractivas, sino también justificar las decisiones de diseño con base en evidencia y mejores prácticas. A la par, utilizaré Instagram como una plataforma para compartir mis logros y progresos. A través de publicaciones visuales y atractivas, planeo documentar mi viaje de certificación y compartir mis aprendizajes sobre metodologías de diseño y los proyectos en los que me he involucrado.
+
+A largo plazo, mi plan es utilizar esta certificación y mi presencia digital como un escalón hacia roles de mayor responsabilidad. La experiencia y la credibilidad que gane en diseño UI/UX me servirán para convertirme en un líder en el desarrollo de productos digitales. Esto significa que en el futuro podré guiar a los equipos para entregar no solo soluciones técnicamente robustas, sino también experiencias de usuario que realmente resuelvan problemas y generen valor para las personas. Mi portafolio en Instagram me permitirá conectar con otros profesionales y construir una marca personal sólida en el ámbito del desarrollo de interfaces.
+
+**Cassius Estefano Martel Andrade**
+
+Mi objetivo principal a corto plazo es obtener la certificación de Professional Scrum Master en el próximo año. Esta es una decisión clave para mi desarrollo, ya que me permitirá dominar el marco de trabajo de Scrum, una metodología que es fundamental en el desarrollo de software actual. Con este conocimiento, no solo podré aplicar las prácticas ágiles de manera correcta, sino también actuar como facilitador para mi equipo, asegurando que el proceso sea lo más fluido posible.
+A largo plazo, mi plan es utilizar esta certificación como un escalón hacia roles de mayor responsabilidad. La experiencia y la credibilidad que gane como Scrum Master me servirán para convertirme en un líder técnico. Esto significa que en el futuro podré guiar a los equipos no solo desde una perspectiva técnica, sino también desde la gestión, asegurando que entreguemos valor de manera consistente y eficiente, cumpliendo con los objetivos del negocio.
+
+**Alex Tomio Nakamurakare Teruya**
+
+Mi objetivo principal a corto plazo es obtener la certificación Google Cloud Professional Cloud Security Engineer en los próximos 12 meses. Esta es una decisión crucial para mi desarrollo, ya que me permitirá dominar los principios de la seguridad en la nube, que son esenciales en el sector financiero. En esta industria, la protección de datos sensibles y el cumplimiento de las regulaciones son de máxima prioridad. Con este conocimiento, no solo podré diseñar sistemas seguros, sino que también entenderé cómo funcionan las transacciones y los datos financieros desde una perspectiva de integridad, lo que me convertirá en un desarrollador más confiable y valioso. Mi capacidad para aplicar la seguridad en la nube me permitirá, en el futuro, asumir un rol clave en la creación de productos financieros robustos y fiables, ganando la credibilidad necesaria para guiar a los equipos y contribuir directamente al valor del negocio.
 
 
 # CAPÍTULO I: PRESENTACIÓN
