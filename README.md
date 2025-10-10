@@ -7,7 +7,7 @@
 <p align="center">Sección 12614</p>
 <p align="center">Profesor: David Gerardo Quevedo Velasco</p>
 
-<p align="center"><strong>Informe del TB1</strong></p>
+<p align="center"><strong>Informe del TP</strong></p>
 
 <p align="center">Defontes</p>
 <p align="center">Binda Arbañil, Marcelo Alejandro U202311157</p>
@@ -35,6 +35,16 @@
 | 1.8 (TB1) | 16/09/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo II: Tactical-Level Domain-Driven Design**<br> - 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams (Creación de diagramas a nivel de componente)<br> - 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams (Creación de diagramas a nivel de código)<br> - 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams (Creación de diagramas de clase de la capa de dominio)<br> - 2.6.x.6.2. Bounded Context Database Design Diagram (Creación de diagramas de diseño de base de datos) |
 | 1.9 (TB1) | 17/09/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Revisión y Consolidación**<br>Revisión exhaustiva de todo el documento. Verificación de la coherencia en la arquitectura y los diseños. |
 | 1.10 (TB1) | 18/09/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Versión Final y Corrección**<br>Últimas correcciones de estilo, formato y contenido. El documento está listo para su entrega. |
+| 2.0 (TP) | 30/09/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Correcciones y Capítulo III: Solution UI/UX Design**<br>- Aplicación de correcciones y feedback de la TB1.<br>- 3.1. Product design<br>- 3.1.1. Style Guidelines (General Style Guidelines) |
+| 2.1 (TP) | 01/10/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo III: Solution UI/UX Design**<br>- 3.1.2. Information Architecture<br>- 3.1.2.1. Organization Systems<br>- 3.1.2.2. Labelling Systems<br>- 3.1.2.3. SEO Tags and Meta Tags<br>- 3.1.2.4. Searching Systems<br>- 3.1.2.5. Navigation Systems |
+| 2.2 (TP) | 02/10/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo III: Solution UI/UX Design**<br>- 3.1.3. Landing Page UI Design<br>- 3.1.3.1. Landing Page Wireframe<br>- 3.1.3.2. Landing Page Mock-up |
+| 2.3 (TP) | 03/10/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo III: Solution UI/UX Design**<br>- 3.1.4. Mobile Applications UX/UI Design<br>- 3.1.4.1. Mobile Applications Wireframes<br>- 3.1.4.2. Mobile Applications Wireflow Diagrams<br>- 3.1.4.3. Mobile Applications Mock-ups |
+| 2.4 (TP) | 04/10/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo III: Solution UI/UX Design**<br>- 3.1.4.4. Mobile Applications User Flow Diagrams<br>- 3.1.4.5. Mobile Applications Prototyping<br>**Capítulo IV: Product Implementation & Validation**<br>- 4.1. Software Configuration Management |
+| 2.5 (TP) | 05/10/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation**<br>- 4.1.1. Software Development Environment Configuration<br>- 4.1.2. Source Code Management<br>- 4.1.3. Source Code Style Guide & Conventions<br>- 4.1.4. Software Deployment Configuration |
+| 2.6 (TP) | 06/10/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation**<br>- 4.2. Landing Page & Mobile Application Implementation<br>- 4.2.1. Sprint 1<br>- 4.2.1.1. Sprint Planning 1<br>- 4.2.1.2. Sprint Backlog 1<br>- Desarrollo de la Landing Page<br>- Despliegue de la Landing Page |
+| 2.7 (TP) | 07/10/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation**<br>- Continuación Sprint 1<br>- Desarrollo del Backend<br>- Despliegue del Backend<br>- Desarrollo del Homescreen<br>- Desarrollo de Navigation<br>- Desarrollo de Settings |
+| 2.8 (TP) | 08/10/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation**<br>- Continuación Sprint 1<br>- Desarrollo de Book Management<br>- Desarrollo de Inventory<br>- Desarrollo de Orders<br>- Desarrollo de Statistics<br>- 4.2.1.3. Development Evidence for Sprint Review<br>- 4.2.1.4. Testing Suite Evidence for Sprint Review |
+| 2.9 (TP) | 09/10/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation y Entregables Finales**<br>- 4.2.1.5 a 4.2.1.8 Evidencias del Sprint<br>- 4.3. Validation Interviews (Diseño, Registro, Evaluaciones)<br>- Actualización de Conclusiones y Recomendaciones<br>- Actualización de ReadMe<br>- Preparación de PPT y Video de Exposición<br>- Reporte de Participación |
 
 # Project Report Collaboration Insights
 <p align="center">
@@ -44,6 +54,18 @@
 Repositorio donde está el project report: https://github.com/LivriaOrg/README-de-Livria
 
 Para la elaboración del informe, se utilizó Google Docs como plataforma de trabajo colaborativo, para posteriormente migrar el contenido al archivo README.md presente en su respectivo repositorio.
+
+Insights del Repositorio de la Aplicación Móvil
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9f44e1d3-6deb-4ec3-b311-328cc68fbccb">
+</p>
+
+Insights del Repositorio de la Landing
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1e78c2e1-93bd-40ea-bd8e-9527fcd09ff7">
+</p>
+
+Durante el TP, el equipo colaboró activamente en la elaboración del informe dentro del repositorio de GitHub, coordinando la redacción, revisión y estructuración de cada sección del documento. Se mantuvo un flujo constante de commits y revisiones cruzadas para asegurar coherencia y calidad en el contenido. Cada integrante aportó tanto en la redacción como en la corrección del informe, consolidando una dinámica de trabajo colaborativa y organizada.
 
 # Contenido
 
@@ -87,14 +109,148 @@ Para la elaboración del informe, se utilizó Google Docs como plataforma de tra
   * [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
     + [2.5.1. Event Storming](#251-event-storming)
       - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
+      - [2.5.1.2. Domain Message Flows Modelling](#2512-domain-message-flows-modelling)
+      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
+      - [2.5.2. Context Mapping](#252-context-mapping)
+      - [2.5.3. Software Architecture](#253-software-architecture)
+      - [2.5.3.1. Software Architecture Context Level Diagram](#2531-software-architecture-context-level-diagrams)
+      - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
+      - [2.5.3.3. Software Architecture Deployment Diagrams](#253-software-architecture-deployment-diagrams)
+  + [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
+    + [2.6.1. Bounded Context: Search](#261-bounded-context-search)
+      - [2.6.1.1. Domain Layer](#2611-domain-layer)
+      - [2.6.1.2. Interface Layer](#2612-interface-layer)
+      - [2.6.1.3. Application Layer](#2613-application-layer)
+      - [2.6.1.4. Infrastructure Layer](#infrastructure-layer)
+      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
+          - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+          - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
+    + [2.6.2. Bounded Context: Book](#262-bounded-context-book)
+      - [2.6.2.1. Domain Layer](#2621-domain-layer-1)
+      - [2.6.2.2. Interface Layer](#2622-interface-layer-1)
+      - [2.6.2.3. Application Layer](#2623-application-layer-1)
+      - [2.6.2.4. Infrastructure Layer](#2624-infrastructure-layer-1)
+      - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams-1)
+      - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams-1)
+        - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams-1)
+        - [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram-1)
+    + [2.6.3. Bounded Context: Recommendations](#263-bounded-context-recommendations)
+      - [2.6.3.1. Domain Layer](#2631-domain-layer-2)
+      - [2.6.3.2. Interface Layer](#2632-interface-layer-2)
+      - [2.6.3.3. Application Layer](#2633-application-layer-2)
+      - [2.6.3.4. Infrastructure Layer](#2634-infrastructure-layer-2)
+      - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams-2)
+      - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams-2)
+        - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams-2)
+        - [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram-2)
+    + [2.6.4. Bounded Context: Cart](#264-bounded-context-cart)
+      - [2.6.4.1. Domain Layer](#2641-domain-layer-3)
+      - [2.6.4.2. Interface Layer](#2642-interface-layer-3)
+      - [2.6.4.3. Application Layer](#2643-application-layer-3)
+      - [2.6.4.4. Infrastructure Layer](#2644-infrastructure-layer-3)
+      - [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams-3)
+      - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams-3)
+        - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams-3)
+        - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram-3)
+    + [2.6.5. Bounded Context: Profile](#265-bounded-context-profile)
+      - [2.6.5.1. Domain Layer](#2651-domain-layer-4)
+      - [2.6.5.2. Interface Layer](#2652-interface-layer-4)
+      - [2.6.5.3. Application Layer](#2653-application-layer-4)
+      - [2.6.5.4. Infrastructure Layer](#2654-infrastructure-layer-4)
+      - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams-4)
+      - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams-4)
+        - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams](#26561-bounded-context-domain-layer-class-diagrams-4)
+        - [2.6.5.6.2. Bounded Context Database Design Diagram](#26562-bounded-context-database-design-diagram-4)
+    + [2.6.6. Bounded Context: Orders](#266-bounded-context-orders)
+      - [2.6.6.1. Domain Layer](#2661-domain-layer-5)
+      - [2.6.6.2. Interface Layer](#2662-interface-layer-5)
+      - [2.6.6.3. Application Layer](#2663-application-layer-5)
+      - [2.6.6.4. Infrastructure Layer](#2664-infrastructure-layer-5)
+      - [2.6.6.5. Bounded Context Software Architecture Component Level Diagrams](#2665-bounded-context-software-architecture-component-level-diagrams-5)
+      - [2.6.6.6. Bounded Context Software Architecture Code Level Diagrams](#2666-bounded-context-software-architecture-code-level-diagrams-5)
+        - [2.6.6.6.1. Bounded Context Domain Layer Class Diagrams](#26661-bounded-context-domain-layer-class-diagrams-5)
+        - [2.6.6.6.2. Bounded Context Database Design Diagram](#26662-bounded-context-database-design-diagram-5)
+    + [2.6.7. Bounded Context: Stock](#267-bounded-context-stock)
+      - [2.6.7.1. Domain Layer](#2671-domain-layer-6)
+      - [2.6.7.2. Interface Layer](#2672-interface-layer-6)
+      - [2.6.7.3. Application Layer](#2673-application-layer-6)
+      - [2.6.7.4. Infrastructure Layer](#2674-infrastructure-layer-6)
+      - [2.6.7.5. Bounded Context Software Architecture Component Level Diagrams](#2675-bounded-context-software-architecture-component-level-diagrams-6)
+      - [2.6.7.6. Bounded Context Software Architecture Code Level Diagrams](#2676-bounded-context-software-architecture-code-level-diagrams-6)
+        - [2.6.7.6.1. Bounded Context Domain Layer Class Diagrams](#26761-bounded-context-domain-layer-class-diagrams-6)
+        - [2.6.7.6.2. Bounded Context Database Design Diagram](#26762-bounded-context-database-design-diagram-6)
+    + [2.6.8. Bounded Context: Communities](#268-bounded-context-communities)
+      - [2.6.8.1. Domain Layer](#2681-domain-layer-7)
+      - [2.6.8.2. Interface Layer](#2682-interface-layer-7)
+      - [2.6.8.3. Application Layer](#2683-application-layer-7)
+      - [2.6.8.4. Infrastructure Layer](#2684-infrastructure-layer-7)
+      - [2.6.8.5. Bounded Context Software Architecture Component Level Diagrams](#2685-bounded-context-software-architecture-component-level-diagrams-7)
+      - [2.6.8.6. Bounded Context Software Architecture Code Level Diagrams](#2686-bounded-context-software-architecture-code-level-diagrams-7)
+        - [2.6.8.6.1. Bounded Context Domain Layer Class Diagrams](#26861-bounded-context-domain-layer-class-diagrams-7)
+        - [2.6.8.6.2. Bounded Context Database Design Diagram](#26861-bounded-context-database-design-diagram-7)
+- [CAPÍTULO III: Solution UX/UI Design](#capítulo-iii-solution-ux-ui-design)
+  + [3.1. Product Design](#31-product-design)
+    + [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    + [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    + [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframes](#3131-landing-page-wireframes)
+      - [3.1.3.2. Landing Page Mock-ups](#3132-landing-page-mock-ups)
+    + [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-ux-ui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+        - [Pantallas de Loggeo](#pantallas-de-loggeo)
+        - [Pantallas de Administrador](#pantallas-de-administrador)
+        - [Pantallas de Cliente](#pantallas-de-cliente)
+      - [3.1.4.2. Mobile Applications Wireflows](#3142-mobile-applications-wireflows)
+      - [3.1.4.3. Mobile Applications Mockups](#3143-mobile-applications-mockups)
+        - [Pantallas de Loggeo](pantallas-de-loggeo-1)
+        - [Pantallas de Administrador](#pantallas-de-administrador-1)
+        - [Pantallas de Cliente](#pantallas-de-cliente-1)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [CAPÍTULO IV: Product Implementation & Validation](#capítulo-iv-product-implementation-validation)
+  + [4. Product Implementation & Validation](#4-product-implementation-validation)
+    + [4.1. Software Configuration Management](#41-software-configuration-management)
+      - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+        - [4.1.1.1. Project Management](#4111project-management)
+        - [4.1.1.2. Requirements Management](#4112requirements-management)
+        - [4.1.1.3. Product UX/UI Design](#4113product-ux-ui-design)
+        - [4.1.1.4. Software Development](#4114-software-development)
+        - [4.1.1.5. Software Testing](#4115-software-testing)
+        - [4.1.1.6. Software Deployment](#4116-software-deployment)
+        - [4.1.1.7. Software Documentation](#4117-software-documentation)
+      - [4.1.2. Source Code Management](#412-source-code-management)
+      - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide-conventions)
+      - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+    + [4.2. Landing Page & Mobile Application Implementation](#42-landing-page-mobile-application-implementation)
+      - [4.2.1. Sprint 1](#421-sprint-1)
+        - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+        - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+        - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+        - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214testing-suite-evidence-for-sprint-review)
+        - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+        - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+        - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217 -software-deployment-evidence-for-sprint-review)
+        - [4.2.1.8. Team Collaboration Insight during Sprint](#4218-team-collaboration-insight-during-sprint)
+    + [4.3. Validation Interviews](#43-validation-interviews)
+        - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas-1)
+        - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas-1)
+        - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
++ [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
++ [Bibliografía](#bibliografía)
 
 # Student Outcome
 
-
 | Criterio Específico | Acciones Realizadas | Conclusiones |
 |---|---|---|
-| 1. **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Gabriel Sebastián Borja Molina** <br> TB1 <br> Investigó Bounded Contexts y condujo al equipo en su aplicación, fortaleciendo comunicación clara, pensamiento crítico, colaboración y organización para alinear criterios entre Libros, Carrito y Comunidades. Además, promovió espacios de alineación que reforzaron la confianza y la coordinación del equipo. <br><br> **Marcelo Alejandro Binda Arbañil** <br> TB1 <br> Modeló Domain Message Flows entre contextos; destacó su escucha activa, negociación, co-diseño y síntesis para acuerdos claros, además de redacción precisa para guiar al equipo. Su enfoque facilitador elevó el clima de trabajo y la toma de decisiones compartidas. <br><br> **Ainhoa Lucía Castillo Garay** <br> TB1 <br> Difundió el modelo C4 con material didáctico, mostrando storytelling técnico, capacidad de síntesis visual, claridad expositiva y feedback constructivo en revisiones por pares. Su habilidad para traducir complejidad en narrativas claras aumentó la participación y el entendimiento colectivo. <br><br> **Cassius Estefano Martel Andrade** <br> TB1 <br> Impulsó la arquitectura por capas, ejerciendo liderazgo situacional, mentoría, gestión del tiempo y disciplina organizacional para separar responsabilidades y facilitar el trabajo del equipo. Su acompañamiento constante redujo fricciones y elevó el nivel de compromiso del grupo. <br><br> **Alex Tomio Nakamurakare Teruya** <br> TB1 <br> Facilitó Bounded Context Canvases priorizando empatía con stakeholders, facilitación de dinámicas, alineamiento de objetivos y toma de decisiones participativa. Esta conducción generó acuerdos más ágiles y una cultura de respeto por perspectivas diversas. | **TB1** <br> Durante esta primera etapa del proyecto, hemos reforzado, actualizado y aplicado los conocimientos adquiridos a lo largo de la carrera. Este proceso de repaso e investigación nos ayudó a consolidar conceptos clave y aplicarlos de manera efectiva para el desarrollo inicial de nuestra propuesta. |
-| 2. **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Gabriel Sebastián Borja Molina** <br> TB1 <br> Combinó diagramas de datos con User Personas y Event Storming, evidenciando mentalidad de crecimiento, curiosidad, autoaprendizaje y gestión del tiempo. Además, instauró rutinas de revisión que sostuvieron el foco y el ritmo de avance. <br><br> **Marcelo Alejandro Binda Arbañil** <br> TB1 <br> Aplicó Lean UX, User Journey, análisis competitivo y entrevistas; fortaleció empatía con el usuario, comunicación, trabajo en equipo y mejora continua. Su mirada empática aseguró que las decisiones técnicas mantuvieran el valor para el usuario final. <br><br> **Ainhoa Lucía Castillo Garay** <br> TB1 <br> Elaboró artefactos de arquitectura y Context Mapping; cultivó atención al detalle, claridad, orden y colaboración interfuncional. Su disciplina documental facilitó el on-boarding y la continuidad del trabajo entre miembros. <br><br> **Cassius Estefano Martel Andrade** <br> TB1 <br> Coordinó Impact Mapping y User Stories; demostró planificación, priorización, liderazgo y adaptabilidad ante cambios. Además, promovió acuerdos operativos claros que ordenaron prioridades y tiempos. <br><br> **Alex Tomio Nakamurakare Teruya** <br> TB1 <br> Condujo sesiones colaborativas (event storming/canvas) integrando feedback, resiliencia y capacidad de síntesis para converger en decisiones. Su apertura al feedback potenció el consenso y el aprendizaje entre pares. | **TB1** <br> Durante la elaboración del primer avance del proyecto, hemos comprendido la importancia de mantener nuestros conocimientos actualizados y aprender constantemente. Para estructurar el diseño y presentación de nuestra propuesta ha sido necesario consultar nuevas fuentes y repasar conceptos, con el objetivo de que nuestra solución sea sólida y esté correctamente fundamentada. |
+| 1. **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Gabriel Sebastián Borja Molina** <br> **TB1:** Investigó *Bounded Contexts* y condujo al equipo en su aplicación, fortaleciendo comunicación clara, pensamiento crítico, colaboración y organización para alinear criterios entre Libros, Carrito y Comunidades. Además, promovió espacios de alineación que reforzaron la confianza y la coordinación del equipo. <br> **TP:** Aplicó principios de diseño responsivo y guías de Material Design para la construcción de la Landing Page y vistas móviles. Su investigación en patrones de usabilidad y arquitectura visual mejoró la coherencia estética y funcional del producto. <br><br> **Marcelo Alejandro Binda Arbañil** <br> **TB1:** Modeló *Domain Message Flows* entre contextos; destacó su escucha activa, negociación, co-diseño y síntesis para acuerdos claros, además de redacción precisa para guiar al equipo. Su enfoque facilitador elevó el clima de trabajo y la toma de decisiones compartidas. <br> **TP:** Implementó la estructura de gestión de código, aplicando convenciones y estándares de desarrollo. Documentó procesos y aseguró la correcta integración del código fuente, promoviendo buenas prácticas profesionales. <br><br> **Ainhoa Lucía Castillo Garay** <br> **TB1:** Difundió el modelo C4 con material didáctico, mostrando *storytelling* técnico, capacidad de síntesis visual, claridad expositiva y feedback constructivo en revisiones por pares. Su habilidad para traducir complejidad en narrativas claras aumentó la participación y el entendimiento colectivo. <br> **TP:** Diseñó *wireframes* y *mockups* de alta fidelidad, incorporando guías de accesibilidad y heurísticas de Nielsen. Su aporte garantizó la calidad visual y la usabilidad de la aplicación. <br><br> **Cassius Estefano Martel Andrade** <br> **TB1:** Impulsó la arquitectura por capas, ejerciendo liderazgo situacional, mentoría, gestión del tiempo y disciplina organizacional para separar responsabilidades y facilitar el trabajo del equipo. Su acompañamiento constante redujo fricciones y elevó el nivel de compromiso del grupo. <br> **TP:** Coordinó la implementación técnica del *frontend* móvil y la integración con la base de datos. Introdujo nuevas herramientas y metodologías ágiles, optimizando la planificación de *sprints* y el control de versiones. <br><br> **Alex Tomio Nakamurakare Teruya** <br> **TB1:** Facilitó *Bounded Context Canvases* priorizando empatía con *stakeholders*, facilitación de dinámicas, alineamiento de objetivos y toma de decisiones participativa. Esta conducción generó acuerdos más ágiles y una cultura de respeto por perspectivas diversas. <br> **TP:** Dirigió las validaciones y pruebas del prototipo, aplicando conocimientos de UX Research y control de calidad. Su análisis permitió mejorar la experiencia del usuario final y la presentación del entregable. | **TB1:** Durante esta primera etapa del proyecto, reforzamos, actualizamos y aplicamos los conocimientos adquiridos a lo largo de la carrera. Este proceso de repaso e investigación nos ayudó a consolidar conceptos clave y aplicarlos de manera efectiva para el desarrollo inicial de nuestra propuesta. <br><br> **TP:** En el desarrollo del TP fortalecimos y actualizamos nuestros conocimientos técnicos aplicando nuevas herramientas de diseño, desarrollo y validación. La experiencia permitió integrar conceptos de ingeniería de software con diseño UX/UI, consolidando un enfoque más profesional y completo hacia la solución final. |
+| 2. **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Gabriel Sebastián Borja Molina** <br> **TB1:** Combinó diagramas de datos con *User Personas* y *Event Storming*, evidenciando mentalidad de crecimiento, curiosidad, autoaprendizaje y gestión del tiempo. Además, instauró rutinas de revisión que sostuvieron el foco y el ritmo de avance. <br> **TP:** Profundizó en herramientas de diseño colaborativo (Figma, FigJam) y frameworks modernos de UI. Su constante actualización en recursos de diseño contribuyó a mantener la propuesta competitiva y moderna. <br><br> **Marcelo Alejandro Binda Arbañil** <br> **TB1:** Aplicó Lean UX, *User Journey*, análisis competitivo y entrevistas; fortaleció empatía con el usuario, comunicación, trabajo en equipo y mejora continua. Su mirada empática aseguró que las decisiones técnicas mantuvieran el valor para el usuario final. <br> **TP:** Asimiló nuevas metodologías de control de versiones y entornos de despliegue, adaptándose a contextos técnicos más exigentes. Su aprendizaje activo fortaleció la calidad y consistencia del código entregado. <br><br> **Ainhoa Lucía Castillo Garay** <br> **TB1:** Elaboró artefactos de arquitectura y *Context Mapping*; cultivó atención al detalle, claridad, orden y colaboración interfuncional. Su disciplina documental facilitó el *onboarding* y la continuidad del trabajo entre miembros. <br> **TP:** Integró prácticas de validación con usuarios y testing de interfaz, demostrando aprendizaje autónomo y compromiso con la mejora continua. <br><br> **Cassius Estefano Martel Andrade** <br> **TB1:** Coordinó *Impact Mapping* y *User Stories*; demostró planificación, priorización, liderazgo y adaptabilidad ante cambios. Además, promovió acuerdos operativos claros que ordenaron prioridades y tiempos. <br> **TP:** Estudió herramientas de desarrollo multiplataforma y coordinó procesos de integración. Su búsqueda constante de optimización técnica y metodológica fortaleció la calidad del proyecto. <br><br> **Alex Tomio Nakamurakare Teruya** <br> **TB1:** Condujo sesiones colaborativas (*Event Storming*, *Canvas*) integrando feedback, resiliencia y capacidad de síntesis para converger en decisiones. Su apertura al feedback potenció el consenso y el aprendizaje entre pares. <br> **TP:** Aprendió e implementó técnicas de validación de usabilidad, análisis de métricas y documentación estructurada para mejorar la presentación final. Su disposición a aprender garantizó la solidez del entregable. | **TB1:** Durante la elaboración del primer avance del proyecto, comprendimos la importancia de mantener nuestros conocimientos actualizados y aprender constantemente. Para estructurar el diseño y presentación de nuestra propuesta fue necesario consultar nuevas fuentes y repasar conceptos, con el objetivo de que nuestra solución sea sólida y correctamente fundamentada. <br><br> **TP:** A lo largo del TP fortalecimos nuestro compromiso con el aprendizaje continuo mediante la adopción de nuevas tecnologías, herramientas de diseño y metodologías ágiles. Este proceso nos permitió evolucionar como equipo, asumir roles más especializados y entregar una solución más completa, validada y profesional. |
 
 # Objetivos Smart
 
@@ -257,8 +413,12 @@ Todo esto ha llevado a que muchas personas lleguen a la actualidad sin una conex
 Según los resultados de la Encuesta Nacional de Lectura de 2022 (Ministerio de Cultura), aunque el 78,8 % de niños y adolescentes de 0 a 17 años leyeron o fueron expuestos a la lectura de libros impresos o digitales, solo un 15,3 % lo hizo con frecuencia diaria, mientras que la mayoría (63,5 %) leyó con menor regularidad. Además, un 21,2 % no tuvo contacto con la lectura en absoluto, lo que evidencia una baja intensidad en las prácticas lectoras dentro de este grupo etario.
 
 <p align="center">
-  <img src="https://imgur.com/667JbQo.jpg" alt="12171">
+  <img src="https://i.imgur.com/7MnGt7n.png" alt="12171">
 </p>
+
+https://imgur.com/8X2WQca.jpg
+https://imgur.com/7MnGt7n.jpg
+https://i.imgur.com/7MnGt7n.png
 Nota. Adaptado de Encuesta Nacional de Lectura 2022. Informe de lectores y no lectores, por Ministerio de Cultura, 2022 (https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf)
 
 Un estudio realizado en una institución educativa pública del distrito de El Agustino en 2022 reveló que el 72,2 % presenta un nivel bajo de comprensión lectora, el 25,9 % se encuentra en un nivel regular y solo el 1,9 % alcanza un nivel alto, lo que evidencia una preocupante deficiencia en esta habilidad (Torres–Vega, 2025).
@@ -361,45 +521,54 @@ Link del Lean UX Canvas: https://docs.google.com/document/d/1J1PJ1gn62fnoB0Saa-r
 ## 1.3. Segmentos Objetivo
 Con el objetivo de atraer eficazmente a futuros usuarios y brindar un producto que responda de manera precisa a sus necesidades, se han identificado los siguientes dos segmentos objetivo.
 
-**Segmento objetivo #1: Personas que desean desarrollar y expandir el hábito de la lectura**  
+Con el objetivo de atraer eficazmente a futuros usuarios y brindar un producto que responda de manera precisa a sus necesidades, se han identificado los siguientes dos segmentos objetivo.
+
+**Segmento objetivo \#1: Lectores en Desarrollo**
+
 Este segmento incluye tanto a personas que ya tienen afinidad por la lectura, como a aquellas que buscan incorporar este hábito en su vida diaria, con fines recreativos y educativos. Son individuos que desean encontrar plataformas digitales que faciliten el acceso a material variado, atractivo y adaptado a sus intereses. Este grupo busca principalmente plataformas de compra de libros que sean cómodas, intuitivas y que los ayuden a encontrar títulos en base a sus preferencias y objetivos de lectura.
 
 **Aspectos demográficos:**
+
 * Sexo: Masculino y femenino  
 * Rango de edad: 16 a 64 años  
-* Nivel socioeconómico: clases A, B y C (alta, media-alta y media), con acceso frecuente a dispositivos móviles e internet  
+* Nivel socioeconómico: clases A, B y C (alta, media-alta y media), con acceso frecuente a dispositivos móviles e internet
 
 **Aspectos geográficos:**
+
 * Nacionalidad: Global, no limitado a un país específico  
-* Zona geográfica: Urbana  
+* Zona geográfica: Urbana
 
 **Aspectos psicográficos:**
+
 * Intereses: Lectura contemporánea y clásica, exploración cultural, apreciación artística, entretenimiento y desarrollo personal a través de la lectura  
 * Estilo de vida: Personas independientes o profesionales que valoran el crecimiento personal y buscan enriquecer su tiempo libre con actividades intelectuales y culturales. Utilizan servicios digitales para entretenimiento y consumo literario  
-* Actitudes: Valoran la comodidad, la personalización y el acceso inmediato a contenido de calidad. Son curiosos, abiertos a nuevas experiencias literarias y disfrutan descubrir autores y tendencias  
+* Actitudes: Valoran la comodidad, la personalización y el acceso inmediato a contenido de calidad. Son curiosos, abiertos a nuevas experiencias literarias y disfrutan descubrir autores y tendencias
 
-Las estadísticas respaldan que este segmento constituye un público relevante: según la Encuesta Nacional de Lectura 2022, el 47,3 % de la población alfabeta de 18 a 64 años leyó libros en el último año, siendo la lectura más frecuente en mujeres (51,5 %) que en hombres (43,2 %) y concentrándose principalmente en áreas urbanas (50,3 % frente al 29,8 % en zonas rurales) (Ministerio de Cultura del Perú & Instituto Nacional de Estadística e Informática, 2023). Además, el 36,3 % de estos lectores prefirió libros de literatura, mientras que un 68,5 % eligió sus lecturas por el tema y un 23,3 % por recomendación de amigos o familiares, lo que muestra el interés en explorar nuevas obras y recibir orientación en sus elecciones de lectura. Estos datos evidencian que este grupo tiene motivación e interés en acceder a contenido literario, lo que lo convierte en un segmento estratégico para Livria.
+Las estadísticas respaldan que este segmento constituye un público relevante: según la Encuesta Nacional de Lectura 2022, el 47,3 % de la población alfabeta de 18 a 64 años leyó libros en el último año, siendo la lectura más frecuente en mujeres (51,5 %) que en hombres (43,2 %) y concentrándose principalmente en áreas urbanas (50,3 % frente al 29,8 % en zonas rurales) (Ministerio de Cultura del Perú & Instituto Nacional de Estadística e Informática, 2023). Además, el 36,3 % de estos lectores prefirió libros de literatura, mientras que un 68,5 % eligió sus lecturas por el tema y un 23,3 % por recomendación de amigos o familiares, lo que muestra el interés en explorar nuevas obras y recibir orientación en sus elecciones de lectura. Estos datos evidencian que este grupo tiene motivación e interés en acceder a contenido literario, lo que lo convierte en un segmento estratégico para Livria.
 
-**Segmento objetivo #2: Personas interesadas en compartir intereses literarios e interactuar con otros lectores**  
+**Segmento objetivo \#2: Lectores Comunitarios**
+
 Este segmento incluye a jóvenes y adultos que buscan no solo leer, sino también intercambiar opiniones, descubrir nuevos títulos y conectarse con otros lectores mediante comunidades literarias, ya sean en línea o presenciales. Son personas motivadas por la socialización, el desarrollo personal y el aprendizaje continuo, que valoran espacios donde puedan discutir libros, recibir recomendaciones y participar en actividades grupales relacionadas con la lectura. Este grupo aprovecha plataformas digitales para conectar con otros lectores y formar parte de comunidades activas, fomentando así la constancia lectora y la interacción social en torno a la lectura.
 
 **Aspectos demográficos:**
+
 * Sexo: Masculino y femenino  
 * Rango de edad: 16-40 años  
-* Nivel socioeconómico: Clases A, B y C (alta, media-alta y media), con acceso a dispositivos móviles e internet.  
+* Nivel socioeconómico: Clases A, B y C (alta, media-alta y media), con acceso a dispositivos móviles e internet.
 
 **Aspectos geográficos:**
+
 * Nacionalidad: Global, no específico  
-* Zona geográfica: Urbana  
+* Zona geográfica: Urbana
 
 **Aspectos psicográficos:**
+
 * Intereses: Desarrollo personal, lectura digital, entretenimiento, educación y productividad  
 * Estilo de vida: Jóvenes y adultos que utilizan plataformas digitales para informarse, aprender y entretenerse. Buscan mejorar sus hábitos, ampliar sus conocimientos y disfrutar de la lectura en entornos digitales  
-* Actitudes: Motivados por el crecimiento personal, valoran la comodidad de acceder a información y contenido desde cualquier lugar, y están abiertos a probar nuevas herramientas digitales que faciliten su aprendizaje y fomenten su hábito lector  
+* Actitudes: Motivados por el crecimiento personal, valoran la comodidad de acceder a información y contenido desde cualquier lugar, y están abiertos a probar nuevas herramientas digitales que faciliten su aprendizaje y fomenten su hábito lector
 
-Los Millennials y la Generación Z muestran un creciente interés en comunidades lectoras, participando en clubes de lectura presenciales y virtuales que fomentan la interacción social y el hábito lector (Allen, 2024). Plataformas como TikTok (#BookTok), Instagram y Facebook permiten a los jóvenes compartir reseñas y recomendaciones, creando redes que incentivan la lectura. Según Statista (2024), alrededor del 30 % de los jóvenes lectores descubren su club de lectura a través de redes sociales, evidenciando que la conexión digital es clave para este segmento, lo que lo convierte en un público estratégico para Livria.
-
-# Capítulo II: Requirements Development and Software Solution Design
+Los Millennials y la Generación Z muestran un creciente interés en comunidades lectoras, participando en clubes de lectura presenciales y virtuales que fomentan la interacción social y el hábito lector (Allen, 2024). Plataformas como TikTok (\#BookTok), Instagram y Facebook permiten a los jóvenes compartir reseñas y recomendaciones, creando redes que incentivan la lectura. Según Statista (2024), alrededor del 30 % de los jóvenes lectores descubren su club de lectura a través de redes sociales, evidenciando que la conexión digital es clave para este segmento, lo que lo convierte en un público estratégico para Livria.
+# CAPÍTULO II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
 En el sector de la venta y distribución de libros a través de dispositivos móviles, existen varias empresas que ofrecen aplicaciones móviles o versiones optimizadas para smartphones. Los principales competidores directos son:
@@ -550,11 +719,11 @@ Acerca de la entrevista:
 * Instante en el que inicia: 3:09
 * Duración: 3:01
 
-Emmanuel, un estudiante de 20 años que reside en el distrito de Miraflores, se define como soltero y con un perfil de lector selectivo y enfocado en el entretenimiento. Su hábito de lectura es esporádico, impulsado principalmente por recomendaciones directas de su círculo de amigos, quienes son lectores ávidos.  
+Emmanuel, un estudiante de 20 años que reside en el distrito de Miraflores, se define como soltero y con un perfil de lector selectivo y enfocado en el entretenimiento. Su hábito de lectura es esporádico, impulsado principalmente por recomendaciones directas de su círculo de amigos, quienes son lectores ávidos.
 
-El género que más le atrae es el de terror, buscando una conexión con la trama y la intriga que lo mantenga enganchado. Para él, el factor más influyente en la elección de un libro no es el autor ni las reseñas, sino el tema en sí y las recomendaciones de sus allegados.  
+El género que más le atrae es el de terror, buscando una conexión con la trama y la intriga que lo mantenga enganchado. Para él, el factor más influyente en la elección de un libro no es el autor ni las reseñas, sino el tema en sí y las recomendaciones de sus allegados.
 
-En cuanto a formatos y tecnología, Emmanuel prefiere la lectura digital porque le resulta más cómoda y accesible. Considera que las plataformas digitales agilizan la búsqueda y el proceso de compra, en contraste con la experiencia de buscar un libro físico. Su principal dispositivo de lectura es una tablet, ya que la considera más cómoda que un celular o una laptop.  
+En cuanto a formatos y tecnología, Emmanuel prefiere la lectura digital porque le resulta más cómoda y accesible. Considera que las plataformas digitales agilizan la búsqueda y el proceso de compra, en contraste con la experiencia de buscar un libro físico. Su principal dispositivo de lectura es una tablet, ya que la considera más cómoda que un celular o una laptop.
 
 A pesar de su preferencia por lo digital, su experiencia con plataformas de lectura es limitada, habiendo usado solo una cuando era niño. Valora en una plataforma la rapidez y la amplia variedad de títulos disponibles. A diferencia de otros lectores, Emmanuel no encuentra grandes obstáculos para mantener su hábito de lectura, más allá de la falta de tiempo. La mayor parte de su tiempo libre está dedicado a sus estudios, lo cual deja menos espacio para la lectura.
 
@@ -575,11 +744,11 @@ Acerca de la entrevista:
 * Instante en el que inicia: 6:11
 * Duración: 3:48
 
-Jorge, un trabajador de 49 años, divorciado y residente en el distrito de Surquillo, es un lector con perfil dual. Por un lado, tiene un interés práctico por el aprendizaje y el desarrollo personal. Por otro lado, disfruta del entretenimiento, especialmente con libros de terror, ya que le permiten desconectarse y sumergirse en una historia.  
+Jorge, un trabajador de 49 años, divorciado y residente en el distrito de Surquillo, es un lector con perfil dual. Por un lado, tiene un interés práctico por el aprendizaje y el desarrollo personal. Por otro lado, disfruta del entretenimiento, especialmente con libros de terror, ya que le permiten desconectarse y sumergirse en una historia.
 
-Su hábito de lectura es actualmente esporádico, leyendo un libro cada dos meses, a diferencia de su juventud, cuando lo hacía con mayor frecuencia. A la hora de elegir sus lecturas, se deja influir por dos factores principales: el autor y las reseñas de otros lectores, lo que sugiere que valora tanto la reputación del escritor como la validación social de la obra.  
+Su hábito de lectura es actualmente esporádico, leyendo un libro cada dos meses, a diferencia de su juventud, cuando lo hacía con mayor frecuencia. A la hora de elegir sus lecturas, se deja influir por dos factores principales: el autor y las reseñas de otros lectores, lo que sugiere que valora tanto la reputación del escritor como la validación social de la obra.
 
-Respecto a los formatos, Jorge se siente cómodo con los libros físicos y los digitales, pero tiene una clara preferencia por los físicos, ya que le permiten una lectura más enfocada y libre de distracciones. Considera que al leer en su celular, su dispositivo habitual, las notificaciones y el acceso a otras aplicaciones lo convierten en una actividad más superficial.  
+Respecto a los formatos, Jorge se siente cómodo con los libros físicos y los digitales, pero tiene una clara preferencia por los físicos, ya que le permiten una lectura más enfocada y libre de distracciones. Considera que al leer en su celular, su dispositivo habitual, las notificaciones y el acceso a otras aplicaciones lo convierten en una actividad más superficial.
 
 El principal obstáculo que encuentra es la falta de tiempo, ya que sus responsabilidades laborales y personales reducen su disponibilidad para leer. Su única experiencia con plataformas digitales es a través de Spotify, donde escucha audiolibros. Le ha gustado esta experiencia porque le permite realizar otras actividades, como sus quehaceres o sus trayectos, mientras se concentra en el contenido del libro.
 
@@ -601,16 +770,15 @@ Acerca de la entrevista:
 * Instante en el que inicia: 10:00
 * Duración: 4:55
 
-Juan Fukusaki, un joven cocinero de 21 años, presenta un perfil de lector con motivaciones duales. Por un lado, su interés es pragmático y profesional, evidente en su preferencia por libros de cocina que le ayudan a perfeccionar su oficio. Por otro, mantiene un interés por el entretenimiento y la evasión, disfrutando de la fantasía y la aventura medieval en su tiempo libre.  
-Su hábito de lectura es actualmente esporádico, un cambio drástico en comparación con su etapa escolar y el inicio de la pandemia. El principal obstáculo que enfrenta es la falta de tiempo, ya que su trabajo le exige mucho y el cansancio lo lleva a preferir ver series de televisión, una actividad que ha reemplazado la lectura nocturna.  
+Juan Fukusaki, un joven cocinero de 21 años, presenta un perfil de lector con motivaciones duales. Por un lado, su interés es pragmático y profesional, evidente en su preferencia por libros de cocina que le ayudan a perfeccionar su oficio. Por otro, mantiene un interés por el entretenimiento y la evasión, disfrutando de la fantasía y la aventura medieval en su tiempo libre.
 
-En cuanto a la elección de sus lecturas, Juan no se deja llevar por el autor ni por las reseñas en línea. Su decisión se basa principalmente en el tema del libro y, de manera crucial, en las recomendaciones personales de su círculo de amigos. Esto sugiere que confía más en la validación social directa que en la opinión de extraños.  
+Su hábito de lectura es actualmente esporádico, un cambio drástico en comparación con su etapa escolar y el inicio de la pandemia. El principal obstáculo que enfrenta es la falta de tiempo, ya que su trabajo le exige mucho y el cansancio lo lleva a preferir ver series de televisión, una actividad que ha reemplazado la lectura nocturna.
+
+En cuanto a la elección de sus lecturas, Juan no se deja llevar por el autor ni por las reseñas en línea. Su decisión se basa principalmente en el tema del libro y, de manera crucial, en las recomendaciones personales de su círculo de amigos. Esto sugiere que confía más en la validación social directa que en la opinión de extraños.
 
 Respecto a la tecnología y los formatos, Juan se siente cómodo con los libros físicos, ya que vive cerca de librerías. Su experiencia con plataformas digitales es limitada, habiendo utilizado una sola vez una aplicación de lectura. A pesar de su inexperiencia, tiene expectativas claras: valora que una plataforma sea fácil de usar y que cuente con una gran variedad de títulos, incluyendo temas específicos como la gastronomía. La principal frustración que encontró en su única experiencia digital fue, precisamente, la falta de oferta en el nicho que le interesaba en ese momento. Los dispositivos que utiliza para consumir contenido son su celular cuando está fuera de casa y su laptop en un entorno más relajado.
 
-
 ***Segmento objetivo #2: Lectores casuales y aficionados a la lectura***
-
 
 **Entrevistado N.º 1: Roxana Arbañil**
 
@@ -629,10 +797,11 @@ Acerca de la entrevista:
 * Instante en el que inicia: 14:55
 * Duración: 4:23
 
-Roxana Katty Arbañil, de 50 años, divorciada y residente en el distrito de Surquillo, es una lectora que valora profundamente la interacción social en torno a la lectura. Para ella, compartir opiniones y recomendaciones con otros lectores es fundamental, ya que enriquece su experiencia y le permite descubrir nuevas historias y perspectivas.  
+Roxana Katty Arbañil, de 50 años, divorciada y residente en el distrito de Surquillo, es una lectora que valora profundamente la interacción social en torno a la lectura. Para ella, compartir opiniones y recomendaciones con otros lectores es fundamental, ya que enriquece su experiencia y le permite descubrir nuevas historias y perspectivas.
 
-Ella es una participante activa en comunidades virtuales con un grupo de amigos, donde intercambian ideas y se pasan libros. También utiliza Instagram para seguir comunidades literarias y booktubers que le ayudan a descubrir nuevos títulos y a mantenerse al tanto de las tendencias literarias. Las recomendaciones de personas cercanas y de las comunidades online son sus principales fuentes de inspiración.  
-Roxana valora que una comunidad lectora le permita aprender y la mantenga motivada. El simple hecho de tener un grupo con el cual comentar lo que lee la impulsa a leer más. Para ella, una plataforma ideal debe ser amigable, práctica y fácil de usar, con funciones que le permitan compartir sus opiniones y recibir recomendaciones de manera sencilla.  
+Ella es una participante activa en comunidades virtuales con un grupo de amigos, donde intercambian ideas y se pasan libros. También utiliza Instagram para seguir comunidades literarias y booktubers que le ayudan a descubrir nuevos títulos y a mantenerse al tanto de las tendencias literarias. Las recomendaciones de personas cercanas y de las comunidades online son sus principales fuentes de inspiración.
+
+Roxana valora que una comunidad lectora le permita aprender y la mantenga motivada. El simple hecho de tener un grupo con el cual comentar lo que lee la impulsa a leer más. Para ella, una plataforma ideal debe ser amigable, práctica y fácil de usar, con funciones que le permitan compartir sus opiniones y recibir recomendaciones de manera sencilla.
 
 Aunque se siente cómoda con las herramientas digitales, ha experimentado frustración en algunas comunidades online donde se comparten opiniones de manera superficial o sin profundizar en el contenido. Considera que la calidad de la conversación es crucial. La posibilidad de comprar libros o decidir sus próximas lecturas por sugerencia de una comunidad es un valor agregado importante para ella, ya que le ahorra tiempo y le asegura que la recomendación proviene de un grupo con intereses similares.
 
@@ -653,10 +822,11 @@ Acerca de la entrevista:
 * Instante en el que inicia: 19:18
 * Duración: 3:08
 
-Sofía Pimentel, una estudiante de 16 años, soltera y residente en el distrito de Magdalena del Mar, es una lectora social para quien el acto de leer no es una actividad solitaria. Para ella, es muy importante compartir sus lecturas y opiniones con otros, ya que esto le permite conectarse con personas que tienen intereses similares.  
-Sofía participa en comunidades de lectura, lo que la motiva a leer más y a conocer personas con gustos parecidos a los suyos. Para ella, es fundamental poder escuchar diferentes puntos de vista para entender en profundidad lo que lee.  
+Sofía Pimentel, una estudiante de 16 años, soltera y residente en el distrito de Magdalena del Mar, es una lectora social para quien el acto de leer no es una actividad solitaria. Para ella, es muy importante compartir sus lecturas y opiniones con otros, ya que esto le permite conectarse con personas que tienen intereses similares.
 
-La principal motivación de Sofía para unirse a una comunidad de lectura es la interacción social. En su experiencia, valora que estas comunidades sean abiertas y le permitan expresarse libremente. Por otro lado, le desmotiva cuando las comunidades se vuelven cerradas y no permiten que los miembros compartan sus opiniones.  
+Sofía participa en comunidades de lectura, lo que la motiva a leer más y a conocer personas con gustos parecidos a los suyos. Para ella, es fundamental poder escuchar diferentes puntos de vista para entender en profundidad lo que lee.
+
+La principal motivación de Sofía para unirse a una comunidad de lectura es la interacción social. En su experiencia, valora que estas comunidades sean abiertas y le permitan expresarse libremente. Por otro lado, le desmotiva cuando las comunidades se vuelven cerradas y no permiten que los miembros compartan sus opiniones.
 
 Para Sofía, la plataforma ideal debe ser fácil de usar, rápida y, sobre todo, debe tener un espacio dedicado para recomendar libros y permitir la interacción entre lectores. Ella prefiere las recomendaciones de personas cercanas o de comunidades online con las que se identifica, ya que le generan mayor confianza.
 
@@ -677,12 +847,11 @@ Acerca de la entrevista:
 * Instante en el que inicia: 22:27
 * Duración: 4:58
 
-Nicole Azaña, de 24 años, soltera y residente en el distrito de Ate, es una lectora que valora el intercambio de opiniones. Para ella, compartir sus lecturas y reseñas con otros es muy importante, ya que le permite conocer diferentes puntos de vista.  
+Nicole Azaña, de 24 años, soltera y residente en el distrito de Ate, es una lectora que valora el intercambio de opiniones. Para ella, compartir sus lecturas y reseñas con otros es muy importante, ya que le permite conocer diferentes puntos de vista.
 
-Nicole participa en comunidades virtuales, específicamente en grupos de Facebook, donde ha descubierto libros interesantes y se guía por las reseñas que otros usuarios le dan. También utiliza Wattpad y la aplicación de libros de Apple para leer, además de la plataforma digital de su universidad, que le otorga acceso a una gran variedad de títulos.  
+Nicole participa en comunidades virtuales, específicamente en grupos de Facebook, donde ha descubierto libros interesantes y se guía por las reseñas que otros usuarios le dan. También utiliza Wattpad y la aplicación de libros de Apple para leer, además de la plataforma digital de su universidad, que le otorga acceso a una gran variedad de títulos.
 
-Su motivación principal para unirse a estas comunidades es la interacción social y el aprendizaje. Para ella es fundamental la conectividad y la calidad de los comentarios en una plataforma ideal de una librería con comunidades. 
-Prefiere las recomendaciones de personas cercanas ya que tiene confianza en sus opiniones. Le gusta saber las opiniones de todos para entender mejor lo que lee.  
+Su motivación principal para unirse a estas comunidades es la interacción social y el aprendizaje. Para ella es fundamental la conectividad y la calidad de los comentarios en una plataforma ideal de una librería con comunidades. Prefiere las recomendaciones de personas cercanas ya que tiene confianza en sus opiniones. Le gusta saber las opiniones de todos para entender mejor lo que lee.
 
 Su principal frustración con las comunidades online es cuando la conversación es superficial y no profundiza en la discusión del libro. Para ella, una plataforma ideal debería ser amigable, práctica y fácil de usar, combinando lectura con interacción social de forma fluida.
 
@@ -703,11 +872,11 @@ Acerca de la entrevista:
 * Instante en el que inicia: 27:26
 * Duración: 5:06
 
-Fabricio Yonti, un estudiante de 21 años del Callao, se presenta como un lector para quien compartir es un pilar fundamental de su experiencia. Para él, compartir sus lecturas no solo es un gusto personal, sino también una forma de motivar a otros a leer y de crear un espacio para conversar sobre intereses comunes.  
+Fabricio Yonti, un estudiante de 21 años del Callao, se presenta como un lector para quien compartir es un pilar fundamental de su experiencia. Para él, compartir sus lecturas no solo es un gusto personal, sino también una forma de motivar a otros a leer y de crear un espacio para conversar sobre intereses comunes.
 
-A pesar de no haber participado en comunidades formales de lectura, su experiencia en el colegio con un club de lectores, donde se intercambiaban libros y se discutían las lecturas del año, le dejó una impresión muy positiva. Su principal motivación para unirse a una comunidad es la interacción social y el valor de compartir conocimientos.  
+A pesar de no haber participado en comunidades formales de lectura, su experiencia en el colegio con un club de lectores, donde se intercambiaban libros y se discutían las lecturas del año, le dejó una impresión muy positiva. Su principal motivación para unirse a una comunidad es la interacción social y el valor de compartir conocimientos.
 
-Respecto a la tecnología, Fabricio no utiliza plataformas específicas para reseñas o comunidades literarias. En cambio, su proceso de descubrimiento de libros se inicia en Google, donde busca títulos de su interés y explora diversos enlaces para obtener información. Aunque no usa estas plataformas, su preferencia para obtener recomendaciones es clara: prefiere la opinión de comunidades online antes que las de personas cercanas o algoritmos automatizados, lo que demuestra su apertura a interactuar con desconocidos con intereses similares.  
+Respecto a la tecnología, Fabricio no utiliza plataformas específicas para reseñas o comunidades literarias. En cambio, su proceso de descubrimiento de libros se inicia en Google, donde busca títulos de su interés y explora diversos enlaces para obtener información. Aunque no usa estas plataformas, su preferencia para obtener recomendaciones es clara: prefiere la opinión de comunidades online antes que las de personas cercanas o algoritmos automatizados, lo que demuestra su apertura a interactuar con desconocidos con intereses similares.
 
 Una plataforma ideal para Fabricio debería tener un buscador inteligente capaz de recomendarle libros basados en sus intereses, evitando el spam o la publicidad excesiva de títulos que no le interesan, un aspecto que le resulta frustrante. Valora que una plataforma combine la lectura con la interacción social, ya que considera que esta combinación amplía su conocimiento de forma significativa. Finalmente, revela que sí ha comprado libros basándose en las sugerencias de una comunidad en línea, específicamente un grupo en Discord, lo que refuerza su confianza en las recomendaciones de este tipo de espacios virtuales.
 
@@ -719,19 +888,25 @@ En base en las entrevistas recopiladas para cada segmento, se llevó a cabo un a
 
 **Hallazgos:**
 
-| Característica           | Hallazgos                                                                      | Porcentaje |
-|--------------------------|---------------------------------------------------------------------------------|------------|
-| Hábito de Lectura        | Es esporádico o poco frecuente, a diferencia de su etapa escolar o juventud.   | 100%       |
-| Obstáculo Principal      | La falta de tiempo debido a responsabilidades académicas y laborales.           | 100%       |
-| Motivación               | La búsqueda de entretenimiento, para "engancharse" en una historia.            | 100%       |
-| Género Preferido         | El terror es el género más popular.                                            | 75%        |
-| Intereses Adicionales    | Lectura con fines profesionales o de desarrollo personal                        | 50%        |
-| Factores de Elección     | Basan su decisión en recomendaciones o reseñas.                                 | 100%       |
-| Influencia de Amigos     | Confían en las recomendaciones de su círculo cercano.                           | 50%        |
-| Influencia de Reseñas    | Se guían por la reputación del autor y las reseñas en línea.                    | 50%        |
-| Preferencia de Formato   | Prefieren los libros físicos por la experiencia táctil y la ausencia de distracciones. | 75%        |
-| Experiencia Digital      | Tienen una experiencia limitada o nula con plataformas digitales.               | 100%       |
-| Expectativas Digitales   | Valoran que las plataformas ofrezcan una amplia variedad de títulos.            | 100%       |
+| Característica | Hallazgos | Porcentaje |
+| :---- | :---- | :---- |
+| Hábito de Lectura | Es esporádico o poco frecuente, a diferencia de su etapa escolar o juventud. | 100% |
+| Obstáculo Principal | La falta de tiempo debido a responsabilidades académicas y laborales. | 100% |
+| Motivación | La búsqueda de entretenimiento, para "engancharse" en una historia. | 100% |
+| Género Preferido | El terror es el género más popular. | 75% |
+| Intereses Adicionales | Lectura con fines profesionales o de desarrollo personal  | 50% |
+| Factores de Elección | Basan su decisión en recomendaciones o reseñas. | 100% |
+| Influencia de Amigos | Confían en las recomendaciones de su círculo cercano. | 50% |
+| Influencia de Reseñas | Se guían por la reputación del autor y las reseñas en línea. | 50% |
+| Preferencia de Formato | Prefieren los libros físicos por la experiencia táctil y la ausencia de distracciones. | 75% |
+| Experiencia Digital | Tienen una experiencia limitada o nula con plataformas digitales. | 100% |
+| Expectativas Digitales | Valoran que las plataformas ofrezcan una amplia variedad de títulos. | 100% |
+
+| Insights | Respaldo |
+| :---- | :---- |
+| La Lectura debe competir con el Ocio Rápido. El principal obstáculo, 100% falta de tiempo, significa que la lectura es una actividad desplazada por el entretenimiento pasivo. Necesitan ser "enganchados" rápidamente. | Se menciona ver series sobre leer. Buscan entretenimiento y trama que sumerja, como géneros de terror y fantasía. |
+| Confianza sobre la Exploración. Aunque tienen experiencia digital limitada, confían más en las recomendaciones validadas por otros que en una búsqueda propia. | 100% se basa en recomendaciones o reseñas. 50% confía en amigos. |
+| La Comodidad de lo Físico es la Amenaza Digital. El formato físico se valora porque elimina distracciones. Lo digital es útil solo si supera el proceso de compra o búsqueda. | 75% prefiere el formato físico por la ausencia de distracciones. 100% valora la variedad y rapidez en lo digital. |
 
 **Conclusiones:**
 
@@ -743,16 +918,22 @@ Para que una aplicación como Livria sea atractiva para este segmento, debe enfo
 
 **Hallazgos:**
 
-| Característica               | Hallazgos                                                                                                                                                                                                                                    | Porcentaje   |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| Importancia de Compartir    | Compartir opiniones y lecturas es fundamental. Lo ven como una forma de enriquecer su experiencia y conocer nuevos puntos de vista.                                                                                                           | 100%         |
-| Participación en Comunidades| Participan activamente en comunidades de lectura, ya sea en grupos de amigos, Facebook, Instagram o Discord.                                                                                                                                  | 100%         |
-| Uso de Plataformas Digitales| El 75% (Roxana, Sofía y Nicole) utiliza plataformas como Instagram, TikTok y Facebook para descubrir libros y conectar. El otro 25% utiliza Google y Discord (Fabricio).                                                                     | 75% - 25%    |
-| Valor Agregado              | La principal motivación para unirse a una comunidad es la interacción social.                                                                                                                                                                 | 100%         |
-| Punto de Dolor              | La principal frustración es la falta de calidad en la conversación o cuando las comunidades son cerradas y no permiten la libre expresión de ideas.                                                                                           | 100%         |
-| Preferencia de Recomendaciones | Todos prefieren las recomendaciones de personas cercanas o de comunidades online con las que se sienten identificados, ya que les genera confianza.                                                                                       | 100%         |
-| Plataforma Ideal            | Una plataforma ideal debe ser amigable, práctica, fácil de usar y rápida. Roxana, Sofía y Nicole también destacan la importancia de un espacio para recomendar libros y una interacción de calidad.                                           | 100%         |
-| Obstáculo Principal         | La falta de tiempo debido a responsabilidades, mencionada por el 50% de los entrevistados (Roxana y Sofía), limita su frecuencia de lectura.                                                                                                  | 50%          |
+| Característica | Hallazgos | Porcentaje |
+| :---- | :---- | :---- |
+| Importancia de Compartir | Compartir opiniones y lecturas es fundamental. Lo ven como una forma de enriquecer su experiencia y conocer nuevos puntos de vista. | 100% |
+| Participación en Comunidades | Participan activamente en comunidades de lectura, ya sea en grupos de amigos, Facebook, Instagram o Discord. | 100% |
+| Uso de Plataformas Digitales | El 75% (Roxana, Sofía y Nicole) utiliza plataformas como Instagram, TikTok y Facebook para descubrir libros y conectar. El otro 25% utiliza Google y Discord (Fabricio). | 75% \- 25% |
+| Valor Agregado | La principal motivación para unirse a una comunidad es la interacción social. | 100% |
+| Punto de Dolor | La principal frustración es la falta de calidad en la conversación o cuando las comunidades son cerradas y no permiten la libre expresión de ideas. | 100% |
+| Preferencia de Recomendaciones | Todos prefieren las recomendaciones de personas cercanas o de comunidades online con las que se sienten identificados, ya que les genera confianza. | 100% |
+| Plataforma Ideal | Una plataforma ideal debe ser amigable, práctica, fácil de usar y rápida. Roxana, Sofía y Nicole también destacan la importancia de un espacio para recomendar libros y una interacción de calidad. | 100% |
+| Obstáculo Principal | La falta de tiempo debido a responsabilidades, mencionada por el 50% de los entrevistados (Roxana y Sofía), limita su frecuencia de lectura. | 50% |
+
+| Insights | Respaldo |
+| :---- | :---- |
+| El Valor está en la Calidad del Debate, no en la Cantidad de Miembros. La frustración principal no es la dificultad técnica, sino la superficialidad de la conversación en las plataformas existentes. | 100% menciona que la falta de calidad en la conversación o el ambiente cerrado es su principal punto de dolor. |
+| El acto de compartir es un motor de lectura y descubrimiento, no una actividad posterior. | 100% encuentra fundamental compartir opiniones. |
+| La Confianza en la Recomendación impulsa la Compra | 100% prefiere recomendaciones de personas cercanas o comunidades online identificadas. |
 
 **Conclusiones:**
 
@@ -766,14 +947,12 @@ Las plataformas digitales tienen un gran potencial para este segmento si logran 
 
 En esta sección, se presentan las fichas de User Persona, un artefacto clave para visualizar y comprender a nuestros usuarios a un nivel más profundo. Su elaboración se basa en el análisis de las entrevistas realizadas a los dos segmentos de lectores identificados. Se han tomado en cuenta características esenciales como la falta de tiempo para leer, la importancia de las recomendaciones de personas cercanas, la preferencia por formatos digitales o audiolibros que ofrecen conveniencia, y la búsqueda de una experiencia fluida y sin distracciones. Estos perfiles nos permiten humanizar los datos recolectados y guiarán el diseño de Livria para asegurar que sus funcionalidades resuelvan las necesidades y puntos de dolor de sus futuros usuarios de manera efectiva.
 
-***Segmento objetivo #1: Personas que desean desarrollar y expandir el hábito de la lectura***
-
+**Segmento objetivo \#1: Lectores en Desarrollo**
 <p align="center">
   <img src="https://imgur.com/OiQmVr3.jpg" alt="12231">
 </p>
 
-***Segmento objetivo #2: Personas interesadas en compartir intereses literarios e interactuar con otros lectores***
-
+**Segmento objetivo \#2: Lectores Comunitarios**
 <p align="center">
   <img src="https://imgur.com/4fsp9KP.jpg" alt="12231">
 </p>
@@ -802,14 +981,14 @@ En esta sección se presentan los User Journey Maps, diseñados para visualizar 
 
 A través de estos mapas, se identifican las etapas cruciales del proceso, las acciones que realizan los usuarios, sus pensamientos, emociones y, lo más importante, los puntos de dolor y las oportunidades que la situación actual presenta. Al vincular cada mapa con su User Persona correspondiente, se busca evidenciar de manera clara cómo las frustraciones de cada arquetipo, como la dificultad para encontrar libros relevantes, la falta de tiempo o la desconexión social, son el motor para la creación de Livria. Estos recorridos As-Is nos servirán de base para diseñar una experiencia futura (To-Be) que sea fluida, atractiva y que resuelva de manera efectiva las necesidades de nuestros usuarios.
 
-***Segmento #1: Estudiantes y jóvenes universitarios***
+**Segmento objetivo \#1: Lectores en Desarrollo**
 *User Journey Map del Segmento 1*
 
 <p align="center">
   <img src="https://imgur.com/RZ4Ylha.jpg" alt="12231">
 </p>
 
-***Segmento #2: Lectores casuales y aficionados a la lectura***
+**Segmento objetivo \#2: Lectores Comunitarios**
 *User Journey Map del Segmento 2*
 
 <p align="center">
@@ -823,7 +1002,7 @@ https://drive.google.com/drive/folders/14E_HWaeTiKD7pzQmV_kdxLkU8VU8cxag?usp=sha
 
 Para la elaboración de los Empathy Maps, el equipo siguió una metodología centrada en el usuario, basada en la recopilación de datos cualitativos obtenidos a través de entrevistas, encuestas, observación directa y análisis de comportamiento digital. Cada mapa fue diseñado teniendo en cuenta un User Persona específico, con el objetivo de capturar lo que el usuario piensa, siente, dice y hace en relación con la plataforma. Posteriormente, se identificaron los principales miedos, frustraciones, necesidades y motivaciones que influyen en su experiencia. Esta herramienta permitió generar una visión empática que guía la toma de decisiones de diseño y desarrollo, asegurando que cada funcionalidad responda realmente a las expectativas y preocupaciones del usuario.
 
-***Segmento #1: Personas que desean desarrollar y expandir el hábito de la lectura***
+**Segmento objetivo \#1: Lectores en Desarrollo**
 
 *Empathy Map del Segmento 1*
 
@@ -831,7 +1010,7 @@ Para la elaboración de los Empathy Maps, el equipo siguió una metodología cen
   <img src="https://imgur.com/KEwYBZO.jpg" alt="12231">
 </p>
 
-***Segmento #2: Personas interesadas en compartir intereses literarios e interactuar con otros lectores***
+**Segmento objetivo \#2: Lectores Comunitarios**
 
 *Empathy Map del Segmento 2*
 
@@ -865,508 +1044,437 @@ En esta sección se consolidan los requisitos del producto digital a partir del 
 
 Las User Stories permiten traducir la visión del producto en necesidades concretas de los lectores y de la comunidad que se busca construir. Cada historia refleja, desde la perspectiva del usuario, las funcionalidades que harán posible explorar, adquirir y disfrutar libros dentro de la plataforma. De esta manera, se transforman los objetivos de Livria en requisitos claros y accionables para el equipo de desarrollo. Estas historias no solo sirven como una guía práctica para priorizar y organizar el trabajo en el Product Backlog, sino que también garantizan que cada funcionalidad esté alineada con la propuesta de valor de Livria.
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US01 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Presentación de servicios de Livria |
-| **Description**                                | Como visitante, quiero ver información relevante sobre las funcionalidades principales que ofrece Livria, para conocer las característica únicas de la aplicación. |
-| **Acceptance Criteria – Escenario 1: Acceso a “Servicios” desde el inicio** | Dado que el visitante se encuentra en el inicio de la landing page. Y el visitante quiere ver las funcionalidad de Livria, Cuando el visitante hace clic en “Ver Más +”, Entonces la página se desplaza hasta la sección “Servicios”. |
-| **Acceptance Criteria – Escenario 2: Acceso a “Servicios” desde el encabezado** | Dado que el visitante se encuentra en cualquier otra sección de la landing page. Y el visitante quiere ir a la sección “Servicios”, Cuando el visitante hace clic en el link “Servicios” del encabezado, Entonces la página se desplaza hacia dicha sección de forma fluida. |
-| **Acceptance Criteria – Escenario 3: Acceso a “Servicios” mediante scroll** | Dado que el visitante se encuentra en la landing page, Cuando el visitante empieza a hacer scroll desde el inicio, Entonces la página le muestra la siguiente sección, es decir, la de “Servicios”. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US01 | Visitante de Landing Page | 1 – Must Have | EP01: Landing Page  |
+| **Title** | Presentar Servicios de Livria |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero ver información relevante sobre las funcionalidades principales que ofrece Livria, para conocer las característica únicas de la aplicación. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Acceso a “Servicios” desde el inicio Dado que** el visitante se encuentra en el inicio de la landing page **Y** el visitante quiere ver las funcionalidad de Livria, **Cuando** el visitante hace clic en “Ver Más \+” **Entonces** la página se desplaza hasta la sección “Servicios”. **Escenario 2: Acceso a “Servicios” desde el encabezado Dado que** el visitante se encuentra en cualquier otra sección de la landing page **Y** el visitante quiere ir a la sección “Servicios”, **Cuando** el visitante hace clic en el link “Servicios” del encabezado **Entonces** la página se desplaza hacia dicha sección de forma fluida. **Escenario 3: Acceso a “Servicios” mediante scroll Dado que** el visitante se encuentra en la landing page, **Cuando** el visitante empieza a hacer scroll desde el inicio **Entonces** la página le muestra la siguiente sección, es decir, la de “Servicios”. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US02 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP01: Landing Page  |
-| **Title**                                      | Acceso a la sección “Sobre Nosotros” desde la landing page |
-| **Description**                                | Como visitante, quiero acceder fácilmente a la sección “Sobre Nosotros”, para conocer la trayectoria de los creadores de Livria, comprender en qué consiste la plataforma y descubrir las funcionalidades que ofrece. |
-| **Acceptance Criteria – Escenario 1: Acceso a “Sobre Nosotros” desde el encabezado** | Dado que el visitante se encuentra en cualquier sección de la landing page Y el visitante quiere ver información sobre los creadores de Livria, Cuando el visitante hace clic en el link “Sobre Nosotros” del encabezado Entonces la página se desplaza hacia dicha sección de forma fluida. |
-| **Acceptance Criteria – Escenario 2: Acceso a “Sobre Nosotros” mediante scroll** | Dado que el visitante se encuentra en la landing page, Cuando el visitante empieza a hacer scroll desde el inicio Entonces la página le muestra las siguientes secciones hasta llegar a la de “Sobre Nosotros”. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US02 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page  |
+| **Title** | Acceder a la sección “Sobre Nosotros” desde la landing page |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero acceder fácilmente a la sección “Sobre Nosotros”, para conocer la trayectoria de los creadores de Livria, comprender en qué consiste la plataforma y descubrir las funcionalidades que ofrece. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Acceso a “Sobre Nosotros” desde el encabezado Dado que** el visitante se encuentra en cualquier sección de la landing page **Y** el visitante quiere ver información sobre los creadores de Livria, **Cuando** el visitante hace clic en el link “Sobre Nosotros” del encabezado **Entonces** la página se desplaza hacia dicha sección de forma fluida. **Escenario 2: Acceso a “Sobre Nosotros” mediante scroll Dado que** el visitante se encuentra en la landing page, **Cuando** el visitante empieza a hacer scroll desde el inicio **Entonces** la página le muestra las siguientes secciones hasta llegar a la de “Sobre Nosotros”. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US03 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Cambio de idioma en la Landing Page |
-| **Description**                                | Como visitante, quiero navegar por la plataforma en mi idioma preferido, para comprender fácilmente el contenido de presentación de Livria. |
-| **Acceptance Criteria – Escenario 1: Cambio de inglés a español** | Dado que el visitante quiere cambiar el idioma de la landing page Y la página se encuentra en inglés, Cuando el visitante hace clic en “ES” del encabezado o en el link igual del pie de página Entonces la página cambia de idioma al español. |
-| **Acceptance Criteria – Escenario 2: Cambio de español a inglés** | Dado que el visitante quiere cambiar el idioma de la landing page Y la página se encuentra en español, Cuando el visitante hace clic en “EN” del encabezado o en el link igual del pie de página Entonces la página cambia de idioma al inglés. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US03 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page |
+| **Title** | Cambiar de idioma en la Landing Page |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero navegar por la plataforma en mi idioma preferido, para comprender fácilmente el contenido de presentación de Livria. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Cambio de inglés a español Dado que** el visitante quiere cambiar el idioma de la landing page **Y** la página se encuentra en inglés, **Cuando** el visitante hace clic en “ES” del encabezado o en el link igual del pie de página **Entonces** la página cambia de idioma al español. **Escenario 2: Cambio de español a inglés Dado que** el visitante quiere cambiar el idioma de la landing page **Y** la página se encuentra en español, **Cuando** el visitante hace clic en “EN” del encabezado o en el link igual del pie de página **Entonces** la página cambia de idioma al inglés. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US04 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Visualización de la sección “Home” en la landing page |
-| **Description**                                | Como visitante, quiero leer un resumen sobre qué es Livria en el inicio de la página, para entender rápidamente qué producto me ofrece |
-| **Acceptance Criteria – Escenario 1: Acceso a “Home”** | Dado que el visitante quiere conocer más sobre Livria Cuando el visitante entre a la landing page Entonces la página muestra el inicio, es decir, “Home” Y esta sección muestra un resumen de Livria y un carrusel de imágenes. |
-| **Acceptance Criteria – Escenario 2: Acceso a “Home” desde el encabezado** | Dado que el visitante se encuentra en cualquier otra sección de la landing page Y el visitante quiere ir a la sección de inicio, Cuando el visitante hace clic en el link “Home” del encabezado Entonces la página se desplaza hacia dicha sección de forma fluida. |
-| **Acceptance Criteria – Escenario 3: Acceso a “Home” mediante el logo** | Dado que el visitante se encuentra en cualquier otra sección de la landing page, Cuando el visitante hace clic en el logo de Livria, Entonces la página le muestra el inicio, es decir, “Home”. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US04 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page |
+| **Title** | Visualizar la sección “Home” en la landing page |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero leer un resumen sobre qué es Livria en el inicio de la página, para entender rápidamente qué producto me ofrece |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Acceso a “Home” Dado que** el visitante quiere conocer más sobre Livria **Cuando** el visitante entre a la landing page **Entonces** la página muestra el inicio, es decir, “Home” **Y** esta sección muestra un resumen de Livria y un carrusel de imágenes. **Escenario 2: Acceso a “Home” desde el encabezado Dado que** el visitante se encuentra en cualquier otra sección de la landing page **Y** el visitante quiere ir a la sección de inicio, **Cuando** el visitante hace clic en el link “Home” del encabezado **Entonces** la página se desplaza hacia dicha sección de forma fluida. **Escenario 3: Acceso a “Home” mediante el logo Dado que** el visitante se encuentra en cualquier otra sección de la landing page, **Cuando** el visitante hace clic en el logo de Livria, **Entonces** la página le muestra el inicio, es decir, “Home”. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US05 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Acceso a la sección “Contáctanos” desde la landing page |
-| **Description**                                | Como visitante, quiero identificar fácilmente la sección “Contáctanos”, para poder establecer comunicación en caso de necesitar información adicional sobre la plataforma o tener interés en colaborar con el equipo de Livria. |
-| **Acceptance Criteria – Escenario 1: Acceso a “Contáctanos” desde el encabezado** | Dado que el visitante se encuentra en cualquier sección de la landing page Y el visitante quiere contactarse con el equipo de Bookify - Livria, Cuando el visitante hace clic en el link “Contáctanos” del encabezado Entonces la página se desplaza hacia dicha sección de forma fluida. |
-| **Acceptance Criteria – Escenario 2: Acceso a “Contáctanos” mediante scroll** | Dado que el visitante se encuentra en la landing page, Cuando el visitante empieza a hacer scroll desde el inicio Entonces la página le muestra las siguientes secciones hasta llegar a la de “Contáctanos”. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US05 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page |
+| **Title** | Acceder a la sección “Contáctanos” desde la landing page |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero identificar fácilmente la sección “Contáctanos”, para poder establecer comunicación en caso de necesitar información adicional sobre la plataforma o tener interés en colaborar con el equipo de Livria. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Acceso a “Contáctanos” desde el encabezado Dado que** el visitante se encuentra en cualquier sección de la landing page **Y** el visitante quiere contactarse con el equipo de Bookify \- Livria, **Cuando** el visitante hace clic en el link “Contáctanos” del encabezado **Entonces** la página se desplaza hacia dicha sección de forma fluida. **Escenario 2: Acceso a “Contáctanos” mediante scroll Dado que** el visitante se encuentra en la landing page, **Cuando** el visitante empieza a hacer scroll desde el inicio **Entonces** la página le muestra las siguientes secciones hasta llegar a la de “Contáctanos”. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US06 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Navegación simple entre secciones en la Landing Page |
-| **Description**                                | Como visitante, quiero visualizar un encabezado con las secciones de la landing page, para navegar fácil y rápidamente entre ellas. |
-| **Acceptance Criteria – Escenario 1: Acceso inmediato al llegar** | Dado que el visitante acaba de ingresar a la landing page, Cuando la página cargue la pantalla inicial y el encabezado Entonces el visitante puede identificar rápidamente cómo navegar por la página y cómo acceder a las secciones que le interesen. |
-| **Acceptance Criteria – Escenario 2: Navegación desde el encabezado** | Dado que el visitante se encuentra en la landing page de Livria, Cuando el visitante hace clic en cualquiera de las opciones del encabezado Entonces la página muestra dicha sección de manera fluida y sin contratiempos. |
-| **Acceptance Criteria – Escenario 3: Encabezado visible durante el scroll** | Dado que el visitante se desplaza en la página mediante el scroll, Cuando el visitante navegue las distintas secciones Entonces el encabezado permanece fijo y visible en la parte superior de la página Y el encabezado permite cambiar de sección en cualquier momento sin necesidad de volver al inicio. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US06 | Visitante de Landing Page | 1 – Must Have | EP01: Landing Page |
+| **Title** | Navegar de manera simple entre secciones en la Landing Page |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero visualizar un encabezado con las secciones de la landing page, para navegar fácil y rápidamente entre ellas. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Acceso inmediato al llegar Dado que** el visitante acaba de ingresar a la landing page, **Cuando** la página cargue la pantalla inicial y el encabezado **Entonces** el visitante puede identificar rápidamente cómo navegar por la página y cómo acceder a las secciones que le interesen. **Escenario 2: Navegación desde el encabezado Dado que** el visitante se encuentra en la landing page de Livria, **Cuando** el visitante hace clic en cualquiera de las opciones del encabezado **Entonces** la página muestra dicha sección de manera fluida y sin contratiempos. **Escenario 3: Encabezado visible durante el scroll Dado que** el visitante se desplaza en la página mediante el scroll, **Cuando** el visitante navegue las distintas secciones **Entonces** el encabezado permanece fijo y visible en la parte superior de la página **Y** el encabezado permite cambiar de sección en cualquier momento sin necesidad de volver al inicio. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US07 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Diseño atractivo de la landing page |
-| **Description**                                | Como visitante, quiero que la landing page sea visualmente atractiva, para sentirme interesado por Livria y motivado a usar la aplicación que ofrecen. |
-| **Acceptance Criteria – Escenario 1: Presentación visualmente atractiva** | Dado que el visitante accede a la landing page de Livria, Cuando la página cargue todos sus elementos Entonces la página mostrará un diseño visual armonioso, imágenes llamativas, una paleta de colores atractiva y una tipografía clara. |
-| **Acceptance Criteria – Escenario 2: Elementos visuales concordantes** | Dado que el visitante se encuentra en la landing page de Livria Cuando el visitante navegue a través de las secciones de la página Entonces los elementos visuales seguirán la tipografía y la paleta de colores establecida, de modo que sea agradable a la vista. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US07 | Visitante de Landing Page | 1 – Must Have | EP01: Landing Page |
+| **Title** | Ver un diseño atractivo de la landing page |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero que la landing page sea visualmente atractiva, para sentirme interesado por Livria y motivado a usar la aplicación que ofrecen. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Presentación visualmente atractiva Dado que** el visitante accede a la landing page de Livria, **Cuando** la página cargue todos sus elementos **Entonces** la página mostrará un diseño visual armonioso, imágenes llamativas, una paleta de colores atractiva y una tipografía clara. **Escenario 2: Elementos visuales concordantes Dado que** el visitante se encuentra en la landing page de Livria **Cuando** el visitante navegue a través de las secciones de la página **Entonces** los elementos visuales seguirán la tipografía y la paleta de colores establecida, de modo que sea agradable a la vista. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US08 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Botón de redirección de descarga de la aplicación móvil |
-| **Description**                                | Como visitante, quiero tener un acceso directo a la tienda para descargar Livria, para empezar a utilizar la aplicación. |
-| **Acceptance Criteria – Escenario 1: Redirección a descarga de aplicación móvil** | Dado que el visitante se encuentra en el inicio de la landing page Cuando el visitante hace clic en el botón “Descargar” Entonces la página lo redirecciona a su tienda de aplicaciones local para que descargue la aplicación. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US08 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page |
+| **Title** | Redirigir a la descarga de la aplicación móvil |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero tener un acceso directo a la tienda para descargar Livria, para empezar a utilizar la aplicación. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Redirección a descarga de aplicación móvil Dado que** el visitante se encuentra en el inicio de la landing page **Cuando** el visitante hace clic en el botón “Descargar” **Entonces** la página lo redirecciona a su tienda de aplicaciones local para que descargue la aplicación. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US09 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 3 – Could Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Acceder a las redes sociales de Livria |
-| **Description**                                | Como visitante, quiero poder navegar a las redes sociales oficiales de Livria, para mantenerme informado sobre sus novedades y explorar contenido adicional. |
-| **Acceptance Criteria – Escenario 1: Ir a las cuentas oficiales de Livria** | Dado que el visitante se encuentra en el pie de página, Cuando el usuario hace clic en uno de los íconos de redes sociales Entonces se abre en una nueva pestaña la cuenta oficial de Livria en la red social seleccionada. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US09 | Visitante de Landing Page | 3 – Could Have | EP01: Landing Page |
+| **Title** | Acceder a las redes sociales de Livria |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero poder navegar a las redes sociales oficiales de Livria, para mantenerme informado sobre sus novedades y explorar contenido adicional. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ir a las cuentas oficiales de Livria Dado que** el visitante se encuentra en el pie de página, **Cuando** el usuario hace clic en uno de los íconos de redes sociales **Entonces** se abre en una nueva pestaña la cuenta oficial de Livria en la red social seleccionada. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US10 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 3 – Could Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Footer de la Landing Page |
-| **Description**                                | Como visitante, quiero visualizar un apartado en el pie de página con las secciones de la landing page, para retornar a cualquiera de ellas. |
-| **Acceptance Criteria – Escenario 1: Navegación desde el pie de página** | Dado que el visitante está en la parte inferior de la landing page Cuando el visitante hace clic en las opciones del apartado de “Navegación” del pie de página Entonces la página se desliza automáticamente hacia la sección correspondiente. |
-| **Acceptance Criteria – Escenario 2: Navegación rápida tras desplazamiento largo** | Dado que el visitante ha hecho scroll por toda la página y deseo volver al inicio, Cuando el visitante hace clic en el enlace “Home” dentro del pie de página, Entonces la página se desplaza automáticamente hacia la parte superior mostrando la sección de inicio. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US10 | Visitante de Landing Page | 3 – Could Have | EP01: Landing Page |
+| **Title** | Navegar en el footer de la Landing Page |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero visualizar un apartado en el pie de página con las secciones de la landing page, para retornar a cualquiera de ellas. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Navegación desde el pie de página Dado que** el visitante está en la parte inferior de la landing page **Cuando** el visitante hace clic en las opciones del apartado de “Navegación” del pie de página **Entonces** la página se desliza automáticamente hacia la sección correspondiente. **Escenario 2: Navegación rápida tras desplazamiento largo Dado que** el visitante ha hecho scroll por toda la página y deseo volver al inicio, **Cuando** el visitante hace clic en el enlace “Home” dentro del pie de página, **Entonces** la página se desplaza automáticamente hacia la parte superior mostrando la sección de inicio. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US11 |
-| **User**                                       | Visitante de Landing Page |
-| **Priority**                                   | 3 – Could Have |
-| **Epic**                                       | EP01: Landing Page |
-| **Title**                                      | Formulario de contacto |
-| **Description**                                | Como visitante, quiero dejar mi información para que el equipo de Bookify - Livria me contacte para resolver una duda o trabajar con ellos. |
-| **Acceptance Criteria – Escenario 1: Consulta general con el equipo de Livria** | Dado que el visitante desea realizar alguna consulta al equipo de Livria Cuando el visitante rellene los campos “Nombres y Apellidos”, “Correo electrónico”, “Número celular” y “Motivo de contacto” Y el visitante acceda a compartir su información personal Entonces el formulario enviará esta consulta al equipo de Livria. |
-| **Acceptance Criteria – Escenario 2: Oportunidad Laboral en el equipo de Livria** | Dado que el visitante desea trabajar con el equipo de Livria Cuando el visitante rellene todos los campos de información de contacto Y el visitante adjunte el archivo de su CV Y el visitante acceda a compartir su información personal Entonces el formulario enviará la postulación al equipo de Livria. |
-| **Acceptance Criteria – Escenario 3: Falta de consentimiento** | Dado que el visitante desea realizar una consulta o postular para trabajo en Livria Cuando rellene los campos pero no seleccione la casilla de consentimiento del envío de información personal Entonces el formulario no enviará la consulta o postulación al equipo de Livria Y la página mostrará un popup señalando que marque la casilla. |
-| **Acceptance Criteria – Escenario 4: Información incompleta** | Dado que el visitante desea realizar una consulta o postular para trabajo en Livria Cuando rellene solo algunos campos de información de contacto Entonces el formulario no enviará la consulta o postulación al equipo de Livria Y la página mostrará un popup señalando que rellene todos los campos. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US11 | Visitante de Landing Page | 3 – Could Have | EP01: Landing Page |
+| **Title** | Enviar un mensaje al equipo de Livria |  |  |
+| **Description** |  |  |  |
+| Como visitante, quiero dejar mi información para que el equipo de Bookify \- Livria me contacte para resolver una duda o trabajar con ellos. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Consulta general con el equipo de Livria Dado que** el visitante desea realizar alguna consulta al equipo de Livria **Cuando** el visitante rellene los campos “Nombres y Apellidos”, “Correo electrónico”, “Número celular” y “Motivo de contacto” **Y** el visitante acceda a compartir su información personal **Entonces** el formulario enviará esta consulta al equipo de Livria. **Escenario 2: Oportunidad Laboral en el equipo de Livria Dado que** el visitante desea trabajar con el equipo de Livria **Cuando** el visitante rellene todos los campos de información de contacto **Y** el visitante adjunte el archivo de su CV **Y** el visitante acceda a compartir su información personal **Entonces** el formulario enviará la postulación al equipo de Livria. **Escenario 3: Falta de consentimiento Dado que** el visitante desea realizar una consulta o postular para trabajo en Livria **Cuando** rellene los campos pero no seleccione la casilla de consentimiento del envío de información personal **Entonces** el formulario no enviará la consulta o postulación al equipo de Livria **Y** la página mostrará un popup señalando que marque la casilla. **Escenario 4: Información incompleta Dado que** el visitante desea realizar una consulta o postular para trabajo en Livria **Cuando** rellene solo algunos campos de información de contacto **Entonces** el formulario no enviará la consulta o postulación al equipo de Livria **Y** la página mostrará un popup señalando que rellene todos los campos. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US12 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP02: Personalización de la experiencia lectora |
-| **Title**                                      | Interacción con recomendaciones según preferencias literarias |
-| **Description**                                | Como usuario, quiero recibir recomendaciones personalizadas basadas en mis preferencias literarias para poder descubrir nuevos libros y autores. |
-| **Acceptance Criteria – Escenario 1: Recomendaciones iniciales aleatorias** | Dado que el usuario acaba de crear una cuenta en Livria Cuando el usuario ingrese a la sección de “Recomendaciones” Entonces la plataforma mostrará las primeras recomendaciones aleatorias para el nuevo usuario. |
-| **Acceptance Criteria – Escenario 2: Marcar un libro como interesante** | Dado que el usuario está explorando los libros Cuando el usuario hace clic en el ícono del bookmark Entonces el sistema registra el libro como preferencia positiva, Y la plataforma muestra una confirmación visual Y el algoritmo de recomendaciones se adapta a la selección. |
-| **Acceptance Criteria – Escenario 3: Marcar un libro como no interesante** | Dado que el usuario está explorando los libros Cuando el usuario hace clic en el ícono del negativo Entonces el sistema registra el libro como preferencia negativa, Y la plataforma muestra una confirmación visual Y el algoritmo de recomendaciones se adapta a la selección. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US12 | Usuario de Livria | 1 – Must Have | EP02: Personalización de la experiencia lectora |
+| **Title** | Interactuar con recomendaciones según preferencias literarias |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero recibir recomendaciones personalizadas basadas en mis preferencias literarias para poder descubrir nuevos libros y autores. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Recomendaciones iniciales aleatorias Dado que** el usuario acaba de crear una cuenta en Livria **Cuando** el usuario ingrese a la sección de “Recomendaciones” **Entonces** la plataforma mostrará las primeras recomendaciones aleatorias para el nuevo usuario. **Escenario 2: Marcar un libro como interesante Dado que** el usuario está explorando los libros **Cuando** el usuario hace clic en el ícono del bookmark **Entonces** el sistema registra el libro como preferencia positiva, **Y** la plataforma muestra una confirmación visual **Y** el algoritmo de recomendaciones se adapta a la selección. **Escenario 3: Marcar un libro como no interesante Dado que** el usuario está explorando los libros **Cuando** el usuario hace clic en el ícono del negativo **Entonces** el sistema registra el libro como preferencia negativa, **Y** la plataforma muestra una confirmación visual **Y** el algoritmo de recomendaciones se adapta a la selección. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US13 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 2 – Should have |
-| **Epic**                                       | EP03: Notificaciones de usuario |
-| **Title**                                      | Configuración de notificaciones |
-| **Description**                                | Como usuario, quiero tener la posibilidad de personalizar mis preferencias de notificación, para recibir únicamente la información que realmente me interesa y así mejorar mi experiencia dentro de la plataforma. |
-| **Acceptance Criteria – Escenario 1: Acceso a la sección de configuración de notificaciones** | Dado que el usuario accede al menú de ajustes de su cuenta Cuando selecciona la opción de configuración de notificaciones Entonces podrá visualizar todas las categorías disponibles de notificaciones de la aplicación. |
-| **Acceptance Criteria – Escenario 2: Personalización de preferencias de notificación** | Dado que el usuario está dentro de la sección de configuración de notificaciones Cuando decide activar o desactivar alguna categoría específica Entonces la plataforma actualizará inmediatamente las preferencias según su elección, manteniéndolas activas hasta que el usuario decida modificarlas nuevamente o restablecer los valores predeterminados. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US13 | Usuario de Livria | 2 – Should have | EP03: Notificaciones de usuario |
+| **Title** | Configurar notificaciones |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero tener la posibilidad de personalizar mis preferencias de notificación, para recibir únicamente la información que realmente me interesa y así mejorar mi experiencia dentro de la plataforma. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Acceso a la sección de configuración de notificaciones Dado que** el usuario accede al menú de ajustes de su cuenta **Cuando** selecciona la opción de configuración de notificaciones **Entonces** podrá visualizar todas las categorías disponibles de notificaciones de la aplicación. **Escenario 2: Personalización de preferencias de notificación Dado que** el usuario está dentro de la sección de configuración de notificaciones **Cuando** decide activar o desactivar alguna categoría específica **Entonces** la plataforma actualizará inmediatamente las preferencias según su elección, manteniéndolas activas hasta que el usuario decida modificarlas nuevamente o restablecer los valores predeterminados. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US14 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP03: Notificaciones de usuario |
-| **Title**                                      | Notificaciones instantáneas |
-| **Description**                                | Como usuario, quiero recibir notificaciones instantáneas en la aplicación, para mantenerme al tanto sobre nuevas publicaciones en la comunidad y libros disponibles. |
-| **Acceptance Criteria – Escenario 1: Notificación de incremento de stock** | Dado que el usuario ha marcado previamente un libro como favorito Cuando el sistema dispone de nuevo stock a un libro agotado Y el usuario ha marcado ese libro como preferido Entonces el usuario recibe una notificación sobre la actualización de stock. |
-| **Acceptance Criteria – Escenario 2: Notificación de nuevas publicaciones** | Dado que el usuario pertenece a una comunidad existente Cuando otros usuarios realicen publicaciones en esa comunidad Entonces el usuario recibe una notificación sobre las nuevas publicaciones. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US14 | Usuario de Livria | 1 – Must Have | EP03: Notificaciones de usuario |
+| **Title** | Recibir notificaciones instantáneas |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero recibir notificaciones instantáneas en la aplicación, para mantenerme al tanto sobre nuevas publicaciones en la comunidad y libros disponibles. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Notificación de incremento de stock Dado que** el usuario ha marcado previamente un libro como favorito **Cuando** el sistema dispone de nuevo stock a un libro agotado **Y** el usuario ha marcado ese libro como preferido **Entonces** el usuario recibe una notificación sobre la actualización de stock. **Escenario 2: Notificación de nuevas publicaciones Dado que** el usuario pertenece a una comunidad existente **Cuando** otros usuarios realicen publicaciones en esa comunidad **Entonces** el usuario recibe una notificación sobre las nuevas publicaciones.  |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US15 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP04: Gestión de cuenta y seguridad de usuario |
-| **Title**                                      | Registro e inicio de sesión |
-| **Description**                                | Como usuario, quiero poder registrarme e iniciar sesión con mis credenciales, para acceder a la plataforma y descubrir nuevos títulos de mi agrado. |
-| **Acceptance Criteria – Escenario 1: Registro de nuevo usuario** | Dado que el usuario abre la aplicación Y el usuario selecciona la opción “Registrarse” Cuando el usuario completa correctamente los campos requeridos Y el usuario confirma el registro Entonces el sistema debe crear una cuenta nueva, iniciar sesión automáticamente y mostrar un mensaje de registro exitoso. |
-| **Acceptance Criteria – Escenario 2: Inicio de sesión de usuario registrado** | Dado que el usuario ya tiene una cuenta creada en Livria Cuando el usuario introduce su username y contraseña en el formulario de inicio de sesión Entonces el sistema debe autenticar sus credenciales y redirigirlo a su panel principal, donde podrá continuar con su experiencia de lectura. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US15 | Usuario de Livria | 1 – Must Have | EP04: Gestión de cuenta y seguridad de usuario |
+| **Title** | Registrar un usuario e iniciar sesión |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero poder registrarme e iniciar sesión con mis credenciales, para acceder a la plataforma y descubrir nuevos títulos de mi agrado. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Registro de nuevo usuario Dado que** el usuario abre la aplicación **Y** el usuario selecciona la opción “Registrarse” **Cuando** el usuario completa correctamente los campos requeridos **Y** el usuario confirma el registro **Entonces** el sistema debe crear una cuenta nueva, iniciar sesión automáticamente y mostrar un mensaje de registro exitoso. **Escenario 2: Inicio de sesión de usuario registrado Dado que** el usuario ya tiene una cuenta creada en Livria **Cuando** el usuario introduce su username y contraseña en el formulario de inicio de sesión **Entonces** el sistema debe autenticar sus credenciales y redirigirlo a su panel principal, donde podrá continuar con su experiencia de lectura. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US16 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP02: Personalización de la experiencia lectora |
-| **Title**                                      | Visualización de recomendaciones en la plataforma |
-| **Description**                                | Como usuario, quiero observar mis recomendaciones de manera ordenada y atractiva para poder elegir mi siguiente lectura. |
-| **Acceptance Criteria – Escenario 1: Visualización clara de recomendaciones** | Dado que el usuario está en la aplicación web de Livria, Cuando el usuario quiere ver sus recomendaciones Y el usuario accede a la sección de “Recomendaciones” Entonces la plataforma muestra seis recomendaciones con una miniatura del libro y su título. |
-| **Acceptance Criteria – Escenario 2: Visualización clara de recomendaciones** | Dado que el usuario se encuentra en la sección de “Recomendaciones” Cuando el usuario hace clic en el botón de “Refrescar” Entonces la plataforma muestra nuevas seis recomendaciones con una miniatura del libro y su título. |
-| **Acceptance Criteria – Escenario 3: Acceso directo al libro recomendado** | Dado que el usuario se encuentra en la sección de “Recomendaciones” Cuando el usuario hace clic en una de las recomendaciones Entonces la plataforma lo dirige a la visualización completa del libro con más detalles y opciones. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US16 | Usuario de Livria | 1 – Must Have | EP02: Personalización de la experiencia lectora |
+| **Title** | Visualizar recomendaciones en la plataforma |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero observar mis recomendaciones de manera ordenada y atractiva para poder elegir mi siguiente lectura. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Visualización clara de recomendaciones Dado que** el usuario está en la aplicación web de Livria, **Cuando** el usuario quiere ver sus recomendaciones **Y** el usuario accede a la sección de “Recomendaciones” **Entonces** la plataforma muestra seis recomendaciones con una miniatura del libro y su título.  **Escenario 2: Visualización clara de recomendaciones Dado que** el usuario se encuentra en la sección de “Recomendaciones” **Cuando** el usuario hace clic en el botón de “Refrescar” **Entonces** la plataforma muestra nuevas seis recomendaciones con una miniatura del libro y su título. **Escenario 3: Acceso directo al libro recomendado Dado que** el usuario se encuentra en la sección de “Recomendaciones” **Cuando** el usuario hace clic en una de las recomendaciones **Entonces** la plataforma lo dirige a la visualización completa del libro con más detalles y opciones. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US17 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP04: Gestión de cuenta y seguridad de usuario |
-| **Title**                                      | Cierre de sesión |
-| **Description**                                | Como usuario, quiero poder cerrar sesión de mi cuenta cuando lo desee, para proteger mi información personal y asegurar la privacidad de mis datos al finalizar el uso de la plataforma. |
-| **Acceptance Criteria – Escenario 1: Registro de nuevo usuario** | Dado que el usuario ha iniciado sesión Y el usuario se encuentra en la sección de configuración de su cuenta Cuando el usuario selecciona la opción "Cerrar sesión" Entonces el sistema debe cerrar su sesión activa de forma segura Y redirigirlo automáticamente a la pantalla de login de Livria. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US17 | Usuario de Livria | 1 – Must Have | EP04: Gestión de cuenta y seguridad de usuario |
+| **Title** | Cerrar sesión |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero poder cerrar sesión de mi cuenta cuando lo desee, para proteger mi información personal y asegurar la privacidad de mis datos al finalizar el uso de la plataforma. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Registro de nuevo usuario Dado que** el usuario ha iniciado sesión **Y** el usuario se encuentra en la sección de configuración de su cuenta **Cuando** el usuario selecciona la opción "Cerrar sesión" **Entonces** el sistema debe cerrar su sesión activa de forma segura **Y** redirigirlo automáticamente a la pantalla de login de Livria. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US18 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP05: Comunidades |
-| **Title**                                      | Creación de publicaciones en comunidades |
-| **Description**                                | Como usuario, quiero poder crear y compartir publicaciones dentro de las comunidades temáticas de la plataforma, para interactuar con otros lectores a través de imágenes. |
-| **Acceptance Criteria – Escenario 1: Publicación de imágenes o contenido gráfico** | Dado que el usuario decide crear una nueva publicación dentro de una comunidad Y el usuario opta por subir una imagen o ilustración Cuando el usuario selecciona y carga el archivo desde su dispositivo Entonces el sistema debe mostrar correctamente la imagen en la publicación, habilitando los comentarios por parte de otros usuarios. |
-| **Acceptance Criteria – Escenario 2: Publicación textual sin contenido gráfico** | Dado que el usuario desea compartir una publicación sin usar imágenes Cuando el usuario ingresa un texto en el campo de publicación Y el usuario lo envía Entonces el sistema debe guardar y mostrar la publicación correspondiente |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US18 | Usuario de Livria | 1 – Must Have | EP05: Comunidades |
+| **Title** | Crear publicaciones en comunidades |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero poder crear y compartir publicaciones dentro de las comunidades temáticas de la plataforma, para interactuar con otros lectores a través de imágenes. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Publicación de imágenes o contenido gráfico Dado que** el usuario decide crear una nueva publicación dentro de una comunidad **Y** el usuario opta por subir una imagen o ilustración **Cuando** el usuario selecciona y carga el archivo desde su dispositivo **Entonces** el sistema debe mostrar correctamente la imagen en la publicación, habilitando los comentarios por parte de otros usuarios. **Escenario 2: Publicación textual sin contenido gráfico Dado que** el usuario desea compartir una publicación sin usar imágenes **Cuando** el usuario ingresa un texto en el campo de publicación **Y** el usuario lo envía **Entonces** el sistema debe guardar y mostrar la publicación correspondiente |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US19 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP05: Comunidades |
-| **Title**                                      | Gestión de comunidades |
-| **Description**                                | Como usuario, quiero poder crear y unirme a comunidades relacionadas con mis intereses literarios con el fin de conectar con distintos lectores o autores de títulos reconocidos.  |
-| **Acceptance Criteria – Escenario 1: Crear una comunidad literaria** | Dado que el usuario se encuentra en la sección "Comunidades" Cuando el usuario selecciona la opción "Crear comunidad" Y el usuario completa el formulario con un nombre, descripción y categoría de la comunidad Entonces el sistema debe registrar la nueva comunidad Y el sistema debe mostrarla dentro del listado general de comunidades disponibles en Livria. |
-| **Acceptance Criteria – Escenario 2: Unirse a una comunidad existente** | Dado que el usuario está explorando la lista de comunidades disponibles Cuando el usuario ingresa al perfil de una comunidad de su interés Y el usuario selecciona la opción "Unirse" Entonces el sistema debe agregarlo como miembro de dicha comunidad Y el sistema debe mostrar una confirmación visual de su ingreso exitoso. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US19 | Usuario de Livria | 1 – Must Have | EP05: Comunidades |
+| **Title** | Gestionar comunidades |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero poder crear y unirme a comunidades relacionadas con mis intereses literarios con el fin de conectar con distintos lectores o autores de títulos reconocidos.  |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Crear una comunidad literaria Dado que** el usuario se encuentra en la sección "Comunidades" **Cuando** el usuario selecciona la opción "Crear comunidad" **Y** el usuario completa el formulario con un nombre, descripción y categoría de la comunidad **Entonces** el sistema debe registrar la nueva comunidad **Y** el sistema debe mostrarla dentro del listado general de comunidades disponibles en Livria. **Escenario 2: Unirse a una comunidad existente Dado que** el usuario está explorando la lista de comunidades disponibles **Cuando** el usuario ingresa al perfil de una comunidad de su interés **Y** el usuario selecciona la opción "Unirse" **Entonces** el sistema debe agregarlo como miembro de dicha comunidad **Y** el sistema debe mostrar una confirmación visual de su ingreso exitoso. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US20 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP05: Comunidades |
-| **Title**                                      | Comentarios en publicaciones |
-| **Description**                                | Como usuario, quiero poder comentar en las publicaciones dentro de las comunidades literarias, para compartir opiniones, intercambiar ideas sobre libros y conectar con otros lectores. |
-| **Acceptance Criteria – Escenario 1: Agregar un comentario** | Dado que el usuario se encuentra explorando una comunidad Y el usuario visualiza una publicación donde desea comentar Cuando el usuario selecciona la opción comentar Entonces el sistema despliega un cuadro de texto Y el sistema debe publicar su comentario al enviarlo correctamente. |
-| **Acceptance Criteria – Escenario 2: Visualización de comentarios** | Dado que el usuario está visualizando una publicación dentro de una comunidad Y el usuario accede a la sección de comentarios Cuando el usuario hace scroll en esa sección Entonces el usuario visualiza los comentarios realizados por otros usuarios |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US20 | Usuario de Livria | 2 – Should Have | EP05: Comunidades |
+| **Title** | Comentar en publicaciones |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero poder comentar en las publicaciones dentro de las comunidades literarias, para compartir opiniones, intercambiar ideas sobre libros y conectar con otros lectores. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Agregar un comentario Dado que** el usuario se encuentra explorando una comunidad **Y** el usuario visualiza una publicación donde desea comentar **Cuando** el usuario selecciona la opción comentar **Entonces** el sistema despliega un cuadro de texto **Y** el sistema debe publicar su comentario al enviarlo correctamente. **Escenario 2: Visualización de comentarios Dado que** el usuario está visualizando una publicación dentro de una comunidad Y el usuario accede a la sección de comentarios **Cuando** el usuario hace scroll en esa sección **Entonces** el usuario visualiza los comentarios realizados por otros usuarios |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US21 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP06: Compra de libros |
-| **Title**                                      | Compra de libros digitales y físicos |
-| **Description**                                | Como usuario, quiero poder comprar libros digitales y físicos desde la plataforma para acceder a lecturas nuevas de manera inmediata o recibir ediciones impresas en mi domicilio. |
-| **Acceptance Criteria – Escenario 1: Compra de libro digital** | Dado que el usuario está navegando por el catálogo de Livria Cuando el usuario selecciona un libro digital y presiona “Comprar” Y el usuario completa el proceso de pago Entonces el sistema debe confirmar la compra Y el sistema permite la descarga inmediata del libro en su biblioteca digital. |
-| **Acceptance Criteria – Escenario 2: Compra de libro físico** | Dado que el usuario está navegando por el catálogo Cuando el usuario selecciona un libro físico y presiona “Comprar” Y el usuario completa el proceso de pago y envío Entonces el sistema debe confirmar la compra Y el sistema genera el pedido con estado “En proceso”. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US21 | Usuario de Livria | 1 – Must Have | EP06: Compra de libros |
+| **Title** | Comprar libros digitales y físicos |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero poder comprar libros digitales y físicos desde la plataforma para acceder a lecturas nuevas de manera inmediata o recibir ediciones impresas en mi domicilio. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Compra de libro digital Dado que** el usuario está navegando por el catálogo de Livria **Cuando** el usuario selecciona un libro digital y presiona “Comprar” Y el usuario completa el proceso de pago **Entonces** el sistema debe confirmar la compra **Y** el sistema permite la descarga inmediata del libro en su biblioteca digital. **Escenario 2: Compra de libro físico Dado que** el usuario está navegando por el catálogo **Cuando** el usuario selecciona un libro físico y presiona “Comprar” Y el usuario completa el proceso de pago y envío **Entonces** el sistema debe confirmar la compra Y el sistema genera el pedido con estado “En proceso”. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US22 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP06: Compra de libros |
-| **Title**                                      | Barra de búsqueda |
-| **Description**                                | Como usuario, quiero utilizar una barra de búsqueda para encontrar libros, autores y comunidades literarias de forma rápida y precisa, con el fin de acceder fácilmente a contenido de interés sin tener que navegar por toda la plataforma. |
-| **Acceptance Criteria – Escenario 1: Búsqueda de libros específicos** | Dado que el usuario interactúa con la barra de búsqueda Cuando el usuario escribe el nombre de un libro Entonces el sistema debe mostrar una lista de resultados relacionados con el título ingresado, incluyendo portadas y autor. |
-| **Acceptance Criteria – Escenario 2: Búsqueda de autores** | Dado que el usuario desea encontrar obras de un autor en particular Cuando ingresa el nombre del autor en la barra de búsqueda Entonces el sistema debe mostrar todos los libros de catálogo pertenecientes a dicho autor. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US22 | Usuario de Livria | 1 – Must Have | EP06: Compra de libros |
+| **Title** | Buscar libros y contenido en la aplicación |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero utilizar una barra de búsqueda para encontrar libros, autores y comunidades literarias de forma rápida y precisa, con el fin de acceder fácilmente a contenido de interés sin tener que navegar por toda la plataforma. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Búsqueda de libros específicos Dado que** el usuario interactúa con la barra de búsqueda**Cuando** el usuario escribe el nombre de un libro **Entonces** el sistema debe mostrar una lista de resultados relacionados con el título ingresado, incluyendo portadas y autor. **Escenario 2: Búsqueda de autores Dado que** el usuario desea encontrar obras de un autor en particular**Cuando** ingresa el nombre del autor en la barra de búsqueda **Entonces** el sistema debe mostrar todos los libros de catálogo pertenecientes a dicho autor. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US23 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP06: Compra de libros |
-| **Title**                                      | Proceso de pago |
-| **Description**                                | Como usuario, quiero poder pagar mis libros mediante distintos métodos de pago, para asegurarme de que mi compra sea rápida y confiable mediante una única plataforma de pago. |
-| **Acceptance Criteria – Escenario 1: Pago exitoso** | Dado que el usuario ha añadido uno o más libros a su carrito de compras Cuando el usuario selecciona una opción de pago y completa los datos solicitados Entonces el sistema procesa el pago correctamente Y el sistema muestra un mensaje de confirmación con el comprobante de la transacción. |
-| **Acceptance Criteria – Escenario 2: Error en el proceso de pago** | Dado que el usuario intenta completar el pago mediante la opción seleccionada Cuando ocurre un error Entonces el sistema muestra un mensaje explicando el error Y el sistema permite reintentar la operación. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US23 | Usuario de Livria | 2 – Should Have | EP06: Compra de libros |
+| **Title** | Gestionar pago de libros |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero poder pagar mis libros mediante distintos métodos de pago, para asegurarme de que mi compra sea rápida y confiable mediante una única plataforma de pago. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Pago exitoso Dado que** el usuario ha añadido uno o más libros a su carrito de compras **Cuando** el usuario selecciona una opción de pago y completa los datos solicitados**Entonces** el sistema procesa el pago correctamente **Y** el sistema muestra un mensaje de confirmación con el comprobante de la transacción. **Escenario 2: Error en el proceso de pago Dado que** el usuario intenta completar el pago mediante la opción seleccionada **Cuando** ocurre un error **Entonces** el sistema muestra un mensaje explicando el error **Y** el sistema permite reintentar la operación. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US24 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 3 – Could Have |
-| **Epic**                                       | EP02: Personalización de la experiencia lectora |
-| **Title**                                      | Valoración y reseña de libros |
-| **Description**                                | Como usuario, quiero poder valorar y dejar reseñas en los libros que he leído, para compartir mi opinión y ayudar a otros lectores en su elección. |
-| **Acceptance Criteria – Escenario 1: Valoración con estrellas** | Dado que el usuario ha finalizado la lectura de un libro Cuando accede a la sección de valoraciones  Entonces puede calificar el libro con una puntuación de 1 a 5 estrellas Y la valoración se actualiza en la ficha del libro |
-| **Acceptance Criteria – Escenario 2: Escribir una reseña** | Dado que el usuario desea dejar un comentario detallado Cuando accede a la opción “Escribir reseña” Entonces puede redactar y publicar su opinión sobre el contenido, estilo o experiencia de lectura. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US24 | Usuario de Livria | 3 – Could Have | EP02: Personalización de la experiencia lectora |
+| **Title** | Valorar y dejar reseña de libros |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero poder valorar y dejar reseñas en los libros que he leído, para compartir mi opinión y ayudar a otros lectores en su elección. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Valoración con estrellas Dado que** el usuario ha finalizado la lectura de un libro **Cuando** accede a la sección de valoraciones **Entonces** puede calificar el libro con una puntuación de 1 a 5 estrellas **Y** la valoración se actualiza en la ficha del libro **Escenario 2: Escribir una reseña Dado que** el usuario desea dejar un comentario detallado **Cuando** accede a la opción “Escribir reseña” **Entonces** puede redactar y publicar su opinión sobre el contenido, estilo o experiencia de lectura. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US25 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP04: Gestión de cuenta y seguridad de usuario |
-| **Title**                                      | Actualización y gestión de suscripción |
-| **Description**                                | Como usuario, quiero poder actualizar mi plan de suscripción, recibir notificaciones sobre pagos y revertir cambios si me arrepiento, para tener un mayor control sobre mi experiencia en la plataforma. |
-| **Acceptance Criteria – Escenario 1: Cambio de plan (actualización)** | Dado que el usuario tiene un plan gratuito Cuando el usuario selecciona el plan “Community” Y el usuario realiza el pago, completando los datos requeridos Entonces el sistema habilita el acceso a la vista e interacción de comunidades Y el usuario recibe una notificación confirmando la transacción exitosa |
-| **Acceptance Criteria – Escenario 2: Reversión al plan gratuito** | Dado que el usuario se encuentra suscrito a un plan de pago activo Cuando el usuario decide cambiar al plan gratuito desde la sección de configuración de suscripción Entonces el sistema revierte su suscripción al plan gratuito inmediatamente. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US25 | Usuario de Livria | 1 – Must Have | EP04: Gestión de cuenta y seguridad de usuario |
+| **Title** | Gestionar plan de suscripción |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero poder actualizar mi plan de suscripción, recibir notificaciones sobre pagos y revertir cambios si me arrepiento, para tener un mayor control sobre mi experiencia en la plataforma. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Cambio de plan (actualización) Dado que** el usuario tiene un plan gratuito **Cuando** el usuario selecciona el plan “Community” **Y** el usuario realiza el pago, completando los datos requeridos**Entonces** el sistema habilita el acceso a la vista e interacción de comunidades **Y** el usuario recibe una notificación confirmando la transacción exitosa **Escenario 2: Reversión al plan gratuito Dado que** el usuario se encuentra suscrito a un plan de pago activo **Cuando** el usuario decide cambiar al plan gratuito desde la sección de configuración de suscripción **Entonces** el sistema revierte su suscripción al plan gratuito inmediatamente. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US26 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP07: Accesibilidad y experiencia de uso multiplataforma |
-| **Title**                                      | Disponibilidad 24/7 |
-| **Description**                                | Como usuario, quiero que la plataforma esté disponible en cualquier momento del día, para acceder a mis libros, comunidades y funcionalidades sin importar el lugar o la hora. |
-| **Acceptance Criteria – Escenario 1: Acceso ininterrumpido** | Dado que el usuario desea acceder a la plataforma en cualquier momento Cuando el usuario inicia sesión en Livria en cualquier horario Entonces el sistema debe estar disponible Y el sistema debe permitir el acceso sin restricciones. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US26 | Usuario de Livria | 1 – Must Have | EP07: Accesibilidad y experiencia de uso multiplataforma |
+| **Title** | Acceder a la plataforma en cualquier momento |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero que la plataforma esté disponible en cualquier momento del día, para acceder a mis libros, comunidades y funcionalidades sin importar el lugar o la hora. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Acceso ininterrumpido Dado que** el usuario desea acceder a la plataforma en cualquier momento **Cuando** el usuario inicia sesión en Livria en cualquier horario**Entonces** el sistema debe estar disponible **Y** el sistema debe permitir el acceso sin restricciones. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US27 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP07: Accesibilidad y experiencia de uso multiplataforma |
-| **Title**                                      | Interfaz amigable y navegación sencilla de la aplicación móvil |
-| **Description**                                | Como usuario, quiero una interfaz intuitiva y fácil de usar, para navegar entre libros, comunidades y configuraciones sin complicaciones ni curvas de aprendizaje. |
-| **Acceptance Criteria – Escenario 1: Navegación clara y sencilla** | Dado que el usuario inicia sesión en la plataforma Cuando desea acceder a las secciones principales como la pantalla de inicio o “Recomendaciones” Entonces podrá hacerlo con pocos clics y sin confusión, gracias a una estructura organizada y un diseño intuitivo. |
-| **Acceptance Criteria – Escenario 2: Navegación entre categorías** | Dado que el usuario se encuentra en la barra superior de navegación Cuando el usuario hace clic en una categoría Entonces el sistema le redirige a una página que muestra únicamente libros correspondientes a esa categoría. |
-| **Acceptance Criteria – Escenario 3: Accesibilidad visual** | Dado que el usuario interactúa con la aplicación Cuando el usuario visualiza la interfaz Entonces los botones, textos e íconos deben tener buen contraste, tamaño adecuado y estar correctamente etiquetados para garantizar la accesibilidad. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US27 | Usuario de Livria | 1 – Must Have | EP07: Accesibilidad y experiencia de uso multiplataforma |
+| **Title** | Navegar la aplicación de forma fácil e intuitiva |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero una interfaz intuitiva y fácil de usar, para navegar entre libros, comunidades y configuraciones sin complicaciones ni curvas de aprendizaje. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Navegación clara y sencilla Dado que** el usuario inicia sesión en la plataforma **Cuando** desea acceder a las secciones principales como la pantalla de inicio o “Recomendaciones” **Entonces** podrá hacerlo con pocos clics y sin confusión, gracias a una estructura organizada y un diseño intuitivo. **Escenario 2: Navegación entre categorías Dado** **que** el usuario se encuentra en la barra superior de navegación **Cuando** el usuario hace clic en una categoría **Entonces** el sistema le redirige a una página que muestra únicamente libros correspondientes a esa categoría. **Escenario 3: Accesibilidad visual Dado que** el usuario interactúa con la aplicación **Cuando** el usuario visualiza la interfaz **Entonces** los botones, textos e íconos deben tener buen contraste, tamaño adecuado y estar correctamente etiquetados para garantizar la accesibilidad. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US28 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP07: Accesibilidad y experiencia de uso multiplataforma |
-| **Title**                                      | Soporte multiplataforma |
-| **Description**                                | Como usuario, quiero ingresar a Livria desde distintos dispositivos, para acceder a mis libros y comunidades desde cualquier lugar y sin perder mi progreso. |
-| **Acceptance Criteria – Escenario 1: Compatibilidad con diferentes sistemas operativos** | Dado que el usuario utiliza distintos dispositivos  Cuando el usuario accede a Livria desde cualquiera de ellos Entonces la experiencia debe mantenerse fluida y funcional, sin errores de formato o limitaciones de funciones. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US28 | Usuario de Livria | 2 – Should Have | EP07: Accesibilidad y experiencia de uso multiplataforma |
+| **Title** | Usar la aplicación en diferentes dispositivos |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero ingresar a Livria desde distintos dispositivos, para acceder a mis libros y comunidades desde cualquier lugar y sin perder mi progreso. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Compatibilidad con diferentes sistemas operativos Dado** que el usuario utiliza distintos dispositivos  **Cuando** el usuario accede a Livria desde cualquiera de ellos **Entonces** la experiencia debe mantenerse fluida y funcional, sin errores de formato o limitaciones de funciones. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | US29 |
-| **User**                                       | Usuario de Livria |
-| **Priority**                                   | 3 – Could Have |
-| **Epic**                                       | EP06: Compra de libros |
-| **Title**                                      | Filtro lateral por atributos del libro |
-| **Description**                                | Como usuario, quiero filtrar los libros según subcategorías, orden de precio o título, formato e idioma para encontrar más fácilmente el contenido que me interesa. |
-| **Acceptance Criteria – Escenario 1: Ordenamiento por criterios** | Dado que el usuario se encuentra en una pestaña de un género específico Y el usuario quiere ordenar los resultados Cuando el usuario elige una opción como “Menor a mayor precio” Entonces la lista se reordena automáticamente según esos criterios. |
-| **Acceptance Criteria – Escenario 2: Filtrado por idioma** | Dado que el usuario se encuentra en una pestaña de un género específico Y el usuario quiere ordenar los resultados Cuando el usuario selecciona el idioma de su preferencia Entonces se muestran los libros que coincidan con el idioma elegido. |
-| **Acceptance Criteria – Escenario 3: Borrado de filtros aplicados** | Dado que el usuario se encuentra en una pestaña de un género específico Y el usuario ha aplicado filtros Cuando el usuario presiona el botón “Borrar selección” Entonces se eliminan todos los filtros activos Y la lista vuelve a su estado inicial. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| US29 | Usuario de Livria | 3 – Could Have | EP06: Compra de libros |
+| **Title** | Filtrar por atributos del libro |  |  |
+| **Description** |  |  |  |
+| Como usuario, quiero filtrar los libros según subcategorías, orden de precio o título, formato e idioma para encontrar más fácilmente el contenido que me interesa. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ordenamiento por criterios Dado** **que** el usuario se encuentra en una pestaña de un género específico Y el usuario quiere ordenar los resultados **Cuando** el usuario elige una opción como “Menor a mayor precio” **Entonces** la lista se reordena automáticamente según esos criterios. **Escenario 2: Filtrado por idioma Dado** **que** el usuario se encuentra en una pestaña de un género específico Y el usuario quiere ordenar los resultados **Cuando** el usuario selecciona el idioma de su preferencia **Entonces** se muestran los libros que coincidan con el idioma elegido. **Escenario 3: Borrado de filtros aplicados Dado** **que** el usuario se encuentra en una pestaña de un género específico Y el usuario ha aplicado filtros **Cuando** el usuario presiona el botón “Borrar selección” **Entonces** se eliminan todos los filtros activos **Y** la lista vuelve a su estado inicial. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS01 |
-| **User**                                       | Developer |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Acceso rápido a las secciones del sistema desde el Dashboard |
-| **Description**                                | Como developer, quiero tener acceso rápido a las principales secciones del sistema, para poder acceder a la gestión libros, pedidos, inventarios, estadísticas y configuraciones de manera rápida. |
-| **Acceptance Criteria – Escenario 1: Acceso a “Books” desde el Dashboard** | Dado que el developer se encuentra en el dashboard de la vista de administrador, Cuando el developer hace clic en el botón de "Books" en la sección de “Quick Actions”, Entonces el sistema redirige al developer a la sección de libros. |
-| **Acceptance Criteria – Escenario 2: Acceso a “Orders” desde el Dashboard** | Dado que el developer se encuentra en el dashboard de la vista de administrador, Cuando el developer hace clic en el botón de "Orders" en la sección de “Quick Actions”, Entonces el sistema redirige al administrador a la sección de pedidos. |
-| **Acceptance Criteria – Escenario 3: Acceso a “Inventory” desde el Dashboard** | Dado que el developer se encuentra en el dashboard de la vista de administrador, Cuando el developer hace clic en el botón de "Inventory" en la sección de “Quick Actions”, Entonces el sistema redirige al administrador a la sección de inventarios. |
-| **Acceptance Criteria – Escenario 4: Acceso a “Stadistics” desde el Dashboard** | Dado que el developer se encuentra en el dashboard de la vista de administrador, Cuando el developer hace clic en el botón de "Statistics" en la sección de “Quick Actions”, Entonces el sistema redirige al administrador a la sección de estadísticas. |
-| **Acceptance Criteria – Escenario 5: Acceso a “Settings” desde el Dashboard** | Dado que el developer se encuentra en el dashboard de la vista de administrador, Cuando el developer hace clic en el botón de "Settings" en la sección de “Quick Actions”, Entonces el sistema redirige al administrador a la sección de configuraciones. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS01 | Developer | 1 – Must Have | EP08: Vista de administrador |
+| **Title** | Acceder rápido a las secciones del sistema desde el Dashboard |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero tener acceso rápido a las principales secciones del sistema, para poder acceder a la gestión libros, pedidos, inventarios, estadísticas y configuraciones de manera rápida. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Acceso a “Books” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Books" en la sección de “Quick Actions”,**Entonces** el sistema redirige al developer a la sección de libros. **Escenario 2: Acceso a “Orders” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Orders" en la sección de “Quick Actions”,**Entonces** el sistema redirige al administrador a la sección de pedidos. **Escenario 3: Acceso a “Inventory” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Inventory" en la sección de “Quick Actions”,**Entonces** el sistema redirige al administrador a la sección de inventarios. **Escenario 4: Acceso a “Stadistics” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Statistics" en la sección de “Quick Actions”,**Entonces** el sistema redirige al administrador a la sección de estadísticas. **Escenario 5: Acceso a “Settings” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Settings" en la sección de “Quick Actions”,**Entonces** el sistema redirige al administrador a la sección de configuraciones. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS02 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Visualización de estadísticas de libros |
-| **Description**                                | Como developer, quiero ver estadísticas relevantes sobre los libros, para poder tomar decisiones informadas sobre los libros más populares, más vendidos y otros datos clave del inventario. |
-| **Acceptance Criteria – Escenario 1: Ver el total de libros y el total de géneros** | Dado que el developer se encuentra en la sección de Books, Cuando el developer visualiza el apartado de estadísticas, Entonces el sistema muestra el total de libros disponibles en el sistema y el total de géneros de libros registrados. |
-| **Acceptance Criteria – Escenario 2: Ver el precio promedio de los libros** | Dado que el developer se encuentra en la sección de Books, Cuando el developer visualiza el apartado de estadísticas, Entonces el sistema muestra el precio promedio de todos los libros en el sistema. |
-| **Acceptance Criteria – Escenario 3: Ver la cantidad de libros en stock** | Dado que el developer se encuentra en la sección de Books, Cuando el developer visualiza el apartado de estadísticas, Entonces el sistema muestra el número total de libros en stock, es decir, aquellos disponibles para la venta. |
-| **Acceptance Criteria – Escenario 4: Ver el libro con más reseñas** | Dado que el developer se encuentra en la sección de Books, Cuando el developer visualiza el apartado de estadísticas, Entonces el sistema muestra el libro más visto en la plataforma y el libro más vendido de la plataforma. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS02 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Visualizar estadísticas de libros |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero ver estadísticas relevantes sobre los libros, para poder tomar decisiones informadas sobre los libros más populares, más vendidos y otros datos clave del inventario. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ver el total de libros y el total de géneros Dado que** el developer se encuentra en la sección de Books,**Cuando** el developer visualiza el apartado de estadísticas,**Entonces** el sistema muestra el total de libros disponibles en el sistema y el total de géneros de libros registrados. **Escenario 2: Ver el precio promedio de los librosDado que** el developer se encuentra en la sección de Books,**Cuando** el developer visualiza el apartado de estadísticas,**Entonces** el sistema muestra el precio promedio de todos los libros en el sistema. **Escenario 3: Ver la cantidad de libros en stockDado que** el developer se encuentra en la sección de Books,**Cuando** el developer visualiza el apartado de estadísticas,**Entonces** el sistema muestra el número total de libros en stock, es decir, aquellos disponibles para la venta. **Escenario 4: Ver el libro con más reseñasDado que** el developer se encuentra en la sección de Books,**Cuando** el developer visualiza el apartado de estadísticas,**Entonces** el sistema muestra el libro más visto en la plataforma y el libro más vendido de la plataforma. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS03 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Búsqueda de libros como administrador |
-| **Description**                                | Como developer, quiero poder buscar libros de la colección utilizando diversos filtros, para encontrar fácilmente uno o más libros en específico. |
-| **Acceptance Criteria – Escenario 1: Búsqueda por título o autor** | Dado que el developer se encuentra en el apartado de "Book Collection" en Books, Cuando el developer ingresa un título o autor en el campo de búsqueda, Entonces el sistema muestra los libros que coinciden con el título o autor ingresado. |
-| **Acceptance Criteria – Escenario 2: Filtro por género e idioma** | Dado que el developer se encuentra en el apartado de "Book Collection" en Books, Cuando el developer selecciona un género en el filtro o un idioma en el  filtro, Entonces el sistema muestra los libros que pertenecen a ese género específico o a ese idioma en específico. |
-| **Acceptance Criteria – Escenario 3: Ordenamiento de libros** | Dado que el developer se encuentra en el apartado de "Book Collection" en Books, Cuando el developer selecciona un criterio de ordenamiento (por ejemplo, precio, popularidad, fecha de publicación), Entonces el sistema ordena los libros según el criterio seleccionado. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS03 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Buscar libros como administrador |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero poder buscar libros de la colección utilizando diversos filtros, para encontrar fácilmente uno o más libros en específico. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Búsqueda por título o autorDado que** el developer se encuentra en el apartado de "Book Collection" en Books,**Cuando** el developer ingresa un título o autor en el campo de búsqueda,**Entonces** el sistema muestra los libros que coinciden con el título o autor ingresado. **Escenario 2: Filtro por género e idiomaDado que** el developer se encuentra en el apartado de "Book Collection" en Books,**Cuando** el developer selecciona un género en el filtro o un idioma en el  filtro**Entonces** el sistema muestra los libros que pertenecen a ese género específico o a ese idioma en específico. **Escenario 3: Ordenamiento de librosDado que** el developer se encuentra en el apartado de "Book Collection" en Books,**Cuando** el developer selecciona un criterio de ordenamiento (por ejemplo, precio, popularidad, fecha de publicación),**Entonces** el sistema ordena los libros según el criterio seleccionado. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS04 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Visualización de detalles completos de un libro |
-| **Description**                                | Como developer, quiero ver la información completa de un libro, para poder tomar decisiones informadas sobre la gestión de mis productos. |
-| **Acceptance Criteria – Escenario 1: Ver la información básica del libro** | Dado que el developer se encuentra en el apartado de "Book Collection" en Books, Cuando el developer observa un libro en específico, Entonces el sistema muestra una miniatura con la portada del libro, su título, autor, género, idioma, stock y cantidad de reviews. |
-| **Acceptance Criteria – Escenario 2: Botón "View" para acceder a más detalles del libro** | Dado que el developer está visualizando un libro en el apartado de "Book Collection" en Books, Cuando el developer hace clic en el botón de "View", Entonces el sistema muestra una ventana con información detallada y completa sobre el libro, incluyendo la sinopsis y datos relacionados con su precio de compra, de venta y de stock. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS04 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Visualizar detalles completos de un libro |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero ver la información completa de un libro, para poder tomar decisiones informadas sobre la gestión de mis productos. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ver la información básica del libroDado que** el developer se encuentra en el apartado de "Book Collection" en Books,**Cuando** el developer observa un libro en específico,**Entonces** el sistema muestra una miniatura con la portada del libro, su título, autor, género, idioma, stock y cantidad de reviews. **Escenario 2: Botón "View" para acceder a más detalles del libroDado que** el developer está visualizando un libro en el apartado de "Book Collection" en Books,**Cuando** el developer hace clic en el botón de "View",**Entonces** el sistema muestra una ventana con información detallada y completa sobre el libro, incluyendo la sinopsis y datos relacionados con su precio de compra, de venta y de stock. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS05 |
-| **User**                                       | Developer |
-| **Priority**                                   | 3 – Could Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Visualización de estadísticas y análisis de órdenes |
-| **Description**                                | Como developer, quiero ver estadísticas clave sobre todas las órdenes, para poder realizar un análisis completo y tomar decisiones informadas sobre las ventas. |
-| **Acceptance Criteria – Escenario 1: Ver el total de órdenes y de ganancias** | Dado que el developer se encuentra en la sección de Orders,  Cuando el developer visualiza el apartado de "Manage and Analyze All Livria Orders", Entonces el sistema muestra el total de órdenes realizadas en la plataforma y el total de ganancias generadas por todas las órdenes. |
-| **Acceptance Criteria – Escenario 2: Ver órdenes pendientes y completas** | Dado que el developer se encuentra en la sección de Orders,  Cuando el developer visualiza el apartado de "Manage and Analyze All Livria Orders", Entonces el sistema muestra el número total de órdenes pendientes de procesamiento o envío y el número total de órdenes completas que han sido procesadas y entregadas. |
-| **Acceptance Criteria – Escenario 3: Ver el promedio del valor de las órdenes** | Dado que el developer se encuentra en la sección de Orders,  Cuando el developer visualiza el apartado de "Manage and Analyze All Livria Orders", Entonces el sistema muestra el valor promedio de las órdenes realizadas en la plataforma. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS05 | Developer | 3 – Could Have | EP08: Vista de administrador |
+| **Title** | Visualizar estadísticas y análisis de órdenes |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero ver estadísticas clave sobre todas las órdenes, para poder realizar un análisis completo y tomar decisiones informadas sobre las ventas. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ver el total de órdenes y de gananciasDado que** el developer se encuentra en la sección de Orders,  **Cuando** el developer visualiza el apartado de "Manage and Analyze All Livria Orders",**Entonces** el sistema muestra el total de órdenes realizadas en la plataforma y el total de ganancias generadas por todas las órdenes. **Escenario 2: Ver órdenes pendientes y completasDado que** el developer se encuentra en la sección de Orders,  **Cuando** el developer visualiza el apartado de "Manage and Analyze All Livria Orders",**Entonces** el sistema muestra el número total de órdenes pendientes de procesamiento o envío y el número total de órdenes completas que han sido procesadas y entregadas. **Escenario 3: Ver el promedio del valor de las órdenesDado que** el developer se encuentra en la sección de Orders,  **Cuando** el developer visualiza el apartado de "Manage and Analyze All Livria Orders",**Entonces** el sistema muestra el valor promedio de las órdenes realizadas en la plataforma. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS06 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Búsqueda y filtrado de órdenes |
-| **Description**                                | Como developer, quiero poder buscar órdenes por ID de pedido o por el nombre del cliente, y poder filtrar de distintas formas, para encontrar fácilmente las órdenes que me interesan. |
-| **Acceptance Criteria – Escenario 1: Buscar por ID de orden o por nombre del cliente** | Dado que el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders, Cuando el developer ingresa un ID de orden o el nombre del cliente en el campo de búsqueda, Entonces el sistema muestra las órdenes que coinciden con ese ID o asociadas a ese cliente. |
-| **Acceptance Criteria – Escenario 2: Filtrar por estado del pedido** | Dado que el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders, Cuando el developer selecciona un estado de pedido (pendiente, en proceso, completado), Entonces el sistema muestra sólo las órdenes con el estado seleccionado. |
-| **Acceptance Criteria – Escenario 3: Filtrar por fecha** | Dado que el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders, Cuando el developer selecciona un rango de fechas, Entonces el sistema muestra sólo las órdenes que corresponden a ese rango de fechas. |
-| **Acceptance Criteria – Escenario 4: Filtrar por ordenamiento** | Dado que el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders, Cuando el developer selecciona un criterio de ordenamiento (por ejemplo, por fecha, por total, por estado), Entonces el sistema ordena las órdenes según el criterio seleccionado. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS06 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Buscar y filtrar de órdenes |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero poder buscar órdenes por ID de pedido o por el nombre del cliente, y poder filtrar de distintas formas, para encontrar fácilmente las órdenes que me interesan. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Buscar por ID de orden o por nombre del clienteDado que** el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders,**Cuando** el developer ingresa un ID de orden o el nombre del cliente en el campo de búsqueda,**Entonces** el sistema muestra las órdenes que coinciden con ese ID o asociadas a ese cliente. **Escenario 2: Filtrar por estado del pedidoDado que** el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders,**Cuando** el developer selecciona un estado de pedido (pendiente, en proceso, completado),**Entonces** el sistema muestra sólo las órdenes con el estado seleccionado. **Escenario 3: Filtrar por fechaDado que** el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders,**Cuando** el developer selecciona un rango de fechas,**Entonces** el sistema muestra sólo las órdenes que corresponden a ese rango de fechas. **Escenario 4: Filtrar por ordenamientoDado que** el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders,**Cuando** el developer selecciona un criterio de ordenamiento (por ejemplo, por fecha, por total, por estado),**Entonces** el sistema ordena las órdenes según el criterio seleccionado. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS07 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Visualización de la tabla con detalles de las órdenes |
-| **Description**                                | Como developer, quiero que el sistema me muestre una tabla con detalles generales de las órdenes, para gestionar las órdenes de manera eficiente. |
-| **Acceptance Criteria – Escenario 1: Ver la tabla con detalles de las órdenes** | Dado que el developer se encuentra en la sección Orders, Cuando el developer visualiza el apartado de "Order List", Entonces el sistema muestra una tabla con diversos atributos relacionados a cada orden.  |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS07 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Visualizar una tabla con detalles de las órdenes |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero que el sistema me muestre una tabla con detalles generales de las órdenes, para gestionar las órdenes de manera eficiente. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ver la tabla con detalles de las órdenes Dado que** el developer se encuentra en la sección Orders, **Cuando** el developer visualiza el apartado de "Order List", **Entonces** el sistema muestra una tabla con diversos atributos relacionados a cada orden.  |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS08 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Búsqueda y filtrado de libros en el Inventario |
-| **Description**                                | Como developer, quiero tener una barra de búsqueda y filtros en la sección "Book Collection" del inventario, para poder buscar fácilmente un libro específico dentro del inventario. |
-| **Acceptance Criteria – Escenario 1: Barra de búsqueda** | Dado que el developer está en el apartado de "Book Collection" de la sección Inventory, Cuando el developer ingresa un término en la barra de búsqueda, Entonces el sistema muestra los libros que coinciden con el término de búsqueda. |
-| **Acceptance Criteria – Escenario 2: Filtro por género o por lenguaje** | Dado que el developer está en el apartado de "Book Collection" de la sección Inventory, Cuando el developer selecciona un género en el filtro o un lenguaje en el filtro, Entonces el sistema muestra los libros que pertenecen a ese género específico o los libros disponibles en ese lenguaje. |
-| **Acceptance Criteria – Escenario 3: Ordenamiento de libros** | Dado que el developer está en el apartado de "Book Collection" de la sección Inventory, Cuando el developer selecciona un criterio de ordenamiento (por ejemplo, por precio, por stock, por fecha de publicación), Entonces el sistema ordena los libros según el criterio seleccionado. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS08 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Buscar y filtrar libros en el Inventario |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero tener una barra de búsqueda y filtros en la sección "Book Collection" del inventario, para poder buscar fácilmente un libro específico dentro del inventario. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Barra de búsquedaDado que** el developer está en el apartado de "Book Collection" de la sección Inventory,**Cuando** el developer ingresa un término en la barra de búsqueda,**Entonces** el sistema muestra los libros que coinciden con el término de búsqueda. **Escenario 2: Filtro por género o por lenguajeDado que** el developer está en el apartado de "Book Collection" de la sección Inventory,**Cuando** el developer selecciona un género en el filtro o un lenguaje en el filtro,**Entonces** el sistema muestra los libros que pertenecen a ese género específico o los libros disponibles en ese lenguaje. **Escenario 3: Ordenamiento de librosDado que** el developer está en el apartado de "Book Collection" de la sección Inventory,**Cuando** el developer selecciona un criterio de ordenamiento (por ejemplo, por precio, por stock, por fecha de publicación),**Entonces** el sistema ordena los libros según el criterio seleccionado. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS09 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Visualización de los libros en el inventario |
-| **Description**                                | Como developer, quiero ver una tabla que contenga los detalles de cada libro, como su portada, título, autor, etc., para gestionar fácilmente el inventario de libros. |
-| **Acceptance Criteria – Escenario 1: Ver la tabla con detalles del libro** | Dado que el developer está en la sección Inventory, Cuando el developer visualiza el apartado de "Book Collection", Entonces el sistema presenta una tabla con los campos de portada, título, autor, género, lenguaje, stock, precio de compra, cantidad y acción. |
-| **Acceptance Criteria – Escenario 2: Aumentar stock de un libro de la colección** | Dado que el administrador está visualizando la tabla de "Book Collection" la sección Inventory Y el developer desea aumentar el stock de un libro Cuando el developer completa el campo de Quantity con un número entero Y el developer hace clic en el botón "+" para ese libro, Entonces el sistema cobra el precio de compra multiplicado por la cantidad ingresada, la cual es aumentada al stock del libro seleccionado. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS09 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Visualizar libros en el inventario |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero ver una tabla que contenga los detalles de cada libro, como su portada, título, autor, etc., para gestionar fácilmente el inventario de libros. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ver la tabla con detalles del libroDado que** el developer está en la sección Inventory,**Cuando** el developer visualiza el apartado de "Book Collection",**Entonces** el sistema presenta una tabla con los campos de portada, título, autor, género, lenguaje, stock, precio de compra, cantidad y acción. **Escenario 2: Aumentar stock de un libro de la colecciónDado que** el administrador está visualizando la tabla de "Book Collection" la sección Inventory Y el developer desea aumentar el stock de un libro**Cuando** el developer completa el campo de Quantity con un número entero Y el developer hace clic en el botón "+" para ese libro,**Entonces** el sistema cobra el precio de compra multiplicado por la cantidad ingresada, la cual es aumentada al stock del libro seleccionado. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS10 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Añadir un libro al inventario |
-| **Description**                                | Como developer, quiero agregar un libro nuevo al inventario de Livria, para ampliar el catálogo y aumentar las ventas. |
-| **Acceptance Criteria – Escenario 1: Visualizar opción de añadir libro** | Dado que el developer está en la sección Inventory, Cuando el developer visualiza el apartado de "Add a new book to the inventory", Entonces el sistema presenta un formulario con campos a rellenar relacionados con la información del libro. |
-| **Acceptance Criteria – Escenario 2: Agregar el nuevo libro al inventario** | Dado que el developer se encuentra en el formulario del apartado de "Add a new book to the inventory", Cuando el developer completa los campos de información del libro como título, género, stock, etc. Y el developer hace clic en el botón "Add new book", Entonces el sistema aumenta ese libro con la información proporcionada al inventario Y el sistema permite visualizarlo en el apartado de "Book Collection". |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS10 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Añadir un libro al inventario |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero agregar un libro nuevo al inventario de Livria, para ampliar el catálogo y aumentar las ventas. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Visualizar opción de añadir libroDado que** el developer está en la sección Inventory,**Cuando** el developer visualiza el apartado de "Add a new book to the inventory",**Entonces** el sistema presenta un formulario con campos a rellenar relacionados con la información del libro. **Escenario 2: Agregar el nuevo libro al inventarioDado que** el developer se encuentra en el formulario del apartado de "Add a new book to the inventory",**Cuando** el developer completa los campos de información del libro como título, género, stock, etc. Y el developer hace clic en el botón "Add new book",**Entonces** el sistema aumenta ese libro con la información proporcionada al inventario Y el sistema permite visualizarlo en el apartado de "Book Collection". |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS11 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Visualización de estadísticas de negocio |
-| **Description**                                | Como developer, quiero ver gráficos sobre la gestión del capital y de las ventas para poder manejar mejor las compras de nuevos libros y supervisar las ventas. |
-| **Acceptance Criteria – Escenario 1: Visualizar libros más vendidos** | Dado que el developer está en la sección Stadistics, Cuando el developer visualiza el apartado de "Top Three Best Selling Books", Entonces el sistema presenta los 3 libros más vendidos entre todas las compras realizadas por los usuarios. |
-| **Acceptance Criteria – Escenario 2: Visualizar ganancias según géneros** | Dado que el developer está en la sección Stadistics, Cuando el developer visualiza el apartado de "Revenue according the genres", Entonces el sistema muestra un gráfico de torta que contiene información sobre las ganancias generadas de acuerdo con cada género literario. |
-| **Acceptance Criteria – Escenario 3: Visualizar el flujo de capital** | Dado que el developer está en la sección Stadistics, Cuando el developer visualiza el apartado de "Capital Flow and Operations", Entonces el sistema muestra un gráfico lineal sobre el flujo del capital comparado con las ventas de Livria. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS11 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Visualizar estadísticas de negocio |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero ver gráficos sobre la gestión del capital y de las ventas para poder manejar mejor las compras de nuevos libros y supervisar las ventas. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Visualizar libros más vendidosDado que** el developer está en la sección Stadistics,**Cuando** el developer visualiza el apartado de "Top Three Best Selling Books",**Entonces** el sistema presenta los 3 libros más vendidos entre todas las compras realizadas por los usuarios. **Escenario 2: Visualizar ganancias según génerosDado que** el developer está en la sección Stadistics,**Cuando** el developer visualiza el apartado de "Revenue according the genres",**Entonces** el sistema muestra un gráfico de torta que contiene información sobre las ganancias generadas de acuerdo con cada género literario. **Escenario 3: Visualizar el flujo de capitalDado que** el developer está en la sección Stadistics,**Cuando** el developer visualiza el apartado de "Capital Flow and Operations",**Entonces** el sistema muestra un gráfico lineal sobre el flujo del capital comparado con las ventas de Livria. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS12 |
-| **User**                                       | Developer |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Gestión de la configuración del perfil |
-| **Description**                                | Como developer, quiero poder gestionar mi perfil desde una sección de configuración, para poder ver, actualizar mi información personal o cambiar mi contraseña si es necesario. |
-| **Acceptance Criteria – Escenario 1: Ver información del perfil** | Dado que el developer se encuentra en la sección Settings, Cuando el developer accede a la pestaña "Profile", Entonces se muestra la información del perfil actual del administrador, incluyendo su nombre, nombre de usuario, correo electrónico y un campo de contraseña. |
-| **Acceptance Criteria – Escenario 2: Actualizar la información del perfil** | Dado que el developer está en la sección Settings, Cuando el developer realiza cambios en su nombre, nombre de usuario o correo electrónico, Entonces el sistema permite al administrador guardar los cambios al hacer clic en "Save Changes". |
-| **Acceptance Criteria – Escenario 3: Cambiar la contraseña** | Dado que el developer está en la sección Settings, Cuando el developer hace clic en "Change Password", Entonces el sistema permite al developer ingresar y actualizar su contraseña. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS12 | Developer | 1 – Must Have | EP08: Vista de administrador |
+| **Title** | Gestionar la configuración del perfil |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero poder gestionar mi perfil desde una sección de configuración, para poder ver, actualizar mi información personal o cambiar mi contraseña si es necesario. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ver información del perfilDado que** el developer se encuentra en la sección Settings,**Cuando** el developer accede a la pestaña "Profile",**Entonces** se muestra la información del perfil actual del administrador, incluyendo su nombre, nombre de usuario, correo electrónico y un campo de contraseña. **Escenario 2: Actualizar la información del perfilDado que** el developer está en la sección Settings,**Cuando** el developer realiza cambios en su nombre, nombre de usuario o correo electrónico,**Entonces** el sistema permite al administrador guardar los cambios al hacer clic en "Save Changes". **Escenario 3: Cambiar la contraseñaDado que** el developer está en la sección Settings,**Cuando** el developer hace clic en "Change Password",**Entonces** el sistema permite al developer ingresar y actualizar su contraseña. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS13 |
-| **User**                                       | Developer |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Gestión de la configuración de la aplicación |
-| **Description**                                | Como developer, quiero gestionar la configuración de la aplicación desde una sección de configuración, para poder activar o desactivar notificaciones, alertas por correo electrónico, autoguardado de cambios y cambiar la configuración de la cantidad de elementos por página. |
-| **Acceptance Criteria – Escenario 1: Activar/desactivar notificaciones en la aplicación** | Dado que el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application", Cuando el administrador marca o desmarca la opción "Receive notifications in the app", Entonces el sistema habilita o deshabilita las notificaciones dentro de la aplicación según la elección del administrador. |
-| **Acceptance Criteria – Escenario 2: Activar/desactivar alertas por correo electrónico** | Dado que el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application", Cuando el developer marca o desmarca la opción "Receive email alerts", Entonces el sistema habilita o deshabilita las alertas por correo electrónico según la elección del administrador. |
-| **Acceptance Criteria – Escenario 3: Activar/desactivar auto guardado de cambios** | Dado que el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application", Cuando el developer marca o desmarca la opción "Automatically save changes", Entonces el sistema habilita o deshabilita el guardado automático de los cambios en la configuración de la aplicación. |
-| **Acceptance Criteria – Escenario 4: Configurar el tamaño de página** | Dado que el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application", Cuando el developer ajusta el número de "Items per page" (por ejemplo, a 5, 10, 20, 50), Entonces el sistema ajusta la cantidad de elementos que se muestran por página según la configuración seleccionada. |
-| **Acceptance Criteria – Escenario 5: Guardar los cambios realizados en la configuración** | Dado que el developer ha realizado cambios en las opciones de "Application", Cuando el developer hace clic en "Save Changes", Entonces el sistema guarda los cambios y los aplica inmediatamente a la configuración de la aplicación. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS13 | Developer | 1 – Must Have | EP08: Vista de administrador |
+| **Title** | Gestionar la configuración de la aplicación |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero gestionar la configuración de la aplicación desde una sección de configuración, para poder activar o desactivar notificaciones, alertas por correo electrónico, autoguardado de cambios y cambiar la configuración de la cantidad de elementos por página. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Activar/desactivar notificaciones en la aplicaciónDado que** el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application",**Cuando** el administrador marca o desmarca la opción "Receive notifications in the app",**Entonces** el sistema habilita o deshabilita las notificaciones dentro de la aplicación según la elección del administrador. **Escenario 2: Activar/desactivar alertas por correo electrónicoDado que** el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application",**Cuando** el developer marca o desmarca la opción "Receive email alerts",**Entonces** el sistema habilita o deshabilita las alertas por correo electrónico según la elección del administrador. **Escenario 3: Activar/desactivar auto guardado de cambiosDado que** el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application", **Cuando** el developer marca o desmarca la opción "Automatically save changes",**Entonces** el sistema habilita o deshabilita el guardado automático de los cambios en la configuración de la aplicación. **Escenario 4: Configurar el tamaño de páginaDado que** el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application",**Cuando** el developer ajusta el número de "Items per page" (por ejemplo, a 5, 10, 20, 50),**Entonces** el sistema ajusta la cantidad de elementos que se muestran por página según la configuración seleccionada. **Escenario 5: Guardar los cambios realizados en la configuraciónDado que** el developer ha realizado cambios en las opciones de "Application",**Cuando** el developer hace clic en "Save Changes",**Entonces** el sistema guarda los cambios y los aplica inmediatamente a la configuración de la aplicación. |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS14 |
-| **User**                                       | Developer |
-| **Priority**                                   | 2 – Should Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Barra lateral de navegación en el dashboard del administrador |
-| **Description**                                | Como developer, quiero tener una barra lateral en el dashboard que contenga la información fundamental, para poder navegar de forma rápida y eficiente a las diferentes áreas del sistema. |
-| **Acceptance Criteria – Escenario 1: Ver secciones principales de navegación** | Dado que el developer se encuentra en el dashboard de la vista de administrador, Cuando el developer dirige su atención la barra lateral, Entonces el sistema muestra accesos directos a las secciones de Home, Books, Orders, Inventory y Stadistics. |
-| **Acceptance Criteria – Escenario 2: Ver botón para cambiar el idioma** | Dado que el developer se encuentra en el dashboard de la vista de administrador, Cuando el developer dirige su atención la barra lateral, Entonces el sistema muestra un botón para cambiar el idioma entre "EN" (inglés) y "ES" (español). |
-| **Acceptance Criteria – Escenario 3: Ver configuraciones y cerrar sesión** | Dado que el developer se encuentra en el dashboard de la vista de administrador, Cuando el developer dirige su atención la barra lateral, Entonces el sistema muestra un enlace a la sección "Settings" (configuraciones) y un botón para "Log out" (cerrar sesión). |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS14 | Developer | 2 – Should Have | EP08: Vista de administrador |
+| **Title** | Acceder a barra lateral de navegación en el dashboard del administrador |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero tener una barra lateral en el dashboard que contenga la información fundamental, para poder navegar de forma rápida y eficiente a las diferentes áreas del sistema. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Ver secciones principales de navegaciónDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer dirige su atención la barra lateral,**Entonces** el sistema muestra accesos directos a las secciones de Home, Books, Orders, Inventory y Stadistics. **Escenario 2: Ver botón para cambiar el idiomaDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer dirige su atención la barra lateral,**Entonces** el sistema muestra un botón para cambiar el idioma entre "EN" (inglés) y "ES" (español). **Escenario 3: Ver configuraciones y cerrar sesiónDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer dirige su atención la barra lateral,**Entonces** el sistema muestra un enlace a la sección "Settings" (configuraciones) y un botón para "Log out" (cerrar sesión). |  |  |  |
 
-| Campo                                          | Valor |
-|-----------------------------------------------|-------|
-| **Story ID**                                   | TS15 |
-| **User**                                       | Developer |
-| **Priority**                                   | 1 – Must Have |
-| **Epic**                                       | EP08: Vista de administrador |
-| **Title**                                      | Registro de cuenta con control y seguridad. |
-| **Description**                                | Como developer, quiero ingresar a la vista de administrador para poder gestionar operaciones de Livria como el inventario y las ventas. |
-| **Acceptance Criteria – Escenario 1: Inicio de sesión exitoso de administrador** | Dado que el developer intenta iniciar sesión en el login de Admin, Cuando el developer rellena los campos del formulario con las credenciales default asignadas, Entonces el sistema valida los datos proporcionados y confirma el inicio de sesión como exitoso. |
-| **Acceptance Criteria – Escenario 2: Inicio de sesión inválido** | Dado que el developer intenta iniciar sesión en el login de Admin, Cuando el developer rellena los campos del formulario con credenciales incorrectas o anteriores, Entonces el sistema rechaza el registro y retorna un mensaje de error. |
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| TS15 | Developer | 1 – Must Have | EP08: Vista de administrador |
+| **Title** | Registrar una cuenta con control y seguridad. |  |  |
+| **Description** |  |  |  |
+| Como developer, quiero ingresar a la vista de administrador para poder gestionar operaciones de Livria como el inventario y las ventas. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Inicio de sesión exitoso de administrador****Dado que** el developer intenta iniciar sesión en el login de Admin,**Cuando** el developer rellena los campos del formulario con las credenciales default asignadas,**Entonces** el sistema valida los datos proporcionados y confirma el inicio de sesión como exitoso. **Escenario 2: Inicio de sesión inválido****Dado que** el developer intenta iniciar sesión en el login de Admin,**Cuando** el developer rellena los campos del formulario con credenciales incorrectas o anteriores,**Entonces** el sistema rechaza el registro y retorna un mensaje de error. |  |  |  |
+
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| SS01 | Equipo de desarrollo | 2 – Should Have | E09: Investigación y Prototipado |
+| **Title** | Prototipar el Algoritmo de Recomendación |  |  |
+| **Description** |  |  |  |
+| Como equipo de desarrollo, quiero investigar y prototipar un algoritmo de recomendación de libros, para que podamos validar la viabilidad técnica y determinar el mejor enfoque para ofrecer sugerencias personalizadas a los usuarios. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Investigación de tipos de algoritmosDado que** el equipo de desarrollo necesita entender los diferentes tipos de algoritmos de recomendación,  **Cuando** el desarrollador investiga sobre el filtrado colaborativo, basado en contenido y los enfoques híbridos,  **Entonces** el desarrollador documenta en un informe compartido los pros y contras de cada modelo para el contexto de Livria. **Escenario 2: Investigación de tipos de algoritmosDado que** el equipo de desarrollo debe seleccionar la mejor herramienta para el desarrollo,  **Cuando** el desarrollador compara bibliotecas de código abierto (como Apache Mahout) con servicios de IA de terceros (como Google Cloud AI Platform),  **Entonces** el desarrollador propone una solución recomendada basada en costos, escalabilidad y curva de aprendizaje. **Escenario 3: Investigación de tipos de algoritmosDado que** el equipo de desarrollo necesita validar el concepto,  **Cuando** el desarrollador construye un prototipo simple que toma datos de prueba (ej. calificaciones de usuarios) y genera recomendaciones,  **Entonces** el prototipo es funcional y se añade el código de demostración al informe final. **Escenario 4: Investigación de tipos de algoritmosDado que** el algoritmo requiere datos para funcionar,  **Cuando** el desarrollador  identifica qué datos de usuario son esenciales para el sistema,  **Entonces** el desarrollador lista estos campos para su inclusión en la base de datos del proyecto. |  |  |  |
+
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| SS02 | Equipo de desarrollo | 2 – Should Have | E09: Investigación y Prototipado |
+| **Title** |   Investigar la Estructura de Comunidades |  |  |
+| **Description** |  |  |  |
+| Como equipo de desarrollo, quiero investigar las tecnologías y la arquitectura para la sección de comunidad de Livria, para que podamos asegurar un sistema escalable y seguro que gestione las publicaciones y comentarios. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Evaluación de arquitecturas de comunidadDado que** la comunidad es una funcionalidad central de Livria,**Cuando** el desarrollador investiga y evalúa diferentes soluciones (ej. APIs REST propias, Firebase Firestore o plataformas de terceros),**Entonces** el desarrollador propone una arquitectura clara que detalle cómo se manejará el contenido generado por los usuarios. **Escenario 2: Moderación del contenido de la comunidadDado que** el contenido de la comunidad debe ser moderado,**Cuando** el desarrollador analiza los requisitos para la moderación y las herramientas disponibles (ej. detección de lenguaje ofensivo),**Entonces** el desarrollador documenta en el informe una estrategia inicial para asegurar un entorno seguro para los usuarios. **Escenario 3: Identificación de cuellos de botellaDado que** el sistema debe manejar un alto volumen de interacciones,**Cuando** el desarrollador identifica los posibles cuellos de botella de rendimiento y escalabilidad (ej. carga de múltiples reseñas en una página),**Entonces** el desarrollador propone posibles soluciones de optimización, como la paginación o el almacenamiento en caché. |  |  |  |
+
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| SS03 | Equipo de desarrollo | 2 – Should Have | E09: Investigación y Prototipado |
+| **Title** | Investigar e Integrar Métodos de Pago |  |  |
+| **Description** |  |  |  |
+| Como equipo de desarrollo, quiero investigar la integración de una pasarela de pago para la venta de libros y suscripciones, para que podamos entender las implicaciones técnicas, los requisitos de seguridad y el esfuerzo necesario para una implementación completa. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Evaluación de plataformas de pagoDado que** Livria necesita una solución de pagos confiable,**Cuando** el desarrollador investiga plataformas como Stripe o PayPal, evaluando sus APIs, SDKs y compatibilidad con nuestro stack,**Entonces** el desarrollador documenta las funcionalidades clave, las tarifas y los requisitos de configuración en un informe. **Escenario 2: Seguridad de las transaccionesDado que** se debe garantizar la seguridad de las transacciones,**Cuando** el desarrollador analiza los requisitos de cumplimiento, la tokenización de datos y el manejo de información sensible en el backend,**Entonces** el desarrollador incluye en el informe un resumen de los riesgos de seguridad y las estrategias de mitigación. **Escenario 3: Diagrama del flujo de pagosDado que** el equipo necesita entender el flujo de datos,**Cuando** el desarrollador crea un diagrama que ilustra el proceso de una compra o una suscripción, desde la interfaz de usuario hasta el backend y la pasarela de pago,**Entonces** el desarrollador incluye este diagrama en el informe para una mejor comprensión. |  |  |  |
+
+| Story ID | User | Priority | Epic |
+| ----- | ----- | :---: | :---: |
+| SS04 | Equipo de desarrollo | 2 – Should Have | E09: Investigación y Prototipado |
+| **Title** | Prototipar el Gestor de Notificaciones Personalizadas |  |  |
+| **Description** |  |  |  |
+| Como equipo de desarrollo, quiero investigar y prototipar un gestor de notificaciones que envíe alertas personalizadas a los usuarios, para que podamos validar la infraestructura necesaria para fomentar el hábito de la lectura y la participación en la comunidad. |  |  |  |
+| **Acceptance Criteria** |  |  |  |
+| **Escenario 1: Evaluación de servicios de notificaciónDado que** se deben enviar diferentes tipos de notificaciones,**Cuando** el desarrollador investiga las APIs y los servicios de mensajería para notificaciones push, correo electrónico y alertas dentro de la aplicación,**Entonces** el desarrollador propone la mejor plataforma para cada tipo de notificación en el informe. **Escenario 2: Definición de reglas de personalizaciónDado que** las notificaciones deben ser personalizadas,**Cuando** el desarrollador define las reglas para la activación de las notificaciones (ej. "el usuario no ha leído en 3 días" o "un amigo ha comentado en tu reseña"),**Entonces** el desarrollador detalla la lógica necesaria en el backend para generar y enviar estas alertas. **Escenario 3: Validación del flujo de notificacionesDado que** el equipo necesita validar el flujo,**Cuando** el desarrollador crea un prototipo simple que envía una notificación de prueba basada en un evento simulado,**Entonces** la notificación es recibida correctamente en un dispositivo de prueba y el código se documenta para futuras implementaciones.  |  |  |  |
 
 | Campo | Valor |
 |---|---|
@@ -2413,7 +2521,7 @@ Utilizando una API, el servicio permite al Usuario crear, unirse y participar en
 
 #### 2.6.8.6.	Bounded Context Software Architecture Code Level Diagrams
 
-##### 2.6.8.6.1.	 Bounded Context Domain Layer Class Diagrams
+##### 2.6.8.6.1. Bounded Context Domain Layer Class Diagrams
 
 <p align="center">
   <img src="https://imgur.com/lwMyIFY.jpg" alt="12231">
@@ -2429,39 +2537,2087 @@ Este diagrama de clases UML detalla la estructura del Domain Layer del contexto 
 
 El diseño de base de datos para el bounded context de Comunidades se basa en la segmentación de sus entidades clave en las tablas Community, UserCommunity, Post y Comment. Esta separación es crucial para la cohesión del dominio, ya que permite que cada entidad sea gestionada de manera autónoma, reflejando la complejidad del aspecto social del negocio de Livria. La tabla UserCommunity actúa como una tabla intermedia que resuelve la relación de muchos a muchos entre usuarios y comunidades, mientras que Post y Comment se relacionan con sus respectivos agregados y usuarios a través de claves foráneas, garantizando que el ecosistema social opere con integridad y eficiencia.
 
+# Capítulo III: Solution UX/UI Design
+
+## 3.1. Product Design
+
+### 3.1.1. Style Guidelines
+
+Livria busca transformar la manera en que los lectores encuentran nuevas lecturas y en que los aficionados desarrollan el hábito lector. Para ello, funciona como una tienda virtual con recursos interactivos que brindan una experiencia atractiva y accesible para todas las personas. Además de facilitar la compra de libros físicos y digitales, Livria promueve una comunidad literaria activa, motivando a lectores de todas las edades a reconectarse con la lectura de manera significativa.
+
+Esta sección presenta una Guía de Estilo integral y estructurada, diseñada para unificar todos los elementos visuales y de diseño que componen la plataforma Livria. El propósito es establecer una identidad de marca coherente que refleje su misión: transformar el acceso a los libros e incentivar el hábito lector en la era digital. Al organizar meticulosamente recursos gráficos clave como tipografías, paletas de colores y otros componentes visuales, la plataforma garantiza una consistencia en el diseño. Esto no solo simplifica la navegación y potencia una experiencia de usuario clara y funcional, sino que también refuerza los valores de Livria como un espacio moderno, accesible y atractivo para la comunidad literaria.
+
+#### 3.1.1.1. General Style Guidelines
+
+El diseño de Livria se sustenta en una Guía de Estilo integral y estructurada, cuya finalidad es proyectar una identidad de marca coherente que refleje nuestros valores de fomento de la lectura y accesibilidad digital. Esta sección define los pilares visuales y comunicacionales de la plataforma, abordando desde el Branding, con su estética cálida, moderna y cercana, hasta la selección de Tipografía y Paleta de Colores, y las directrices de Spacing. 
+
+Todas estas decisiones de diseño se basan en el principio de claridad funcional y cohesión, garantizando que cada interacción sea intuitiva y esté alineada con el espíritu inclusivo y transformador de Livria. Gracias a ello, son modulables para diferentes plataformas (web y móviles), formando parte de las Web Style Guidelines y Mobile Style Guidelines.
+
+**Branding y Logotipo**
+
+El Branding de Livria busca reflejar sus valores fundamentales: el fomento de la lectura, la accesibilidad y la construcción de comunidad, proyectando una estética cálida, moderna y cercana. El Logotipo se compone de un ícono gráfico y el nombre "LIVRIA". El ícono representa tres libros apilados en colores vibrantes de la paleta principal (Anaranjado, Ámbar y Azul), simbolizando la diversidad del catálogo y el espíritu dinámico de la plataforma. La sencillez y claridad del logo aseguran su versatilidad y reconocimiento en cualquier contexto digital, reforzando la imagen de Livria como un portal moderno y acogedor para los lectores.
+
+<p align="center">
+  <img src="https://i.imgur.com/KmTiPgz.png" alt="12171">
+</p>
+
+
+**Paleta de Colores (Colors)**
+
+La paleta de colores de Livria se ha seleccionado estratégicamente para inspirar confianza, energía y serenidad. Se divide en colores principales, utilizados para acciones clave y elementos estructurales, y colores secundarios, para fondos neutros y acentos sutiles:
+
+* Paleta Principal:  
+  * Anaranjado (`#FF5C00`, RGB 255, 92, 0): Color primario de acción, usado para Call-to-Action (CTA) y elementos que requieren máxima atención, representando energía y entusiasmo.  
+  * Ámbar (`#FEB913`, RGB 254, 185, 19): Acento secundario que aporta calidez y optimismo, ideal para destacar beneficios o información relevante.  
+  * Azul (`#2364A0`, RGB 35, 100, 160): Color estructural que transmite confianza y estabilidad, utilizado para barras de navegación y fondos que requieren solidez.  
+* Paleta Secundaria:  
+  * Amarillo Claro (`#FFD150`, RGB 255, 209, 80).  
+  * Azul Marino (`#063A5D`, RGB 6, 58, 93): Usado para el texto principal y asegurar una alta legibilidad.  
+  * Gris Claro (`#F4F5F7`, RGB 244, 245, 247): Utilizado para fondos neutros y un diseño limpio.  
+  * Cian Suave (`#A8DBDE`, RGB 168, 219, 222).
+
+<p align="center">
+  <img src="https://i.imgur.com/7MnGt7n.png" alt="12171">
+</p>
+
+**Tipografía (Typography)**
+
+La selección tipográfica prioriza la legibilidad y la claridad jerárquica en todos los dispositivos.
+
+* Para Logo y Títulos: Se utiliza la fuente Asap Condensed. Su estilo proporciona una estructura visual fuerte e impactante, ideal para encabezados y títulos de alto nivel, alineándose con el dinamismo del branding.  
+* Para Texto Regular (Cuerpo): Se emplea la familia tipográfica Alexandria en sus cuatro pesos (Light, Regular, Medium y Bold). Esta elección garantiza una excelente legibilidad en bloques de texto largos y permite una jerarquía de información sutil pero efectiva mediante variaciones de peso.
+
+<p align="center">
+  <img src="https://i.imgur.com/3lb5HZb.png" alt="12171">
+</p>
+
+**Iconografía (Iconography)**
+
+La iconografía de Livria está diseñada para ser simple, clara y escalable, facilitando la comprensión de las funcionalidades de forma rápida y visual.
+
+* Estilo: Los iconos son de línea delgada (outline), lo que mantiene el diseño moderno y limpio.  
+* Tamaño Sugerido: Se establece un tamaño original de 24 píxeles para asegurar la nitidez y el correcto espaciado en la interfaz.  
+* Propósito: El set incluye íconos comunes de e-commerce (carrito, ubicación, pago), gestión (configuración, editar, eliminar) y comunidad (corazón/like, comentario, compartir), garantizando una cobertura completa de las interacciones del usuario en Livria.
+
+**Espaciado (Spacing)**
+
+Aunque no se proporciona una escala de espaciado explícita, los principios de diseño de Livria se rigen por la modularidad y la consistencia para asegurar una interfaz organizada y funcional:
+
+* Principio de Base: Se sugiere el uso de una escala de 8 puntos (8px, 16px, 24px, 32px, etc.) para definir márgenes, paddings y separación entre componentes. Esto garantiza que todos los elementos de la interfaz se alineen de manera armónica, independientemente del dispositivo.  
+* Legibilidad y Agrupación: El espaciado se utiliza para agrupar visualmente elementos relacionados (como los campos de un formulario o los detalles de una reseña) y para asegurar un espacio adecuado en torno al texto y a los elementos interactivos, mejorando la experiencia táctil y de lectura.
+
+**Tono de Comunicación y Lenguaje Aplicado**
+
+El Tono de Comunicación de Livria es fundamental para establecer una conexión emocional y duradera con los usuarios. Se define como Cálido, Motivador y Accesible, buscando ser un acompañante empático y cercano para el lector, independientemente de su experiencia. Se utiliza un estilo Entusiasta y Alentador para inyectar emoción en la exploración de historias, mientras que la Cercanía se mantiene para generar confianza. La plataforma siempre promueve un ambiente Inspirador, motivando a los usuarios a sentirse parte de una comunidad literaria viva y activa.
+
+En cuanto al Lenguaje Aplicado, se prioriza la Claridad y la Comprensión Directa, evitando tecnicismos o estructuras gramaticales complejas, lo que garantiza que el contenido sea accesible para usuarios de todas las edades y niveles de lectura. El estilo se mantiene Amigable (Casual), y se recurre a una narrativa accesible o ejemplos concretos cuando es apropiado, facilitando la identificación del usuario con los mensajes. Este enfoque comunicativo está diseñado para crear una experiencia acogedora, inspiradora y auténtica, alineada con los valores de Livria: fomentar el hábito lector y construir una comunidad conectada a través de los libros.
+
+### 3.1.2. Information Architecture {#312-information-architecture}
+
+La arquitectura de información es fundamental para plantear la manera en que se organizarán los diferentes componentes de Livria, de modo que el usuario pueda interactuar y adaptarse a ellos de manera intuitiva. La buena organización de la información se debe priorizar para retener la atención del usuario e incentivar el uso constante de la aplicación.
+
+#### 3.1.2.1. Organization Systems {#3121-organization-systems}
+
+Los diagramas presentados a continuación están organizados de manera jerárquica y en categorías para ilustrar las relaciones entre los componentes de manera visual. Estos sistemas de organización de información contribuyen a una navegación más intuitiva para los usuarios, lo que mejorará su experiencia de uso.
+
+**Landing Page**
+
+<p align="center">
+  <img src="https://i.imgur.com/8HVgxyz.jpeg" alt="12171">
+</p>
+
+**Web Application**
+
+<p align="center">
+  <img src="https://i.imgur.com/tpPYnTq.png" alt="12171">
+</p>
+
+**Admin Mobile Application**
+
+<p align="center">
+  <img src="https://i.imgur.com/OLJoj7k.jpeg" alt="12171">
+</p>
+
+**Client Mobile Application**
+
+<p align="center">
+  <img src="https://i.imgur.com/OLJoj7k.jpeg" alt="12171">
+</p>
+
+
+**Screen Organization**
+
+<p align="center">
+  <img src="https://i.imgur.com/odIUF9H.jpeg" alt="12171">
+</p>
+
+#### 3.1.2.2. Labelling Systems
+
+La interfaz de Livria ha sido diseñada de manera eficiente y organizada, ofreciéndole al cliente una experiencia de uso dinámica que le permitirá encontrar una ruta rápida hacia la información que quiere consultar o las herramientas que quiere utilizar sin complicaciones. Para lograr esto, nuestro equipo ha propuesto un diseño que emplea etiquetas concisas y efectivas, favoreciendo una experiencia intuitiva. A continuación, se dará una descripción detallada de aquellas que se encuentran en nuestro proyecto.
+
+**Landing Page**
+
+<p align="center">
+  <img src="https://i.imgur.com/oliE50k.png" alt="12171">
+</p>
+
+Al ingresar a la plataforma, el usuario se encontrará primero con el encabezado, en esta sección de la pantalla, encontrará las etiquetas “HOME”, “SERVICES”, “ABOUT US”, “CONTACT US”, “ES/EN”:
+
+* HOME: Esta etiqueta provee un acceso rápido a la página principal de la Landing Page, el usuario puede acceder a esta fácilmente desde cualquier sección del sitio web.  
+* SERVICES: Esta etiqueta sirve como acceso directo a la página de “Servicios”, que contiene descripciones de los diferentes servicios que ofrece la plataforma.  
+* ABOUT US: Esta etiqueta sirve para brindar una ruta al usuario a la página de “Nosotros”, donde se encontrarán dos párrafos introductorios de la startup (Bookify) y el proyecto (Livria).  
+* CONTACT US: Esta etiqueta tiene la función de acceso directo a la página de “Contacto”, en la que se encontrará un formulario de contacto que el usuario puede utilizar para enviar comentarios o  
+* ES/EN: Esta etiqueta servirá para alternar la vista del sitio web, dando la opción al usuario de visualizarla en español (ES) o inglés (EN), dependiendo de sus necesidades.
+
+**Admin Mobile Application**
+
+Para la aplicación de Administrador se tiene dos barras de menú con sus labels respectivos que permiten al usuario navegar fácilmente entre las secciones.
+
+<p align="center">
+  <img src="https://i.imgur.com/36Gumf1.png" alt="12171">
+</p>
+
+El encabezado es la primera barra de menú de la aplicación de administración, la cual funciona como un Panel de Control de Estado y Navegación Rápida. Visualmente, utiliza el color Azul Marino para transmitir profesionalismo y seguridad. Se compone de tres elementos críticos para la gestión:
+
+* LOGO: Ubicado a la izquierda, representa la identidad de Livria Management y sirve como punto de acceso rápido a la pantalla de Home.  
+* MÉTRICA FINANCIERA: En el centro se muestra la métrica Capital (o un indicador financiero principal). Este valor se presenta resaltado en color Ámbar (\#FEB913), garantizando que el administrador tenga visibilidad inmediata sobre la salud económica del negocio en cualquier momento.  
+* CONFIGURACIÓN: El ícono de engranaje (Settings) a la derecha proporciona un acceso directo a las opciones de configuración del sistema y del perfil del administrador.
+
+<p align="center">
+  <img src="https://i.imgur.com/yHJDrGL.png" alt="12171">
+</p>
+
+Este menú inferior sirve como el principal Sistema de Etiquetado y Navegación Global para la aplicación de administración, permitiendo al usuario acceder directamente a las áreas críticas de gestión sin importar en qué parte del sistema se encuentre.
+
+El sistema de etiquetado utiliza una combinación de iconos visuales de línea delgada y texto claro para representar las funciones operativas:
+
+* HOME: Representado por el ícono de una casa, etiqueta la pantalla de inicio o dashboard de gestión, que sirve como punto central de información.  
+* BOOKS: Etiqueta el módulo de Gestión de Catálogo, permitiendo al administrador ver y modificar los títulos disponibles.  
+* ORDERS: Representado por el ícono de carrito de compras, etiqueta la sección de Gestión de Pedidos, crucial para rastrear y actualizar el estado de las transacciones de los clientes.  
+* INVENTORY: Representado por el ícono de un portapapeles, etiqueta el módulo de Gestión de Stock/Inventario, permitiendo el control de las existencias físicas y el reabastecimiento.  
+* STATS: Etiqueta el módulo de Estadísticas/Analíticas, proporcionando métricas de rendimiento y datos de ventas.
+
+**Client Mobile Application**
+
+Al igual que en la aplicación de administrador, en las pantallas de cliente se pueden observar dos barras de menú que sirven como sistemas de etiquetado y de navegación. 
+
+<p align="center">
+  <img src="https://i.imgur.com/M4R83Kb.png" alt="12171">
+</p>
+
+La barra de menú superior de la aplicación para el Usuario Cliente funciona como un centro de navegación crítica y herramientas de descubrimiento. Utiliza el color Azul Marino en su fondo y Anaranjado (\#FF5C00) para la marca Livria, lo que proporciona un contraste vibrante y distintivo. Se compone de elementos clave de izquierda a derecha:
+
+* LOGO: El logo de Livria se ubica a la izquierda, funcionando como un ancla visual y un acceso rápido a la pantalla de Home o inicio.  
+* BÚSQUEDA (Lupa): El ícono de lupa permite al usuario acceder rápidamente a la función de búsqueda directa en el catálogo.  
+* RECOMENDACIONES (Foco): El ícono de marcador de libro proporciona acceso instantáneo a la sección de las recomendaciones personalizadas para el usuario.  
+* TIENDA (Location Pin): El ícono de pin de ubicación dirige al usuario a la pantalla de Store, donde puede encontrar la dirección física de la librería.  
+* CARRITO (Shopping Cart): El ícono de carrito de compras es el call-to-action más importante de la barra, ya que permite al usuario ver y gestionar inmediatamente los artículos seleccionados y proceder a la compra.
+
+<p align="center">
+  <img src="https://i.imgur.com/OfRj9i2.png" alt="12171">
+</p>
+
+La barra de menú inferior es el Sistema de Navegación Global principal de la aplicación, diseñada para el acceso rápido y constante a las secciones clave. Se presenta en un tono oscuro de Azul Marino para estabilidad y contraste. Este menú utiliza iconografía de línea delgada con texto claro debajo, garantizando la usabilidad táctil:
+
+* HOME: El ícono de casa funciona como el punto central de navegación.  
+* CATEGORIES: El ícono de tres líneas horizontales (hamburguesa) dirige a la lista de categorías y géneros.  
+* COMMUNITIES: El ícono de personas enfoca al usuario en el aspecto social y de interacción de la plataforma.  
+* NOTIFICATIONS: El ícono de campana alerta al usuario de mensajes y novedades.  
+* PROFILE: El ícono de persona da acceso al centro de gestión de la cuenta, settings y la información personal del usuario.
+
+Este diseño asegura que todas las áreas fundamentales de la experiencia (descubrimiento, socialización y gestión personal) estén siempre visibles y sean accesibles con un solo toque, optimizando el flujo de navegación.
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+**Landing Page**
+
+*Title*
+
+<p align="center">
+  <img src="https://i.imgur.com/ew2WMaj.png" alt="12171">
+</p>
+
+En este meta tag, se define el título que tendrá el sitio web del proyecto. El equipo decidió usar el nombre de la startup seguido del nombre del producto para resaltar nuestra autoría sobre la idea, optando por una mayor simplicidad que facilite la lectura por parte del usuario.
+
+*Meta tags*
+
+<p align="center">
+  <img src="https://i.imgur.com/ccw5CEp.png" alt="12171">
+</p>
+
+El equipo no realizó cambios sobre los meta tags incluídos por defecto dentro del archivo HTML, debido a que no fueron necesarios para el correcto funcionamiento de la página.
+
+*Description*
+
+<p align="center">
+  <img src="https://i.imgur.com/NNoNOAS.png" alt="12171">
+</p>
+
+El meta tag designado para la descripción del sitio web contiene un breve párrafo introductorio que resume los principales servicios que ofrece la aplicación, con el objetivo de informar rápidamente a los usuarios que no son familiares con su funcionamiento.
+
+*Keywords*
+
+<p align="center">
+  <img src="https://i.imgur.com/8i09h1y.png" alt="12171">
+</p>
+
+Los meta tags de “Keywords” tienen el propósito de optimizar la búsqueda del sitio web en navegadores al ampliar el número de términos que un usuario puede ingresar en la barra de búsqueda para localizarlo. En el caso de nuestro proyecto, se utilizaron términos relacionados al apartado de compra de libros y la función de comunidad.
+
+*Author*
+
+<p align="center">
+  <img src="https://i.imgur.com/nn35LiF.png" alt="12171">
+</p>
+
+El meta tag de autor está presente para identificar a los autores del contenido de la Landing Page.
+
+**Admin Mobile App**
+
+*ASO (App Store Optimizaton) elements:*
+
+<p align="center">
+  <img src="https://i.imgur.com/J9W9v8o.png" alt="12171">
+</p>
+
+La optimización para tiendas de aplicaciones (ASO) de tu aplicación, basándose únicamente en el AndroidManifest.xml que proporcionaste, se centra en los siguientes elementos visibles:
+
+*Título de la Aplicación (App Title/Name)*
+
+Este está definido por el atributo android:label tanto en la etiqueta <application> como en la <activity> principal. En ambos casos, el valor es "Adminlivria". Este es el nombre que los usuarios verán bajo el icono de la aplicación en la pantalla de inicio y en la tienda de aplicaciones. Un título efectivo debe ser memorable y reflejar la función de la aplicación, y "Adminlivria" sugiere un enfoque en administración o gestión.
+
+*Ícono de la aplicación (App Icon)*
+
+El atributo android:icon especifica el recurso **@mipmap/ic_launcher** y android:roundIcon especifica **@mipmap/ic_launcher_round**. Aunque no se muestra el diseño real, este es un elemento crucial de ASO ya que es la primera impresión visual de la aplicación.
+
+#### 3.1.2.4. Searching Systems
+
+En Livria, los Searching Systems fueron diseñados para simplificar la experiencia de búsqueda y mejorar la experiencia del usuario, ayudándolo a localizar los productos que quiere consultar rápidamente y de manera eficiente. Esto nos ayudará a evitar que los clientes se sientan abrumados o tengan problemas para encontrar libros de su interés.
+
+**Admin Mobile Application**
+
+<p align="center">
+  <img src="https://i.imgur.com/jEQcGM9.png" alt="12171">
+</p>
+
+La tarjeta de Book Collection no solo contiene el título de la sección, sino posee, también, una barra de búsqueda que permite encontrar un libro por su nombre. Además, al hacer clic en el ícono de Filtros, se pueden aplicar ciertos criterios para realizar una búsqueda más acertada.  
+Esta tarjeta se encuentra en las pantallas de Book Management y de Inventory para facilitar al administrador la búsqueda de libros en el catálogo de Livria.
+
+<p align="center">
+  <img src="https://i.imgur.com/nCX3CG8.png" alt="12171">
+</p>
+
+La tarjeta de Orders es casi idéntica a la de Book Collection, pues poseen su respectivo título, la barra de búsqueda y el método de filtrado. La principal diferencia es que la actual tarjeta encuentra órdenes a través de su ID o por el nombre del comprador.
+
+**Client Mobile Application**
+
+<p align="center">
+  <img src="https://i.imgur.com/VqADQtC.png" alt="12171">
+</p>
+
+La pantalla de búsqueda de Livria está diseñada para ofrecer una experiencia de descubrimiento de catálogo rápida y directa al usuario. Su diseño conciso se enfoca en la eficiencia y la relevancia de los resultados. Posee los siguientes elementos clave:
+
+* Activación de la Búsqueda: El sistema se inicia con un campo de texto claro y prominente etiquetado como "Search by Title or Author" (Buscar por Título o Autor), lo que dirige al usuario a introducir su consulta de forma explícita.  
+* Mecanismo de Resultados: Al ingresar un término, el sistema procesa y presenta los RESULTS (Resultados) en formato de tarjeta visual. Cada tarjeta contiene la carátula, el título, el autor y el precio del libro, permitiendo una rápida identificación visual del contenido.  
+* Refinamiento de Criterios (Filtros): El sistema incluye un ícono de filtros (representado por barras verticales de diferentes alturas) en la esquina superior derecha de la sección de resultados. Esta funcionalidad es crucial, ya que permite al usuario refinar los resultados obtenidos por la consulta inicial (título o autor) aplicando criterios adicionales, como se ve en el flujo de búsqueda.  
+* Integración con Descubrimiento: La selección de cualquiera de los resultados conduce a la Vista Individual del Libro, integrando el sistema de búsqueda directamente con el proceso de evaluación y compra.
+
+En esencia, este sistema es una herramienta de búsqueda de alta fidelidad que soporta tanto la entrada directa de consulta como el refinamiento posterior de los resultados.
+
+<p align="center">
+  <img src="https://i.imgur.com/wGss9Py.png" alt="12171">
+</p>
+
+La Pantalla de Categorías funciona como un sistema de búsqueda estructurada y de exploración del catálogo, dirigido a los usuarios que desean descubrir contenido por género o tema en lugar de buscar un título específico.
+
+* Exploración Estructurada: El sistema presenta una lista jerárquica de categorías principales (LITERATURE, NON-FICTION, MANGA & COMICS, etc.). El etiquetado claro de las categorías permite al usuario refinar su búsqueda por áreas de interés con un solo toque.  
+* Activación de la Búsqueda: La interacción principal es la selección de una categoría, pues el usuario es redirigido a la Vista de Categoría Seleccionada.  
+* Resultados y Refinamiento por Categoría: Esta vista muestra todos los libros pertenecientes a la categoría seleccionada. Es crucial notar que esta pantalla incluye el ícono de filtros (barras verticales). Esto permite al usuario refinar los resultados dentro de la categoría por criterios adicionales, completando así el proceso de búsqueda por exploración.
+
+#### 3.1.2.5. Navigation Systems 
+
+El diseño de la navegación de Livria se basa en una arquitectura de información clara, utilizando patrones móviles probados para garantizar que tanto los lectores como el personal administrativo puedan acceder a sus flujos de trabajo clave de manera eficiente. Este enfoque dual es crucial para dar soporte a los diferentes *Bounded Contexts* definidos en el sistema.
+
+* Navegación Persistente: La Barra de Pestañas Inferior (Bottom Tabs)
+
+<p align="center">
+  <img src="https://i.imgur.com/WiU41Qg.png" alt="12171">
+</p>
+
+Este sistema constituye el eje de navegación global de la aplicación para el usuario lector. La Barra de Pestañas Inferior implementa un patrón de Navegación Persistente que asegura el acceso rápido y constante a los módulos de negocio fundamentales, sin que el usuario pierda su contexto actual. Esta barra es esencial para las funcionalidades principales de la aplicación, permitiendo a los usuarios cambiar entre estas secciones de alto nivel de forma instantánea. Su naturaleza constante en la base de la pantalla mejora la eficiencia y la descubribilidad de los módulos centrales de Livria, alineándose directamente con las metas de interacción social y exploración de contenido.
+
+* Navegación Contextual: La Barra Superior (Top Bar)
+
+<p align="center">
+  <img src="https://i.imgur.com/KhhqoBO.png" alt="12171">
+</p>
+
+La barra superior actúa como un complemento funcional y contextual de la navegación principal, enfocándose en acciones secundarias pero esenciales y en el acceso a la sesión. La Barra Superior complementa la navegación inferior, sirviendo como un portal para funcionalidades contextuales o universales. Ofrece acceso directo a Recomendaciones, al Carrito, etc. Su implementación minimiza el desorden en la barra inferior, reservándola solo para los módulos de más alta prioridad, mientras centraliza las acciones de usuario y compra.
+
+* Navegación Jerárquica y Gestual: El Retorno al Contexto
+
+<p align="center">
+  <img src="https://i.imgur.com/W81M9n7.png" alt="12171">
+</p>
+
+Este sistema garantiza la fluidez del usuario al moverse de una vista general a una específica y viceversa, utilizando tanto la jerarquía visual como la interacción gestual moderna. Se complementa con la Navegación Gestual de Retorno, permitiendo al usuario deslizar lateralmente de izquierda a derecha para deshacer la última acción de navegación y regresar inmediatamente a la pantalla anterior dentro de la pila. Por ejemplo, al salir de una publicación en Comunidades, el deslizamiento regresa al feed comunitario. Este mecanismo no solo es intuitivo y rápido, sino que también aligera la dependencia del botón físico o de la flecha de retroceso del sistema operativo, mejorando la experiencia de usuario y la percepción de fluidez.
+
+* Navegación Específica: La Funcionalidad de Búsqueda
+
+<p align="center">
+  <img src="https://i.imgur.com/UTBcxqJ.png" alt="12171">
+</p>
+
+La búsqueda es la ruta más directa para que el usuario acceda a la información deseada, actuando como un atajo crucial a través de los diversos Bounded Contexts. La Navegación por Búsqueda es un sistema crucial y transversal que permite a los usuarios saltar directamente a contenido específico de su interés, evitando la navegación secuencial. Al proveer resultados en tiempo real y categorizados, la búsqueda se convierte en la herramienta de navegación más eficiente para la exploración intencionada, optimizando el tiempo del usuario y reduciendo la fricción para la adquisición de libros.
+
+### 3.1.3. Landing Page UI Design 
+
+La propuesta de diseño para la interfaz de usuario (UI) de la Landing Page de Livria es la culminación visual de la arquitectura de información y el diseño centrado en el usuario. Desde el primer impacto, esta interfaz está diseñada para proyectar una identidad accesible, amigable y culturalmente cercana, alineada con el valor fundamental de promover la lectura y la comunidad. La estructura se organiza en secciones clave —Home, Services, About Us y Contact Us— que garantizan una navegación fluida e intuitiva. Estéticamente, el diseño emplea una jerarquía visual limpia, ilustraciones cálidas, tipografías legibles y un uso estratégico de la paleta de colores para despertar el interés, generar confianza e impulsar al visitante a interactuar con los llamados a la acción, asegurando que la primera impresión sea tanto funcional como emocionalmente atractiva.
+
+#### 3.1.3.1. Landing Page Wireframes
+
+En primer lugar, se observa la pantalla de inicio de la Landing Page de Livria. Esta tiene una descripción sobre qué trata la aplicación web que se ofrece y un carrusel de imágenes relacionadas. Asimismo, tiene el header con los accesos a cada sección de la landing page.
+
+<p align="center">
+  <img src="https://i.imgur.com/2WHRUgm.png" alt="12171">
+</p>
+
+En la sección siguiente aparece la información sobre los servicios de Livria: Variedad de libros, Comunidad de libros, y Recomendaciones. Asimismo, cada tarjeta de información tiene su imagen correspondiente.
+
+<p align="center">
+  <img src="https://i.imgur.com/M32uH0X.png" alt="12171">
+</p>
+
+La sección que continúa es la de “Sobre Nosotros”, la cual muestra información sobre la startup, Bookify, y la aplicación web, Livria. Se visualiza texto importante sobre quiénes somos, así como el logo representativo de cada uno.
+
+<p align="center">
+  <img src="https://i.imgur.com/QBeEGEs.png" alt="12171">
+</p>
+
+Luego, se llega a la última sección de la landing page, que es “Contáctanos”. En caso que el visitante desee comunicarse con el equipo de Bookify \- Livria, puede dejar su información y motivo de contacto. Además, si desea formar parte de este equipo, puede dejar su CV y aplicar para un puesto disponible.
+
+<p align="center">
+  <img src="https://i.imgur.com/gH7FYhn.png" alt="12171">
+</p>
+
+A medida que el visitante hizo scroll en la página, se mostraron todas las secciones de la landing page, llegando hasta el pie de página. Este muestra los accesos a las secciones visualizadas anteriormente, así como enlaces a partes legales y de soporte de la plataforma.
+
+<p align="center">
+  <img src="https://i.imgur.com/VERprTk.png" alt="12171">
+</p>
+
+#### 3.1.3.2. Landing Page Mock-ups
+
+Los mockups de la landing page de Livria muestran una mayor fidelización de la interfaz final del sitio, integrando los elementos visuales definidos en la guía de estilo. Esta representación busca validar la propuesta estética y funcional de los wireframes en una experiencia clara y atractiva para el usuario.
+
+La pantalla de inicio del mockup de la landing page presenta el encabezado con las secciones principales del sitio y el bloque introductorio de la propuesta de Livria, ambos con los colores de la paleta. Incluye un carrusel visual con imágenes sobre lectura digital, comunidad lectora y la tienda física de Livria.
+
+<p align="center">
+  <img src="https://i.imgur.com/rqNL6wN.png" alt="12171">
+</p>
+
+La sección de “Servicios” presenta cada tarjeta de información con un color diferente, así como con una imagen respectiva sobre lo que describe la funcionalidad.
+
+<p align="center">
+  <img src="https://i.imgur.com/zl55fT7.png" alt="12171">
+</p>
+
+A esta sección, “Sobre Nosotros”, se le agrega color a los bloques que contienen los nombres de la startup y la aplicación, Defontes y Livria, respectivamente.
+
+<p align="center">
+  <img src="https://i.imgur.com/97eORXD.png" alt="12171">
+</p>
+
+El mockup de la última sección de la landing page, la cual presenta el formulario de contacto, se visualiza con un color principal de la paleta.
+
+<p align="center">
+  <img src="https://i.imgur.com/k4kMo0x.png" alt="12171">
+</p>
+
+El mockup del pie de página muestra los accesos de Navegación, Legal y Soporte con el color azul, así como los logos de las redes sociales de Livria.
+
+<p align="center">
+  <img src="https://i.imgur.com/ScJXwUf.png" alt="12171">
+</p>
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+El diseño UX/UI de las aplicaciones móviles de Livria (tanto para el Usuario Cliente como para el Administrador) se ha abordado bajo la premisa de accesibilidad, rendimiento y optimización táctil. El objetivo principal es trasladar la experiencia de lectura y comunidad a un entorno móvil de forma fluida y nativa, respetando los patrones de diseño de cada sistema operativo. Se ha priorizado la simplicidad en la navegación y la claridad de la información, utilizando grandes zonas de toque, una tipografía legible y un contraste adecuado. Esto asegura que el usuario pueda interactuar con el catálogo, la comunidad y las funcionalidades administrativas de manera eficiente, haciendo de las aplicaciones móviles una extensión natural y poderosa de la plataforma web de Livria.
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+Los wireframes de las aplicaciones móviles de Livria (tanto para la versión de cliente como la de administrador) representan la columna vertebral estructural del diseño, priorizando la usabilidad táctil y la eficiencia de navegación en pantallas pequeñas. Esta etapa se enfoca en definir la organización jerárquica del contenido y la disposición óptima de los elementos clave dentro de los patrones de diseño móvil. Al concentrarse únicamente en la estructura y el flujo de tareas sin la distracción de elementos visuales, los wireframes permiten optimizar la experiencia de usuario en movimiento y asegurar que las funcionalidades críticas del sistema sean accesibles y fluidas para el lector y el administrador.
+
+##### **Pantallas de Loggeo** 
+
+La pantalla de Log In es el punto de entrada inicial a la plataforma Livria y está diseñada para gestionar el acceso de todos los tipos de usuarios. Presenta un formulario centralizado para la autenticación estándar con campos para Username y Password, culminando con el botón 'LOG IN'. Debajo de la sección de acceso principal, la pantalla ofrece opciones secundarias vitales: un botón 'REGISTER' que redirige a los nuevos usuarios a la creación de cuenta, y un botón 'ADMIN' que permite a los administradores iniciar sesión con sus credenciales por defecto. Esta disposición asegura que tanto los usuarios regulares como el personal de gestión puedan acceder a sus respectivos flows desde una única interfaz, manteniendo la usabilidad y la seguridad como prioridad.
+
+<p align="center">
+  <img src="https://i.imgur.com/5ll4vZV.png" alt="12171">
+</p>
+
+La primera pantalla de Register está diseñada para facilitar la incorporación de nuevos usuarios a la plataforma Livria. La interfaz se centra en un formulario claro y conciso que solicita la información esencial para la creación de una cuenta: Email, Password y Confirm Password. El proceso de registro incorpora un paso de cumplimiento legal mediante un checkbox que exige al usuario confirmar que ha leído y acepta la Privacy Policy y los Terms and Conditions de Livria. La acción se consolida con el botón 'CONTINUE'. Adicionalmente, la pantalla mantiene la usabilidad al ofrecer opciones de navegación alternativas, permitiendo a los usuarios ya registrados volver a la pantalla de 'SIGN IN' o a los administradores iniciar sesión mediante el botón 'ADMIN'.
+
+<p align="center">
+  <img src="https://i.imgur.com/ZOAwpNh.png" alt="12171">
+</p>
+
+La segunda pantalla de Register está dedicada a la personalización del perfil del nuevo usuario, siguiendo el registro inicial de credenciales. El formulario solicita al usuario definir su identidad dentro de la plataforma con campos como Nickname, Username (nombre de usuario único) y la Phrase (una frase o bio de perfil). Adicionalmente, el usuario tiene la opción de personalizar su perfil subiendo una Profile Picture mediante opciones para tomar una foto o seleccionar una de la galería. El proceso de creación de la cuenta se completa con el botón 'REGISTER'. Al igual que en el paso anterior, la pantalla mantiene la usabilidad ofreciendo rutas de escape para usuarios que ya tienen una cuenta ('SIGN IN') o para la autenticación de administradores ('ADMIN').
+
+<p align="center">
+  <img src="https://i.imgur.com/28SgVMC.png" alt="12171">
+</p>
+
+Por último, la pantalla de Admin Sign In es la interfaz dedicada a la autenticación del personal de gestión de Livria, priorizando la seguridad mediante un proceso de acceso de triple factor. El formulario requiere que el administrador ingrese un Username y Password estándar, pero añade un campo adicional de Security Pin para una verificación de identidad más robusta. El acceso al dashboard se otorga al pulsar el botón 'SIGN IN'. La interfaz también mantiene opciones de navegación para la usabilidad, ofreciendo el botón 'GO BACK' para regresar a la pantalla de inicio de sesión de cliente si se ha accedido por error, y el botón 'ADMIN' que funge como un doble check para confirmar la intención de iniciar sesión como administrador.
+
+<p align="center">
+  <img src="https://i.imgur.com/pKOwG9S.png" alt="12171">
+</p>
+
+##### **Pantallas de Administrador** 
+
+En primer lugar, la pantalla de Home del Administrador está diseñada como un dashboard de gestión centralizado que prioriza la eficiencia y el acceso rápido a las tareas críticas. Se presenta una interfaz limpia y jerárquica que inmediatamente proporciona una bienvenida personalizada al administrador. En la parte superior se muestra información esencial de negocio, como el Capital actual, que es una métrica clave. El cuerpo de la pantalla está dominado por la sección Quick Actions, que agrupa las funcionalidades principales de manera accesible: Manage Books, Manage Orders, Inventory y Statistics. Finalmente, la sección System Information ofrece datos de soporte, como la versión del sistema y el último inicio de sesión.
+
+<p align="center">
+  <img src="https://i.imgur.com/Ps0Yryq.png" alt="12171">
+</p>
+
+La pantalla de Books del Administrador combina visualización de métricas y gestión del catálogo. En la parte superior, bajo el título Statistics, se presenta un resumen ejecutivo con tarjetas que muestran datos clave como Total Books, Total Genres, Average Price, Books in Stock y Most Reviewed, proporcionando al administrador una visión rápida del rendimiento del catálogo. La sección inferior, Book Collection, es el corazón de la gestión. Aquí, el administrador puede buscar títulos específicos mediante una barra de búsqueda y ver el listado completo de libros organizado en un formato de tarjeta (card) conciso. Cada tarjeta muestra la portada, el título y el precio, e incluye un botón 'VIEW' que permite acceder a la información detallada del libro, facilitando la navegación rápida y la gestión eficiente del inventario.
+
+<p align="center">
+  <img src="https://i.imgur.com/lyz2nul.png" alt="12171">
+</p>
+
+Consecutivamente, la pantalla de Detalle del Libro del Administrador, ofrece una vista exhaustiva de la información individual de cada título, accesible mediante el botón "VIEW" desde la pantalla anterior. En la parte superior, se muestra el título completo del libro, junto con etiquetas descriptivas como "JUVENILE" y "EN INGLÉS", que categorizan el contenido. La portada del libro ocupa un lugar central, seguida de los datos financieros clave: el Purchase Price (precio de compra) y el Sale Price (precio de venta), métricas esenciales para la gestión de inventario y la estrategia de precios. Finalmente, la sección Synopsis proporciona un resumen detallado del contenido del libro, lo que permite al administrador obtener una comprensión profunda del producto sin necesidad de fuentes externas. Esta pantalla consolida toda la información relevante para la gestión de cada título.
+
+<p align="center">
+  <img src="https://i.imgur.com/6OEO7L5.png" alt="12171">
+</p>
+
+La primera pantalla de Orders del Administrador es el centro de control para la gestión y el análisis de las transacciones de Livria. Al igual que otras secciones, comienza con un panel de métricas clave que incluye Total Orders, Total Revenue, Average Order Value, Pending Orders y Completed Orders, proporcionando una visión inmediata del rendimiento financiero y operativo. La sección principal, ORDERS, permite al administrador buscar pedidos mediante un Order ID o el Customer Name. Debajo de la búsqueda, la información se presenta en un formato de tabla concisa, que resume el ORDER CODE, el CUSTOMER, la DATE, el TOTAL de la compra y el STATUS actual (entre "Pending", “In Progress” y “Delivered”). Esta estructura está optimizada para la trazabilidad y el monitoreo eficiente del ciclo de vida de cada pedido.
+
+<p align="center">
+  <img src="https://i.imgur.com/bWH9UvG.png" alt="12171">
+</p>
+
+La segunda pantalla de Orders, accesible al seleccionar un pedido de la tabla, ofrece una vista detallada de la transacción, organizada en secciones claras para una gestión eficiente. La sección ORDER DETAILS proporciona un resumen del pedido con el Order Code, la Order Date y el Order Status ("Pending" en el ejemplo), junto con el Order Value. A continuación, la sección CUSTOMER INFORMATION presenta datos esenciales del cliente, incluyendo Customer Name, Customer Email, y la información del destinatario (Recipient Name y Recipient Phone). Finalmente, la sección ORDER ITEMS desglosa los productos adquiridos en un formato de tarjeta visual, mostrando cada libro con su título, un breve resumen y precio, e incluye una opción 'VIEW' para verificar la información del ítem. Esta estructura facilita el proceso de verificación y el servicio al cliente, complementado por una sección para UPDATE STATUS que permite avanzar el pedido en su ciclo de vida.
+
+<p align="center">
+  <img src="https://i.imgur.com/UAmHp1d.png" alt="12171">
+</p>
+
+La primera vista de la sección Inventory del Administrador se centra en la función de agregar nuevos títulos al catálogo de Livria, bajo el título Add to Inventory. Esta pantalla está organizada en un formulario que captura la información esencial de cada libro de manera estructurada. El administrador debe completar campos como Title, Author, Description, y seleccionar el Genre y el Language a través de dropdowns. Adicionalmente, la interfaz permite subir la Cover Image y definir el Stock inicial mediante un selector de cantidad. La navegación se facilita con pestañas superiores que permiten alternar entre esta función (ADD A BOOK) y la visualización del inventario existente (VIEW INVENTORY), garantizando un flujo de trabajo claro para la gestión de existencias.
+
+<p align="center">
+  <img src="https://i.imgur.com/XGE8gFq.png" alt="12171">
+</p>
+
+La segunda vista de la sección Inventory, accesible mediante la pestaña VIEW INVENTORY, transforma la interfaz en una herramienta de gestión de existencias. La pantalla presenta la Book Collection en un formato de lista de tarjetas, similar a la vista de "Books", pero con un enfoque en la disponibilidad. El administrador puede buscar títulos específicos y, lo más importante, observar el Stock actual (mostrado como 'Stock: 0' en el ejemplo) debajo de cada título. Esta funcionalidad está diseñada para permitir al administrador reaccionar rápidamente a la escasez de existencias, ya que cada tarjeta incluye un prominente botón 'ADD STOCK'. Este botón dirige a una tercera pantalla de libro individual al que se quiere aumentar el stock.
+
+<p align="center">
+  <img src="https://i.imgur.com/Bvw1byy.png" alt="12171">
+</p>
+
+La tercera y última pantalla de Inventory se enfoca exclusivamente en el proceso de reabastecimiento de existencias para un título específico, siendo accesible al seleccionar 'ADD STOCK' en la vista de inventario. En la parte superior, se muestra la información de identificación del libro, incluyendo el título, las etiquetas de clasificación, los precios (Purchase Price y Sale Price) y el CURRENT STOCK disponible. La función principal reside en la sección de acción, donde el administrador selecciona la QUANTITY a añadir mediante un dropdown y visualiza el TOTAL TO PAY asociado a esa compra de inventario. El proceso se finaliza con el botón 'CONTINUE', lo que indica la transición al flujo de compra o registro de existencias. Esta pantalla consolida la verificación del estado actual del stock con la acción de reabastecimiento, optimizando la gestión de inventario.
+
+<p align="center">
+  <img src="https://i.imgur.com/n8IrULn.png" alt="12171">
+</p>
+
+La pantalla de Statistics del Administrador es un dashboard analítico que ofrece una visualización de las métricas clave para la toma de decisiones, pues consolida la información de ventas y finanzas, transformando datos en insights visuales para que el administrador pueda monitorear la salud operativa y estratégica de Livria.. Se estructura en tres secciones:
+
+* TOP THREE BEST SELLING BOOKS: Destaca visualmente los tres títulos con mejor rendimiento de ventas mediante tarjetas que muestran la portada y el número de unidades vendidas, permitiendo identificar rápidamente los productos más exitosos.  
+* REVENUE ACCORDING THE GENRES: Presenta un gráfico de pastel que desglosa los ingresos totales de Livria según el género literario. Este gráfico es crucial para analizar qué segmentos del catálogo están generando mayor rentabilidad.  
+* CAPITAL FLOW AND OPERATIONS: Muestra la dinámica financiera de la plataforma a través de un gráfico de líneas que compara variables clave como las Ganancias por Órdenes y el Costo de Venta (Libros) a lo largo del tiempo.
+
+<p align="center">
+  <img src="https://i.imgur.com/MXRwiD4.png" alt="12171">
+</p>
+
+La primera vista de la pantalla de Settings del Administrador se enfoca en la gestión del perfil y las preferencias del sistema. La interfaz se presenta de manera clara, con una bienvenida personalizada al administrador. La funcionalidad principal se divide mediante pestañas: PROFILE y APPLICATION. La sección PROFILE INFORMATION muestra un formulario para la modificación de datos sensibles, incluyendo Name, Username, Email y Security Pin. Los campos están diseñados para una edición rápida. En la parte inferior, se encuentran botones clave para la seguridad y la persistencia de los cambios: un botón 'LOG OUT' para cerrar la sesión y un botón 'SAVE CHANGES' para actualizar los datos del perfil, garantizando que el administrador mantenga el control sobre su información y credenciales.
+
+<p align="center">
+  <img src="https://i.imgur.com/dBRUNCl.png" alt="12171">
+</p>
+
+La segunda vista de la sección Settings del Administrador, accesible mediante la pestaña APPLICATION, se dedica a la gestión de las preferencias del sistema y la comunicación. Esta pantalla permite al administrador configurar el flujo de notificaciones y alertas que recibe. Se presentan toggles binarios de 'YES' / 'NO' para tres opciones clave: Notifications (recibir notificaciones dentro de la aplicación), Email Alerts (recibir alertas a través del correo electrónico), y una configuración para Email (probablemente referida a la automaticidad o guardado de cambios en la configuración de email). Esta interfaz asegura que el administrador pueda personalizar su experiencia y su nivel de exposición a las comunicaciones del sistema. Al igual que en la vista de perfil, incluye los botones 'LOG OUT' y 'SAVE CHANGES' para aplicar las modificaciones o cerrar la sesión.
+
+<p align="center">
+  <img src="https://i.imgur.com/pp8KqT0.png" alt="12171">
+</p>
+
+##### **Pantallas de Cliente** 
+
+En primer lugar se tiene a la pantalla de inicio de Livria, la cual muestra elementos principales de la aplicación. Se tiene el header, que posee los accesos a las secciones de Búsqueda, Recomendaciones, Tienda, y al Carrito de Compras. Asimismo, hay un carrusel que muestra diferentes banners con información, siendo el principal el de “obtener el Plan Comunidad”. A partir de ello, aparecen las primeras sugerencias de las categorías parte del catálogo de Livria. Finalmente, se encuentra el menú de navegación entre las principales secciones de Livria. 
+
+<p align="center">
+  <img src="https://i.imgur.com/0oxdHi4.png" alt="12171">
+</p>
+
+La pantalla de Recommendations es el feed personalizado del Usuario Cliente, diseñado para fomentar el descubrimiento de nuevos títulos. La interfaz saluda al usuario con un mensaje amigable y explica que las sugerencias se basan en sus preferencias. El contenido principal presenta los libros recomendados en un formato de tarjetas visuales concisas que muestran la portada, el título, el autor y el precio. El diseño prioriza la acción y la interacción inmediata, permitiendo al usuario marcar su interés con íconos de marcador o eliminar la sugerencia con íconos negativos, lo que refina el algoritmo. Finalmente, la pantalla incluye un botón 'REFRESH' para generar una nueva tanda de recomendaciones, asegurando una experiencia de navegación dinámica y continuamente adaptada a los gustos del lector.
+
+<p align="center">
+  <img src="https://i.imgur.com/xeS5EPO.png" alt="12171">
+</p>
+
+La pantalla de Categories es una herramienta de navegación esencial diseñada para facilitar la exploración y el descubrimiento del catálogo de libros por parte del Usuario Cliente. Presenta una interfaz limpia y estructurada, organizada como una lista jerárquica bajo el título SEARCH BY CATEGORY. La pantalla enumera las principales clasificaciones de contenido, incluyendo géneros tradicionales como LITERATURE, NON-FICTION y FICTION, junto con segmentos específicos como MANGAS & COMICS, JUVENILE y CHILDREN. Adicionalmente, se destaca una categoría para formatos digitales, E-BOOKS AND AUDIOBOOKS. El diseño prioriza la claridad y la sencillez, permitiendo al usuario navegar rápidamente a través de grandes colecciones de libros y refinar su búsqueda con un solo toque, optimizando el flujo de descubrimiento.
+
+<p align="center">
+  <img src="https://i.imgur.com/v4b4j3C.png" alt="12171">
+</p>
+
+La pantalla de Category View se presenta al Usuario Cliente después de seleccionar un género o categoría específica desde la pantalla de categorías. Su función principal es mostrar el subconjunto del catálogo que pertenece a esa clasificación. La interfaz organiza los libros en un formato de tarjeta visual de fácil escaneo, donde cada card muestra la portada, el título, el autor y el precio. Además, la pantalla incluye un ícono de filtros/ordenamiento en la esquina superior derecha, lo que permite al usuario refinar aún más los resultados dentro de la categoría seleccionada. Este diseño asegura una transición fluida desde la exploración general a una vista detallada y manejable de los libros relevantes.
+
+<p align="center">
+  <img src="https://i.imgur.com/84y4AVX.png" alt="12171">
+</p>
+
+La pantalla de Search es la herramienta de exploración directa del Usuario Cliente. Presenta un campo de búsqueda prominente titulado SEARCH BY TITLE OR AUTHOR, que permite al usuario ingresar términos específicos para localizar libros. Debajo de la barra de entrada, los RESULTS se muestran en un formato de tarjeta concisa y visualmente atractivo. Cada tarjeta ofrece una vista previa con la portada, el título, una breve descripción y el precio del libro. La interfaz está optimizada para el refinamiento de la búsqueda, ya que incluye un ícono de filtros/ordenamiento en la sección de resultados. Esto garantiza que el usuario no solo pueda encontrar libros rápidamente, sino también manipular los resultados para optimizar su descubrimiento y su experiencia de compra.
+
+<p align="center">
+  <img src="https://i.imgur.com/W7JemgL.png" alt="12171">
+</p>
+
+La pantalla de Single Book View es el punto focal para la interacción del Usuario Cliente con un título específico, consolidando la información de compra y reseña. En la parte superior, se muestra de manera prominente el título del libro y etiquetas descriptivas como "JUVENILE" y "EN INGLÉS". El diseño se centra en la portada del libro y en las acciones de interacción clave: el usuario puede marcar el libro con iconos de negativo (no interesado) y marcador (interesado). La zona de compra incluye el precio, un selector de cantidad y el botón 'ADD TO CART'. Debajo de la acción de compra, la sección Synopsis proporciona un resumen detallado del contenido. Finalmente, continúa con el apartado de REVIEWS.
+
+<p align="center">
+  <img src="https://i.imgur.com/ks12piQ.png" alt="12171">
+</p>
+
+La pantalla de Communities es el punto central para la interacción social del Usuario Cliente, diseñada para fomentar la participación y la creación de grupos de lectura. La interfaz principal muestra un listado de comunidades existentes en un formato de tarjeta visual, donde cada card presenta el nombre de la comunidad y un espacio para su ícono o imagen representativa. La pantalla incluye una barra de búsqueda en la parte superior, permitiendo al usuario buscar comunidades por título. De manera destacada, la acción clave de la sección, 'CREATE +', se encuentra en la esquina superior derecha, facilitando a los usuarios crear y expandir la red de comunidades, reforzando el pilar de construcción de comunidad de Livria.
+
+<p align="center">
+  <img src="https://i.imgur.com/bV0CpDQ.png" alt="12171">
+</p>
+
+La pantalla de Community View es la interfaz dedicada a la interacción dentro de una comunidad específica, sirviendo como un feed social. En la parte superior, se muestra el par de imágenes representativas (banner y profile picture) de la comunidad con su nombre y una breve descripción, junto con un botón 'JOIN +' que permite al Usuario Cliente unirse al grupo. El foco de la pantalla es la creación y visualización de contenido social. Los usuarios pueden ingresar sus pensamientos en un campo de texto, agregar imágenes y publicar su contenido con el botón 'POST'. Debajo de la zona de publicación, se despliega un feed de las publicaciones existentes, donde cada tarjeta muestra el username del autor y el contenido publicado. Este diseño fomenta activamente la discusión, la compartición de contenido y la construcción de lazos entre los miembros de la comunidad.
+
+<p align="center">
+  <img src="https://i.imgur.com/GfGRek9.png" alt="12171">
+</p>
+
+La pantalla de Cart es la interfaz dedicada a la gestión de las compras del Usuario Cliente. Presenta un diseño simple y enfocado en la conversión, con un botón 'EMPTY CART' en la parte superior para vaciar rápidamente la cesta. El contenido principal muestra los artículos agregados en un formato de tarjeta conciso, donde cada libro se visualiza junto a un selector de cantidad y un ícono de eliminar para la gestión individual. En la parte inferior de la pantalla, se presenta un resumen financiero con el Subtotal de la compra. Finalmente, el botón 'COMPLETE MY PURCHASE' actúa como el llamado a la acción principal, dirigiendo al usuario al flujo de pago y finalización de la transacción.
+
+<p align="center">
+  <img src="https://i.imgur.com/kfNTt0W.png" alt="12171">
+</p>
+
+La pantalla de Notifications es la central de mensajes y alertas para el Usuario Cliente. Su diseño es directo y funcional, con el objetivo de gestionar las comunicaciones del sistema. La interfaz incluye un botón 'EMPTY LIST' en la parte superior, que permite al usuario limpiar rápidamente su historial de notificaciones. El contenido se presenta como un listado de tarjetas de mensaje (como "Welcome to Livria!"), donde cada una contiene la alerta o información relevante. Cada notificación incluye la opción de eliminar el mensaje de forma individual, permitiendo al usuario gestionar su bandeja de entrada de manera eficiente y mantener solo las alertas pendientes o relevantes.
+
+<p align="center">
+  <img src="https://i.imgur.com/3yO3Sl7.png" alt="12171">
+</p>
+
+La pantalla de Store está diseñada para proporcionar al Usuario Cliente información sobre la ubicación física de Livria. Bajo el título OUR STORE y una invitación a visitar la tienda, la interfaz se centra en la geolocalización. La sección principal está dominada por una visualización de mapa que muestra la ubicación exacta de la tienda. Debajo del mapa, el ADDRESS se presenta de forma clara y detallada. Esta pantalla cumple la función de conectar la experiencia de compra en línea con la posibilidad de una visita física, ofreciendo una herramienta de localización directa para el cliente.
+
+<p align="center">
+  <img src="https://i.imgur.com/vttBUSF.png" alt="12171">
+</p>
+
+La pantalla Submit Order marca el inicio del flujo de pago para el Usuario Cliente, siendo el primer paso tras hacer clic en 'COMPLETE MY PURCHASE' desde el carrito. El título SUBMIT ORDER establece claramente el objetivo de la pantalla. La interfaz está organizada en una barra de progreso visual que guía al usuario a través de los pasos de la compra: Carrito, Información del Cliente, Dirección de Envío y Pago. La vista actual se centra en el PURCHASE SUMMARY, mostrando un resumen financiero conciso que incluye la cantidad de ítems y el Total a pagar. Para mantener el foco y permitir la revisión, un botón 'VIEW ITEMS' permite al usuario verificar los productos. La transición al siguiente paso del proceso se realiza mediante el botón 'CONTINUE'.
+
+<p align="center">
+  <img src="https://i.imgur.com/WCI21Mw.png" alt="12171">
+</p>
+
+El segundo paso del flujo Submit Order se enfoca en la recolección de los datos del destinatario para la entrega, indicando un progreso claro en la barra superior. La sección principal, RECIPIENT INFORMATION, solicita al Usuario Cliente información esencial para el envío, incluyendo Name, Last Name, Phone Number y Email. Estos campos de formulario son críticos para asegurar que el pedido sea entregado a la persona correcta y que se pueda establecer una comunicación efectiva durante el proceso de delivery. La interfaz mantiene la opción 'VIEW ITEMS' para una revisión rápida de los productos y permite al usuario avanzar al siguiente paso del proceso de compra mediante el botón 'CONTINUE'.
+
+<p align="center">
+  <img src="https://i.imgur.com/pwLYYgI.png" alt="12171">
+</p>
+
+El tercer y penúltimo paso del flujo Submit Order se enfoca en la selección del método de entrega para el Usuario Cliente. La interfaz guía al usuario mediante dos opciones claras: 'PICK UP IN STORE' (recoger en tienda) y 'HOME DELIVERY' (entrega a domicilio). Al seleccionar 'PICK UP IN STORE', se informa al usuario que la recogida estará disponible a partir de tres días hábiles después de la confirmación del pedido y se proporciona un enlace (click here) para obtener más detalles sobre la ubicación física de la tienda. Esta pantalla asegura que el cliente elija el método de entrega más conveniente antes de avanzar a la fase final del pago, manteniendo la opción 'VIEW ITEMS' para la revisión del carrito y utilizando el botón 'CONTINUE' para proceder.
+
+<p align="center">
+  <img src="https://i.imgur.com/sL7JRwG.png" alt="12171">
+</p>
+
+La última pantalla del flujo Submit Order se enfoca en los detalles de pago y la confirmación de términos legales antes de completar la compra. La sección PAYMENT DETAILS informa al Usuario Cliente que todos los pagos se procesan a través de Izipay y que la aceptación de los términos redirigirá al usuario a la página de Izipay para realizar el pago. Este paso incluye dos checkboxes obligatorios para el cumplimiento legal: el primero requiere la autorización para el procesamiento de datos personales de acuerdo con la Privacy Policy y Terms and Conditions, y el segundo es opcional para autorizar el procesamiento de datos con fines de promoción comercial. El botón 'CONTINUE' finaliza el flujo en la plataforma, llevando al usuario al sistema de pago externo para completar la transacción.
+
+<p align="center">
+  <img src="https://i.imgur.com/Q3I0MFR.png" alt="12171">
+</p>
+
+La pantalla de Profile es el centro de gestión de la identidad y las preferencias para el Usuario Cliente. La parte superior muestra la información de la cuenta del usuario, incluyendo el nombre de perfil, username, email, y una breve biografía o frase. Se presenta información clave sobre el estatus de la cuenta mediante pestañas para SUBSCRIPTION y Community Plan. La funcionalidad de gestión principal se organiza en tres pestañas: SETTINGS, MY ORDERS y EDIT BIO. El apartado de SETTINGS permite al usuario configurar sus preferencias de notificación y privacidad mediante toggles; MY ORDERS permite ver las anteriores compras del usuario; y EDIT BIO permite cambiar la información del usuario. Finalmente, la pantalla incluye acciones críticas para el control total de la cuenta: 'DELETE ACCOUNT' y 'LOG OUT', asegurando que el cliente pueda gestionar su privacidad y acceso de forma segura.
+
+<p align="center">
+  <img src="https://i.imgur.com/eC3Mkv3.png" alt="12171">
+</p>
+
+#### 3.1.4.2. Mobile Applications Wireflows
+
+**User Goal para Segmento 1: Lectores en Desarrollo**
+
+Como usuario, quiero visualizar recomendaciones personalizadas según mis preferencias de lectura y quiero determinar si una es de mi agrado o no.
+
+Task Flow:
+
+<p align="center">
+  <img src="https://i.imgur.com/At7uFMF.png" alt="12171">
+</p>
+
+Wireflow:
+
+<p align="center">
+  <img src="https://i.imgur.com/hSyeHP0.jpeg" alt="12171">
+</p>
+
+Para poder interactuar con las recomendaciones que brinda Livria a cada usuario, se accede, en primer lugar, a esta sección a través del header de la aplicación móvil. Al presionar el ícono del foco, que vendría a ser “Recomendaciones”, se le redirige al usuario al apartado en el que aparecen sus 6 recomendaciones. Al seleccionar una de ellas, aparece el detalle del libro recomendado. A este, se le puede marcar como interés o desinterés al seleccionar el ícono del bookmark o del negative, respectivamente.
+
+Asimismo, para mejorar las recomendaciones que ofrece Livria, se pueden marcar otros libros. Para ello, desde el inicio de la aplicación —o desde cualquier otra sección— se puede acceder a un libro en específico y marcarle, así como a un libro recomendado, como interés o desinterés al seleccionar el ícono del bookmark o del negative, respectivamente.
+
+**User Goal para Segmento 2: Lectores casuales y aficionados a la lectura**
+
+Como usuario, quiero conectar con otras personas que compartan mis gustos literarios y ver sus opiniones sobre esos temas en específico.
+
+Task Flow:
+
+<p align="center">
+  <img src="https://i.imgur.com/xyMBDgg.png" alt="12171">
+</p>
+
+Wireflow:
+
+<p align="center">
+  <img src="https://i.imgur.com/hPl9I9L.jpeg" alt="12171">
+</p>
+
+Para interactuar con otros usuarios sobre temas específicos, se debe seguir una secuencia de pasos. En primer lugar, desde el inicio de Livria —o desde cualquier otra sección— se debe acceder al apartado de Comunidades al presionar su link en el menú inferior. Acto seguido, se mostrarán las variadas comunidades creadas en la aplicación. A partir de ello, el usuario puede elegir entre crear una nueva o unirse a una existente. De elegir la primera opción, deberá completar los campos de información requeridos y, cuando haya creado la comunidad, aparecerá con la información proporcionada. En función a eso, se le permitirá empezar a publicar sobre el tema elegido, así como a los demás usuarios que se unan. En el caso contrario, que se unan a una comunidad existente, se podrá tanto crear una nueva publicación como comentar en una preexistente.
+
+#### 3.1.4.3. Mobile Applications Mockups
+
+La etapa de Mockups representa la traducción fiel de la estructura definida en los wireframes a una propuesta visual de alta fidelidad. Utilizando los Style Guidelines de Livria —que incluye la paleta de colores, tipografías y branding—, esta sección ilustra el look and feel final de la plataforma. El objetivo es mostrar al detalle cómo se aplicarán los elementos visuales para generar una interfaz coherente, atractiva y funcional. Los mockups no solo respetan la jerarquía y el flujo de navegación establecidos, sino que también garantizan que la experiencia de usuario (UX) sea intuitiva y esté completamente alineada con el tono cálido y motivador de la marca.
+
+##### **Pantallas de Loggeo**
+
+La pantalla de Log In utiliza una paleta de colores cálida para crear una bienvenida acogedora. El formulario de acceso principal se destaca en un recuadro de color Ámbar (#FEB913), que transmite optimismo, y el botón principal 'LOG IN' utiliza una variación de este color para incentivar la acción. El logo de Livria se exhibe prominentemente en la parte superior. La zona inferior, que contiene las opciones 'REGISTER' y 'ADMIN' (para el acceso de gestión), utiliza el color Cian Suave para diferenciar claramente las rutas secundarias del login principal del cliente. El uso de la tipografía Asap Condensed para el título refuerza la claridad y el dinamismo del branding.
+
+<p align="center">
+  <img src="https://i.imgur.com/zxcJUZp.png" alt="12171">
+</p>
+
+El primer paso de Registro mantiene la estética cálida y cercana con el fondo Ámbar, utilizando el color Anaranjado (#FF5C00) para el título 'REGISTER' y el botón 'CONTINUE', lo que canaliza la energía hacia la finalización del proceso. La interfaz se enfoca en la recolección de Email y la definición de Password con campos de texto limpios. Visualmente, se destaca la casilla de aceptación de la Privacy Policy y Terms and Conditions, asegurando que el cumplimiento legal sea un paso claro e ineludible. Las opciones secundarias de 'SIGN IN' y 'ADMIN' mantienen el contraste con el Cian Suave en la parte inferior.
+
+<p align="center">
+  <img src="https://i.imgur.com/Kbmshqs.png" alt="12171">
+</p>
+
+El segundo mockup de Registro se centra en la personalización del perfil, continuando con la paleta ámbar y anaranjada para el foco de acción. Los campos solicitan información personal de la cuenta (Nickname, Username y Phrase) y proporcionan íconos claros para la carga de la Profile Picture (cámara/galería), utilizando la iconografía de línea delgada. El botón 'REGISTER' finaliza el proceso con el color de acción anaranjado. Este diseño, a través de la calidez del color y la tipografía Asap Condensed, refuerza el tono acogedor y motivador de Livria, animando al nuevo usuario a completar su identidad en la comunidad.
+
+<p align="center">
+  <img src="https://i.imgur.com/B65Xijt.png" alt="12171">
+</p>
+
+La pantalla de Admin Sign In utiliza la misma estructura, pero puede diferenciarse sutilmente en el color del recuadro principal (un amarillo ligeramente más pálido en este mockup, aunque aún cercano al Ámbar). El énfasis visual se pone en la seguridad, requiriendo tres campos de autenticación: Username, Password y el Security Pin. El botón 'SIGN IN' es prominente y utiliza el color de acción. Las opciones secundarias 'GO BACK' y 'ADMIN' reafirman que esta es una ruta de acceso especializada. La aplicación del branding es limpia y directa, priorizando la funcionalidad y la seguridad de acceso a los desarrolladores encargados de la supervisión y administración de la aplicación.
+
+<p align="center">
+  <img src="https://i.imgur.com/hpE6HzU.png" alt="12171">
+</p>
+
+##### **Pantallas de Administrador**
+
+En primer lugar, la pantalla de Home del Administrador traduce la estructura del wireframe a un dashboard visualmente limpio y profesional, utilizando la paleta de colores de Livria para la jerarquía y el branding. El fondo principal utiliza el color Azul Marino para la barra superior e inferior, transmitiendo estabilidad, mientras que el contenido se presenta en un contenedor de color claro. El título de bienvenida ("Welcome to the Library Management System") utiliza el color Anaranjado (#FF5C00) para ser más llamativo. La sección Quick Actions utiliza iconos de línea clara y botones con el fondo blanco para contrastar con el color de acción, permitiendo un acceso rápido a las funcionalidades clave como Manage Books, Manage Orders e Statistics. Finalmente, la sección System Information utiliza un fondo Ámbar (#FEB913) para diferenciar la información de soporte, manteniendo un diseño enfocado en la eficiencia operativa.
+
+<p align="center">
+  <img src="https://i.imgur.com/syXwaub.png" alt="12171">
+</p>
+
+La pantalla de Books utiliza una combinación de colores contrastantes para destacar la información crucial. La barra superior y la navegación inferior emplean el Azul Marino, transmitiendo profesionalismo. El título principal, "Livria Management", está en color Anaranjado (#FF5C00), guiando la vista del administrador. Las métricas clave (Total Books, Total Genres) se presentan en tarjetas blancas y limpias, facilitando la lectura rápida. La Book Collection utiliza un fondo blanco, con el título "BOOK COLLECTION" en Ámbar (#FEB913) para diferenciar la sección de catálogo. Cada tarjeta de libro ahora muestra la portada real y el botón 'VIEW' es de color Azul (#2364A0), enfatizando la acción de visualización.
+
+<p align="center">
+  <img src="https://i.imgur.com/5J8rXNO.png" alt="12171">
+</p>
+
+El mockup de Detalle del Libro se enfoca en presentar la información del título de forma clara. El título del libro (PERCY JACKSON AND THE BATTLE OF THE LABYRINTH) se muestra en color Anaranjado. Los metadatos (JUVENILE, en INGLÉS) y el nombre del autor (RICK RIORDAN) utilizan el color Azul Marino para mantener la legibilidad contra el fondo. Los datos financieros se jerarquizan por color: el PURCHASE PRICE (Precio de Compra) se etiqueta en Anaranjado y el SALE PRICE (Precio de Venta) en Amarillo Claro (#FFD150), destacando la diferencia de valor. La sinopsis se presenta en un recuadro limpio con texto Alexandria Regular, manteniendo la atención en el contenido.
+
+<p align="center">
+  <img src="https://i.imgur.com/5XQORm3.png" alt="12171">
+</p>
+
+En la pantalla de Orders, el color Anaranjado se usa para el título principal ("Order Management") y para el encabezado de la sección "ORDERS". Las métricas clave son inmediatamente visibles, con los números de Capital en un Ámbar brillante en la barra superior. En la tabla de pedidos, los datos importantes como el ORDER CODE se resaltan en un tono más claro de Azul Marino para facilitar el escaneo. El contraste entre el texto en Azul Marino y el fondo blanco garantiza la alta legibilidad de los datos en tiempo real de los pedidos (código, cliente, estado).
+
+<p align="center">
+  <img src="https://i.imgur.com/GdN4fuA.png" alt="12171">
+</p>
+
+El mockup de Order Details utiliza el color para guiar la lectura a través de las secciones de información. El Ámbar destaca los títulos de sección ("ORDER DETAILS", "CUSTOMER INFORMATION", "ORDER ITEMS"). Dentro de las secciones, la información clave utiliza un degradado de colores: las etiquetas críticas (como ORDER CODE y CUSTOMER NAME) se presentan en Anaranjado, mientras que los campos menos críticos (como ORDER STATUS y CUSTOMER EMAIL) usan un Cian Suave. Esto ayuda al administrador a priorizar visualmente la información. Los artículos pedidos se muestran con sus portadas reales para una identificación rápida.
+
+<p align="center">
+  <img src="https://i.imgur.com/IWxiSdN.png" alt="12171">
+</p>
+
+La función ADD A BOOK en la gestión de inventario utiliza el Ámbar para el fondo del formulario, proporcionando un ambiente visual acogedor para el proceso de ingreso de datos. El título "ADD TO INVENTORY" y el título principal "Livria Management" utilizan el Anaranjado. Los input fields utilizan un Cian Suave muy pálido para el fondo, diferenciándose del blanco, y el botón de acción 'ADD BOOK' emplea el color Ámbar. Las pestañas superiores diferencian la acción principal (ADD A BOOK) en Azul oscuro, del estado pasivo de VIEW INVENTORY.
+
+<p align="center">
+  <img src="https://i.imgur.com/1kAEuEd.png" alt="12171">
+</p>
+
+La pestaña VIEW INVENTORY muestra la colección de libros con un enfoque en el Stock actual, resaltando la acción de reabastecimiento. El título "BOOK COLLECTION" está en Ámbar. La interfaz presenta portadas de libros reales y un indicador de stock en color Azul Marino. El botón de acción clave, 'ADD STOCK', utiliza el Azul (\#2364A0) para impulsar la acción de reabastecimiento en cada tarjeta, contrastando con el fondo blanco de la colección.
+
+<p align="center">
+  <img src="https://i.imgur.com/uUhIwdi.png" alt="12171">
+</p>
+
+La pantalla de Add Stock Details utiliza el Anaranjado para el título del libro y el Azul Marino para los metadatos y la información de stock. Los campos clave de la gestión financiera (PURCHASE PRICE y SALE PRICE) se resaltan en Anaranjado y Amarillo Claro, respectivamente. La sección de acción (QUANTITY y TOTAL TO PAY) utiliza un fondo Ámbar para atraer la atención, y el botón 'CONTINUE' usa un Cian Suave, cerrando el ciclo de la gestión de existencias de manera clara y visualmente distinta.
+
+<p align="center">
+  <img src="https://i.imgur.com/sRC4Q5q.png" alt="12171">
+</p>
+
+La pantalla de Statistics es un dashboard analítico y visual. El color Anaranjado se utiliza para títulos de alto nivel ("Management and Statistics") y el Ámbar para subtítulos de sección ("TOP THREE BEST SELLING BOOKS", "REVENUE ACCORDING THE GENRES"). Esto jerarquiza los datos. Los libros más vendidos se presentan con portadas reales en tarjetas con un sombreado suave para destacarse. Los gráficos utilizan la paleta de colores de Livria (literatura en Rojo/Anaranjado, mangas/comics en Azul y juvenil en Amarillo Claro) para una interpretación intuitiva de los datos de rendimiento.
+
+<p align="center">
+  <img src="https://i.imgur.com/G4pS9OD.png" alt="12171">
+</p>
+
+En la pestaña PROFILE, el diseño es limpio y utiliza el contraste de color para la acción. El Anaranjado destaca el título principal ("Settings"). Los campos del formulario (Name, Username, Email, Security Pin) utilizan un relleno de color Cian Suave para que sean fácilmente editables y visibles. El botón 'LOG OUT' usa el color de acción Anaranjado para asegurar que la acción sea prominente y el botón 'SAVE CHANGES' utiliza el color Cian Suave como acción secundaria de confirmación.
+
+<p align="center">
+  <img src="https://i.imgur.com/aL9rnQ1.png" alt="12171">
+</p>
+
+La pestaña APPLICATION utiliza el mismo patrón de color para la seguridad y la acción. El título de la sección "APP SETTINGS" se resalta en Anaranjado. Los toggles de configuración (Notifications, Email Alerts) utilizan el Ámbar (\#FEB913) y el color Gris Claro para las opciones 'YES' y 'NO', proporcionando una retroalimentación visual inmediata sobre el estado de la configuración. Los botones 'LOG OUT' (en Anaranjado) y 'SAVE CHANGES' (en Cian Suave) mantienen la coherencia visual con la sección de perfil.
+
+<p align="center">
+  <img src="https://i.imgur.com/nlnektH.png" alt="12171">
+</p>
+
+##### **Pantallas de Cliente** 
+
+La pantalla de Home es el punto de entrada visualmente más rico, diseñada para ser acogedora. La cabecera superior utiliza los colores de la marca. Una sección destacada de carrusel (COMMUNITY PLAN) utiliza una imagen de fondo cálida (librería) y un call-to-action ('GET IT HERE') en Ámbar (\#FEB913) para fomentar la participación social. La lista de libros se organiza por categorías (LITERATURE, NON-FICTION, FICTION, MANGAS & COMICS), donde los títulos de las secciones utilizan los colores vibrantes de la paleta (Anaranjado, Amarillo Claro, Azul) para una jerarquía visual clara y atractiva. Las portadas de los libros reales y los precios visibles completan la experiencia de navegación.
+
+<p align="center">
+  <img src="https://i.imgur.com/10SBKTm.png" alt="12171">
+</p>
+
+La pantalla de Recommendations for You utiliza el color Anaranjado (\#FF5C00) para el título principal, capturando la atención sobre el contenido personalizado. El texto introductorio utiliza la tipografía Alexandria para una lectura amigable. La lista de libros recomendados se muestra en un diseño de tarjeta, con portadas reales de títulos como 1984 y Harry Potter, lo que refuerza la conexión emocional. El botón 'REFRESH' al final de la lista utiliza un color Cian Suave (\#A8DBDE) como un call-to-action secundario que sugiere la recarga de contenido.
+
+<p align="center">
+  <img src="https://i.imgur.com/1lXlFdu.png" alt="12171">
+</p>
+
+La pantalla de Categories facilita la navegación del catálogo con una lista limpia y organizada. El título de la sección superior, 'SEARCH BY CATEGORY', utiliza un Cian Suave para orientar al usuario. Cada categoría principal (LITERATURE, NON-FICTION, MANGAS & COMICS) se distingue con un color vibrante de la paleta principal (Anaranjado, Amarillo Claro, Azul) para una rápida identificación visual y un diseño dinámico. El uso de íconos de flecha hacia la derecha (' \> ') en el color principal de la categoría indica claramente la navegabilidad.
+
+<p align="center">
+  <img src="https://i.imgur.com/jzpNQXs.png" alt="12171">
+</p>
+
+La vista de una categoría específica, como LITERATURE, mantiene el título de la sección en su color distintivo (Anaranjado). El listado de libros utiliza un diseño de rejilla de tarjetas con información mínima (portada, título, autor y precio) para una navegación eficiente. El ícono de Filtro en la esquina superior derecha utiliza una combinación de colores de la marca para mantener la coherencia y llamar la atención sobre la funcionalidad de refinamiento de búsqueda.
+
+<p align="center">
+  <img src="https://i.imgur.com/GDgf0Tq.png" alt="12171">
+</p>
+
+La pantalla de Search está diseñada para ser la herramienta de precisión del usuario. La barra de búsqueda, central y destacada, está enmarcada por el color Ámbar (\#FEB913), que dirige la atención inmediatamente a la acción de entrada. El título 'SEARCH BY TITLE OR AUTHOR' en Cian Suave (\#A8DBDE) proporciona una guía clara sobre los términos de búsqueda esperados. Los resultados (RESULTS) se presentan de manera limpia, con portadas de libros reales y el color Anaranjado (\#FF5C00) destacando los nombres de la sección. El ícono de Filtro en la esquina superior derecha utiliza una combinación de colores de la marca, asegurando que el usuario pueda refinar los resultados obtenidos (función clave para optimizar la compra) con una acción visualmente accesible.
+
+<p align="center">
+  <img src="https://i.imgur.com/SbfSNFP.png" alt="12171">
+</p>
+
+Esta vista transforma el libro seleccionado en un producto digital altamente atractivo, utilizando el color Anaranjado (\#FF5C00) para el título principal, lo que le otorga la máxima prominencia visual. Los metadatos críticos como el autor y las etiquetas de género (JUVENILE, en INGLÉS) utilizan el contraste del Azul Marino para mantener la legibilidad. El precio (S/ 49.00) se enfatiza en Anaranjado, ubicándose junto al botón de acción clave 'ADD TO CART', que emplea el color Cian Suave (\#A8DBDE) para ser distintivo e incentivar la conversión. La Sinopsis está en un recuadro limpio con tipografía Alexandria Regular, facilitando una inmersión textual antes de la compra.
+
+<p align="center">
+  <img src="https://i.imgur.com/4l994W4.png" alt="12171">
+</p>
+
+A continuación, la sección REVIEWS está diseñada para fomentar la participación comunitaria. El título se destaca en Anaranjado. El sistema de calificación utiliza estrellas que se iluminan con el color Ámbar (\#FEB913), el color de la marca asociado a la calidad, incentivando al usuario a calificar positivamente. El botón de confirmación 'POST REVIEW' se presenta en Cian Suave (\#A8DBDE) para ser una acción secundaria, manteniendo la jerarquía visual de la página. Las reseñas existentes muestran avatares de usuario y resaltan las calificaciones con el color Ámbar, creando prueba social para otros lectores.
+
+<p align="center">
+  <img src="https://i.imgur.com/GwNsdHs.png" alt="12171">
+</p>
+
+La pantalla de Communities es el centro neurálgico para el segmento de Lectores Comunitarios. El título principal en Anaranjado (\#FF5C00) atrae la vista. El call-to-action más importante, 'CREATE \+', se distingue en Cian Suave (\#A8DBDE), proporcionando un contraste sutil que anima a la creación de nuevos grupos de lectura. La presentación visual en mosaico con imágenes de portadas reales y nombres de comunidades temáticas (como horror o Wonderland) refuerza la diversidad de intereses literarios y motiva la exploración activa del usuario.
+
+<p align="center">
+  <img src="https://i.imgur.com/DwP3I2Y.png" alt="12171">
+</p>
+
+Esta interfaz de una Comunidad en singular prioriza la interacción social dinámica. El botón 'JOIN \+' utiliza el Cian Suave (\#A8DBDE), contrastando con el fondo para facilitar la incorporación a la comunidad. El encabezado de la comunidad usa el Azul Marino. El área de publicación de contenido es funcional y visible, con íconos de Línea de 24 píxeles para las opciones de cámara/galería, y el botón 'POST' en Cian Suave. El feed utiliza un diseño limpio para mostrar las publicaciones del usuario (imágenes de cómics de Batman) y sus interacciones, promoviendo el compromiso continuo dentro del grupo.
+
+<p align="center">
+  <img src="https://i.imgur.com/wL2S9Sy.png" alt="12171">
+</p>
+
+La pantalla de Cart está diseñada para ser la etapa final de conversión, transmitiendo confianza y claridad financiera. Utiliza un fondo oscuro de Azul Marino en la parte inferior para la estabilidad. El título 'CART' en Anaranjado (\#FF5C00) atrae la atención. La lista de artículos utiliza tarjetas blancas y limpias, con el precio del libro en Anaranjado para enfocar la vista en el costo. El botón 'COMPLETE MY PURCHASE' en la barra inferior es el call-to-action más prominente, utilizando el color Cian Suave (\#A8DBDE) para ser ineludible y guiar al usuario a la finalización segura de la transacción.
+
+<p align="center">
+  <img src="https://i.imgur.com/m3v2kF2.png" alt="12171">
+</p>
+
+La pantalla de Notifications mantiene una estética simple para asegurar que las alertas sean el foco principal. El título utiliza el color Anaranjado (\#FF5C00) para captar la atención. El botón 'EMPTY LIST' se ubica en la parte superior derecha, utilizando un color Cian Suave (\#A8DBDE) para ser funcional pero no intrusivo. Cada notificación se presenta en una tarjeta blanca y limpia, con el mensaje en color Azul Marino para maximizar la legibilidad. La opción de eliminar cada notificación individualmente se representa con un ícono de línea delgada en la parte derecha de la tarjeta, optimizando la gestión de la bandeja de entrada.
+
+<p align="center">
+  <img src="https://i.imgur.com/pjS4JtJ.png" alt="12171">
+</p>
+
+La pantalla de Store está diseñada para ofrecer una conexión clara entre la plataforma digital y la ubicación física. El título principal ("OUR STORE") y la frase de bienvenida utilizan el color Anaranjado. La interfaz presenta un fragmento de mapa visualmente realista con el pin de ubicación en la paleta de la marca. La dirección se muestra de forma clara con tipografía legible, y la sección de información se destaca con un color Ámbar (\#FEB913) en el encabezado, lo que asegura que los datos de contacto y localización sean inmediatamente visibles y confiables para el cliente.
+
+<p align="center">
+  <img src="https://i.imgur.com/YbzPB65.png" alt="12171">
+</p>
+
+El inicio del flujo de pago se presenta con una clara barra de progreso visual que utiliza el color Cian Suave (#A8DBDE) para indicar el paso actual ('CART') y los pasos pendientes. El título "SUBMIT ORDER" está en Anaranjado. La sección PURCHASE SUMMARY utiliza el color Ámbar para resaltar el Total de la compra, atrayendo la mirada del usuario al costo final. El botón 'CONTINUE', clave para avanzar en la transacción, se presenta en Cian Suave, manteniendo el foco en la usabilidad.
+
+<p align="center">
+  <img src="https://i.imgur.com/phOusi7.png" alt="12171">
+</p>
+
+El segundo paso, RECIPIENT INFORMATION, mantiene la barra de progreso y resalta el paso actual. Los campos de formulario (Name, Last Name, Phone Number, Email) utilizan el color Azul Marino para el texto, garantizando la legibilidad de los datos que el usuario ingresa. El diseño de los campos es limpio y minimalista para evitar fricciones. La acción de 'CONTINUE' utiliza el Cian Suave, asegurando una transición fluida hacia la siguiente fase de la compra.
+
+<p align="center">
+  <img src="https://i.imgur.com/tpMKJDl.png" alt="12171">
+</p>
+
+En el tercer paso, la selección del método de entrega se simplifica mediante tarjetas claras y visuales. Las opciones 'PICK UP IN STORE' y 'HOME DELIVERY' utilizan el Cian Suave para sus íconos y texto, lo que las hace fácilmente seleccionables. La información adicional sobre la recogida en tienda (días hábiles) usa un texto Ámbar para notificar al cliente sobre los detalles clave de la logística. El botón 'CONTINUE' en Cian Suave reafirma la progresión del proceso de checkout.
+
+<p align="center">
+  <img src="https://i.imgur.com/Va1nmuA.png" alt="12171">
+</p>
+
+El paso final, PAYMENT DETAILS, mantiene un diseño enfocado en la seguridad y el consentimiento legal. La información sobre la pasarela de pago Izipay utiliza el color Azul Marino para transmitir confianza. Las casillas de verificación para la Privacy Policy y Terms and Conditions son obligatorias y visualmente claras, utilizando el color Anaranjado para las etiquetas. El botón 'CONTINUE', que inicia la redirección al sistema de pago, utiliza el color Cian Suave para una finalización de compra que es a la vez intuitiva y legalmente informada.
+
+<p align="center">
+  <img src="https://i.imgur.com/S5EtAzq.png" alt="12171">
+</p>
+
+La pantalla de Profile es el centro de control personal, diseñada para ofrecer la máxima flexibilidad al cliente. La información de la cuenta (nickname, username, email) utiliza el color Anaranjado para los títulos de las secciones. La funcionalidad se organiza en pestañas (SETTINGS, MY ORDERS, EDIT BIO), utilizando un degradado de color para indicar la pestaña activa. La sección de configuración (SETTINGS) utiliza toggles en Ámbar (#FEB913) para la personalización de notificaciones. Los botones de acción de alto impacto ('DELETE ACCOUNT' y 'LOG OUT') usan el Anaranjado y Cian Suave respectivamente, diferenciando las acciones de seguridad permanente de las acciones de cierre de sesión.
+
+<p align="center">
+  <img src="https://i.imgur.com/r8r4lYv.png" alt="12171">
+</p>
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+**Segmento 1: Lectores en Desarrollo**
+
+* Como usuario, quiero poder realizar la búsqueda de libros en base a diferentes criterios y obtener resultados relacionados.
+
+<p align="center">
+  <img src="https://i.imgur.com/HpnAIRd.jpeg" alt="12171">
+</p>
+
+El flujo de búsqueda de libros ofrece al Usuario Cliente dos vías principales para explorar el catálogo y obtener resultados relevantes. El usuario puede optar por la Búsqueda Directa (happy path), que implica ingresar el TÍTULO O AUTOR en la pantalla de Search para generar un listado inmediato de resultados. Alternativamente, puede seguir la ruta de Búsqueda por Categoría, navegando primero a la pantalla de Categories y seleccionando un Género específico. Ambas rutas —búsqueda directa y navegación por categoría— permiten al usuario aplicar Filtros y Criterios Adicionales para refinar los listados, cumpliendo el objetivo de obtener resultados precisos y acotados. Finalmente, cualquier resultado finalizado en estas vistas conduce a la Vista de Libro Individual, donde el usuario puede evaluar y proceder a la compra del título.
+
+* Como usuario, quiero poder buscar y obtener recomendaciones personalizadas en mis intereses.
+
+<p align="center">
+  <img src="https://i.imgur.com/IC7keGq.jpeg" alt="12171">
+</p>
+
+El flujo se centra en la Pantalla de Recomendaciones, donde el usuario recibe un listado inicial de sugerencias. Desde allí, el usuario tiene la opción de iniciar o repetir el ciclo tocando el botón 'REFRESH' para solicitar un nuevo conjunto de libros. Al interactuar con cada sugerencia, el usuario proporciona feedback directo al sistema: el Feedback Positivo (usando el 'Marcador') le indica al algoritmo que debe priorizar ese tipo de contenido. Por otro lado, el Feedback Negativo ('No Me Gusta/Negativo') instruye al Algoritmo de Recomendación para reducir la frecuencia de ese contenido, asegurando que las futuras sugerencias se alineen más estrechamente con los intereses del usuario. Esta interacción funciona con cualquier libro, sea uno buscado específicamente por el usuario o no.
+
+**Segmento 2: Lectores Comunitarios**
+
+* Como usuario, quiero poder unirme a comunidades temáticas y crear publicaciones para compartir activamente mis opiniones, iniciar debates y conectar con otros lectores con intereses literarios similares.
+
+<p align="center">
+  <img src="https://i.imgur.com/7IhfJae.jpeg" alt="12171">
+</p>
+
+El flujo permite al usuario, desde la Pantalla de Comunidades, elegir entre Crear una nueva comunidad o Ingresar a una existente. Tras ingresar los datos requeridos, estos se mostraran en su pantalla personalizada, ante la cual se podrá empezar con la publicación de pensamientos y/o imágenes. Contrariamente, si ingresa a una comunidad existente (la Vista de Comunidad Única), debe seleccionar 'JOIN +' para unirse al grupo. Una vez dentro de la vista comunitaria, el usuario puede cumplir su objetivo central de socialización al Crear una Publicación (añadiendo texto y/o imágenes). Finalmente, al publicar su contenido, el flujo culmina en la Visualización de la publicación hecha, confirmando que el usuario ha compartido activamente sus opiniones e iniciado la interacción con otros lectores en el grupo temático.
+
+* Como usuario, quiero poder personalizar ciertos aspectos de mi perfil para mostrar a los demás lectores mi personalidad literaria.
+
+<p align="center">
+  <img src="https://i.imgur.com/xaRoTl8.jpeg" alt="12171">
+</p>
+
+El flujo de personalización se inicia en el Registro. Esto lleva al usuario a las pantallas con formularios, donde puede personalizar su Profile Picture, Nickname, Username y la Phrase de perfil. Una vez que el usuario ingresa su personalidad literaria deseada, confirma los cambios con el botón 'REGISTER'. El flujo lo lleva a la pantalla de Inicio, desde la cual puede acceder a la pantalla de Perfil mediante el menú inferior. La información ingresada previamente ahora se muestra en el perfil y a la comunidad de lectores, cumpliendo el objetivo de proyectar su identidad literaria.
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+Con el objetivo de evaluar y perfeccionar la accesibilidad y la experiencia de usuario (UX) antes del desarrollo final, se elaboró un prototipo interactivo a partir de los mockups de alta fidelidad, centrado exclusivamente en la navegación móvil.  
+Este modelo funcional simula de forma integral el recorrido del usuario dentro de la aplicación, permitiendo explorar directamente sus secciones, elementos y flujos de interacción tal como se verá en un dispositivo móvil.  
+El prototipo fue diseñado siguiendo principios de arquitectura de la información clara, jerarquía visual lógica y diseño inclusivo. Se priorizó la facilidad de uso, asegurando que cada componente respete los estándares de usabilidad táctil y coherencia visual para una navegación fluida e intuitiva en la pantalla del smartphone. Esta versión navegable actúa como una fiel representación de la futura interfaz de la aplicación, siendo clave para validar decisiones de diseño y garantizar una experiencia consistente y accesible.
+
+Video explicativo: [https://drive.google.com/file/d/1zC7zEfy8xk2KNJ6Z2aCdW8eQRqIzGSus/view?usp=sharing](https://drive.google.com/file/d/1zC7zEfy8xk2KNJ6Z2aCdW8eQRqIzGSus/view?usp=sharing)
+
+Link al prototipo interactivo: [https://www.figma.com/proto/eKCqZoU0IF7n3wNTA8kuZc/livria?page-id=923%3A589\&node-id=923-591\&p=f\&viewport=263%2C65%2C0.18\&t=ykEtTTogjnebX157-1\&scaling=scale-down\&content-scaling=fixed](https://www.figma.com/proto/eKCqZoU0IF7n3wNTA8kuZc/livria?page-id=923%3A589&node-id=923-591&p=f&viewport=263%2C65%2C0.18&t=ykEtTTogjnebX157-1&scaling=scale-down&content-scaling=fixed)
+
+# CAPÍTULO IV: Product Implementation & Validation
+
+## 4.1. Software Configuration Management
+
+### 4.1.1. Software Development Environment Configuration
+
+#### 4.1.1.1. Project Management
+  Jira:  
+    Jira Software, una herramienta de gestión de proyectos ágiles desarrollada por Atlassian, fue seleccionada como herramienta de gestión de proyecto por su excelente compatibilidad con metodologías como Scrum o Kanban. Su propósito central es facilitar la planificación, organización y el seguimiento colaborativo del trabajo, ofreciendo funcionalidades esenciales como la gestión del backlog, la planificación detallada de sprints y el monitoreo del progreso en tiempo real mediante tableros personalizables. Para el proyecto de Livria, la utilidad de Jira es clave al permitir modelar el flujo de trabajo ágil, utilizándose específicamente para la gestión de Sprints y el manejo exhaustivo de las Historias de Usuario (User Stories) de la aplicación móvil, asegurando que el desarrollo de la aplicación móvil y sus funcionalidades se alinee consistentemente con los objetivos del producto y facilite la optimización continua del trabajo en equipo.  
+     
+    [https://www.atlassian.com/es/software/jira](https://www.atlassian.com/es/software/jira)
+<p align="center">
+  <img src="https://i.imgur.com/hL6B3qm.png" alt="12171">
+</p>
+
+#### 4.1.1.2. Requirements Management
+	Confluence:  
+    Para la gestión y documentación de requisitos se utilizará Confluence, una plataforma colaborativa en línea de Atlassian diseñada para la creación y organización de conocimiento dentro del equipo. Su propósito fundamental es centralizar toda la documentación del proyecto, permitiendo a los miembros trabajar de forma colaborativa y en tiempo real. Confluence es esencial para registrar la documentación de requisitos funcionales y no funcionales, las especificaciones de diseño UX/UI, la arquitectura de software, así como para la elaboración de manuales de usuario y guías técnicas. En el contexto de Livria, la utilidad de Confluence será clave para formalizar y mantener un registro vivo y accesible de las especificaciones detalladas de las diversas funcionalidades de la aplicación, asegurando que todas las decisiones de diseño y desarrollo estén documentadas y sean transparentes.
+
+    [https://www.atlassian.com/software/confluence](https://www.atlassian.com/software/confluence)  
+<p align="center">
+  <img src="https://i.imgur.com/mtgQwsE.png" alt="12171">
+</p>
+
+#### 4.1.1.3. Product UX/UI Design
+  Figma  
+    Para el diseño de la Experiencia de Usuario (UX) y la Interfaz de Usuario (UI), se ha seleccionado Figma, una poderosa herramienta de diseño colaborativo que opera completamente en línea. Su propósito principal es permitir la creación, diseño y prototipado interactivo de las interfaces, facilitando una colaboración fluida y en tiempo real entre diseñadores y desarrolladores. Figma es altamente eficiente en entornos ágiles porque mantiene la fuente de verdad del diseño centralizada. En el desarrollo de Livria, la utilidad de Figma se centrará en elaborar la arquitectura de la información y los mockups de alta fidelidad para la aplicación móvil. Esto asegura que la estética, usabilidad y accesibilidad del producto final se definan antes de la codificación, reduciendo retrabajos y garantizando una experiencia de usuario coherente.
+
+    [https://www.figma.com/](https://www.figma.com/)
+<p align="center">
+  <img src="https://i.imgur.com/Qm8PVh7.png" alt="12171">
+</p>
+
+#### 4.1.1.4. Software Development
+  Android Studio  
+    Para el desarrollo del frontend de la aplicación móvil de Livria, se utilizará Android Studio, el Entorno de Desarrollo Integrado (IDE) oficial proporcionado por Google, diseñado para la creación de aplicaciones nativas de Android. Su propósito es ofrecer a los desarrolladores un conjunto de herramientas completo que incluye un sistema de compilación flexible (Gradle), un emulador avanzado de dispositivos Android (AVD), potentes herramientas de debugging y plantillas de código para acelerar el desarrollo. En este proyecto, Android Studio será la plataforma principal para construir la interfaz de usuario, tanto para vistas de administrador como de usuarios de tipo cliente, asegurando la optimización y el rendimiento en el ecosistema Android.
+
+    [https://developer.android.com/studio?hl=es-419](https://developer.android.com/studio?hl=es-419)
+<p align="center">
+  <img src="https://i.imgur.com/p9S4yaj.png" alt="12171">
+</p>
+
+  Rider  
+    Complementando el frontend, el Backend del proyecto será desarrollado y gestionado utilizando Rider, el IDE multiplataforma de JetBrains orientado a proyectos .NET y web. Rider es la herramienta escogida por su compatibilidad con ASP.NET Core y sus sólidas funcionalidades de integración con bases de datos, lo que lo hace ideal para construir una API robusta y escalable. Su utilidad en Livria radica en el desarrollo de la lógica de negocio central, la gestión de la autenticación de usuarios y el manejo de los endpoints que conectarán la aplicación Android con la base de datos propia del proyecto, garantizando un desarrollo eficiente y con un alto nivel de refactorización de código.  
+     
+    [https://www.jetbrains.com/rider/](https://www.jetbrains.com/rider/)
+<p align="center">
+  <img src="https://i.imgur.com/1vjtPzR.png" alt="12171">
+</p>
+
+#### 4.1.1.5. Software Testing
+  JUnit:  
+    El framework JUnit se integrará para el desarrollo de pruebas unitarias del código, esencial para verificar que las funciones individuales y la lógica de negocio tanto del frontend en Android como del backend en Rider operen correctamente de forma aislada. Este framework, que está integrado en el flujo de trabajo de Android Studio, permite a los desarrolladores crear pruebas robustas y repetibles. En el proyecto Livria, la utilidad de JUnit es clave para asegurar la fiabilidad de las funciones críticas, como las transacciones de la tienda de libros y la manipulación de datos de la comunidad, manteniendo un estándar de calidad alto mediante la comprobación continua.  
+     
+    [https://junit.org/](https://junit.org/)
+<p align="center">
+  <img src="https://i.imgur.com/rij7KXt.png" alt="12171">
+</p>
+
+#### 4.1.1.6. Software Deployment
+  Firebase  
+    Para el soporte de la infraestructura de la aplicación móvil, se utilizará Firebase, una plataforma de desarrollo de aplicaciones móviles y web respaldada por Google. Aunque el backend principal está desarrollado en Rider, Firebase proporciona un ecosistema de servicios clave para la aplicación Android. Su propósito principal es ofrecer herramientas de monitoreo de rendimiento y estabilidad (Crashlytics), servicios de mensajería push (FCM), y configuraciones dinámicas (Remote Config). En Livria, la utilidad de Firebase garantizará que el rendimiento de las funciones críticas, como las transacciones de la tienda y las interacciones de la comunidad, pueda ser supervisado y gestionado de manera eficiente tras el lanzamiento.  
+    
+    [https://firebase.google.com/?hl=es-419](https://firebase.google.com/?hl=es-419)
+<p align="center">
+  <img src="https://i.imgur.com/DlRwQDc.png" alt="12171">
+</p>
+
+  Google Play Console:
+    El proceso final de publicación y distribución de la aplicación móvil de Livria se llevará a cabo a través de Google Play Console. Esta es la plataforma oficial de Google para que los desarrolladores gestionen, publiquen y actualicen sus aplicaciones en la Google Play Store. Su propósito es funcionar como el canal de deployment directo al usuario final, proporcionando herramientas esenciales para la gestión de lanzamientos, pruebas beta, precios y la recopilación de métricas de instalación. La Console será fundamental para que el equipo logre una distribución controlada de las versiones de la aplicación, asegurando que las funcionalidades desarrolladas lleguen a los usuarios de Android de manera segura y gestionada.  
+     
+    [https://developer.android.com/distribute/console?hl=es-419](https://developer.android.com/distribute/console?hl=es-419) 
+<p align="center">
+  <img src="https://i.imgur.com/j3ISZ5H.png" alt="12171">
+</p>
+
+#### 4.1.1.7. Software Documentation
+  Confluence:  
+    Para la gestión y el almacenamiento de toda la documentación técnica y operativa del proyecto, se reutilizará la plataforma Confluence, la misma herramienta empleada en la Gestión de Requisitos. Su propósito en esta fase es actuar como el repositorio centralizado de conocimiento, facilitando la creación organizada de documentos clave como la documentación de arquitectura del sistema (tanto Android como el Backend en Rider) y los manuales de usuario finales. Esta reutilización es crucial para Livria ya que garantiza que todo el conocimiento generado durante el desarrollo se conserve de forma accesible y coherente, asegurando la sostenibilidad y la transparencia del proyecto.  
+     
+    [https://www.atlassian.com/software/confluence](https://www.atlassian.com/software/confluence)  
+<p align="center">
+  <img src="https://i.imgur.com/mtgQwsE.png" alt="12171">
+</p>
+
+### 4.1.2. Source Code Management
+
+La gestión del código fuente es fundamental para el desarrollo colaborativo de cualquier proyecto de software. En esta sección, el equipo establece el esquema de organización y control de versiones que aplicará para el seguimiento de modificaciones, utilizando GitHub como plataforma y sistema. Para ello, se empleará el modelo GitFlow y se definirán convenciones claras para nombres de ramas y mensajes de commits, además de usar Semantic Versioning para las versiones del proyecto. Esto garantizará una estructura organizada y accesible del código.
+
+1. **Repositorios en Github:**
+
+Para optimizar la organización del código y las pruebas, se implementarán repositorios específicos en GitHub. Cada uno cumplirá una función definida dentro del desarrollo y control de calidad del proyecto, garantizando una gestión estructurada y eficiente del ciclo de trabajo.
+
+**LivriaLanding:**
+
+Este repositorio estará dedicado exclusivamente al desarrollo de la Landing Page de Livria. Incluirá todo el código y los recursos asociados a la interfaz inicial del proyecto, como archivos HTML, CSS, JavaScript, imágenes y demás elementos Front-End, orientados a ofrecer una presentación atractiva, funcional y coherente con la propuesta de valor de la aplicación para los visitantes.
+
+<p align="center">
+  <img src="https://i.imgur.com/iIrxsuJ.png" alt="12171">
+</p>
+
+**README-de-Livria:**
+
+Este repositorio estará destinado al almacenamiento y control de versiones del informe completo del proyecto Livria. Contendrá los documentos en formato .md vinculados al proceso de documentación, planificación y análisis del proyecto, permitiendo mantener un seguimiento estructurado y actualizado de los avances en la elaboración del informe.
+
+<p align="center">
+  <img src="https://i.imgur.com/TvfH5aY.png" alt="12171">
+</p>
+
+**LivriaAdmin:**
+
+Este repositorio albergará el código del Front-End de la aplicación móvil Livria. Contará con una estructura organizada por componentes, rutas, controladores y servicios, desarrollados íntegramente en Kotlin dentro de Android Studio. Representará el núcleo técnico del desarrollo funcional de la aplicación.
+
+<p align="center">
+  <img src="https://i.imgur.com/zpO9UXV.png" alt="12171">
+</p>
+
+**Enlaces:** 
+
+**Repositorio de la Landing Page:**
+
+[**https://github.com/LivriaOrg/LivriaLanding**](https://github.com/LivriaOrg/LivriaLanding)
+
+**Repositorio del informe:**
+
+[**https://github.com/LivriaOrg/README-de-Livria**](https://github.com/LivriaOrg/README-de-Livria)
+
+**Repositorio de la aplicación móvil:**
+
+[**https://github.com/LivriaOrg/LivriaAdmin**](https://github.com/LivriaOrg/LivriaAdmin)
+
+2. **Workflow de control de versiones:**
+
+Para asegurar un flujo de trabajo eficiente y una integración organizada de los cambios, se adoptará el modelo GitFlow. Este enfoque define una estructura de ramas clara y jerarquizada, que facilita el desarrollo paralelo, el control de versiones y la colaboración ordenada entre los miembros del equipo.
+
+**Estructura de ramas en GitFlow:**
+
+| Nombre de la rama | Descripción |
+| ----- | ----- |
+| Main Branch (*main*) | Es la rama principal que contiene el código estable y listo para producción. Solo se integrarán en ella los cambios completamente probados, verificados y aprobados, garantizando que el entorno de producción mantenga la máxima estabilidad y calidad del software. |
+| Develop Branch (*develop*) | En esta rama se integran todas las funcionalidades en desarrollo, sirviendo como la base principal de trabajo antes de que los cambios sean fusionados con la rama main. Actúa como un entorno de integración continua donde se validan y consolidan las nuevas implementaciones. |
+| Feature Branches (*feature/\**) | Para cada nueva funcionalidad o cambio significativo, se debe crear una rama de tipo feature derivada de la rama develop. Este enfoque permite que el desarrollo se realice de forma aislada y controlada, evitando interferencias con el código principal y facilitando la integración posterior. **Ejemplo de nomenclatura:** feature/nueva-funcionalidad |
+
+**Convenciones para nombres de ramas**
+
+* **Feature Branches:** *feature/nombre-descriptivo*
+
+  Nombres que describan claramente la funcionalidad o la tarea en desarrollo.
+
+**Convenciones de commits (Conventional Commits)**
+
+Para mantener la claridad y consistencia en los mensajes de commit, se adoptará el estándar Conventional Commits.
+
+Este sistema permite identificar fácilmente el tipo de cambio realizado en cada commit, facilitando la revisión del historial, la automatización de versiones y la integración continua.
+
+Cada mensaje de commit deberá estructurarse con un tipo de cambio seguido de una breve descripción del ajuste realizado.
+
+**Tipos de cambios y ejemplos:**
+
+* **feat:** *agregar footer*
+
+  Indica la implementación de una nueva característica o componente en el proyecto.
+
+  3. ##### **Source Code Style Guide & Conventions** {#source-code-style-guide-&-conventions}
+
+Este capítulo establece las pautas y convenciones que el equipo de desarrollo adoptará para garantizar la coherencia, legibilidad y calidad del código en la aplicación Livria. Las convenciones abordarán los lenguajes utilizados en el proyecto: HTML, CSS, JavaScript y Kotlin. Asimismo, se emplea una nomenclatura en inglés para todos los elementos del código, tomando como referencia las mejores prácticas y guías de estilo reconocidas:
+
+* **HTML Style Guide and Coding Conventions**  
+* **Google HTML/CSS Style Guide**  
+* **Google JavaScript Style Guide**  
+* **MDN JavaScript Guidelines**  
+* **W3C JavaScript Style Guide**  
+* **Kotlin Coding Conventions (JetBrains)**  
+* **Android Developers Kotlin Style Guide**
+
+Para el desarrollo de la Landing Page de *Livria* se emplearon las tecnologías HTML, CSS y JavaScript, responsables de definir la estructura, el diseño y la funcionalidad del sitio. La correcta organización y estandarización del código garantizan un desarrollo consistente, mantenible y comprensible para cualquier miembro del equipo.
+
+**HTML:**  
+Define la estructura y el contenido de la página, asegurando una semántica adecuada y una jerarquía clara de elementos que favorece la accesibilidad y el posicionamiento SEO.
+
+**CSS:**  
+Controla el estilo visual de la interfaz, garantizando un diseño responsive y coherente mediante el uso de clases y sectores bien definidos. Se evita el uso de estilos en línea, priorizando un enfoque modular y reutilizable.
+
+**JavaScript:**  
+Aporta la interactividad y funcionalidad dinámica necesarias para optimizar la experiencia del usuario, empleando funciones y variables descriptivas junto con una estructura lógica y escalable que facilite el mantenimiento.
+
+La adopción de estas convenciones permite mantener una base de código limpia, legible y preparada para la evolución continua del proyecto.
+
+Principios Generales
+
+* Todo el código debe estar documentado y utilizar nomenclatura en inglés.  
+* La indentación debe ser consistente en todos los archivos.  
+* El código debe ser fácil de leer, comprender y mantener.  
+* Se debe aplicar el principio DRY (Don’t Repeat Yourself) para evitar redundancias y mejorar la eficiencia.
+
+**HTML:**
+
+**Convenciones de Formato**
+
+* Utilizar 2 espacios para indentación.
+
+\<div class\="book"\>
+
+    \<h3\>Title\</h3\>
+
+    \<p\>Genre\</p\>
+
+\</div\> 
+
+* Utilizar minúsculas para los nombres de elementos y atributos.  
+* Emplear comillas dobles (") para los valores de los atributos.  
+* Cerrar siempre todos los elementos HTML, incluso aquellos que son vacíos.  
+* Usar etiquetas semánticas siempre que sea posible, para mejorar la estructura y accesibilidad del documento.  
+   Ejemplos: \<header\>, \<footer\>, \<main\>, \<section\>, \<article\>, \<nav\>, entre otras.  
+* Los atributos deben escribirse en minúsculas y, en caso de nombres compuestos, utilizar guiones (-) en lugar de mayúsculas o guiones bajos.  
+   Ejemplo correcto:  
+   \<div class="book-list"\>\</div\>  
+*  Ejemplo incorrecto:  
+   \<div class="BookList"\>\</div\>
+
+**Estructura del Documento:**
+
+Incluir siempre el DOCTYPE de HTML5 al inicio del documento:
+
+ \<\!DOCTYPE html\>
+
+Definir los atributos lang en el elemento \<html\> y charset dentro del \<head\>, para garantizar la correcta interpretación del idioma y codificación del contenido.
+
+ \<html lang="es"\>
+
+\<head\>
+
+    \<meta charset="UTF-8"\>
+
+\</head\>
+
+Cargar las hojas de estilo (CSS) dentro del elemento \<head\> y los scripts de JavaScript justo antes del cierre de \</body\>, salvo en casos debidamente justificados donde sea necesario modificar este orden (por ejemplo, scripts críticos para el renderizado).
+
+**CSS:**
+
+Convenciones de Formato
+
+* Utilizar 2 espacios para la indentación.  
+* Incluir un espacio antes de la llave de apertura {.  
+* Colocar la llave de cierre } en una nueva línea.  
+* Incluir un espacio después de los dos puntos (:) en cada declaración.  
+* Finalizar todas las declaraciones con punto y coma (;).  
+* Utilizar comillas dobles (") para los valores de tipo *string*.  
+* Mantener un orden lógico y consistente de las propiedades CSS. Se recomienda el siguiente orden:
+
+   **1\. Layout:**  
+   display, position, top, left, bottom, right, z-index  
+   **2\. Box Model:**  
+   width, height, padding, margin, border  
+   **3\. Tipografía:**  
+   font-family, font-size, line-height, text-align  
+   **4\. Color:**  
+   color, background-color  
+   **5\. Visuales:**  
+   box-shadow, border-radius, opacity
+
+**Ejemplo general:**
+
+book-card {
+
+    display: flex;
+
+    margin-bottom: 20px;
+
+    border-radius: 4px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+**Convenciones de nomenclatura:**
+
+* Block: Representa un componente independiente.  
+   Ejemplo:   .book-card  
+* Element: Representa una parte interna del bloque que cumple una función específica.  
+   Ejemplo:   .book-card\_\_title  
+* Modifier: Indica una variación o estado diferente del bloque o elemento.  
+   Ejemplo:   .book-card--featured
+
+**Buenas prácticas adicionales:**
+
+* Evitar el uso excesivo de selectores anidados. Se recomienda no superar los tres niveles de profundidad.  
+   Ejemplo:  .book-card\_\_title span { ... }
+
+**JAVASCRIPT**
+
+**Convenciones de formato**
+
+* Utilizar 2 espacios para la indentación.  
+* Incluir punto y coma (;) al final de cada declaración.  
+* Utilizar comillas simples (') para los valores de tipo string.  
+* Nombrar los archivos en kebab-case, es decir, con minúsculas y guiones medios para separar palabras.
+
+**Ejemplo general:**
+
+const getBookDetails \= function(bookId) {
+
+    return fetch(\`/api/books/${bookId}\`)
+
+      .then(response \=\> response.json())
+
+      .catch(error \=\> {
+
+        console.error('Error fetching book details:', error);
+
+        return null;
+
+      });
+
+};
+
+##### 
+
+**Convenciones de Nomenclatura**
+
+* **Variables y funciones:** Usar camelCase.  
+   Ejemplo: `bookTitle`, `getUserPreferences`  
+* **Clases:** Usar PascalCase.  
+   Ejemplo: `BookRepository`, `UserAuthentication`  
+* **Constantes globales:** Usar UPPER\_SNAKE\_CASE.  
+   Ejemplo: `MAX_RESULTS_PER_PAGE`  
+* **Componentes (en entornos de UI o frameworks):** Usar PascalCase.  
+   Ejemplo: `BookCard`, `SearchBar`  
+* **Propiedades o métodos privados:** Usar guion bajo (`_`) como prefijo.  
+   Ejemplo: `_privateMethod`, `_privateVariable`
+
+**Buenas Prácticas**
+
+* Preferir `const` sobre `let`; usar `let` solo cuando el valor debe reasignarse.  
+* Evitar el uso de `var` en cualquier contexto.  
+* Utilizar funciones flecha (`=>`) para funciones anónimas o *callbacks*.  
+* Emplear las características modernas de ES6+, como *destructuring*, *spread operator* y *template literals*.  
+* Preferir los métodos funcionales de arrays (`map`, `filter`, `reduce`) en lugar de bucles tradicionales.
+
+*// Good*
+
+const filteredBooks \= books.filter(book \=\> book.inStock);
+
+*// Avoid*
+
+const filteredBooks \= \[\];
+
+for (let i \= 0; i \< books.length; i\++) {
+
+  if (books\[i\].inStock) {
+
+    filteredBooks.push(books\[i\]);
+
+  }
+
+}
+
+##### 
+
+**KOTLIN**
+
+**Convenciones de formato:**
+
+* Utilizar 4 espacios para la indentación (estándar oficial de Kotlin).  
+* Dejar un espacio antes y después de los operadores (=, \+, \-, \==, etc.).  
+* Colocar una sola instrucción por línea.  
+* Incluir una línea en blanco entre las declaraciones de funciones, clases o bloques lógicos.  
+* Usar llaves {} incluso en sentencias de una sola línea (por ejemplo, en if o when), para mejorar la claridad.
+
+package com.livria.app.ui
+
+class BookCard(
+
+    val title: String,
+
+    val author: String,
+
+    val isFeatured: Boolean \= false
+
+) {
+
+    fun displayInfo() {
+
+        if (isFeatured) {
+
+            println("🌟 Featured Book: $title by $author")
+
+        } else {
+
+            println("Book: $title by $author")
+
+        }
+
+    }
+
+    fun calculateDiscount(price: Double): Double {
+
+        val discountRate \= if (isFeatured) 0.15 else 0.05
+
+        return price \- (price \* discountRate)
+
+    }
+
+}
+
+##### 
+
+* **Clases y Objetos:** Usar PascalCase.
+
+* **Funciones y Variables:** Usar camelCase, comenzando con minúscula.
+
+* **Constantes y Valores Inmutables (companion objects o globales):** Usar UPPER\_SNAKE\_CASE.
+
+**Buenas Prácticas**
+
+* Usar val en lugar de var siempre que sea posible, para favorecer la inmutabilidad y evitar efectos secundarios.  
+* Evitar valores nulos; aprovechar el sistema de seguridad de nulabilidad de Kotlin usando tipos no nulos y el operador seguro ?. cuando sea necesario.  
+* Preferir funciones de extensión para agregar comportamiento a clases existentes sin modificarlas.  
+* Usar expresiones concisas y aprovechar las funciones lambda para simplificar el código.  
+* Evitar el uso innecesario de \!\! (operador de aserción nula), ya que puede provocar excepciones en el tiempo de ejecución.  
+  Organizar el código por paquetes según su responsabilidad (por ejemplo: ui, data, domain, utils).
+
+### 4.1.4. Software Deployment Configuration
+
+La estrategia de despliegue de Livria implementa una arquitectura basada en la nube que maximiza la eficiencia operativa, la escalabilidad y la distribución multicanal de sus productos digitales. Esta configuración es híbrida, utilizando Microsoft Azure para los Web Services críticos y plataformas especializadas (GitHub Pages y Firebase) para la distribución de *front-end* y aplicaciones móviles, como se ilustra en el Deployment Diagram adjunto.
+
+<p align="center">
+  <img src="https://i.imgur.com/y2xbTsR.jpeg" alt="12171">
+</p>
+
+Despliegue de la Aplicación Móvil (Android)
+
+El proceso de despliegue de la aplicación Android se divide en dos fases distintas, utilizando Firebase App Distribution para la gestión de pruebas internas antes de la publicación final.
+
+<p align="center">
+  <img src="https://i.imgur.com/ywQ4TDr.png" alt="12171">
+</p>
+
+| Componente | Plataformas | Beneficios Clave |
+| :---- | :---- | :---- |
+| Mobile App | Firebase App Distribution (Pruebas) y Google Play Store (Producción). | Agilidad de Pruebas: Distribución rápida a QA y testers. Alcance: Acceso al mercado global de Android. |
+
+Pasos del Proceso de Despliegue
+
+1. Integración Continua (CI): El código fuente de la aplicación (Kotlin/Compose) se versiona y prueba automáticamente en la pipeline de CI.  
+2. Generación de Artefacto: Tras el éxito de las pruebas, se genera el archivo Android App Bundle (.aab).  
+3. Distribución Continua (CD): El .aab es cargado automáticamente a Firebase App Distribution, lo que notifica a los testers para que descarguen la versión de prueba de forma instantánea.  
+4. Conexión a Backend: El Dispositivo Android accede a los servicios de negocio mediante HTTPS (protocolo seguro) a la API alojada en Azure App Service.  
+5. Publicación Final: Una vez que la versión es estable, el .aab se sube manualmente a Google Play Console para su revisión y lanzamiento al público general.
+
+Despliegue de Web Services (Backend / API REST)
+
+El backend aloja toda la lógica de negocio central, siendo el componente más crítico del sistema. Su despliegue se gestiona completamente en el ecosistema Microsoft Azure.
+
+<p align="center">
+  <img src="https://i.imgur.com/dPOznbM.png" alt="12171">
+</p>
+
+| Componente | Servicios Azure | Beneficios Clave |
+| :---- | :---- | :---- |
+| Web Services | Azure App Service y Azure SQL Database. | Escalabilidad: Azure App Service gestiona picos de tráfico. Seguridad: Aislamiento de la DB. |
+
+Pasos del Proceso de Despliegue
+
+1. Integración Continua (CI): Se ejecutan pruebas unitarias y de integración sobre el código del backend (API REST).  
+2. Generación de Artefacto: Los archivos compilados del backend se empaquetan en un artefacto de despliegue.  
+3. Despliegue Continuo (CD): La pipeline automatizada realiza el despliegue al Azure App Service. Este servicio actúa como el punto de exposición de la API, encargándose del balanceo de carga y la disponibilidad.  
+4. Configuración de Persistencia: El App Service se configura para conectarse a Azure SQL Database utilizando un Protocolo SQL seguro. Esta base de datos es el único nodo que almacena los datos transaccionales, y no tiene exposición directa a Internet por motivos de seguridad.
+
+Despliegue de la Aplicación Web (Landing Page)
+
+El *Landing Page* es una aplicación estática y de *marketing*. Su despliegue debe ser ágil y de bajo costo.
+
+<p align="center">
+  <img src="https://i.imgur.com/ohiYqxj.png" alt="12171">
+</p>
+
+| Componente | Plataforma | Beneficios Clave |
+| :---- | :---- | :---- |
+| Web Browser (Landing Page) | GitHub Pages. | Bajo Costo y Mantenimiento: Despliegue gratuito sin necesidad de gestión de servidores. Rapidez: Publicación directa desde el repositorio. |
+
+Pasos del Proceso de Despliegue
+
+1. Alojamiento en Repositorio: El código fuente (HTML, CSS, JS) se almacena en el repositorio GitHub.  
+2. Publicación Automática: Se configura una branch o una GitHub Action específica.  
+3. Acceso Público: Cada push a la rama de publicación desencadena la actualización del sitio web, alojado en GitHub Pages. El usuario accede a este contenido directamente desde su Navegador Web vía HTTPS (protocolo seguro).
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+### 4.2.1. Sprint 1
+
+#### 4.2.1.1. Sprint Planning 1
+
+El Sprint Planning es la reunión que da inicio al sprint y define qué se va a construir y cómo se logrará. Reúne al equipo Scrum para establecer un objetivo claro (Sprint Goal), seleccionar las historias de usuario más relevantes y descomponerlas en tareas concretas. Esta planificación asegura un enfoque común, organiza el trabajo de forma eficiente y alinea al equipo con la entrega de valor al usuario.
+
+A continuación se muestra la tabla del Sprint Planning:
+
+| Sprint \# | Sprint 1 |
+| :---- | :---- |
+| **Sprint Planning Background** |  |
+| Date | 05/10/2025 |
+| Time | 3:30 PM |
+| Location | Virtual |
+| Prepared by | Ainhoa Lucía Castillo Garay, Cassius Estefano Martel Andrade |
+| Attendees (to planning meeting) | Ainhoa Lucía Castillo Garay / Marcelo Alejandro Binda Arbañil / Cassius Estefano Martel Andrade / Alex Tomio Nakamurakare Teruya / Gabriel Sebastián Borja Molina |
+| **Sprint Goal & User Stories** |  |
+| Sprint 1 Goal | Our focus is on delivering the foundational components of the Livria platform: a complete, visually engaging and interactive Landing Page, a functional core API service (backend) with Swagger documentation, and an initial mobile user experience preview (frontend) featuring an interactive prototype with core screens. We believe it delivers a strong foundation of clarity and trust to potential users and collaborators by clearly articulating Livria's purpose, demonstrating its core backend capabilities, and providing an early visualization of the mobile experience. This will be confirmed when an internal user can successfully navigate through all sections of the landing page like “About Us” and “Contact Us”, access the Swagger documentation to review all specified endpoints, and interact with the simulated user flows on the frontend mobile screens. |
+| Sprint 1 Velocity | 35 |
+| Sum of Story Points | 25 |
+
+##### 4.2.1.2. Sprint Backlog 1
+
+Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9](https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9)
+
+| Sprint n |  |  | Sprint 1 |  |  |  |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| **User Story** |  |  | Work-Item / Task |  |  |  |
+| **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-Do / In-Process / To-Review / Done)** |
+| US01 |  | Presentación de servicios de Livria |  |  |  |  |
+|  | 1 | Redactar contenido atractivo sobre funcionalidades principales | Redactar texto que explique de manera clara y atractiva las funcionalidades clave de Livria, con el objetivo de que los usuarios comprendan rápidamente los servicios ofrecidos. | 1.5 | Developer Team | Done |
+|  | 2 | Diseñar e implementar sección de servicios en la Landing Page | Desarrollar la sección principal dentro de la Landing Page que detalle los servicios de Livria, asegurando que sea visualmente atractiva y accesible. | 2 | Developer Team | Done |
+| US02 |  | Acceso a la sección ‘Sobre Nosotros’ en la Landing Page |  |  |  |  |
+|  | 1 | Redactar texto para la sección 'Sobre Nosotros' | Redactar un contenido conciso y alineado con la misión de Livria y el objetivo del equipo para la sección 'Sobre Nosotros'.  | 1 | Developer Team | Done |
+|  | 2 | Implementar la sección 'Sobre Nosotros' en la Landing Page  | Desarrollar la estructura HTML/CSS y el diseño de la sección 'Sobre Nosotros', asegurando una integración fluida con el resto de la Landing Page. | 2 | Developer Team | Done |
+|  | 3 | Crear enlace de navegación a 'Sobre Nosotros'  | Añadir y configurar el enlace de la sección 'Sobre Nosotros' en el menú de navegación principal de la Landing Page. | 0.5 | Developer Team | Done |
+| US03 |  | Cambio de idioma en la Landing Page |  |  |  |  |
+|  | 1 | Definir y preparar archivos de traducción (i18n) iniciales  | Crear los archivos de recursos JSON para al menos un idioma adicional (inglés), incluyendo todos los textos de la Landing Page. | 3 | Developer Team | Done |
+|  | 2 | Implementar el módulo de internacionalización (i18n) en el Frontend  | Integrar una librería o lógica para la gestión de traducciones en el frontend, haciendo que todos los textos sean dinámicos y dependan del idioma seleccionado. | 4 | Developer Team | Done |
+|  | 3 | Diseñar e implementar selector de idioma | Crear un componente visual para el cambio de idioma e implementarlo en la cabecera de la Landing Page. | 2 | Developer Team | Done |
+|  | 4 | Implementar lógica de persistencia del idioma seleccionado | Asegurar que la selección del idioma se guarde para que persista entre recargas de página. | 1.5 | Developer Team | Done |
+| US04 |  | Visualización de la sección ‘Home’ en la Landing Page |  |  |  |  |
+|  | 1 | Implementar el Hero Section (Sección Principal) | Desarrollar la estructura base de la sección principal (Home), incluyendo la disposición de los elementos clave como el título principal, subtítulo y la llamada a la acción. | 2 | Developer Team | Done |
+| US05 |  | Acceso a la sección ‘Contáctanos’ en la Landing Page | Escribir el texto conciso para la sección 'Contáctanos', e identificar y listar las direcciones de correo electrónico, enlaces a redes sociales y/o un formulario de contacto breve a incluir. | 1.5 | Developer Team | Done |
+|  | 1 | Redactar contenido y definir canales de contacto | Escribir el texto conciso para la sección 'Contáctanos', e identificar y listar las direcciones de correo electrónico, enlaces a redes sociales y/o un formulario de contacto breve a incluir. | 2.5 | Developer Team | Done |
+|  | 2 | Implementar la sección ‘Contáctanos’ en la Landing Page | Desarrollar la estructura visual de la sección, incluyendo íconos para redes sociales y la disposición de la información de contacto, siguiendo la línea de diseño de Livria. | 2 | Developer Team | Done |
+|  | 3 | Crear enlace de navegación a ‘Contáctanos’ | Añadir y configurar el enlace de la sección 'Contáctanos' en el menú de navegación principal y/o en el pie de página (footer) de la Landing Page. | 0.5 | Developer Team | Done |
+| US06 |  | Navegación simple entre secciones en la Landing Page |  |  |  |  |
+|  | 1 | Definir y asignar anclajes (IDs) a todas las secciones principales | Colocar los atributos de identificación (ID) necesarios en las etiquetas HTML de las secciones de la Landing Page para que sirvan como puntos de destino. | 1 | Developer Team | Done |
+|  | 2 | Configurar enlaces de navegación para apuntar a los anclajes | Modificar los enlaces del menú principal para que utilicen la referencia de anclaje en lugar de URLs estáticas, permitiendo la navegación interna. | 1.5 | Developer Team | Done |
+| US07 |  | Diseño atractivo de la Landing Page |  |  |  |  |
+|  | 1 | Definir y aplicar la paleta de colores y tipografía de Livria | Aplicar las variables CSS para la paleta de colores corporativa y asegurar el uso consistente de las fuentes tipográficas definidas en todo el Frontend de la Landing Page. | 2.5 | Developer Team | Done |
+|  | 2 | Revisión y ajuste de espaciado y alineación (Micro-diseño)  | Realizar una revisión exhaustiva del espaciado (margins y paddings), tamaños de fuente y alineación en todas las secciones para cumplir con los estándares de diseño UX/UI.  | 3 | Developer Team | Done |
+| US09 |  | Acceso a las redes sociales de Livria |  |  |  |  |
+|  | 1 | Definir y recopilar URLs de perfiles sociales | Listar las URLs definitivas de los perfiles de Livria en las redes sociales principales (ej. Instagram, X/Twitter, Facebook, etc.). | 0.5 | Developer Team | Done |
+|  | 2 | Diseñar e implementar el componente visual de íconos sociales | Crear y desarrollar un componente frontend que muestre los íconos de las redes sociales de manera agrupada, generalmente ubicado en el footer o la cabecera.  | 2 | Developer Team | Done |
+| US10 |  | Footer de la Landing Page |  |  |  |  |
+|  | 1 | Implementar la estructura HTML/CSS del Footer | Diseñar y desarrollar la estructura base del pie de página, asegurando que su diseño sea coherente con el resto de la Landing Page y se mantenga fijo en la parte inferior. | 1.5 | Developer Team | Done |
+|  | 2 | Agregar información legal y de Copyright | Redactar e implementar el aviso de Copyright, incluyendo el año y el nombre de la compañía ("Livria" y “Defontes”), en la sección más visible del Footer. | 0.5 | Developer Team | Done |
+|  | 3 | Integrar navegación rápida y íconos sociales al Footer | Reutilizar los componentes de navegación principal y los íconos de redes sociales (desarrollados en US06 y US09) e integrarlos funcionalmente dentro del diseño del Footer. | 1.5 | Developer Team | Done |
+| US15 |  | Registro e inicio de sesión |  |  |  |  |
+|  | 1 | Configuración del modelo y tabla de Usuarios en la Base de Datos | Definir el esquema de la tabla de usuarios en la base de datos (Backend), incluyendo campos esenciales como email, password (hashed), y nombre\_usuario. | 3 | Developer Team | Done |
+|  | 2 | Desarrollar el Endpoint de API para Registro | Crear la ruta Backend (/register) que reciba los datos, valide la entrada, encripte la contraseña (hashing) y persista el nuevo usuario en la base de datos. | 6 | Developer Team | Done |
+|  | 3 | Desarrollar el Endpoint de API para Inicio de Sesión | Crear la ruta Backend (/sign-in) que reciba credenciales, verifique la contraseña encriptada y, si son correctas, genere y devuelva un token de autenticación (JWT) o una sesión. | 6 | Developer Team | Done |
+|  | 4 | Implementar la lógica de envío del Formulario de Inicio de Sesión y manejo del token | Conectar el formulario de login (Task 2\) con el endpoint de login (Task 3\) y asegurar que el token o sesión retornado por el Backend se guarde en el Frontend. | 4 | Developer Team | Done |
+| US17 |  | Cierre de sesión |  |  |  |  |
+|  | 1 | Implementar el botón "Cerrar Sesión" en la interfaz de usuario | Diseñar y añadir un botón de "Cerrar Sesión" visible en la navegación o perfil de usuario, y asegurar que solo aparezca cuando el usuario esté autenticado. | 1 | Developer Team | Done |
+|  | 2 | Implementar la lógica de eliminación del token en el Frontend | Escribir la función frontend que se ejecuta al hacer clic en "Cerrar Sesión". Debe borrar el token de autenticación y resetear el estado global de la aplicación. | 1.5 | Developer Team | Done |
+| US22 |  | Barra de búsqueda |  |  |  |  |
+|  | 1 | Diseñar e implementar el componente visual de la barra de búsqueda | Desarrollar la estructura (HTML/CSS) del campo de entrada y el ícono/botón de búsqueda, e integrarlo en la cabecera de la Landing Page de manera prominente. | 2 | Developer Team | Done |
+|  | 2 | Implementar la lógica de captura de texto y redirección placeholder | Configurar el evento de envío del formulario de búsqueda para capturar el texto introducido y realizar una búsqueda sobre el Endpoint respectivo. | 1.5 | Developer Team | Done |
+| US24 |  | Valoración y reseña de libros |  |  |  |  |
+|  | 1 | Implementar componente visual de sistema de valoración (estrellas) | Diseñar y desarrollar el componente frontend de calificación (5 estrellas) con capacidad de selección, para mostrar en la página de detalles de un libro. | 2 | Developer Team | Done |
+|  | 2 | Implementar campo de texto para reseña y botón de envío | Añadir un campo de texto multi-línea (textarea) y un botón de "Enviar Reseña" al componente de valoración. | 1.5 | Developer Team | Done |
+| US25 |  | Actualización y gestión de suscripción |  |  |  |  |
+|  | 1 | Implementar el componente visual de 'Gestión de Suscripción' | Diseñar y desarrollar la interfaz frontend dentro del área de perfil para mostrar el estado actual de la suscripción del usuario (Plan Básico / Plan Comunidad) y opciones como "Cambiar Plan" o "Cancelar". | 2.5 | Developer Team | Done |
+|  | 2 | Crear un Endpoint de Backend de actualización del estado | Desarrollar una ruta de API que reciba una solicitud y devuelva la confirmación de un cambio de plan o la cancelación de la suscripción. | 3 | Developer Team | Done |
+| US26 |  | Disponibilidad 24/7 |  |  |  |  |
+|  | 1 | Realizar el despliegue (deployment) de la aplicación móvil en un entorno de hosting de alta disponibilidad (HA) | Desplegar la aplicación en un servicio de hosting que garantice una alta disponibilidad que asegure un tiempo de actividad óptimo, con el objetivo de mantener la accesibilidad y el rendimiento de la aplicación para los usuarios. | 4 | Developer Team | Done |
+|  | 2 | Mantenimiento y Continuidad Operacional Implementar una estrategia de continuidad del negocio | Establecer un entorno de pre-producción paralelo al entorno de producción para realizar pruebas de regresión, corrección de errores y mantenimiento de forma aislada. Esto permitirá realizar despliegues incrementales y, en caso de fallos críticos, ejecutar una reversión al estado estable anterior sin interrumpir la experiencia de usuario ni afectar la operación en vivo de la aplicación. | 4.5 | Developer Team | Done |
+| US27 |  | Interfaz amigable y navegación sencilla de la aplicación móvil |  |  |  |  |
+|  | 1 | Implementar la estructura base de navegación móvil | Diseñar y desarrollar la barra de navegación inferior (ej. Bottom Tab Bar) que se utilizará como la navegación principal en la aplicación móvil, incluyendo íconos y placeholders para las secciones clave (Home, Comunidad, Perfil). | 4 | Developer Team | Done |
+|  | 2 | Revisión final de la adaptabilidad y el Responsive Design | Realizar pruebas exhaustivas en diferentes resoluciones móviles y tabletas para asegurar que todos los elementos de la Landing Page sean totalmente responsivos y que no haya desbordamientos de contenido. | 3.5 | Developer Team | Done |
+|  | 3 | Optimizar elementos de interacción para experiencia táctil | Ajustar el tamaño y espaciado de los botones y elementos interactivos para garantizar que sean fáciles de tocar en pantallas pequeñas, siguiendo las directrices de UX móvil. | 2 | Developer Team | Done  |
+
+Capturas del proyecto en Jira:
+<p align="center">
+  <img src="https://i.imgur.com/pUHcWf1.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/2RJkOv9.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/RXS2YTY.png" alt="12171">
+</p>
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+Durante el Sprint 1, se alcanzaron avances significativos tanto en el desarrollo de la Landing Page como en la aplicación móvil de Livria, cumpliendo con los objetivos establecidos para esta etapa.  
+A través de los repositorios del equipo, se registraron múltiples commits que reflejan el progreso constante en diversos aspectos del proyecto, entre ellos:
+
+| Repository | Branch | Commit Id | Commit Message | Commited on (Date) |
+| ----- | ----- | ----- | ----- | ----- |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | 794a9c0e0a75e72410f0fe8f8466726753aaeda3 | Develop branch creation | 07/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | 758efb8a1f0ebcf8dd2e862a1843cc5c29a65b08 | Style Guidelines Implementation | 07/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/home | 1aa70d465afc5d9ed20ecfb90543a0b6196722cb | Menu Bars and Navigation Implementation | 07/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | ef11f1a51acc0188ed315b8fce37039678ded013 | Create domain packages | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/settings | 781e04cf4c77b47fc021f2d5647852ff2afcbda7 | Add User Entity | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/settings | fbfc7fa8860df4956dd9c384b6a22efca1a44e8e | Add UserAdmind Entity | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/settings | df5532b9bddf6a68cefd05cfe3cfdc5c18e16e59 | Change Capital String to UserAdmin attribute | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/settings | 09b1b37ec12f595794ed5413fbbbdbf9ca1dad54 | Add material dependency | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/settings | e215caff9b484ea44ba3e2b73546c7b06c5c1c62 | Add profile settings tab | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/settings | 11f0dd34638d525cee5b251a6e05971222b1b006 | Add application settings tab | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/home  | 5e9a22c591e9adda509f396702fb3d43a6794362 | Home View Model implementation | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/home  | 7c7b5ba834e20b480de325ec14563a5a282a8c9f | Home Screen Implementation | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/home  | dd7697e85cddfecd344fa63426158006a5abadc4 | Home Navigation improvement | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/home  | c36ab669022d93a4b2871db845f7fbb062246760 | Navigation quick fix | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/home  | 67546cb7908521d56be95f8eaa2a1c36c5264430 | Settings design improvement | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/home  | 58d355cc740713021dec7b9aec1122145c7c3e06 | Quick Settings fix | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | 9c4cb6b78e6d17bcff425dbdc0f745ca263b3dd2 | Add backend constant | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | d845a8ca60e478b5a5c7893ba392c5695b654f63 | Add authentication response and service | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | 83b4de20fc69a6cfc9be7d14f2647ca474410626 | Add Login Entity | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | a65c5ea21138f5c52b9e3239d8a034fef5a51bfa | Design Login Screen | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | 5396137fe5daf46710ab96051029c3efc2d74416 | Add Room dependency | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | ca9b7487ca35f4a2e39730bbc3b54c8249fe816f | Add Login route | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | 346068e54eac18f82d24fddd8cb3aef9f117afd8 | Merge branch ‘login’ into develop | 08/10/25  |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | ef1ada06d64e039a7f1f54627021e81de7de74c0 | Modifications in folder structure | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | 4bc0827c1049aba2e917c26423371be5aab55afe | Final design changes in Login | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | 48cc54109229798b7d0e31281c087da000638a7a | Placing OrdersScreen in the navigation system | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | 8ee676511412cadcdbf185847a86e9bced6fed1d | Composable function for MiniStats for Orders | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | 9683a1454058560e775a20e953cd29023b0c91ae | Order Data Class implementation | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | 81cf6d3aa5590acc482ff56a471cb6d2f6b1b846 | Add UserDto | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | 86de6b16142027013800c9091e52bf356a89a6bf | Add UserService | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | 7a87fdb9de48428e95d9c812600b063057a44cf7 | Add Token | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | cdf8dfaa5667df7ab7f3cd0ca4d36ac59d5db8fc | Update Login Screen | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/login | 6c75f4a17fa99253aefa9a106ba84f386133e73c | Implement backend communication with settings | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | c1a3fe20a3038c97c9a88817af4fd3bb0db6c30b | Re-structuring the context | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | 20779cff625bd2bb55e4fc64bd200f887b8051e2 | Merge branch ‘develop’ | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | 1bfcc0a7457beb4e56aec736add51bd46c92cbd7 | Context Structure improvement | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | 3b748eb5417944362fcd6fa9b37d45724fb0d3bb | Refactor Project | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | fa83138c5f33ea50077d1c1b4d43f24c57985af7 | Data Folder for Orders | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | f2d5aeb296f7e4b7c4fe8c50739fcc2434569aa8 | Merge certain changes into feat/orders | 08/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | 31fb811c0ccb6f6f601b58edfef6b01298f4411e | Needs Fixing | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/stock | 4db6f81f9fdc10dec3f47926b2ca3350338935e0 | Implement Add Book Functionality | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/stats | 85f5b6f85556db191fa3f0b2cf86d8290b5b1639 | Add Livria Management Statistics | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/stock | 66c03c674d80d968bac98687c1cb75aae7eb49ee | Improve Design | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | 78031a5daec424acd4d3c7aa1f9110f6ce5b4253 | Merge branch ‘feat/stock’ into develop | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/book | 45bfb969caf20070ce1bae0400d543dc8178c44b | Add BookDetailScreen | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/stock | 82ea71bf2052330ceac12668b46d6c3b178a6261 | Fix commit | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/book | a3eecf991dcdbcf67a2ad17f24dbf6e0384641e4 | Merge Book and Inventory | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/stock | c90a6fb979f20bdeb63906613a5bffba80daee3b | Add book cover view | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/stock | a51b39c77e8464028857f39e8b44d79a364937f7 | Add book | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/stock | 26804ddad3b6d8106a4b2022ca0f717e9f0e82ba | Add book | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/book | 58a0797dc8fd06c86e298da2d7e77f2f921a6ebb | Add Filters | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/book | 4157335ef2f41e26d51ce6976f10682770d9e080 | Orders data and domain improvement | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/book | 76cae560b4d63faca692e534aa72b9f93ad3a2a0 | Add Stock | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | 01e1d7560cad605b92a2c1cb17aaaacc08d91b32 | Orders search implementation | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/home | 5374d46fc9534f3078db35e8c49d7c4ff12d5e50 | Modify LivriaTopBar, AdminNavGraph, AdminUser, HomeScreen, HomeViewModel. Add HomeViewModelFactory | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | e5638a583f58ceecdb95d86295419a48de467950 | Orders Table design | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | 5371f46fe21e9753c1323d8c6c5d9e5ce66e9a70 | Orders table functionality | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | ccabde1cc825e982dd05e6a37dc409e8ba2ea55d | Pull recent develop changes | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/book | f608e6e61f64c4b837bfde292273b65f1cd8d6df | Fix BookManagementScreen | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/home | ce7779ada24a823a1e58a5fe3316635bd971d89a | Add capital view from TopBar | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | 581e454e6439886ee64ec330e23a7eb5c0505a25 | Merge branch ‘settings’ into develop | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | 01c74ba5243cf211d589a8558791afa3f34458f2 | Individual Order view | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | 141259c31c4d0d701c4aadb2c27fb264ca737c78 | Pulling latest changes | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/orders | d4675324d777f154aa76fafd4e18d7a22803a882 | Update Order Status functionality | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | feat/stats | 8178abc28b1b40018b88d579088b6fe78cef92c8 | Implement stats view | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | fddcd16b5c02700f498d97fc0356ba3cb81db898 | Merge screens | 09/10/25 |
+| https://github.com/LivriaOrg/LivriaAdmin | develop | d4ddee38dbe5e6644b3e9b96f62d8676c2469715 | Order Stats implementation | 09/10/25 |
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 1, el equipo completó exitosamente 14 Historias de Usuario, superando los objetivos iniciales de la iteración. El enfoque principal estuvo en la culminación de la Landing Page del proyecto Livria, lo que sirvió como un entregable de marketing clave. Paralelamente, se logró un progreso significativo en la primera versión del Frontend de la aplicación móvil (Android) y la implementación de la API REST para la gestión inicial de datos (Backend). El equipo cumplió con todos los entregables planificados, además de que desarrolló e integró un Frontend funcional para las pantallas administrativas dentro de la aplicación móvil, incluyendo la conexión efectiva con las llamadas a la API, demostrando una validación temprana de la arquitectura de la solución.
+
+Evidencia visual:
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1, se desarrollaron e implementaron Endpoints para funcionalidades clave de la aplicación, tales como el catálogo de libros, el sistema de autenticación de cuentas y la gestión de inventario y órdenes para la vista de administrador. Se realizó el deployment de la API RESTful conectada a una base de datos MySQL, mediante el servicio de Azure.
+
+A continuación, se muestra una tabla con los Endpoints implementados para este Sprint:
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de request | Respuesta |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| /api/v1/authentication/register | Crear un registro de un usuario. | POST | /api/v1/authentication/register | Ninguno | {"username": "happy\_vlan", "password": "nativagestion", "confirmPassword": "nativagestion", "display": "Happy Villain", "email": "happy.villain@example.com", "icon": "https://example.com/icon.png", "phrase": "¡VLAN Feliz\!"} | {"message": "Registration successful."} |
+| /api/v1/authentication/sign-in/admin | Iniciar sesión como administrador. | POST | /api/v1/authentication/sign-in/admin | Ninguno | {"username": "admin\_default", "password": "0000", "securityPin": "0000"} | {"identityId": 1, "userId": 1, "username": "admin\_default", "success": true, "message": "Login successful.", "token": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTIzNTkzOTksImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5fZGVmYXVsdCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiaWF0IjoxNzUxNzU0NTk5LCJuYmYiOjE3NTE3NTQ1OTl9.mGcSdBaMrrP7-DEZTf8gjy5I82pm7Ts9bSfHYKVgypo"} |
+| /api/v1/authentication/sign-in/client | Iniciar sesion como cliente. | POST | /api/v1/authentication/sign-in/client | Ninguno | {"username": "rodrigo", "password": "contrasea"} | {"identityId": 7, "userId": 7, "username": "rodrigo", "success": true, "message": "Login successful.", "token": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTIzNTk0ODQsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IjciLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicm9kcmlnbyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IlVzZXJDbGllbnQiLCJpYXQiOjE3NTE3NTQ2ODQsIm5iZiI6MTc1MTc1NDY4NH0.0VhD4A-bCEMh-X0ItAKe1utt5HKBO-j5jbnQn2MVk4E"} |
+| /api/v1/books | Obtener los datos de todos los libros. | GET | /api/v1/books | Ninguno | \- | {"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 49,"cover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": \[\]} |
+| /api/v1/books | Crear un nuevo libro. | POST | /api/v1/books | Ninguno | {"title": "Millonario","description": "Jugador","author": "Persona","salePrice": 4,"stock": 20,"cover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english"} | {"id": 3,"title": "XD","description": "string","author": "string","salePrice": 4,"stock": 20,"cover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": \[\]}  |
+| /api/v1/books/{id} | Obtener los datos de un libro en específico. | GET | /api/v1/books/{id} | id: Integer | /api/v1/books/1 | {"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 50,"cover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": \[\]} |
+| /api/vi/books/{bookId}/stock | Actualizar el stock de un libro. | PUT | /api/vi/books/{bookId}/stock | bookId: Integer, stock: Integer | {"newStock": 50} | {"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 50,"cover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": \[\]} |
+| /api/v1/orders | Crear una nueva orden. | POST | /api/v1/orders | Ninguno | {"userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "pending","isDelivery": true,"shippingDetails": {"address": "string","city": "string","district": "string","reference": "string"},"cartItemIds": \[2\]} | {"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "pending","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.2790128Z","items": \[{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}\]} |
+| /api/v1/orders/{id} | Obtener los datos de un orden en específico. | GET | /api/v1/orders/{id} | id: Integer | /api/v1/orders/1 | {"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "pending","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": \[{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}\]} |
+| /api/v1/orders/code/{code} | Obtener los datos de una orden en específico por medio de su código. | GET | /api/v1/orders/code/{code} | code: String | /api/v1/orders/code/292W4X | {"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "pending","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": \[{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}\]} |
+| /api/v1/orders/users/{userClientId} | Obtener los datos de las órdenes de un usuario cliente en específico. | GET | /api/v1/orders/users/{userClientId} | userClientId: Integer | /api/v1/orders/users/2 | \[{"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "delivered","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": \[{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}\]}\] |
+| /api/v1/orders/{orderId}/status | Actualizar el estado de una orden. | PUT | /api/v1/orders/{orderId}/status | status: string | {"status": "in progress"} | {"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "in progress","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": \[{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c\_fit,q\_60,w\_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}\]} |
+
+Capturas de pantalla:
+
+**/api/v1/authentication/register:**
+<p align="center">
+  <img src="https://i.imgur.com/36KKSwv.png" alt="12171">
+</p>
+
+Esta solicitud POST inicia una nueva sesión como usuario administrador, con acceso a la vista de gestión de librería. Para lograr esto, utiliza las credenciales de administrador cargadas por defecto al sistema y devuelve un JSON Web Token (JWT).
+
+**/api/v1/authentication/sign-in/client:**
+
+<p align="center">
+  <img src="https://i.imgur.com/sBkG9fM.png" alt="12171">
+</p>
+
+Esta solicitud POST auténtica al cliente con las credenciales de usuario de tipo cliente proporcionadas. Valida la sesión y devuelve un JSON Web Token (JWT) para la autenticación.
+
+**/api/v1/books:**
+
+<p align="center">
+  <img src="https://i.imgur.com/zElCiAA.png" alt="12171">
+</p>
+
+Esta solicitud POST crea un nuevo libro en el sistema. Permite registrar un libro con su título, descripción, autor, precio, stock, imagen de portada, género e idioma.
+
+<p align="center">
+  <img src="https://i.imgur.com/x5oByk6.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene los datos de todos los libros disponibles. Muestra una lista completa de los libros registrados en el sistema.
+
+**/api/v1/books/{id}:**
+
+<p align="center">
+  <img src="https://i.imgur.com/Y9B0aDg.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene los datos de un libro en específico, utilizando su ID. Muestra los detalles del libro solicitado.
+
+**/api/vi/books/{bookId}/stock:**
+
+<p align="center">
+  <img src="https://i.imgur.com/CCV93QN.png" alt="12171">
+</p>
+
+Esta solicitud PUT actualiza el stock disponible de un libro específico, usando su ID. Permite modificar la cantidad de libros en existencia.
+
+**/api/v1/orders:**
+
+<p align="center">
+  <img src="https://i.imgur.com/dc8v46S.png" alt="12171">
+</p>
+
+Esta solicitud POST crea una nueva orden en el sistema. Permite registrar una compra con detalles del cliente, envío y los ítems comprados.
+
+**/api/v1/orders/{id}:**
+
+<p align="center">
+  <img src="https://i.imgur.com/dc8v46S.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene los datos de una orden en específico, usando su ID. Muestra los detalles de la orden buscada.
+
+**/api/v1/orders/code/{code}:**
+
+<p align="center">
+  <img src="https://i.imgur.com/WRcdUZX.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene los datos de una orden específica por medio de su código. Muestra los detalles de la orden que coincida con el código.
+
+**/api/v1/orders/users/{userClientId}:**  
+
+<p align="center">
+  <img src="https://i.imgur.com/h5dYSqv.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene todas las órdenes de un usuario cliente específico, usando su ID. Muestra una lista de todas las compras realizadas por ese usuario.
+
+**/api/v1/orders/{orderId}/status:**
+
+<p align="center">
+  <img src="https://i.imgur.com/stgPl8L.png" alt="12171">
+</p>
+
+Esta solicitud PUT actualiza el estado de una orden, usando su ID. Permite cambiar el estado de una orden entre 'pending', 'in progress' o 'delivered'.
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, la labor de despliegue se centró en establecer la accesibilidad y el funcionamiento inicial de los componentes principales del proyecto. Los despliegues críticos realizados incluyeron la Landing Page, que fue desplegada exitosamente mediante GitHub Pages para asegurar el acceso a la información de nuestro servicio por parte de los clientes. De forma paralela, la API Backend, responsable de interactuar con la base de datos de Livria, también fue desplegada en Azure App Service, estableciendo la infraestructura clave para el backend de la aplicación y sentando las bases operativas del sistema.
+
+Subimos el código de la Landing Page al repositorio principal de GitHub.
+
+<p align="center">
+  <img src="https://i.imgur.com/fMl8y94.png" alt="12171">
+</p>
+
+Accedimos a la configuración del repositorio y seleccionamos la sección "Pages". Configuramos la rama main para que fuera la fuente de la página y guardamos los cambios para iniciar el proceso de despliegue.
+
+<p align="center">
+  <img src="https://i.imgur.com/6LxdOu0.png" alt="12171">
+</p>
+
+Esperamos unos minutos a que GitHub Pages construyera el sitio y accedemos al enlace generado para verificar la página publicada.
+
+<p align="center">
+  <img src="https://i.imgur.com/ZLOsctC.png" alt="12171">
+</p>
+
+Para el despliegue de la base de datos de Livria, se aprovisionó un servidor flexible de Azure Database for MySQL.
+
+<p align="center">
+  <img src="https://i.imgur.com/2bp9MI1.png" alt="12171">
+</p>
+
+Seleccionamos creación rápida.
+
+<p align="center">
+  <img src="https://i.imgur.com/WbmmBR9.png" alt="12171">
+</p>
+
+Se procedió a ingresar la información esencial: el nombre del servidor, la región, la zona de disponibilidad, el grupo de recursos asociado, las credenciales de acceso, y el tipo de carga de trabajo. Finalmente, se seleccionó "Revisar y crear" para iniciar el aprovisionamiento.
+
+<p align="center">
+  <img src="https://i.imgur.com/46JEYR3.png" alt="12171">
+</p>
+
+Esperamos la finalización de la implementación de la base de datos, lo que nos permitió acceder al recurso y obtener la dirección del servidor.
+
+<p align="center">
+  <img src="https://i.imgur.com/fwiIY2q.png" alt="12171">
+</p>
+
+El despliegue de la API se realizó directamente desde el IDE Rider, nuestra herramienta de desarrollo para el backend con Swagger.  
+
+<p align="center">
+  <img src="https://i.imgur.com/DJxgrmr.png" alt="12171">
+</p>
+
+Se actualizó la cadena de conexión DefaultConnection en los archivos appsettings.json y appsettings.Development.json para reflejar las credenciales de la nueva base de datos.
+
+<p align="center">
+  <img src="https://i.imgur.com/NkcpfK3.png" alt="12171">
+</p>
+
+Luego procedemos a publicar el proyecto de la API hacia Azure App Service  
+
+<p align="center">
+  <img src="https://i.imgur.com/uI7mvwC.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/xluzrMN.png" alt="12171">
+</p>
+
+Creamos una Web App en Azure con el nombre de la API y procedimos a ejecutarla para iniciar el deployment, lo que, tras unos segundos, nos proporcionó el enlace de la API para acceder en el navegador.
+
+<p align="center">
+  <img src="https://i.imgur.com/VVpXrs8.png" alt="12171">
+</p>
+
+Para acceder a la documentación interactiva de la API, navegamos al enlace final, añadiendo la extensión /swagger/index.html.  
+
+<p align="center">
+  <img src="https://i.imgur.com/XgkXXQr.png" alt="12171">
+</p>
+
+#### 4.2.1.8. Team Collaboration Insight during Sprint
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+User Flow utilizados:
+
+**Segmento objetivo \#1: Lectores en Desarrollo**
+
+* Como usuario, quiero poder realizar la búsqueda de libros en base a diferentes criterios y obtener resultados relacionados.  
+* Como usuario, quiero poder obtener recomendaciones personalizadas en mis intereses.
+
+**Segmento objetivo \#2: Lectores Comunitarios**
+
+* Como usuario, quiero poder unirme a comunidades temáticas y crear publicaciones para compartir activamente mis opiniones, iniciar debates y conectar con otros lectores con intereses literarios similares.
+
+* Como usuario, quiero poder personalizar ciertos aspectos de mi perfil para mostrar a los demás lectores mi personalidad literaria.
+
+**Preguntas:**
+
+**Segmento objetivo \#1: Lectores en Desarrollo**
+
+**Perfil entrevistado:**
+
+* ¿Cuál es tu nombre y qué tipo de lectura disfrutas?  
+* ¿Qué plataformas o aplicaciones usas para leer libros digitales o descubrir nuevos títulos?
+
+**Tras mostrar la landing page:**
+
+* ¿Qué entendiste que ofrece Livria?  
+* ¿Crees que esta aplicación sería adecuada para alguien como tú, que disfruta leer libros por placer?  
+* ¿Qué mejorarías en la página para que te resulte más atractiva y útil como lector casual?
+
+**Tras la demostración de la aplicación móvil:**
+
+* ¿Qué impresión general te dio la plataforma Livria?  
+* ¿Fue fácil navegar y encontrar libros que te interesaran en la aplicación?  
+* ¿Cómo calificarías la experiencia de recibir recomendaciones personalizadas según tus gustos literarios?  
+* ¿Te gustaría que la aplicación incluya más funciones sociales, como comentarios o foros de discusión sobre libros?
+
+**Cierre:**
+
+* ¿Qué es lo que más te gustó de la plataforma?  
+* ¿Volverías a usar Livria para encontrar nuevos libros? ¿Por qué?
+
+**Segmento objetivo \#2: Lectores Comunitarios**
+
+**Perfil entrevistado:**
+
+* ¿Cuál es tu nombre y qué géneros literarios te interesan más para debatir con otras personas?  
+* ¿Sueles participar en comunidades/foros de lectura?  
+* ¿Qué te motiva a publicar/comentar?
+
+**Tras mostrar la landing page:**
+
+* ¿Qué entendiste que ofrece Livria?  
+* ¿Crees que esta plataforma está pensada para alguien como tú, que busca comunidades de lectura y espacios para debatir?  
+* ¿Qué mejorarías en la página para hacerla más atractiva o útil para un lector comunitario?
+
+**Tras la demostración de la aplicación móvil:**
+
+* ¿Qué tan fácil te resulta buscar y unirte a comunidades por género/autor/tema?  
+* ¿Lograste crear una publicación sin fricción?  
+* ¿Te gustaría contar con borradores, programar publicaciones o guardar hilos para leer después?  
+* ¿Qué métricas o señales te ayudan a decidir dónde participar?  
+* En tu perfil, ¿pudiste personalizar lo que otros ven? (bio, foto de perfil, apodo)
+
+**Cierre:**
+
+* ¿Qué fue lo que más te gustó de la experiencia comunitaria y de la personalización del perfil?  
+* ¿Cuán probable es que vuelvas y publiques/comentes en Livria? ¿Por qué?
+
+### 4.3.2. Registro de Entrevistas
+
+**Segmento objetivo \#1: Lectores en Desarrollo**
+
+**Entrevistado \#1: Mateo Castillo**
+
+	Edad: 16
+
+	Distrito: Lince
+
+<p align="center">
+  <img src="https://i.imgur.com/XNz2FaC.png" alt="12171">
+</p>
+
+Mateo cuenta cómo le gusta leer por recreación, pero no ha encontrado alguna plataforma que le facilite encontrar libros o conectarse con gente de similar gusto. Él entiende que Livria ofrece un acceso abierto a cualquier tipo de público, permitiéndole leer lo que desee, ya que la plataforma cuenta con diversas categorías, lo que considera innovador. 
+
+Destaca que la landing page si es concisa y precisa, explicando claramente lo que la plataforma ofrece de manera efectiva. Sobre la interfaz, la describe como simple y accesible, pensada para todo tipo de público.  
+A Mateo, le sorprendió la calidad de la aplicación, destaca que está bien hecha la interfaz del proceso de pago, dice que es muy realista. Lo que valora positivamente son las funcionalidades de las comunidades, los comentarios, los comentarios que se encuentran en cada libro y la facilidad con la que se pueden añadir libros al carrito.  
+En resumen, lo que más le gustó de Livria fue que toda la información está fácilmente accesible, y la landing page explica muy bien las funciones que ofrece la plataforma. Él usaría la aplicación porque le permite encontrar nuevos libros para leer.
+
+**Entrevistado \#2: Daniel Ortega**
+
+	Edad: 20
+
+	Distrito: Jesús María
+
+<p align="center">
+  <img src="https://i.imgur.com/Lb6vBtz.png" alt="12171">
+</p>
+
+Daniel es un joven que disfruta la lectura de diferentes géneros literarios, aunque generalmente opta por la ciencia ficción. Él opina que Livria suena como una aplicación interesante para conocer nuevos títulos. Daniel entiende que Livria ofrece un catálogo de libros, adecuado para un público diverso. Él considera que la landing page es cómoda y atractiva, destaca su diseño. Le resulta tan cautivador que le motivaría a comprar libros en la plataforma.   
+Daniel comenta sobre lo dinámica que es la navegación a través de la aplicación y lo cautivador que es la idea de recibir recomendaciones personalizadas. Le gustaron las funcionalidades de comunidad, aunque cree que podría ser complicado gestionar mayores acciones de interacción, por lo que su característica de Livria favorita son las recomendaciones y la gestión que tiene uno sobre estas.
+
+**Entrevistado \#3: Arantza Castillo**
+
+	Edad: 18
+
+	Distrito: Lince
+
+<p align="center">
+  <img src="https://i.imgur.com/ay0sCSn.png" alt="12171">
+</p>
+
+Arantza es una lectora de fantasía que le cuesta encontrar nuevos títulos a leer, pues no conoce de aplicaciones que ofrecen catálogos y recomendaciones personalizadas. A partir de lo enseñado de la landing page, ella se ve interesada por los servicios de Livria.  
+Tras mostrarle la aplicación, opina que es bastante didáctica y que la iconografía utilizada es de gran ayuda para la navegación entre secciones, lo que vuelve la aplicación más amigable y fácil de usar. 
+
+**Segmento objetivo \#2: Lectores Comunitarios**
+
+**Entrevistado \#4: Stefano Rivera**
+
+	Edad: 19
+
+	Distrito: Lince
+
+<p align="center">
+  <img src="https://i.imgur.com/kpW5Lqc.png" alt="12171">
+</p>
+
+Stefano comenta que disfruta leer y conversar sobre sus lecturas en comunidades presenciales con personas de gustos similares. Al explorar Livria, entiende que es un espacio donde puede expresarse libremente con otros lectores y, además, comprar libros alineados a sus intereses, lo cual le resulta atractivo por combinar comunidad y catálogo en un mismo lugar.
+Destaca que la landing page está bien organizada y comunica con claridad lo esencial de la plataforma. Sin embargo, señala como oportunidad de mejora el fondo blanco: preferiría poder personalizar el color de fondo para sentirse más cómodo y adaptar la experiencia a sus preferencias visuales.
+Sobre la aplicación, le encanta la simplicidad para crear comunidades y publicar en ellas, ya que esto facilita iniciar conversaciones y mantener un ambiente sano entre usuarios. También valora positivamente que el perfil sea editable a gusto, lo que le permite mostrarse tal como quiere frente a la comunidad.
+En resumen, sí volvería a usar la aplicación: le motiva descubrir libros de distintos géneros y conversar sobre los temas que le gustan con otras personas. Considera que Livria le brinda justo ese puente entre lectura y diálogo, y que con opciones de personalización visual sería aún más redonda.
+
+**Entrevistado \#5: Lorenzo Balicco**
+
+	Edad: 19
+
+	Distrito: Jesus María
+
+<p align="center">
+  <img src="https://i.imgur.com/mVzP1hP.png" alt="12171">
+</p>
+
+Lorenzo cuenta que disfruta leer por placer y, sobre todo, conversar sobre lo que lee con personas que comparten sus intereses. Al conocer Livria, entiende que es un espacio donde puede expresar sus opiniones, descubrir nuevas lecturas y comprar libros sin salir de la misma plataforma, algo que le parece práctico y coherente con la forma en que consume contenido.
+
+Sobre la landing page, le parece clara y bien estructurada: comunica rápido de qué va Livria y cómo empezar. Aun así, sugiere como mejora poder ajustar la apariencia (temas oscuros/claros o paletas de color) para que cada lector pueda adaptar la experiencia visual a su gusto y leer con mayor comodidad.
+
+En la aplicación, le gusta lo directa que es para crear publicaciones y participar en conversaciones; siente que las interacciones fluyen y se mantiene un ambiente respetuoso. También destaca la edición del perfil —biografía, foto, preferencias— porque le permite presentarse como lector y conectar más fácil con otros usuarios afines.
+
+En resumen, sí volvería a usar Livria, pues le atrae la combinación de descubrir libros de distintos géneros con la posibilidad de dialogar sobre ellos. Con opciones extra de personalización visual, dice, sería su lugar ideal para leer y compartir.
+
+**Entrevistado \#6: Fabrizzio Gionti**
+
+	Edad: 19
+
+	Distrito: Jesus María
+  
+<p align="center">
+  <img src="https://i.imgur.com/hb21tq2.png" alt="12171">
+</p>
+
+Fabrizzio se describe como un lector casual al que le gusta explorar una amplia variedad de géneros. Al descubrir Livria, comprendió rápidamente que la plataforma ofrece una gran selección de libros y, lo más importante, funciona como una comunidad donde los lectores pueden compartir y descubrir nuevos gustos. En esencia, entiende que Livria le facilita la búsqueda de libros y le otorga la lectura a la mano.
+
+Sobre la landing page, le pareció clara y la entendió bien. Como mejora, sugirió añadir algunas recomendaciones personalizadas basadas en intereses directamente en la página de inicio para hacerla más atractiva de inmediato. Su impresión de la aplicación móvil fue muy positiva; la siente completa, le agradan los colores y destaca lo organizada que está, lo cual le facilita mucho la navegación y la búsqueda por géneros.
+
+Lo que más le gustó fue la función de recomendaciones personalizadas, sintiéndola muy acertada. Además, ve un gran potencial en el aspecto social y le gustaría que se incluyeran más funcionalidades de comentarios y foros de discusión para enriquecer las interacciones. 
+
+En conclusión, Fabrizzio sí volvería a usar Livria porque le atrae la idea de tener una comunidad dedicada a la lectura dentro de una misma aplicación, algo que no suele encontrar en otras plataformas.
+
+### 4.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+ **CURSO:** Aplicaciones Móviles  
+ **SECCIÓN:** 12614  
+ **PROFESOR(ES):** David Gerardo Quevedo Velasco  
+ **AUDITOR:** LIVRIA  
+ **CLIENTE(S):** Lorenzo Balico, Stefano Rivera, Arantza Castillo, Daniel Ortega, Mateo Castillo y Fabrizzio Gionti
+
+**SITE / APP A EVALUAR:** Livria
+
+**TAREAS A EVALUAR:**  
+ Búsqueda de libros · Uso de filtros en el catálogo · Procesos de pago · Gestión de cuentas · Navegación por categorías · Personalización de perfil · Tienda · Recomendaciones personalizadas · Comunidades · Notificaciones · Dashboard de administrador · Detalle de libro
+
+**NO INCLUIDO:**  
+ Favoritos · Algoritmo de recomendación basado en favoritos · Mejora visual del dashboard admin · Mejora de estadísticas del dashboard admin
+
+***ESCALA DE SEVERIDAD:***  
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+| Nivel | Descripción |
+| :---- | :---- |
+| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+TABLA RESUMEN:
+
+| \# | Problema | Escala de severidad | Heurística/Principio violado |
+| :---- | :---- | :---- | :---- |
+| 1 | Sinopsis de libros demasiado breves; dificultan decidir si leer/comprar. | 2 | Información y feedback adecuados / Ayuda a la toma de decisiones |
+| 2 | Vista de detalle de libro con desbalance visual (espacios vacíos). | 1 | Diseño visual, minimalismo y jerarquía |
+| 3 | Cierre de sesión poco descubrible (oculto en cuenta/perfil). | 1 | Control y libertad del usuario / Visibilidad |
+| 4 | Barra de búsqueda con bajo contraste; difícil de ver. | 1 | Accesibilidad / Contraste y legibilidad |
+| 5 | Falta de personalización visual (tema oscuro / color de fondo). | 2 | Preferencias del usuario / Inclusión y accesibilidad |
+
+**Problema \#1**
+
+**Severidad:** 2  
+ **Heurística violada:** Información y feedback adecuados (apoyo a la decisión)  
+ **Descripción:** Las sinopsis son demasiado breves y no aportan suficiente contexto para usuarios que no conocen el título/autor, afectando la conversión y el descubrimiento.  
+ **Recomendación:**
+
+* Ampliar sinopsis (100–180 palabras) con ganchos temáticos, subgéneros y comparativas (“para fans de…”).  
+* Añadir “vista previa” (primeras 3–5 páginas) y etiquetas de contenido (tono, ritmo, público).
+
+<p align="center">
+  <img src="https://i.imgur.com/tzQWBZj.png" alt="12171">
+</p>
+
+**Problema \#2**
+
+**Severidad:** 1  
+ **Heurística violada:** Diseño visual, minimalismo y jerarquía  
+ **Descripción:** En la ficha de libro hay desbalance (lado derecho vacío / distribución irregular), percibiéndose “poca información” aunque exista.  
+ **Recomendación:**
+
+* Reorganizar el layout: izquierda \= portada; derecha \= precio \+ CTA \+ sinopsis \+ metadatos (formato, idioma, páginas) \+ rating/resumen de reseñas.  
+* Mantener una cuadrícula consistente y espaciado 8pt/4pt; priorizar jerarquía tipográfica.
+
+<p align="center">
+  <img src="https://i.imgur.com/DyDzHM2.png" alt="12171">
+</p>
+
+**Problema \#3**
+
+**Severidad:** 1  
+ **Heurística violada:** Control y libertad del usuario / Visibilidad del estado del sistema  
+ **Descripción:** El “Cerrar sesión” está poco visible (solo dentro de cuenta/perfil), generando fricción y tiempo extra de búsqueda.  
+ **Recomendación:**
+
+* Añadir opción “Cerrar sesión” directa en el menú principal/overflow.  
+* Confirmación ligera (snackbar) tras salir; recordar último estado al reingresar.
+
+<p align="center">
+  <img src="https://i.imgur.com/ba518Ar.png" alt="12171">
+</p>
+
+**Problema \#4**
+
+**Severidad:** 1  
+ **Heurística violada:** Accesibilidad (contraste y legibilidad)  
+ **Descripción:** La barra de búsqueda presenta bajo contraste, con impacto potencial en usuarios con baja visión y en pantallas con brillo/sol.  
+ **Recomendación:**
+
+* Asegurar contraste AA/AAA (WCAG 2.1) entre campo, icono y texto placeholder.
+
+* Aumentar tamaño mínimo de toque (48×48dp) e incorporar foco visible para teclado.
+
+<p align="center">
+  <img src="https://i.imgur.com/Pdd75pZ.png" alt="12171">
+</p>
+
+**Problema \#5**
+
+**Severidad:** 2  
+ **Heurística violada:** Preferencias del usuario / Inclusión y accesibilidad  
+ **Descripción:** Usuarios (p. ej., segmento comunitario) piden personalizar apariencia (tema oscuro/variantes de color) para comodidad y lectura prolongada.  
+ **Recomendación:**
+
+* Implementar tema oscuro y paletas alternativas (alto contraste, sepia).  
+* Guardar preferencia por usuario; opción rápida en ajustes y conmutador en header.
+
+<p align="center">
+  <img src="https://i.imgur.com/CL3DEAb.png" alt="12171">
+</p>
+
 # Conclusiones y Recomendaciones
 
 **Conclusiones**
 
-1.	El proceso Lean UX constituye una herramienta clave para orientar estratégicamente el negocio, ya que permite validar tempranamente hipótesis y explorar diferentes enfoques antes de comprometer recursos de desarrollo. Gracias a este proceso, fue posible identificar con claridad los segmentos de usuarios más relevantes y las oportunidades de valor que guiarán el diseño del producto.
+1. El proceso Lean UX constituye una herramienta clave para orientar estratégicamente el negocio, ya que permite validar tempranamente hipótesis y explorar diferentes enfoques antes de comprometer recursos de desarrollo. Gracias a este proceso, fue posible identificar con claridad los segmentos de usuarios más relevantes y las oportunidades de valor que guiarán el diseño del producto.
 
-2.	La etapa de needfinding resulta fundamental en la construcción de un producto centrado en el usuario, dado que proporciona información directa sobre sus necesidades, expectativas y motivaciones. Este proceso asegura que las decisiones de diseño y desarrollo respondan a problemas reales, incrementando la probabilidad de adopción y satisfacción del usuario final.
+2. La etapa de needfinding resulta fundamental en la construcción de un producto centrado en el usuario, dado que proporciona información directa sobre sus necesidades, expectativas y motivaciones. Este proceso asegura que las decisiones de diseño y desarrollo respondan a problemas reales, incrementando la probabilidad de adopción y satisfacción del usuario final.
 
-3.	La aplicación de Domain-Driven Design (DDD) favorece la definición temprana de bounded contexts y clases esenciales del dominio, lo cual aporta claridad conceptual y una arquitectura más limpia. Este enfoque permite separar responsabilidades de manera ordenada, reducir la complejidad técnica y facilitar la escalabilidad del sistema en el largo plazo.
+3. La aplicación de Domain-Driven Design (DDD) favorece la definición temprana de bounded contexts y clases esenciales del dominio, lo cual aporta claridad conceptual y una arquitectura más limpia. Este enfoque permite separar responsabilidades de manera ordenada, reducir la complejidad técnica y facilitar la escalabilidad del sistema en el largo plazo.
+
+4. El desarrollo completo de los wireframes, wireflows y mockups tanto para la Landing Page como para las pantallas móviles asegura que la implementación del Frontend se realizará con una guía visual clara y centrada en el usuario. Este proceso minimiza las ambigüedades en la fase de desarrollo y garantiza la consistencia visual y funcional.
+
+5. La aplicación de una metodología ágil y la realización estructurada del Sprint 1 (incluyendo el Sprint Backlog detallado, la evidencia de desarrollo y las pruebas) demuestran un progreso tangible y medible en la construcción del producto. Esto asegura la transparencia del proceso y el alineamiento del equipo.
+
+6. El desglose detallado de las User Stories en tareas específicas dentro del Sprint Backlog ha permitido cuantificar la carga de trabajo del equipo con alta precisión. Esta granularidad es clave para realizar una planificación realista de la capacidad del Sprint, asegurar la distribución equitativa de responsabilidades y minimizar la incertidumbre durante la fase de desarrollo.
 
 **Recomendaciones**
 
-1.	Se recomienda continuar aplicando los principios de Domain-Driven Design en el desarrollo tanto del frontend como del backend, asegurando que la lógica de negocio y las reglas del dominio estén alineadas con las necesidades identificadas en el proceso de investigación. Esto permitirá mantener una arquitectura coherente y sostenible.
+1. Se recomienda continuar aplicando los principios de Domain-Driven Design en el desarrollo tanto del frontend como del backend, asegurando que la lógica de negocio y las reglas del dominio estén alineadas con las necesidades identificadas en el proceso de investigación. Esto permitirá mantener una arquitectura coherente y sostenible.
 
-2.	Es aconsejable adoptar Material Design como marco de referencia para el diseño de la interfaz, dado que proporciona consistencia visual, buenas prácticas de usabilidad y un sistema estandarizado de componentes. Esto contribuirá a que la experiencia del usuario sea más intuitiva, atractiva y alineada con tendencias actuales en aplicaciones modernas.
+2. Es aconsejable adoptar Material Design como marco de referencia para el diseño de la interfaz, dado que proporciona consistencia visual, buenas prácticas de usabilidad y un sistema estandarizado de componentes. Esto contribuirá a que la experiencia del usuario sea más intuitiva, atractiva y alineada con tendencias actuales en aplicaciones modernas.
 
-3.	Se recomienda realizar reuniones de planeación de sprint de manera estructurada en las entregas parciales, con el fin de organizar tareas, priorizar funcionalidades y alinear al equipo en torno a objetivos comunes. Esta práctica fomenta la transparencia, la colaboración y asegura un mejor seguimiento del avance del proyecto.
+3. Se recomienda realizar reuniones de planeación de sprint de manera estructurada en las entregas parciales, con el fin de organizar tareas, priorizar funcionalidades y alinear al equipo en torno a objetivos comunes. Esta práctica fomenta la transparencia, la colaboración y asegura un mejor seguimiento del avance del proyecto.
 
+4. Es crucial establecer un proceso obligatorio de revisión de código (utilizando herramientas como GitHub Pull Requests). Esto debe realizarse por al menos un miembro del equipo diferente al autor antes de la fusión con la rama principal. Esta práctica no solo mejora la calidad del código y reduce los errores, sino que también facilita la transferencia de conocimiento y asegura la adherencia a las convenciones de estilo.
+
+5. Se aconseja utilizar las herramientas de Project Management para mantener un gráfico de trabajo pendiente visible y actualizado diariamente. Esta métrica visual ayuda al equipo a monitorear su ritmo de progreso, detectar a tiempo si el Sprint está en riesgo de no completarse y facilita la toma de decisiones basadas en datos durante la Sprint Review.
+
+6. La anticipación en la definición de Style Guidelines es un acierto estratégico que facilitará la unidad de marca y la velocidad de desarrollo en sprints futuros, al proporcionar un sistema de diseño reutilizable.
 
 
 # Bibliografía
 
-Ministerio de Cultura del Perú & Instituto Nacional de Estadística e Informática. (2023). Encuesta Nacional de Lectura 2022: Informe de lectores y no lectores. Recuperado de https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf
+Allen, C. (2024). *The impact of book clubs on millennials: Best way to instill a love of reading*. Recuperado de [https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading](https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading)
 
-Allen, C. (2024). The impact of book clubs on millennials: Best way to instill a love of reading. Recuperado de https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading
+Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. [https://www.leanconstructionmexico.com.mx/post/5w2h-qué-significa-para-qué-sirve-cómo-aplicarla-y-algunos-ejemplos](https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos)
 
-Statista. (2024). Hablemos de los clubes de lectura y por qué esta tendencia va en aumento. Recuperado de https://globaltag.mx/uncategorized/leer-esta-de-moda-hablemos-de-los-clubes-de-lectura-y-por-que-esta-tendencia-va-en-aumento/
+Fabiana, E., & Vega, J. (2022). La motivación en el aprendizaje de la lectura en los estudiantes. Revista EDUCARE \- UPEL-IPB \- Segunda Nueva Etapa 2.0, 26(Extraordinario), 476–493. [https://doi.org/10.46498/reduipb.v26iExtraordinario.1641](https://doi.org/10.46498/reduipb.v26iExtraordinario.1641) 
 
+Mamani, B., Chata, L., & Choque, D. (2024). Efecto del uso de Tik Tok en el rendimiento académico de estudiantes de 5to grado . Revista Tribunal, 4(9), 161-175. [https://doi.org/10.59659/revistatribunal.v4i9.71](https://doi.org/10.59659/revistatribunal.v4i9.71)
 
-Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qué-significa-para-qué-sirve-cómo-aplicarla-y-algunos-ejemplos
- 
-Fabiana, E., & Vega, J. (2022). La motivación en el aprendizaje de la lectura en los estudiantes. Revista EDUCARE - UPEL-IPB - Segunda Nueva Etapa 2.0, 26(Extraordinario), 476–493. https://doi.org/10.46498/reduipb.v26iExtraordinario.1641 
-Mamani, B., Chata, L., & Choque, D. (2024). Efecto del uso de Tik Tok en el rendimiento académico de estudiantes de 5to grado . Revista Tribunal, 4(9), 161-175. https://doi.org/10.59659/revistatribunal.v4i9.71
+Ministerio de Cultura del Perú & Instituto Nacional de Estadística e Informática. (2023). *Encuesta Nacional de Lectura 2022: Informe de lectores y no lectores*. Recuperado de [https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf](https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf?utm_source=chatgpt.com)
 
-Torres-Vega, E. (2025). Comprensión lectora en estudiantes de secundaria en Perú. Horizontes. Revista De Investigación En Ciencias De La Educación, 9(36), 177–187. https://doi.org/10.33996/revistahorizontes.v9i36.909 
+Statista. (2024). *Hablemos de los clubes de lectura y por qué esta tendencia va en aumento*. Recuperado de [https://globaltag.mx/uncategorized/leer-esta-de-moda-hablemos-de-los-clubes-de-lectura-y-por-que-esta-tendencia-va-en-aumento/](https://globaltag.mx/uncategorized/leer-esta-de-moda-hablemos-de-los-clubes-de-lectura-y-por-que-esta-tendencia-va-en-aumento/?utm_source=chatgpt.com)
 
+Torres-Vega, E. (2025). Comprensión lectora en estudiantes de secundaria en Perú. Horizontes. Revista De Investigación En Ciencias De La Educación, 9(36), 177–187. [https://doi.org/10.33996/revistahorizontes.v9i36.909](https://doi.org/10.33996/revistahorizontes.v9i36.909)
