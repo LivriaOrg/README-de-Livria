@@ -3975,6 +3975,9 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 | US07 |  | Diseño atractivo de la Landing Page |  |  |  |  |
 |  | 1 | Definir y aplicar la paleta de colores y tipografía de Livria | Aplicar las variables CSS para la paleta de colores corporativa y asegurar el uso consistente de las fuentes tipográficas definidas en todo el Frontend de la Landing Page. | 2.5 | Developer Team | Done |
 |  | 2 | Revisión y ajuste de espaciado y alineación (Micro-diseño)  | Realizar una revisión exhaustiva del espaciado (margins y paddings), tamaños de fuente y alineación en todas las secciones para cumplir con los estándares de diseño UX/UI.  | 3 | Developer Team | Done |
+| US08 |  | Redirigir a la descarga de la aplicación móvil |  |  |  |  |
+|  | 1 | Implementar botones de descarga dentro de la Landing Page | Modificar el HTML para incluir una sección con botones de descarga para App Store y Playstore. | 2 | Developer Team | Done |
+|  | 2 | Aplicar lógica de redireccionamiento.  | Implementar los enlaces a las páginas oficiales de las tiendas de aplicaciones móviles a los botones. | 1 | Developer Team | Done |
 | US09 |  | Acceso a las redes sociales de Livria |  |  |  |  |
 |  | 1 | Definir y recopilar URLs de perfiles sociales | Listar las URLs definitivas de los perfiles de Livria en las redes sociales principales (ej. Instagram, X/Twitter, Facebook, etc.). | 0.5 | Developer Team | Done |
 |  | 2 | Diseñar e implementar el componente visual de íconos sociales | Crear y desarrollar un componente frontend que muestre los íconos de las redes sociales de manera agrupada, generalmente ubicado en el footer o la cabecera.  | 2 | Developer Team | Done |
@@ -3993,12 +3996,6 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 | US22 |  | Barra de búsqueda |  |  |  |  |
 |  | 1 | Diseñar e implementar el componente visual de la barra de búsqueda | Desarrollar la estructura (HTML/CSS) del campo de entrada y el ícono/botón de búsqueda, e integrarlo en la cabecera de la Landing Page de manera prominente. | 2 | Developer Team | Done |
 |  | 2 | Implementar la lógica de captura de texto y redirección placeholder | Configurar el evento de envío del formulario de búsqueda para capturar el texto introducido y realizar una búsqueda sobre el Endpoint respectivo. | 1.5 | Developer Team | Done |
-| US24 |  | Valoración y reseña de libros |  |  |  |  |
-|  | 1 | Implementar componente visual de sistema de valoración (estrellas) | Diseñar y desarrollar el componente frontend de calificación (5 estrellas) con capacidad de selección, para mostrar en la página de detalles de un libro. | 2 | Developer Team | Done |
-|  | 2 | Implementar campo de texto para reseña y botón de envío | Añadir un campo de texto multi-línea (textarea) y un botón de "Enviar Reseña" al componente de valoración. | 1.5 | Developer Team | Done |
-| US25 |  | Actualización y gestión de suscripción |  |  |  |  |
-|  | 1 | Implementar el componente visual de 'Gestión de Suscripción' | Diseñar y desarrollar la interfaz frontend dentro del área de perfil para mostrar el estado actual de la suscripción del usuario (Plan Básico / Plan Comunidad) y opciones como "Cambiar Plan" o "Cancelar". | 2.5 | Developer Team | Done |
-|  | 2 | Crear un Endpoint de Backend de actualización del estado | Desarrollar una ruta de API que reciba una solicitud y devuelva la confirmación de un cambio de plan o la cancelación de la suscripción. | 3 | Developer Team | Done |
 | US26 |  | Disponibilidad 24/7 |  |  |  |  |
 |  | 1 | Realizar el despliegue (deployment) de la aplicación móvil en un entorno de hosting de alta disponibilidad (HA) | Desplegar la aplicación en un servicio de hosting que garantice una alta disponibilidad que asegure un tiempo de actividad óptimo, con el objetivo de mantener la accesibilidad y el rendimiento de la aplicación para los usuarios. | 4 | Developer Team | Done |
 |  | 2 | Mantenimiento y Continuidad Operacional Implementar una estrategia de continuidad del negocio | Establecer un entorno de pre-producción paralelo al entorno de producción para realizar pruebas de regresión, corrección de errores y mantenimiento de forma aislada. Esto permitirá realizar despliegues incrementales y, en caso de fallos críticos, ejecutar una reversión al estado estable anterior sin interrumpir la experiencia de usuario ni afectar la operación en vivo de la aplicación. | 4.5 | Developer Team | Done |
