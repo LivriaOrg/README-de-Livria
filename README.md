@@ -4731,6 +4731,23 @@ TABLA RESUMEN:
 
 6. La anticipación en la definición de Style Guidelines es un acierto estratégico que facilitará la unidad de marca y la velocidad de desarrollo en sprints futuros, al proporcionar un sistema de diseño reutilizable.
 
+# Anexos
+
+Anexo A. Video exposición TP. https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/ER_7rYbJD4FMv55jQXJGb28Bsegg0FGUiPPFWs6NUkN9Tw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WpwW0C
+
+Anexo B. Wireframes y Mockups. https://www.figma.com/design/eKCqZoU0IF7n3wNTA8kuZc/livria?node-id=923-589&t=llsYI4TxYraymJaX-1
+
+Anexo C. Prototipo. https://www.figma.com/proto/eKCqZoU0IF7n3wNTA8kuZc/livria?node-id=923-591&p=f&t=aaOc209xUIWnbuOx-1&scaling=scale-down&content-scaling=fixed&page-id=923%3A589
+
+Anexo D. Landing Page. https://livriaorg.github.io/LivriaLanding/
+
+Anexo E. Api de Livria. https://livria-api.azurewebsites.net/swagger/index.html
+
+Anexo F. Entrevistas Validación. https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EQlLtO8aYaxFvZxl_mX-m1oBO06-X2oQiswQ41e7tmg3qQ?e=tAFA1n
+
+Anexo G. Entrevistas Needfinding. https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+
+Anexo H. Sprint Backlog. https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9
 
 # Bibliografía
 
