@@ -4150,6 +4150,31 @@ A través de los repositorios del equipo, se registraron múltiples commits que 
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
+Esta sección documenta los distintos niveles de pruebas automatizadas implementadas durante el Sprint, correspondientes a los User Stories desarrollados, en las que se incluyen pruebas unitarias, pruebas de integración y pruebas de aceptación.
+Durante este Sprint se desarrolló un conjunto completo de pruebas automatizadas, abarcando pruebas unitarias (Unit Tests), pruebas de integración (Integration Tests) y pruebas de aceptación (Acceptance Tests) siguiendo el enfoque BDD (Behavior Driven Development). Estas pruebas se implementaron con el objetivo de validar el comportamiento de los servicios web y las funcionalidades asociadas a las historias de usuario planificadas.
+
+En el caso de las pruebas unitarias, se enfocaron principalmente en validar las funciones de mapeo entre las distintas representaciones de un libro en el sistema. Se probaron las funciones de conversión entre BookEntity (modelo utilizado para la persistencia local con Room), BookDto (modelo proveniente de las respuestas de la API) y Book (modelo del dominio). Las clases de prueba BookMapperTest y BookEntityMappingTest se encargaron de validar que todos los campos fueran mapeados correctamente, incluyendo casos con valores nulos en los DTOs para asegurar que se manejen adecuadamente.
+Por otro lado, se desarrollaron pruebas de integración que validan la correcta interacción entre Room y las funciones de conversión. Estas pruebas verifican que al almacenar un objeto BookEntity en la base de datos, luego de recuperarlo y convertirlo al modelo de dominio Book, los datos se mantengan consistentes. De esta forma se asegura que la lógica de almacenamiento y recuperación de libros funcione correctamente en el entorno de ejecución real.
+
+<p align="center">
+  <img src="https://i.imgur.com/3soZmYv.jpeg" alt="unit test">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/6PrJJlW.jpeg" alt="implementation test">
+</p>
+
+En cuanto a las pruebas de aceptación bajo el enfoque BDD, se utilizaron archivos .feature escritos en lenguaje Gherkin para describir escenarios de usuario de forma clara y estructurada. Los escenarios implementados permiten validar que un usuario puede listar los libros disponibles y visualizar el detalle de un libro específico. Estos archivos se relacionan directamente con historias de usuario como "Como usuario, quiero ver todos los libros disponibles" y "Como usuario, quiero ver los detalles de un libro", permitiendo comprobar que el sistema cumple con los requerimientos funcionales.
+
+<p align="center">
+  <img src="https://i.imgur.com/AVymAIc.jpeg" alt="acceptance test">
+</p>
+
+| Repository       | Branch       | CommitId                                | Commit Message     | Commit Message Body | Committed on (Date) |
+|------------------|--------------|------------------------------------------|---------------------|----------------------|----------------------|
+| LivriaAdmin      | feat/testing | cd26c385141e751f4a9ac4490d6abac614352264 | Add unit tests      | -                    | 10/10/2025           |
+| Gherkin Livria   | main         | f7a697cacaf158f6ebed7202e8e754a5bb4efe59 | Livria Feature      | -                    | 10/10/2025           |
+
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
 Durante el Sprint 1, el equipo completó exitosamente 14 Historias de Usuario, superando los objetivos iniciales de la iteración. El enfoque principal estuvo en la culminación de la Landing Page del proyecto Livria, lo que sirvió como un entregable de marketing clave. Paralelamente, se logró un progreso significativo en la primera versión del Frontend de la aplicación móvil (Android) y la implementación de la API REST para la gestión inicial de datos (Backend). El equipo cumplió con todos los entregables planificados, además de que desarrolló e integró un Frontend funcional para las pantallas administrativas dentro de la aplicación móvil, incluyendo la conexión efectiva con las llamadas a la API, demostrando una validación temprana de la arquitectura de la solución.
