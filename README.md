@@ -4101,7 +4101,25 @@ A través de los repositorios del equipo, se registraron múltiples commits que 
 
 Durante el Sprint 1, el equipo completó exitosamente 14 Historias de Usuario, superando los objetivos iniciales de la iteración. El enfoque principal estuvo en la culminación de la Landing Page del proyecto Livria, lo que sirvió como un entregable de marketing clave. Paralelamente, se logró un progreso significativo en la primera versión del Frontend de la aplicación móvil (Android) y la implementación de la API REST para la gestión inicial de datos (Backend). El equipo cumplió con todos los entregables planificados, además de que desarrolló e integró un Frontend funcional para las pantallas administrativas dentro de la aplicación móvil, incluyendo la conexión efectiva con las llamadas a la API, demostrando una validación temprana de la arquitectura de la solución.
 
-Evidencia visual:
+Landing Page de Livria desplegada:
+
+<p align="center">
+  <img src="https://i.imgur.com/zpjyDmw.png" alt="777">
+</p>
+
+Backend de Livria desplegado en Azure, visualizado en Swagger:
+
+<p align="center">
+  <img src="https://i.imgur.com/CyRu6uq.png" alt="778">
+</p>
+
+Pantalla de Administrador desarrollada en Kotlin:
+
+<p align="center">
+  <img src="https://i.imgur.com/z93zVjx.png" alt="779">
+</p>
+
+
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -4293,6 +4311,31 @@ Para acceder a la documentación interactiva de la API, navegamos al enlace fina
 
 #### 4.2.1.8. Team Collaboration Insight during Sprint
 
+Durante este Sprint, el equipo se centró en la implementación y despliegue de las principales funcionalidades del proyecto Livria, abordando tanto el frontend web, como el backend y la aplicación móvil. Se desarrolló la Landing Page utilizando HTML, CSS y JavaScript, asegurando una interfaz visual atractiva y responsiva acorde con el diseño definido. Esta fue desplegada en GitHub Pages, garantizando su disponibilidad pública y un flujo de navegación fluido.
+
+En paralelo, se implementó el backend en C#, diseñando e integrando endpoints para la gestión de libros, inventario, pedidos y usuarios. Este servicio fue desplegado en Microsoft Azure, permitiendo la conexión estable con los distintos módulos del sistema y asegurando la persistencia de los datos.
+
+Finalmente, se desarrolló la aplicación móvil en Android Studio utilizando Kotlin, enfocada en la vista del administrador de Livria. Esta aplicación permite la gestión directa de los recursos del sistema, ofreciendo pantallas funcionales y una experiencia de uso coherente con la plataforma web.
+Actividades de implementación:
+
+* La Landing Page fue construida conforme a los diseños de Figma, aplicando estilos y flujos de navegación definidos previamente.
+* El backend en C# integró controladores y servicios RESTful conectados a la base de datos, optimizados para las operaciones del sistema.
+* La aplicación móvil implementó pantallas clave para la administración de libros, inventario y órdenes, garantizando una comunicación efectiva con el backend desplegado en Azure.
+
+Visualización de commits:
+
+<p align="center">
+  <img src="https://i.imgur.com/1erqp0c.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/skz9UVG.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/rchRhxY.png" alt="12171">
+</p>
+
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
@@ -4365,6 +4408,11 @@ User Flow utilizados:
 * ¿Cuán probable es que vuelvas y publiques/comentes en Livria? ¿Por qué?
 
 ### 4.3.2. Registro de Entrevistas
+
+Enlace de las entrevistas de validación:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EQlLtO8aYaxFvZxl_mX-m1oBO06-X2oQiswQ41e7tmg3qQ?e=tAFA1n
+
 
 **Segmento objetivo \#1: Lectores en Desarrollo**
 
