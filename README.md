@@ -1708,38 +1708,38 @@ Tras la sesión de Event Storming para modelar el dominio de negocio, el equipo 
 En primera instancia, a partir del Event Storming, se delimitaron los bounded contexts identificando los flujos de negocio clave de la plataforma. Este proceso permitió agrupar comandos, eventos y vistas relacionados para crear modelos de dominio cohesionados y bien definidos. Los contextos que emergieron de este análisis inicial, centrados en funcionalidades como las reseñas, la gestión de comunidades, el proceso de compra y el inventario, son el resultado de aplicar técnicas de descubrimiento que buscan aislar las partes más valiosas y críticas del negocio.
 
 <p align="center">
-  <img src="https://imgur.com/GoTtHLq.jpg" alt="12231">
+  <img src="https://i.imgur.com/KHhTA1v.png" alt="12231">
 </p>
 
-El Bounded Context de Búsqueda se centra en el comando principal "Buscar Libro". Esta acción es crucial porque inicia la interacción más frecuente y valiosa para el Usuario de Livria, facilitando el acceso a los productos del negocio. Por esta razón, la funcionalidad ha sido identificada como un dominio de soporte fundamental para el negocio. La cohesión de este comando y todas las funcionalidades asociadas como filtros, ordenación y sugerencia, justifican la delimitación de un Bounded Context independiente.
+El Bounded Context de Search se centra en el comando principal "Buscar Libro". Esta acción es crucial porque inicia la interacción más frecuente y valiosa para el Usuario de Livria, facilitando el acceso a los productos del negocio. Por esta razón, la funcionalidad ha sido identificada como un dominio de soporte fundamental para el negocio. La cohesión de este comando y todas las funcionalidades asociadas como filtros, ordenación y sugerencia, justifican la delimitación de un Bounded Context independiente.
 
 <p align="center">
-  <img src="https://imgur.com/eAXqepl.jpg" alt="12231">
+  <img src="https://i.imgur.com/cXKfOp7.png" alt="12231">
 </p>
 
-El Bounded Context de Libro se centra en el evento de "Vista de información de un libro". Esta acción es crucial porque representa la interacción con el producto principal del negocio: el libro.
+El Bounded Context de Book se centra en el evento de "Vista de información de un libro". Esta acción es crucial porque representa la interacción con el producto principal del negocio: el libro.
 Por esta razón, la funcionalidad se ha identificado como un dominio central para el negocio. La cohesión de este evento y todas las funcionalidades asociadas, como ver reseñas, publicar una nueva, y marcar un libro como favorito o para no recomendar, justifican la delimitación de un Bounded Context independiente.
 
 <p align="center">
   <img src="https://imgur.com/ckPfuaz.jpg" alt="12231">
 </p>
 
-El Bounded Context de Perfil se centra en el comando principal de "Crear cuenta" e "Iniciar sesión". Estas acciones son cruciales porque habilitan la interacción del usuario con la plataforma, siendo la puerta de entrada a todas las demás funcionalidades.
+El Bounded Context de Profile se centra en el comando principal de "Crear cuenta" e "Iniciar sesión". Estas acciones son cruciales porque habilitan la interacción del usuario con la plataforma, siendo la puerta de entrada a todas las demás funcionalidades.
 Por esta razón, la funcionalidad se ha identificado como un dominio de soporte fundamental para el negocio. La cohesión de estas acciones y todas las funcionalidades asociadas, como modificar el perfil y validar credenciales, justifican la delimitación de un Bounded Context independiente.
 
 <p align="center">
-  <img src="https://imgur.com/oxjuYNg.jpg" alt="12231">
+  <img src="https://i.imgur.com/Ile7A86.png" alt="12231">
 </p>
 
-El Bounded Context de Comunidades se centra en el comando de "Crear comunidad". Esta acción es fundamental para el negocio, ya que fomenta la interacción social y aumenta la retención de usuarios, generando un valor significativo para la plataforma.
+El Bounded Context de Communities se centra en el comando de "Crear comunidad". Esta acción es fundamental para el negocio, ya que fomenta la interacción social y aumenta la retención de usuarios, generando un valor significativo para la plataforma.
 
 La funcionalidad se identifica como un dominio central debido a que toda la lógica crucial para la interacción de la comunidad, desde la asignación de roles y permisos hasta la publicación de contenido, la moderación y las notificaciones, se agrupan de manera coherente. Esta cohesión justifica la delimitación de un contexto independiente, asegurando que todas las funcionalidades relacionadas con los grupos se gestionen de forma autónoma.
 
 <p align="center">
-  <img src="https://imgur.com/eIIX31K.jpg" alt="12231">
+  <img src="https://i.imgur.com/o5GXjC1.png" alt="12231">
 </p>
 
-El Bounded Context de Carrito se centra en el comando de "Agregar libro a carrito de compra". Esta acción es fundamental, ya que inicia un flujo de valor que monetiza el catálogo y gestiona la interacción directa del cliente con los productos.
+El Bounded Context de Cart se centra en el comando de "Agregar libro a carrito de compra". Esta acción es fundamental, ya que inicia un flujo de valor que monetiza el catálogo y gestiona la interacción directa del cliente con los productos.
 
 Esta funcionalidad se identifica como un dominio central porque la lógica de la compra, la integración con la pasarela de pagos y la gestión de la transacción son críticas para el negocio. La cohesión de estas accione, desde la eliminación de ítems hasta la suscripción a planes, justifican su delimitación en un contexto independiente, asegurando que todo el proceso de compra se gestione de forma coherente y segura.
 
@@ -1752,18 +1752,18 @@ El Bounded Context de Stock se centra en los comandos de "Agregar" y "Eliminar l
 Esta funcionalidad se identifica como un dominio central porque el stock es crítico para la operación del negocio. La cohesión de las acciones relacionadas con la gestión de existencias y los metadatos de los libros justifica la delimitación de un contexto independiente, lo que permite que esta lógica de negocio se maneje de forma centralizada y eficiente.
 
 <p align="center">
-  <img src="https://imgur.com/9x9CeEd.jpg" alt="12231">
+  <img src="https://i.imgur.com/oUpmZue.png" alt="12231">
 </p>
 
-El Bounded Context de Órdenes se centra en los comandos de "Buscar pedidos por ID" y "Buscar pedidos por cliente". Estas acciones, ejecutadas por administradores, son cruciales porque permiten la trazabilidad y la auditoría de ventas.
+El Bounded Context de Orders se centra en los comandos de "Buscar pedidos por ID" y "Buscar pedidos por cliente". Estas acciones, ejecutadas por administradores, son cruciales porque permiten la trazabilidad y la auditoría de ventas.
 
 Este dominio se identifica como un subdominio de soporte, ya que proporciona las herramientas necesarias para que el equipo de administración monitoree y gestione el flujo de capital y la actividad de los clientes. La cohesión de estas funcionalidades de búsqueda y visualización justifica la delimitación de un contexto independiente, asegurando que las herramientas de gestión interna operen de manera eficiente y autónoma.
 
 <p align="center">
-  <img src="https://imgur.com/Ngzy8R1.jpg" alt="12231">
+  <img src="https://i.imgur.com/rfyprh1.png" alt="12231">
 </p>
 
-El Bounded Context de Recomendaciones se centra en la "Funcionalidad de recomendaciones". Esta acción es fundamental para el negocio, ya que personaliza la experiencia del usuario y promueve el descubrimiento de nuevos productos.
+El Bounded Context de Recommendations se centra en la "Funcionalidad de recomendaciones". Esta acción es fundamental para el negocio, ya que personaliza la experiencia del usuario y promueve el descubrimiento de nuevos productos.
 
 Esta funcionalidad se identifica como un dominio central porque un sistema de recomendaciones de calidad es una ventaja competitiva clave para la plataforma. La cohesión de las acciones relacionadas con la generación de recomendaciones, basada en favoritos y exclusiones, y su posterior visualización, justifica la delimitación de un contexto independiente, lo que permite el desarrollo y la mejora de algoritmos de forma autónoma.
 
@@ -1809,121 +1809,121 @@ En esta sección se presentan los candidate bounded contexts identificados para 
 
 Cabe señalar que algunos de estos bounded contexts no presentan comunicación de salida, ya que representan pasos finales dentro del flujo de la aplicación. Sin embargo, todos ellos fueron considerados y empleados en el modelado, puesto que resultan esenciales para completar el ciclo de negocio de Livria y garantizar la trazabilidad de los procesos.
 
-**Bounded Context de Búsqueda:**
+**Search Bounded Context:**
 
 <p align="center">
-  <img src="https://imgur.com/ChCGqBL.jpg" alt="12231">
+  <img src="https://i.imgur.com/7QbOrF2.png" alt="12231">
 </p>
 
-**Bounded Context de Libro:**
+**Book Bounded Context:**
 
 <p align="center">
-  <img src="https://imgur.com/gzhsxMI.jpg" alt="12231">
+  <img src="https://i.imgur.com/2X3oKV8.png" alt="12231">
 </p>
 
-**Bounded Context de Recomendaciones:**
+**Recommendations Bounded Context:**
 
 <p align="center">
-  <img src="https://imgur.com/FXkiqIG.jpg" alt="12231">
+  <img src="https://i.imgur.com/eSkMtRm.png" alt="12231">
 </p>
 
-**Bounded Context de Carrito:**
+**Cart Bounded Context:**
 
 <p align="center">
-  <img src="https://imgur.com/msJt9yh.jpg" alt="12231">
+  <img src="https://i.imgur.com/mudi4P5.png" alt="12231">
 </p>
 
-**Bounded Context de Perfil:**
+**Profile Bounded Context:**
 
 <p align="center">
-  <img src="https://imgur.com/Sxsz71t.jpg" alt="12231">
+  <img src="https://i.imgur.com/H9rtCYw.png" alt="12231">
 </p>
 
-**Bounded Context de Órdenes:**
+**Orders Bounded Context:**
 
 <p align="center">
-  <img src="https://imgur.com/U6UwNt4.jpg" alt="12231">
+  <img src="https://i.imgur.com/ZDfePga.png" alt="12231">
 </p>
 
-**Bounded Context de Stock:**
+**Stock Bounded Context:**
 
 <p align="center">
   <img src="https://imgur.com/U1HWDiu.jpg" alt="12231">
 </p>
 
-**Bounded Context de Comunidades:**
+**Communities Bounded Context:**
 
 <p align="center">
-  <img src="https://imgur.com/PWTuLPJ.jpg" alt="12231">
+  <img src="https://i.imgur.com/cCMrxi5.png" alt="12231">
 </p>
 
 ### 2.5.2.	Context Mapping
 
 Luego de identificar y organizar las funcionalidades principales dentro de los ocho bounded contexts, se procedió a establecer las interacciones y dependencias entre ellos. Este paso permite pasar de una visión aislada de cada módulo a una perspectiva integral del sistema, mostrando cómo se comunican y qué información comparten. A continuación, se definieron las relaciones entre los bounded contexts delimitados previamente, representando los flujos de datos y procesos que darán soporte a la experiencia del usuario y a la operatividad de la plataforma.
 
-**Bounded Context de Perfil → Bounded Context de Búsqueda**
+**Profile Bounded Context → Search Bounded Context**
 
 <p align="center">
-  <img src="https://imgur.com/souQBYs.jpg" alt="12231">
+  <img src="https://i.imgur.com/A6efEjV.png" alt="12231">
 </p>
 
-El bounded context de Perfil tiene una relación de Upstream con el bounded context de Búsqueda (Downstream) para las funcionalidades de exploración de libros dentro de la plataforma, ya que, solo después de que el usuario haya iniciado sesión con una cuenta registrada, podrá tener acceso a la interfaz principal del servicio. Este caso presenta un patrón de Comformist, ya que no se presenta una relación de dependencia directa, pero ambos se integran entre sí para realizar un proceso de autenticación necesario para otras funcionalidades de la aplicación, lo que genera una relación unilateral en la que Perfil comunica la información del estado de la sesión del usuario a Búsqueda.
+El bounded context de Profile tiene una relación de Upstream con el bounded context de Search (Downstream) para las funcionalidades de exploración de libros dentro de la plataforma, ya que, solo después de que el usuario haya iniciado sesión con una cuenta registrada, podrá tener acceso a la interfaz principal del servicio. Este caso presenta un patrón de Comformist, ya que no se presenta una relación de dependencia directa, pero ambos se integran entre sí para realizar un proceso de autenticación necesario para otras funcionalidades de la aplicación, lo que genera una relación unilateral en la que Perfil comunica la información del estado de la sesión del usuario a Búsqueda.
 
-**Bounded Context de Búsqueda → Bounded Context de Libro**
+**Search Bounded Context → Book Bounded Context**
 
 <p align="center">
-  <img src="https://imgur.com/rqwv0xj.jpg" alt="12231">
+  <img src="https://i.imgur.com/On5O2xT.png" alt="12231">
 </p>
 
-El bounded context de Búsqueda sirve como Upstream para el bounded context de Libro, ya que este primer bounded context provee la funcionalidad de encontrar el identificador específico de un libro y pasarlo al bounded context de Libros, que actúa como el Downstream, para poder obtener su información específica, como su autor, descripción y lista de reseñas.
+El bounded context de Search sirve como Upstream para el bounded context de Libro, ya que este primer bounded context provee la funcionalidad de encontrar el identificador específico de un libro y pasarlo al bounded context de Book, que actúa como el Downstream, para poder obtener su información específica, como su autor, descripción y lista de reseñas.
 
-**Bounded Context de Libro → Bounded Context de Carrito*
+**Book Bounded Context → Cart Bounded Context**
 
 <p align="center">
-  <img src="https://imgur.com/zpTtM5q.jpg" alt="12231">
+  <img src="https://i.imgur.com/Ip6FRvR.png" alt="12231">
 </p>
 
-El bounded context de Libro actúa como el Upstream del bounded context de Carrito (Downstream), debido a que este último bounded context consume la información detallada que provee el primero, permitiéndole elaborar una lista de compras con información útil a la que el usuario puede acceder en cualquier momento.
+El bounded context Book actúa como el Upstream del bounded context de Cart (Downstream), debido a que este último bounded context consume la información detallada que provee el primero, permitiéndole elaborar una lista de compras con información útil a la que el usuario puede acceder en cualquier momento.
 
-**Bounded Context de Stock ↔ Bounded Context de Carrito*
+**Stock Bounded Context ↔ Cart Bounded Context**
 
 <p align="center">
-  <img src="https://imgur.com/k81jwRu.jpg" alt="12231">
+  <img src="https://i.imgur.com/uXLNJJj.png" alt="12231">
 </p>
 
-El bounded context de Stock actúa como Upstream para el bounded context de Carrito (Downstream), pero ambos presentan una relación de dependencia bidireccional, lo que quiere decir que ambos comparten información entre sí en diferentes momentos del funcionamiento del servicio. Stock provee información sobre la cantidad de libros en existencia a Carrito durante la compra de productos, lo que limita la cantidad de libros que pueden ser comprados en determinado momento, mientras que Carrito disminuye el número de existencias disponibles de los libros solicitados en el Stock tras completarse un pedido. Estos bounded contexts presentan una relación de Cliente/Proveedor, ya que el contexto de Carrito (el “cliente”) consulta sobre la información del inventario al “proveedor” (Stock) y le notifica los cambios a realizar tras efectuarse un pedido.
+El bounded context de Stock actúa como Upstream para el bounded context de Cart (Downstream), pero ambos presentan una relación de dependencia bidireccional, lo que quiere decir que ambos comparten información entre sí en diferentes momentos del funcionamiento del servicio. Stock provee información sobre la cantidad de libros en existencia a Carrito durante la compra de productos, lo que limita la cantidad de libros que pueden ser comprados en determinado momento, mientras que Carrito disminuye el número de existencias disponibles de los libros solicitados en el Stock tras completarse un pedido. Estos bounded contexts presentan una relación de Cliente/Proveedor, ya que el contexto de Carrito (el “cliente”) consulta sobre la información del inventario al “proveedor” (Stock) y le notifica los cambios a realizar tras efectuarse un pedido.
 
-**Bounded Context de Perfil → Bounded Context de Stock**
+**Profile Bounded Context → Stock Bounded Context**
 
 <p align="center">
-  <img src="https://imgur.com/fxixhGa.jpg" alt="12231">
+  <img src="https://i.imgur.com/hXWDDLd.png" alt="12231">
 </p>
 
 El bounded context de Perfil presenta una relación de Upstream con el bounded context de Stock (Downstream), ya que, la visualización de inventario solo puede ser accedida tras un inicio de sesión como administrador, lo que requiere de un proceso de autenticación validado. Estos bounded contexts presentan un patrón de Comformist, ya que, se trata de una relación unidireccional en la que Perfil se encarga de comunicar la información de la sesión del usuario al contexto de Stock y no se transmite información del otro sentido.
 
-**Bounded Context de Libro ↔ Bounded Context de Recomendaciones**
+**Book Bounded Context ↔ Recommendations Bounded Context**
 
 <p align="center">
-  <img src="https://imgur.com/eddgpMP.jpg" alt="12231">
+  <img src="https://i.imgur.com/qkchQLr.png" alt="12231">
 </p>
 
-El bounded context de Libro actúa como Upstream del bounded context de Recomendaciones (Downstream), debido a que su función es asignar un libro como “favorito” y compartir esa información con el algoritmo de recomendación para seleccionar qué libros mostrar en base a sus coincidencias. Presentan un patrón de Cliente/Proveedor, debido a que ambos intercambian información para funcionar correctamente, Recomendaciones busca libros con el atributo “favorito” asignado por el bounded context Libros, mientras que Libros identifica coincidencias con los atributos solicitados por Recomendaciones y los muestra en una lista ordenada.
+El bounded context de Book actúa como Upstream del bounded context de Recommendations (Downstream), debido a que su función es asignar un libro como “favorito” y compartir esa información con el algoritmo de recomendación para seleccionar qué libros mostrar en base a sus coincidencias. Presentan un patrón de Cliente/Proveedor, debido a que ambos intercambian información para funcionar correctamente, Recomendaciones busca libros con el atributo “favorito” asignado por el bounded context Libros, mientras que Libros identifica coincidencias con los atributos solicitados por Recomendaciones y los muestra en una lista ordenada.
 
-**Bounded Context de Perfil → Bounded Context de Órdenes**
+**Profile Bounded Context → Orders Bounded Context**
 
 <p align="center">
-  <img src="https://imgur.com/dCQMWMx.jpg" alt="12231">
+  <img src="https://i.imgur.com/5heHVRF.png" alt="12231">
 </p>
 
-El bounded context de Perfil sirve como Upstream para el bounded context de Órdenes, ya que este primer bounded context provee la funcionalidad de encontrar el identificador específico de un usuario y recopilar la información sobre sus pedidos realizados para pasarlos al bounded context de Órdenes, que actúa como el Downstream, para poder generar una lista actualizada con información relevante. Esta funcionalidad solo puede ser accedida tras un inicio de sesión exitoso.
+El bounded context de Profile sirve como Upstream para el bounded context de Orders, ya que este primer bounded context provee la funcionalidad de encontrar el identificador específico de un usuario y recopilar la información sobre sus pedidos realizados para pasarlos al bounded context de Órdenes, que actúa como el Downstream, para poder generar una lista actualizada con información relevante. Esta funcionalidad solo puede ser accedida tras un inicio de sesión exitoso.
 
-**Bounded Context de Perfil → Bounded Context de Comunidades**
+**Profile Bounded Context → Communities Bounded Context**
 
 <p align="center">
-  <img src="https://imgur.com/CZiBC8g.jpg" alt="12231">
+  <img src="https://i.imgur.com/bJWzbOM.png" alt="12231">
 </p>
 
-El Bounded Context de Cuenta sirve como Upstream para el Bounded Context de Comunidades, ya que el primero provee la funcionalidad de identificar al usuario y recopilar la información necesaria para que este pueda suscribirse a un plan de comunidad y unirse a ellas. Comunidades, por su parte, actúa como el Downstream, consumiendo esta información para poder generar y mostrar las comunidades a las que el usuario puede acceder. Esta funcionalidad solo puede ser utilizada tras un inicio de sesión exitoso.
+El Bounded Context de Profile sirve como Upstream para el Bounded Context de Communities, ya que el primero provee la funcionalidad de identificar al usuario y recopilar la información necesaria para que este pueda suscribirse a un plan de comunidad y unirse a ellas. Comunidades, por su parte, actúa como el Downstream, consumiendo esta información para poder generar y mostrar las comunidades a las que el usuario puede acceder. Esta funcionalidad solo puede ser utilizada tras un inicio de sesión exitoso.
 
 ### 2.5.3.	 Software Architecture
 
@@ -1963,7 +1963,7 @@ El corazón de la solución reside en el Application Server, que aloja múltiple
 
 ## 2.6.	Tactical-Level Domain-Driven Design
 
-### 2.6.1. Bounded Context: Búsqueda
+### 2.6.1. Bounded Context: Search
 
 #### 2.6.1.1.	Domain Layer
 
@@ -2016,7 +2016,7 @@ BusquedaRepositoryImpl (Repository Impl):  Implementa la persistencia de búsque
   <img src="https://imgur.com/sln3W2x.jpg" alt="12231">
 </p>
 
-Este diagrama representa la arquitectura simplificada del Bounded Context de Búsqueda para una plataforma de libros, utilizando un enfoque de Arquitectura Limpia y Domain-Driven Design. Muestra cómo un Usuario interactúa con la Búsqueda API para buscar libros y ver su historial. La API orquesta internamente el flujo de trabajo: el BusquedaController recibe las peticiones y las delega a los Handlers de la Capa de Aplicación. Estos handlers, a su vez, usan el Motor de Búsqueda y el Repositorio para ejecutar la lógica de negocio y acceder a los datos de la Base de Datos. La arquitectura está diseñada para mantener una clara separación de responsabilidades y una baja dependencia entre las capas.
+Este diagrama representa la arquitectura simplificada del Bounded Context de Search para una plataforma de libros, utilizando un enfoque de Arquitectura Limpia y Domain-Driven Design. Muestra cómo un Usuario interactúa con la Búsqueda API para buscar libros y ver su historial. La API orquesta internamente el flujo de trabajo: el BusquedaController recibe las peticiones y las delega a los Handlers de la Capa de Aplicación. Estos handlers, a su vez, usan el Motor de Búsqueda y el Repositorio para ejecutar la lógica de negocio y acceder a los datos de la Base de Datos. La arquitectura está diseñada para mantener una clara separación de responsabilidades y una baja dependencia entre las capas.
 
 #### 2.6.1.6.	Bounded Context Software Architecture Code Level Diagrams
 
@@ -2034,9 +2034,9 @@ Este diagrama de clases UML detalla la capa de dominio del contexto Búsqueda. L
   <img src="https://imgur.com/LILcKls.jpg" alt="12231">
 </p>
 
-Debido a la funcionalidad específica del bounded context de Búsqueda, no es necesario incluir una tabla representativa dentro de la base de datos, ya que este se basa en un algoritmo que emplea la información de la entidad “Book" para mostrar resultados relacionados a una consulta escrita por el usuario en determinado momento. En este caso, la función de búsqueda realiza comparaciones con información como el título y autor para encontrar resultados asociados, facilitando la exploración del amplio catálogo de Livria y el descubrimiento de material relevante para el usuario.
+Debido a la funcionalidad específica del bounded context de Search, no es necesario incluir una tabla representativa dentro de la base de datos, ya que este se basa en un algoritmo que emplea la información de la entidad “Book" para mostrar resultados relacionados a una consulta escrita por el usuario en determinado momento. En este caso, la función de búsqueda realiza comparaciones con información como el título y autor para encontrar resultados asociados, facilitando la exploración del amplio catálogo de Livria y el descubrimiento de material relevante para el usuario.
 
-### 2.6.2.	 Bounded Context: Libro
+### 2.6.2. Bounded Context: Book
 
 #### 2.6.2.1.	Domain Layer
 **Libro (Entity):** Representa un libro dentro del sistema. Puede recibir reseñas y ser marcado como favorito por los usuarios.
@@ -2123,11 +2123,11 @@ Este diagrama de clases UML detalla la capa de dominio del contexto Libro. El ag
   <img src="https://imgur.com/itCc0rF.jpg" alt="12231">
 </p>
 
-El diseño de la base de datos para el bounded context de Libros se basa en la separación de sus entidades centrales libro y reseña. Esta división estratégica en las tablas Book y Review asegura que cada entidad tenga su propia responsabilidad, lo que refuerza la cohesión del dominio.
+El diseño de la base de datos para el bounded context de Book se basa en la separación de sus entidades centrales libro y reseña. Esta división estratégica en las tablas Book y Review asegura que cada entidad tenga su propia responsabilidad, lo que refuerza la cohesión del dominio.
 
 La tabla Book es el corazón de este contexto. Su importancia radica en que actúa como el agregado principal y se relaciona con múltiples tablas, como UserFavoriteBooks, UserBannedBooks, y CartItem, demostrando su papel central en el ecosistema de la aplicación. Por otro lado, la tabla Review tiene un rol más específico. Se relaciona solo con las tablas UserClient y Book, lo que refleja su naturaleza simple pero vital. Una reseña solo puede ser escrita por un único usuario y está ligada a un solo libro, lo que se representa con una relación de uno a muchos, manteniendo la integridad y la coherencia de los datos.
 
-### 2.6.3. Bounded Context: Recomendaciones
+### 2.6.3. Bounded Context: Recommendations
 
 #### 2.6.3.1.	Domain Layer
 
@@ -2199,7 +2199,7 @@ Para el bounded context de Recomendaciones, existe una tabla designada en la bas
 
 Los atributos de la entidad “Recommendation” son tres: una foreign key de una tabla UserClient, una lista de identificadores de libros (foreign keys de tablas Book) y un identificador único (id) debido a las propiedades del gestor de base de datos. El uso del identificador único de esta entidad no es requerido para el funcionamiento de la aplicación, por lo que fue omitido durante el diseño del diagrama de base de datos.
 
-### 2.6.4.	 Bounded Context:  Carrito
+### 2.6.4. Bounded Context:  Cart
 
 #### 2.6.4.1. Domain Layer
 **Carrito (Entity):** Representa el carrito de un usuario, donde se almacenan los libros seleccionados para compra.
@@ -2262,11 +2262,11 @@ Este diagrama de clases UML muestra el diseño de la capa de dominio para el con
   <img src="https://imgur.com/F72xCNp.jpg" alt="12231">
 </p>
 
-El diseño de la base de datos para el bounded context de Carrito se basa en la división de sus entidades centrales el carrito y los artículos dentro del carrito. Esta segmentación en las tablas Cart y CartItem es fundamental para reflejar la lógica de negocio de la compra. La tabla Cart actúa como el contenedor principal que representa el carrito de un usuario, mientras que la tabla CartItem almacena los libros específicos y sus detalles de compra. Esta separación es clave para mantener la cohesión del dominio, permitiendo una gestión eficiente y autónoma del proceso de compra.
+El diseño de la base de datos para el bounded context de Cart se basa en la división de sus entidades centrales el carrito y los artículos dentro del carrito. Esta segmentación en las tablas Cart y CartItem es fundamental para reflejar la lógica de negocio de la compra. La tabla Cart actúa como el contenedor principal que representa el carrito de un usuario, mientras que la tabla CartItem almacena los libros específicos y sus detalles de compra. Esta separación es clave para mantener la cohesión del dominio, permitiendo una gestión eficiente y autónoma del proceso de compra.
 
 La relación entre las tablas Cart y CartItem es de uno a muchos. Un carrito de compras puede contener múltiples artículos, pero cada artículo pertenece a un único carrito. Esta relación es crucial para reflejar con precisión la cantidad de libros agregados a un carrito de compra específico.
 
-### 2.6.5. Bounded Context: Perfil
+### 2.6.5. Bounded Context: Profile
 
 #### 2.6.5.1.	Domain Layer
 **Perfil (Entity):** Representa la información personal de un usuario en Livria.
@@ -2329,11 +2329,11 @@ Este diagrama de clases UML muestra la estructura de la capa de dominio del cont
   <img src="https://imgur.com/evVrQGi.jpg" alt="12231">
 </p>
 
-El diseño de la base de datos para el bounded context de Perfil se basa en la separación de las entidades UserClient y Preferences. La tabla UserClient encapsula el perfil público del usuario, mientras que la tabla Preferences funciona como un value object, conteniendo atributos que, aunque son cruciales, no requieren una identidad propia. Esta segmentación es fundamental para la cohesión del dominio, asegurando que la información de perfil y las preferencias de configuración se gestionen de manera eficiente y autónoma.
+El diseño de la base de datos para el bounded context de Profile se basa en la separación de las entidades UserClient y Preferences. La tabla UserClient encapsula el perfil público del usuario, mientras que la tabla Preferences funciona como un value object, conteniendo atributos que, aunque son cruciales, no requieren una identidad propia. Esta segmentación es fundamental para la cohesión del dominio, asegurando que la información de perfil y las preferencias de configuración se gestionen de manera eficiente y autónoma.
 
 La tabla UserClient es fundamental para el negocio, ya que representa la identidad del usuario y actúa como el centro de diversas funcionalidades clave. Su rol es crucial al interactuar con tablas como Order, Cart y la tabla intermedia de Comunidades, lo que demuestra su participación en los flujos de negocio más importantes de la plataforma. La relación de uno a uno con la tabla Preferences se ha diseñado intencionalmente, ya que Preferences funciona como un value object que encapsula la configuración personal del usuario sin requerir una identidad propia.
 
-### 2.6.6. Bounded Context: Órdenes
+### 2.6.6. Bounded Context: Orders
 
 #### 2.6.6.1.	Domain Layer
 **Orden (Entity):** Representa una compra realizada por un usuario.
@@ -2400,7 +2400,7 @@ El diseño de la base de datos para el bounded context de Órdenes se fundamenta
 
 La tabla Order mantiene una relación de uno a muchos con la tabla OrderItem. Esta conexión es fundamental, ya que una orden puede contener uno o varios artículos, pero cada artículo pertenece a una sola orden. Por otro lado, la decisión de no relacionar directamente Order con Cart se alinea con una arquitectura orientada a eventos. El Carrito es una entidad temporal y mutable que representa una intención de compra. Una vez que se confirma la transacción, la orden se convierte en una entidad inmutable y permanente. Así, la orden se crea a partir del contenido del carrito, pero no depende de su existencia posterior. Este enfoque asegura la cohesión de cada dominio y evita dependencias innecesarias, lo que hace que el sistema sea más robusto y fácil de mantener.
 
-### 2.6.7.	Bounded Context: Stock
+### 2.6.7. Bounded Context: Stock
 
 #### 2.6.7.1.	Domain Layer
 **Inventario (Entity):** Representa el estado del inventario de un libro.
@@ -2465,7 +2465,7 @@ Este diagrama de clases UML muestra la estructura del Domain Layer para el conte
 
 El bounded context de Stock no presenta tablas dentro de la base de datos debido a su funcionamiento específico, que utiliza la información contenida en tablas ya existentes, como Book y Order, para mostrar datos relevantes dentro de la vista de administrador tras una verificación exitosa (inicio de sesión de administrador). En el caso de esta funcionalidad, se muestran datos como la cantidad de libros en el inventario (atributo “stock” de la tabla Book) en una lista que permite una visualización rápida de sus detalles (atributos “title”, “cover” y “price”), lo que facilita el uso de la vista del administrador y optimiza los procesos de análisis de inventario.
 
-### 2.6.8. Bounded Context: Comunidades
+### 2.6.8. Bounded Context: Communities
 
 #### 2.6.8.1.	Domain Layer
 **Comunidad (Entity):** Representa una comunidad dentro de la plataforma.
@@ -2535,7 +2535,7 @@ Este diagrama de clases UML detalla la estructura del Domain Layer del contexto 
   <img src="https://imgur.com/4dhzi4m.jpg" alt="12231">
 </p>
 
-El diseño de base de datos para el bounded context de Comunidades se basa en la segmentación de sus entidades clave en las tablas Community, UserCommunity, Post y Comment. Esta separación es crucial para la cohesión del dominio, ya que permite que cada entidad sea gestionada de manera autónoma, reflejando la complejidad del aspecto social del negocio de Livria. La tabla UserCommunity actúa como una tabla intermedia que resuelve la relación de muchos a muchos entre usuarios y comunidades, mientras que Post y Comment se relacionan con sus respectivos agregados y usuarios a través de claves foráneas, garantizando que el ecosistema social opere con integridad y eficiencia.
+El diseño de base de datos para el bounded context de Communities se basa en la segmentación de sus entidades clave en las tablas Community, UserCommunity, Post y Comment. Esta separación es crucial para la cohesión del dominio, ya que permite que cada entidad sea gestionada de manera autónoma, reflejando la complejidad del aspecto social del negocio de Livria. La tabla UserCommunity actúa como una tabla intermedia que resuelve la relación de muchos a muchos entre usuarios y comunidades, mientras que Post y Comment se relacionan con sus respectivos agregados y usuarios a través de claves foráneas, garantizando que el ecosistema social opere con integridad y eficiencia.
 
 # Capítulo III: Solution UX/UI Design
 
