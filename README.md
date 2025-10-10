@@ -1601,7 +1601,7 @@ Objetivo SMART: Conseguir que el 30% de los usuarios activos participen en al me
 | 32 | TS06 | Búsqueda y filtrado de órdenes | 2 |
 | 33 | TS07 | Visualización de la tabla con detalles de las órdenes | 1 |
 | 34 | TS11 | Visualización de estadísticas de negocio | 2 |
-| 35 | US28 | Soporte Multiplataforma | 5 |
+| 35 | US28 | Usar la aplicación en diferentes dispositivos | 5 |
 | 36 | TS12 | Gestión de la configuración del perfil | 2 |
 | 37 | TS13 | Gestión de la configuración de la aplicación | 2 |
 | 38 | TS14 | Barra lateral de navegación en el dashboard del administrador | 1 |
@@ -4003,6 +4003,72 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 |  | 1 | Implementar la estructura base de navegación móvil | Diseñar y desarrollar la barra de navegación inferior (ej. Bottom Tab Bar) que se utilizará como la navegación principal en la aplicación móvil, incluyendo íconos y placeholders para las secciones clave (Home, Comunidad, Perfil). | 4 | Developer Team | Done |
 |  | 2 | Revisión final de la adaptabilidad y el Responsive Design | Realizar pruebas exhaustivas en diferentes resoluciones móviles y tabletas para asegurar que todos los elementos de la Landing Page sean totalmente responsivos y que no haya desbordamientos de contenido. | 3.5 | Developer Team | Done |
 |  | 3 | Optimizar elementos de interacción para experiencia táctil | Ajustar el tamaño y espaciado de los botones y elementos interactivos para garantizar que sean fáciles de tocar en pantallas pequeñas, siguiendo las directrices de UX móvil. | 2 | Developer Team | Done  |
+
+| Sprint n | | | Sprint 1 | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Technical Story** | | | Work-Item / Task | | | |
+| **Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-Do / In-Process / To-Review / Done)** |
+| TS01 | | Acceder rápido a las secciones del sistema desde el Dashboard | *Prioridad: 1 – Must Have* | | | |
+| | 1 | Desarrollar la estructura base de "Quick Actions" en el Dashboard. | Implementar el diseño y la estructura para los botones de acceso rápido (Books, Orders, Inventory, Statistics, Settings) en el Dashboard. | 2 | Developer Team | Done |
+| | 2 | Implementar la lógica de redirección para cada botón de "Quick Actions". | Conectar cada botón de acceso rápido con su ruta/sección correspondiente en la vista de administrador. | 2 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS02 | | Visualizar estadísticas de libros | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Desarrollar Endpoint de API para estadísticas clave de libros. | Crear una ruta backend que calcule y retorne el total de libros, total de géneros, precio promedio, stock total, libro más visto/vendido. | 3 | Developer Team | Done |
+| | 2 | Implementar la sección de visualización de estadísticas de libros en el Frontend. | Diseñar e integrar los componentes visuales para mostrar los datos obtenidos del endpoint en la sección 'Books'. | 2 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS03 | | Buscar libros como administrador | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Desarrollar Endpoint de API para búsqueda y filtrado de libros. | Implementar la lógica backend para buscar libros por título/autor y filtrar por género/idioma, incluyendo la funcionalidad de ordenamiento. | 4 | Developer Team | Done |
+| | 2 | Implementar la barra de búsqueda y filtros en el Frontend. | Integrar los campos de búsqueda, selectores de filtro (género, idioma) y la opción de ordenamiento en la vista de "Book Collection". | 2 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS04 | | Visualizar detalles completos de un libro | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Implementar la visualización de la información básica en la "Book Collection". | Asegurar que la tabla muestre miniatura, título, autor, género, idioma, stock y cantidad de reviews. | 1.5 | Developer Team | Done |
+| | 2 | Desarrollar el componente de "Vista Detallada" del libro (modal/página). | Crear la interfaz que se abre al hacer clic en "View", mostrando todos los detalles completos (sinopsis, precios, stock, etc.). | 3 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS05 | | Visualizar estadísticas y análisis de órdenes | *Prioridad: 3 – Could Have* | | | |
+| | 1 | Desarrollar Endpoint de API para estadísticas de órdenes. | Crear la ruta backend que calcule y retorne el total de órdenes, ganancias, órdenes pendientes/completas y el valor promedio de las órdenes. | 3.5 | Developer Team | Done |
+| | 2 | Implementar la sección de análisis de órdenes en el Frontend. | Diseñar e integrar los componentes para mostrar las estadísticas obtenidas en la sección 'Orders'. | 2 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS06 | | Buscar y filtrar de órdenes | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Desarrollar Endpoint de API para búsqueda, filtrado y ordenamiento de órdenes. | Implementar la lógica backend para buscar por ID/cliente, filtrar por estado/fecha y ordenar los resultados de las órdenes. | 4 | Developer Team | Done |
+| | 2 | Implementar la interfaz de búsqueda y filtrado de órdenes en el Frontend. | Integrar la barra de búsqueda y los selectores/filtros por estado, fecha y ordenamiento en la vista de órdenes. | 2 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS07 | | Visualizar una tabla con detalles de las órdenes | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Desarrollar Endpoint de API para la lista de órdenes. | Crear la ruta que retorne el listado de órdenes con sus atributos generales para la tabla. | 2 | Developer Team | Done |
+| | 2 | Implementar la tabla de "Order List" en el Frontend. | Diseñar y poblar la tabla con los detalles generales de las órdenes recuperados del backend. | 2.5 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS08 | | Buscar y filtrar libros en el Inventario | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Reutilizar/Adaptar Endpoint de API para búsqueda/filtro en la vista de Inventario. | Asegurar que la lógica de búsqueda/filtrado y ordenamiento (TS03) funcione con los campos específicos de la vista de Inventario (e.g., stock). | 1 | Developer Team | Done |
+| | 2 | Implementar la barra de búsqueda y filtros en el Frontend del Inventario. | Integrar la interfaz de búsqueda y filtros (género, lenguaje, ordenamiento por stock, precio, etc.) en la vista de "Book Collection" del Inventario. | 1.5 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS09 | | Visualizar libros en el inventario | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Desarrollar Endpoint de API para la tabla de inventario. | Crear la ruta que retorne el listado de libros con todos los detalles de inventario: stock, precios de compra/venta. | 2 | Developer Team | Done |
+| | 2 | Implementar la tabla de "Book Collection" de Inventario. | Diseñar la tabla con los campos requeridos y el campo/botón para "Aumentar Stock". | 3 | Developer Team | Done |
+| | 3 | Desarrollar la lógica backend para aumentar el stock. | Crear el endpoint que maneje la actualización del stock, cobre el precio de compra y sume la cantidad al stock del libro. | 3.5 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS10 | | Añadir un libro al inventario | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Desarrollar Endpoint de API para añadir un nuevo libro al inventario. | Crear la ruta backend que reciba los datos del formulario, valide y persista el nuevo libro en la base de datos. | 4 | Developer Team | Done |
+| | 2 | Implementar el formulario "Add a new book to the inventory" en el Frontend. | Diseñar el formulario con todos los campos necesarios (título, género, stock, precios, etc.) y conectar el envío de datos al endpoint (Task 1). | 3 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS11 | | Visualizar estadísticas de negocio | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Desarrollar Endpoints de API para gráficos de estadísticas. | Crear rutas que preparen los datos necesarios para: Top 3 más vendidos, ganancias por género (gráfico de torta) y flujo de capital (gráfico lineal). | 5 | Developer Team | Done |
+| | 2 | Integrar librerías de gráficos en el Frontend. | Seleccionar e integrar una librería de visualización de datos (ej. Chart.js, Recharts) en el proyecto. | 1.5 | Developer Team | Done |
+| | 3 | Implementar la visualización de los 3 gráficos en la sección "Statistics". | Desarrollar los componentes de los gráficos y conectarlos a sus respectivos endpoints de datos. | 4 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS12 | | Gestionar la configuración del perfil | *Prioridad: 1 – Must Have* | | | |
+| | 1 | Desarrollar Endpoints de API para ver, actualizar perfil y cambiar contraseña. | Crear rutas backend seguras para obtener los datos del perfil, actualizar nombre/correo y cambiar la contraseña. | 4 | Developer Team | Done |
+| | 2 | Implementar la pestaña "Profile" en la sección "Settings". | Diseñar y desarrollar la interfaz para mostrar la información actual y los formularios para actualizar datos y cambiar contraseña. | 2.5 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS13 | | Gestionar la configuración de la aplicación | *Prioridad: 1 – Must Have* | | | |
+| | 1 | Desarrollar Endpoint de API para gestionar y persistir la configuración de la aplicación. | Crear una ruta backend para guardar y recuperar las preferencias de la aplicación (notificaciones, alertas, autoguardado, ítems por página). | 3 | Developer Team | Done |
+| | 2 | Implementar la pestaña "Application" en la sección "Settings". | Diseñar la interfaz con los toggles/checkboxes y el selector de "Items per page", conectando la lógica de guardado al endpoint. | 2 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS14 | | Acceder a barra lateral de navegación en el dashboard del administrador | *Prioridad: 2 – Should Have* | | | |
+| | 1 | Diseñar e implementar la estructura y estilo de la barra lateral de navegación. | Desarrollar el componente de la barra lateral, incluyendo los íconos y estilos para las secciones principales (Home, Books, Orders, etc.). | 2 | Developer Team | Done |
+| | 2 | Integrar la lógica de navegación (rutas), idioma y sesión en la barra lateral. | Conectar los enlaces a las rutas de la aplicación, el componente de cambio de idioma y el botón de "Log out". | 1.5 | Developer Team | Done |
+| --- | --- | --- | --- | --- | --- | --- |
+| TS15 | | Registrar una cuenta con control y seguridad. | *Prioridad: 1 – Must Have* | | | |
+| | 1 | Implementar la vista de Login para la administración. | Diseñar la interfaz de usuario para el formulario de inicio de sesión de administrador. | 1.5 | Developer Team | Done |
+| | 2 | Asegurar el Endpoint de Login con validación de roles de administrador. | Adaptar o crear el endpoint de login (US15) para verificar que el usuario tenga el rol de **administrador** antes de generar y devolver el token/sesión, redirigiendo al dashboard solo si es exitoso. | 4 | Developer Team | Done |
 
 Capturas del proyecto en Jira:
 <p align="center">
