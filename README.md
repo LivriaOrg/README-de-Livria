@@ -236,7 +236,7 @@ Durante el TP, el equipo colaboró activamente en la elaboración del informe de
         - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214testing-suite-evidence-for-sprint-review)
         - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
         - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
-        - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217 -software-deployment-evidence-for-sprint-review)
+        - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
         - [4.2.1.8. Team Collaboration Insight during Sprint](#4218-team-collaboration-insight-during-sprint)
     + [4.3. Validation Interviews](#43-validation-interviews)
         - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas-1)
