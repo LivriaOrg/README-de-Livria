@@ -1,22 +1,36 @@
-# Livria
+<p align="center">
+  <img src="https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png" height="100px" width="100px" alt="12231">
+</p>
 
-<p align="center">Universidad Peruana de Ciencias Aplicadas (UPC)</p>
+## <p align="center">Universidad Peruana de Ciencias Aplicadas (UPC)</p>
 <p align="center">Carrera: Ingeniería de Software</p>
-<p align="center">Ciclo: 06</p>
-<p align="center">Aplicaciones Móviles 1ACC0238</p>
-<p align="center">Sección 12614</p>
-<p align="center">Profesor: David Gerardo Quevedo Velasco</p>
+<p align="center">Periodo: 202520</p>
+<p align="center">1ACC0238 | Aplicaciones Móviles</p>
+<p align="center">NRC: 12614</p>
+<p align="center">Docente: David Gerardo Quevedo Velasco</p>
 
-<p align="center"><strong>Informe del TP</strong></p>
+---
 
-<p align="center">Defontes</p>
-<p align="center">Binda Arbañil, Marcelo Alejandro U202311157</p>
-<p align="center">Borja Molina, Gabriel Sebastián U202310308</p>
-<p align="center">Castillo Garay, Ainhoa Lucía U202311701</p>
-<p align="center">Martel Andrade, Cassius Estefano U202312287</p>
-<p align="center">Nakamurake Teruya, Alex Tomio U20201f855</p>
+<br>
 
-<p align="center">Septiembre 2025</p>
+## <p align="center">Informe del TB2</p>
+
+<p align="center">Startup: Defontes</p>
+<p align="center">Producto: Livria</p>
+
+<br>
+
+<p align="center">U202311157 - Binda Arbañil, Marcelo Alejandro</p>
+<p align="center">U202310308 - Borja Molina, Gabriel Sebastián</p>
+<p align="center">U202311701 - Castillo Garay, Ainhoa Lucía</p>
+<p align="center">U202312287 - Martel Andrade, Cassius Estefano</p>
+<p align="center">U20201f855 - Nakamurake Teruya, Alex Tomio</p>
+
+<br>
+
+<p align="center"><i>Septiembre 2025</i></p>
+
+<br>
 
 # Registro de versiones del informe
 
@@ -1187,6 +1201,12 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | Como usuario, quiero observar mis recomendaciones de manera ordenada y atractiva para poder elegir mi siguiente lectura. |  |  |  |
 | **Acceptance Criteria** |  |  |  |
 | **Escenario 1: Visualización clara de recomendaciones Dado que** el usuario está en la aplicación web de Livria, **Cuando** el usuario quiere ver sus recomendaciones **Y** el usuario accede a la sección de “Recomendaciones” **Entonces** la plataforma muestra seis recomendaciones con una miniatura del libro y su título.  **Escenario 2: Visualización clara de recomendaciones Dado que** el usuario se encuentra en la sección de “Recomendaciones” **Cuando** el usuario hace clic en el botón de “Refrescar” **Entonces** la plataforma muestra nuevas seis recomendaciones con una miniatura del libro y su título. **Escenario 3: Acceso directo al libro recomendado Dado que** el usuario se encuentra en la sección de “Recomendaciones” **Cuando** el usuario hace clic en una de las recomendaciones **Entonces** la plataforma lo dirige a la visualización completa del libro con más detalles y opciones. |  |  |  |
+| US16 | | **Visualizar recomendaciones en la plataforma** | | |  |  |
+| | 1 | Integrar la visualización de la lista de 6 recomendaciones | Usar el *widget* de Tarjeta de Libro desarrollado en US12(2) para mostrar las recomendaciones en un formato de lista o cuadrícula en la pantalla de "Recomendaciones". | 2.5 |  Developer Team | Done |
+| | 2 | Desarrollar la lógica del botón "Refrescar" | Implementar un botón de "Refrescar" o un gesto de *Pull-to-Refresh* que dispare una nueva llamada al *endpoint* de recomendaciones para obtener un nuevo conjunto de 6 libros. | 2 | Developer Team | Done |
+| | 3 | Implementar la navegación a la pantalla de Detalles del Libro | Configurar la acción de tocar una recomendación para navegar a la pantalla de **Detalles del Libro** (TS20), pasando el ID del libro seleccionado como parámetro. | 1.5 | Developer Team | Done |
+| | 4 | Asegurar la visualización de datos esenciales (Portada y Título) | Garantizar que la Tarjeta de Recomendación siempre muestre la miniatura del libro y el título de manera clara y visible, como lo exige el requerimiento. | 1 | Developer Team | Done |
+
 
 | Story ID | User | Priority | Epic |
 | ----- | ----- | :---: | :---: |
@@ -1249,7 +1269,7 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **Description** |  |  |  |
 | Como usuario, quiero poder pagar mis libros mediante distintos métodos de pago, para asegurarme de que mi compra sea rápida y confiable mediante una única plataforma de pago. |  |  |  |
 | **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Pago exitoso Dado que** el usuario ha añadido uno o más libros a su carrito de compras **Cuando** el usuario selecciona una opción de pago y completa los datos solicitados**Entonces** el sistema procesa el pago correctamente **Y** el sistema muestra un mensaje de confirmación con el comprobante de la transacción. **Escenario 2: Error en el proceso de pago Dado que** el usuario intenta completar el pago mediante la opción seleccionada **Cuando** ocurre un error **Entonces** el sistema muestra un mensaje explicando el error **Y** el sistema permite reintentar la operación. |  |  |  |
+| **Escenario 1: Pago exitoso Dado que** el usuario ha añadido uno o más libros a su carrito de compras **Cuando** el usuario selecciona una opción de pago y completa los datos solicitados **Entonces** el sistema procesa el pago correctamente **Y** el sistema muestra un mensaje de confirmación con el comprobante de la transacción. **Escenario 2: Error en el proceso de pago Dado que** el usuario intenta completar el pago mediante la opción seleccionada **Cuando** ocurre un error **Entonces** el sistema muestra un mensaje explicando el error **Y** el sistema permite reintentar la operación. |  |  |  |
 
 | Story ID | User | Priority | Epic |
 | ----- | ----- | :---: | :---: |
@@ -1258,7 +1278,7 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **Description** |  |  |  |
 | Como usuario, quiero poder valorar y dejar reseñas en los libros que he leído, para compartir mi opinión y ayudar a otros lectores en su elección. |  |  |  |
 | **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Valoración con estrellas Dado que** el usuario ha finalizado la lectura de un libro **Cuando** accede a la sección de valoraciones **Entonces** puede calificar el libro con una puntuación de 1 a 5 estrellas **Y** la valoración se actualiza en la ficha del libro **Escenario 2: Escribir una reseña Dado que** el usuario desea dejar un comentario detallado **Cuando** accede a la opción “Escribir reseña” **Entonces** puede redactar y publicar su opinión sobre el contenido, estilo o experiencia de lectura. |  |  |  |
+| **Escenario 1: Valoración con estrellas Dado que** el usuario ha finalizado la lectura de un libro **Cuando** accede a la sección de valoraciones **Entonces** puede calificar el libro con una puntuación de 1 a 5 estrellas **Y** la valoración se actualiza en la ficha del libro **Escenario 2: Escribir una reseña Dado que** el usuario desea dejar un comentario detallado **Cuando** accede a la opción “Escribir reseña” **Entonces** puede redactar y publicar su opinión sobre el contenido, estilo o experiencia de lectura. |  |  |  |
 
 | Story ID | User | Priority | Epic |
 | ----- | ----- | :---: | :---: |
@@ -1438,7 +1458,8 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **Description** |  |  |  |
 | Como developer, quiero ingresar a la vista de administrador para poder gestionar operaciones de Livria como el inventario y las ventas. |  |  |  |
 | **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Inicio de sesión exitoso de administrador****Dado que** el developer intenta iniciar sesión en el login de Admin,**Cuando** el developer rellena los campos del formulario con las credenciales default asignadas,**Entonces** el sistema valida los datos proporcionados y confirma el inicio de sesión como exitoso. **Escenario 2: Inicio de sesión inválido****Dado que** el developer intenta iniciar sesión en el login de Admin,**Cuando** el developer rellena los campos del formulario con credenciales incorrectas o anteriores,**Entonces** el sistema rechaza el registro y retorna un mensaje de error. |  |  |  |
+| **Escenario 1: Inicio de sesión exitoso de administrador**
+**Dado que** el developer intenta iniciar sesión en el login de Admin,**Cuando** el developer rellena los campos del formulario con las credenciales default asignadas,**Entonces** el sistema valida los datos proporcionados y confirma el inicio de sesión como exitoso. **Escenario 2: Inicio de sesión inválido** **Dado que** el developer intenta iniciar sesión en el login de Admin,**Cuando** el developer rellena los campos del formulario con credenciales incorrectas o anteriores,**Entonces** el sistema rechaza el registro y retorna un mensaje de error. |  |  |  |
 
 | Story ID | User | Priority | Epic |
 | ----- | ----- | :---: | :---: |
@@ -3951,55 +3972,50 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | **User Story** |  |  | Work-Item / Task |  |  |  |
 | **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-Do / In-Process / To-Review / Done)** |
-| US01 |  | Presentación de servicios de Livria |  |  |  |  |
+| US01 |  | Presentar Servicios de Livria |  |  |  |  |
 |  | 1 | Redactar contenido atractivo sobre funcionalidades principales | Redactar texto que explique de manera clara y atractiva las funcionalidades clave de Livria, con el objetivo de que los usuarios comprendan rápidamente los servicios ofrecidos. | 1.5 | Developer Team | Done |
 |  | 2 | Diseñar e implementar sección de servicios en la Landing Page | Desarrollar la sección principal dentro de la Landing Page que detalle los servicios de Livria, asegurando que sea visualmente atractiva y accesible. | 2 | Developer Team | Done |
-| US02 |  | Acceso a la sección ‘Sobre Nosotros’ en la Landing Page |  |  |  |  |
+| US02 |  | Acceder a la sección “Sobre Nosotros” desde la Landing Page |  |  |  |  |
 |  | 1 | Redactar texto para la sección 'Sobre Nosotros' | Redactar un contenido conciso y alineado con la misión de Livria y el objetivo del equipo para la sección 'Sobre Nosotros'.  | 1 | Developer Team | Done |
 |  | 2 | Implementar la sección 'Sobre Nosotros' en la Landing Page  | Desarrollar la estructura HTML/CSS y el diseño de la sección 'Sobre Nosotros', asegurando una integración fluida con el resto de la Landing Page. | 2 | Developer Team | Done |
 |  | 3 | Crear enlace de navegación a 'Sobre Nosotros'  | Añadir y configurar el enlace de la sección 'Sobre Nosotros' en el menú de navegación principal de la Landing Page. | 0.5 | Developer Team | Done |
-| US03 |  | Cambio de idioma en la Landing Page |  |  |  |  |
+| US03 |  | Cambiar de idioma en la Landing Page |  |  |  |  |
 |  | 1 | Definir y preparar archivos de traducción (i18n) iniciales  | Crear los archivos de recursos JSON para al menos un idioma adicional (inglés), incluyendo todos los textos de la Landing Page. | 3 | Developer Team | Done |
 |  | 2 | Implementar el módulo de internacionalización (i18n) en el Frontend  | Integrar una librería o lógica para la gestión de traducciones en el frontend, haciendo que todos los textos sean dinámicos y dependan del idioma seleccionado. | 4 | Developer Team | Done |
 |  | 3 | Diseñar e implementar selector de idioma | Crear un componente visual para el cambio de idioma e implementarlo en la cabecera de la Landing Page. | 2 | Developer Team | Done |
 |  | 4 | Implementar lógica de persistencia del idioma seleccionado | Asegurar que la selección del idioma se guarde para que persista entre recargas de página. | 1.5 | Developer Team | Done |
-| US04 |  | Visualización de la sección ‘Home’ en la Landing Page |  |  |  |  |
+| US04 |  | Visualizar la sección “Home” en la Landing Page |  |  |  |  |
 |  | 1 | Implementar el Hero Section (Sección Principal) | Desarrollar la estructura base de la sección principal (Home), incluyendo la disposición de los elementos clave como el título principal, subtítulo y la llamada a la acción. | 2 | Developer Team | Done |
-| US05 |  | Acceso a la sección ‘Contáctanos’ en la Landing Page | Escribir el texto conciso para la sección 'Contáctanos', e identificar y listar las direcciones de correo electrónico, enlaces a redes sociales y/o un formulario de contacto breve a incluir. | 1.5 | Developer Team | Done |
+| US05 |  | Acceder a la sección ‘Contáctanos’ en la Landing Page | Escribir el texto conciso para la sección 'Contáctanos', e identificar y listar las direcciones de correo electrónico, enlaces a redes sociales y/o un formulario de contacto breve a incluir. | 1.5 | Developer Team | Done |
 |  | 1 | Redactar contenido y definir canales de contacto | Escribir el texto conciso para la sección 'Contáctanos', e identificar y listar las direcciones de correo electrónico, enlaces a redes sociales y/o un formulario de contacto breve a incluir. | 2.5 | Developer Team | Done |
 |  | 2 | Implementar la sección ‘Contáctanos’ en la Landing Page | Desarrollar la estructura visual de la sección, incluyendo íconos para redes sociales y la disposición de la información de contacto, siguiendo la línea de diseño de Livria. | 2 | Developer Team | Done |
 |  | 3 | Crear enlace de navegación a ‘Contáctanos’ | Añadir y configurar el enlace de la sección 'Contáctanos' en el menú de navegación principal y/o en el pie de página (footer) de la Landing Page. | 0.5 | Developer Team | Done |
-| US06 |  | Navegación simple entre secciones en la Landing Page |  |  |  |  |
+| US06 |  | Navegar de manera simple entre secciones en la Landing Page |  |  |  |  |
 |  | 1 | Definir y asignar anclajes (IDs) a todas las secciones principales | Colocar los atributos de identificación (ID) necesarios en las etiquetas HTML de las secciones de la Landing Page para que sirvan como puntos de destino. | 1 | Developer Team | Done |
 |  | 2 | Configurar enlaces de navegación para apuntar a los anclajes | Modificar los enlaces del menú principal para que utilicen la referencia de anclaje en lugar de URLs estáticas, permitiendo la navegación interna. | 1.5 | Developer Team | Done |
-| US07 |  | Diseño atractivo de la Landing Page |  |  |  |  |
+| US07 |  | Ver un diseño atractivo de la Landing Page |  |  |  |  |
 |  | 1 | Definir y aplicar la paleta de colores y tipografía de Livria | Aplicar las variables CSS para la paleta de colores corporativa y asegurar el uso consistente de las fuentes tipográficas definidas en todo el Frontend de la Landing Page. | 2.5 | Developer Team | Done |
 |  | 2 | Revisión y ajuste de espaciado y alineación (Micro-diseño)  | Realizar una revisión exhaustiva del espaciado (margins y paddings), tamaños de fuente y alineación en todas las secciones para cumplir con los estándares de diseño UX/UI.  | 3 | Developer Team | Done |
 | US08 |  | Redirigir a la descarga de la aplicación móvil |  |  |  |  |
 |  | 1 | Implementar botones de descarga dentro de la Landing Page | Modificar el HTML para incluir una sección con botones de descarga para App Store y Playstore. | 2 | Developer Team | Done |
 |  | 2 | Aplicar lógica de redireccionamiento.  | Implementar los enlaces a las páginas oficiales de las tiendas de aplicaciones móviles a los botones. | 1 | Developer Team | Done |
-| US09 |  | Acceso a las redes sociales de Livria |  |  |  |  |
+| US09 |  | Acceder a las redes sociales de Livria |  |  |  |  |
 |  | 1 | Definir y recopilar URLs de perfiles sociales | Listar las URLs definitivas de los perfiles de Livria en las redes sociales principales (ej. Instagram, X/Twitter, Facebook, etc.). | 0.5 | Developer Team | Done |
 |  | 2 | Diseñar e implementar el componente visual de íconos sociales | Crear y desarrollar un componente frontend que muestre los íconos de las redes sociales de manera agrupada, generalmente ubicado en el footer o la cabecera.  | 2 | Developer Team | Done |
-| US10 |  | Footer de la Landing Page |  |  |  |  |
+| US10 |  | Navegar en el footer de la Landing Page |  |  |  |  |
 |  | 1 | Implementar la estructura HTML/CSS del Footer | Diseñar y desarrollar la estructura base del pie de página, asegurando que su diseño sea coherente con el resto de la Landing Page y se mantenga fijo en la parte inferior. | 1.5 | Developer Team | Done |
 |  | 2 | Agregar información legal y de Copyright | Redactar e implementar el aviso de Copyright, incluyendo el año y el nombre de la compañía ("Livria" y “Defontes”), en la sección más visible del Footer. | 0.5 | Developer Team | Done |
-|  | 3 | Integrar navegación rápida y íconos sociales al Footer | Reutilizar los componentes de navegación principal y los íconos de redes sociales (desarrollados en US06 y US09) e integrarlos funcionalmente dentro del diseño del Footer. | 1.5 | Developer Team | Done |
-| US15 |  | Registro e inicio de sesión |  |  |  |  |
-|  | 1 | Configuración del modelo y tabla de Usuarios en la Base de Datos | Definir el esquema de la tabla de usuarios en la base de datos (Backend), incluyendo campos esenciales como email, password (hashed), y nombre\_usuario. | 3 | Developer Team | Done |
-|  | 2 | Desarrollar el Endpoint de API para Registro | Crear la ruta Backend (/register) que reciba los datos, valide la entrada, encripte la contraseña (hashing) y persista el nuevo usuario en la base de datos. | 6 | Developer Team | Done |
-|  | 3 | Desarrollar el Endpoint de API para Inicio de Sesión | Crear la ruta Backend (/sign-in) que reciba credenciales, verifique la contraseña encriptada y, si son correctas, genere y devuelva un token de autenticación (JWT) o una sesión. | 6 | Developer Team | Done |
-|  | 4 | Implementar la lógica de envío del Formulario de Inicio de Sesión y manejo del token | Conectar el formulario de login (Task 2\) con el endpoint de login (Task 3\) y asegurar que el token o sesión retornado por el Backend se guarde en el Frontend. | 4 | Developer Team | Done |
-| US17 |  | Cierre de sesión |  |  |  |  |
+|  | 3 | Integrar navegación rápida y íconos sociales al Footer | Reutilizar los componentes de navegación principal y los íconos de redes sociales e integrarlos funcionalmente dentro del diseño del Footer. | 1.5 | Developer Team | Done |
+| US17 |  | Cerrar sesión |  |  |  |  |
 |  | 1 | Implementar el botón "Cerrar Sesión" en la interfaz de usuario | Diseñar y añadir un botón de "Cerrar Sesión" visible en la navegación o perfil de usuario, y asegurar que solo aparezca cuando el usuario esté autenticado. | 1 | Developer Team | Done |
 |  | 2 | Implementar la lógica de eliminación del token en el Frontend | Escribir la función frontend que se ejecuta al hacer clic en "Cerrar Sesión". Debe borrar el token de autenticación y resetear el estado global de la aplicación. | 1.5 | Developer Team | Done |
-| US22 |  | Barra de búsqueda |  |  |  |  |
+| US22 |  | Buscar libros y contenido en la aplicación |  |  |  |  |
 |  | 1 | Diseñar e implementar el componente visual de la barra de búsqueda | Desarrollar la estructura (HTML/CSS) del campo de entrada y el ícono/botón de búsqueda, e integrarlo en la cabecera de la Landing Page de manera prominente. | 2 | Developer Team | Done |
 |  | 2 | Implementar la lógica de captura de texto y redirección placeholder | Configurar el evento de envío del formulario de búsqueda para capturar el texto introducido y realizar una búsqueda sobre el Endpoint respectivo. | 1.5 | Developer Team | Done |
-| US26 |  | Disponibilidad 24/7 |  |  |  |  |
+| US26 |  | Acceder a la plataforma en cualquier momento |  |  |  |  |
 |  | 1 | Realizar el despliegue (deployment) de la aplicación móvil en un entorno de hosting de alta disponibilidad (HA) | Desplegar la aplicación en un servicio de hosting que garantice una alta disponibilidad que asegure un tiempo de actividad óptimo, con el objetivo de mantener la accesibilidad y el rendimiento de la aplicación para los usuarios. | 4 | Developer Team | Done |
 |  | 2 | Mantenimiento y Continuidad Operacional Implementar una estrategia de continuidad del negocio | Establecer un entorno de pre-producción paralelo al entorno de producción para realizar pruebas de regresión, corrección de errores y mantenimiento de forma aislada. Esto permitirá realizar despliegues incrementales y, en caso de fallos críticos, ejecutar una reversión al estado estable anterior sin interrumpir la experiencia de usuario ni afectar la operación en vivo de la aplicación. | 4.5 | Developer Team | Done |
-| US27 |  | Interfaz amigable y navegación sencilla de la aplicación móvil |  |  |  |  |
+| US27 |  | Navegar la aplicación de forma fácil e intuitiva |  |  |  |  |
 |  | 1 | Implementar la estructura base de navegación móvil | Diseñar y desarrollar la barra de navegación inferior (ej. Bottom Tab Bar) que se utilizará como la navegación principal en la aplicación móvil, incluyendo íconos y placeholders para las secciones clave (Home, Comunidad, Perfil). | 4 | Developer Team | Done |
 |  | 2 | Revisión final de la adaptabilidad y el Responsive Design | Realizar pruebas exhaustivas en diferentes resoluciones móviles y tabletas para asegurar que todos los elementos de la Landing Page sean totalmente responsivos y que no haya desbordamientos de contenido. | 3.5 | Developer Team | Done |
 |  | 3 | Optimizar elementos de interacción para experiencia táctil | Ajustar el tamaño y espaciado de los botones y elementos interactivos para garantizar que sean fáciles de tocar en pantallas pequeñas, siguiendo las directrices de UX móvil. | 2 | Developer Team | Done  |
@@ -4043,19 +4059,15 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 | | 1 | Desarrollar Endpoints de API para gráficos de estadísticas. | Crear rutas que preparen los datos necesarios para: Top 3 más vendidos, ganancias por género (gráfico de torta) y flujo de capital (gráfico lineal). | 5 | Developer Team | Done |
 | | 2 | Integrar librerías de gráficos en el Frontend. | Seleccionar e integrar una librería de visualización de datos (ej. Chart.js, Recharts) en el proyecto. | 1.5 | Developer Team | Done |
 | | 3 | Implementar la visualización de los 3 gráficos en la sección "Statistics". | Desarrollar los componentes de los gráficos y conectarlos a sus respectivos endpoints de datos. | 4 | Developer Team | Done |
-
 | TS12 | | Gestionar la configuración del perfil | *Prioridad: 1 – Must Have* | | | |
 | | 1 | Desarrollar Endpoints de API para ver, actualizar perfil y cambiar contraseña. | Crear rutas backend seguras para obtener los datos del perfil, actualizar nombre/correo y cambiar la contraseña. | 4 | Developer Team | Done |
 | | 2 | Implementar la pestaña "Profile" en la sección "Settings". | Diseñar y desarrollar la interfaz para mostrar la información actual y los formularios para actualizar datos y cambiar contraseña. | 2.5 | Developer Team | Done |
-
 | TS13 | | Gestionar la configuración de la aplicación | *Prioridad: 1 – Must Have* | | | |
 | | 1 | Desarrollar Endpoint de API para gestionar y persistir la configuración de la aplicación. | Crear una ruta backend para guardar y recuperar las preferencias de la aplicación (notificaciones, alertas, autoguardado, ítems por página). | 3 | Developer Team | Done |
 | | 2 | Implementar la pestaña "Application" en la sección "Settings". | Diseñar la interfaz con los toggles/checkboxes y el selector de "Items per page", conectando la lógica de guardado al endpoint. | 2 | Developer Team | Done |
-
 | TS14 | | Acceder a barra lateral de navegación en el dashboard del administrador | *Prioridad: 2 – Should Have* | | | |
 | | 1 | Diseñar e implementar la estructura y estilo de la barra lateral de navegación. | Desarrollar el componente de la barra lateral, incluyendo los íconos y estilos para las secciones principales (Home, Books, Orders, etc.). | 2 | Developer Team | Done |
 | | 2 | Integrar la lógica de navegación (rutas), idioma y sesión en la barra lateral. | Conectar los enlaces a las rutas de la aplicación, el componente de cambio de idioma y el botón de "Log out". | 1.5 | Developer Team | Done |
-
 | TS15 | | Registrar una cuenta con control y seguridad. | *Prioridad: 1 – Must Have* | | | |
 | | 1 | Implementar la vista de Login para la administración. | Diseñar la interfaz de usuario para el formulario de inicio de sesión de administrador. | 1.5 | Developer Team | Done |
 | | 2 | Asegurar el Endpoint de Login con validación de roles de administrador. | Adaptar o crear el endpoint de login (US15) para verificar que el usuario tenga el rol de **administrador** antes de generar y devolver el token/sesión, redirigiendo al dashboard solo si es exitoso. | 4 | Developer Team | Done |
@@ -4413,6 +4425,69 @@ Visualización de commits:
 <p align="center">
   <img src="https://i.imgur.com/rchRhxY.png" alt="12171">
 </p>
+
+### 4.2.1. Sprint 2
+
+#### 4.2.1.1. Sprint Planning 2
+
+A continuación se muestra la tabla del Sprint Planning:
+
+| Sprint \# | Sprint 2 |
+| :---- | :---- |
+| **Sprint Planning Background** |  |
+| Date | 30/10/2025 |
+| Time | 1:30 PM |
+| Location | Virtual |
+| Prepared by | Gabriel Sebastián Borja Molina, Marcelo Alejandro Binda Arbañil, Cassius Estefano Martel Andrade |
+| Attendees (to planning meeting) | Ainhoa Lucía Castillo Garay / Marcelo Alejandro Binda Arbañil / Cassius Estefano Martel Andrade / Alex Tomio Nakamurakare Teruya / Gabriel Sebastián Borja Molina |
+| **Sprint Goal & User Stories** |  |
+| Sprint 2 Goal | Our primary objective for Sprint 2 is to deliver the core multi-platform customer application (Frontend) using Flutter. This involves implementing the essential user experience functionalities: a fully navigable main screen (Home), a functional book catalog, the login/authentication flow, and the ability to search and filter the book inventory. The success of this Sprint will be validated when a user can successfully log in to the application, browse the book catalog, view detailed book information and interact with reviews. This ensures we have a working, consumer-facing application prototype ready for user testing and feedback. |
+| Sprint 2 Velocity | 30 |
+| Sum of Story Points | 27 |
+
+##### 4.2.2.2. Sprint Backlog 2
+
+Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9](https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9)
+
+| Sprint \# | | | **Sprint 2** | | | |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| **User Story** | | | **Work-Item / Task** | | | |
+| **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-Do / In-Process / To-Review / Done)** |
+| US12 | | **Interactuar con recomendaciones según preferencias literarias** | | | | |
+| | 1 | Desarrollar la pantalla base de "Recomendaciones" | Implementar la estructura inicial de la pantalla en Flutter, incluyendo el diseño de layout para alojar las tarjetas de libros. | 3 | Developer Team |  Done |
+| | 2 | Crear componente interactivo de Tarjeta de Libro para Recomendaciones | Desarrollar el widget de tarjeta que muestre portada, título y autor, e incluir los íconos interactivos de "Bookmark" (Preferencias positivas) y "Negativo" (Preferencias negativas). | 3.5 | Developer Team |  Done |
+| | 3 | Implementar la lógica frontend de interacción (Click en Bookmark/Negativo) | Configurar la acción de clic en los íconos de interacción para registrar y simular el envío de la preferencia del usuario. | 2.5 | Developer Team |  Done |
+| | 4 | Conexión con el Endpoint de Recomendaciones Iniciales | Llamar a un endpoint de Backend para obtener un listado inicial de libros y renderizarlos en la pantalla. | 3 | Developer Team |  Done |
+| US13 | | **Configurar notificaciones** | | | | |
+| | 1 | Desarrollar la pantalla de "Configuración de Notificaciones" | Implementar la estructura básica de la pantalla en Flutter dentro del menú de ajustes, con un diseño claro para la gestión de categorías. | 2 | Developer Team |  Done |
+| | 2 | Listar categorías de notificación y agregar Toggle Switches | Definir las diferentes categorías de notificación e implementar widgets de Switch o Toggle para activarlas/desactivarlas. | 3 | Developer Team |  Done |
+| | 3 | Implementar la lógica de persistencia local de preferencias | Usar shared preferences en Flutter para guardar localmente el estado (activado/desactivado) de cada categoría de notificación. | 2.5 | Developer Team |  Done |
+| | 4 | Conexión para simular el envío de preferencias al Backend | Crear la lógica para que, al cambiar una preferencia, se realice una llamada a un endpoint de Backend para registrar la configuración del usuario. | 2 | Developer Team |  Done |
+| US14 | | **Recibir notificaciones instantáneas** | | | Team** | |
+| | 1 | Desarrollar la pantalla de "Bandeja de Notificaciones" | Implementar la pantalla dedicada en Flutter donde el usuario pueda ver el historial de las notificaciones recibidas (simuladas o reales). | 3 | Developer Team |  Done |
+| | 2 | Crear componente de lista para la visualización de Notificaciones | Diseñar el *widget* de lista que muestre el ícono, título y cuerpo de la notificación, agrupándolas por fecha. | 2 | Developer Team |  Done |
+| | 3 | Implementar un mecanismo recepción | Crear un método temporal en Flutter que, al activarse, simule la recepción de una notificación y la añada a la bandeja. | 2.5 | Developer Team |  Done |
+| US15 | | **Registrar un usuario e iniciar sesión** | | |  |  |
+| | 1 | Diseñar e implementar la pantalla de Login (Flutter) | Crear la interfaz de usuario para el inicio de sesión, incluyendo campos para Username, Email y Password, y el botón "Iniciar Sesión". | 3 | Developer Team |  Done |
+| | 2 | Diseñar e implementar la pantalla de Registro (Flutter) | Crear la interfaz de usuario para el registro, incluyendo campos para información requerida (Nombre, Email, Contraseña) y el botón "Registrarse". | 3.5 | Developer Team |  Done |
+| | 3 | Implementar la integración con el Endpoint de Registro de Usuario | Conectar el formulario de registro (Task 2) para enviar los datos al Backend, manejar la respuesta (éxito/error) y guardar el token. | 4 | Developer Team |  Done |
+| | 4 | Implementar la integración con el Endpoint de Inicio de Sesión | Conectar el formulario de login (Task 1) para enviar las credenciales al Backend, manejar la autenticación y guardar el token de sesión para accesos futuros. | 3.5 | Developer Team |  Done |
+| | 5 | Implementar la lógica de redirección post-autenticación | Asegurar que, tras un registro o login exitoso, el usuario sea redirigido a la pantalla principal (Home) de la aplicación. | 1 | Developer Team |  Done |
+| US16 | | **Visualizar recomendaciones en la plataforma** | | |  |  |
+| | 1 | Integrar la visualización de la lista de 6 recomendaciones | Usar el widget de Tarjeta de Libro desarrollado en US12 para mostrar las recomendaciones en un formato de lista o cuadrícula en la pantalla de "Recomendaciones". | 2.5 | Developer Team | Done |
+| | 2 | Desarrollar la lógica del botón "Refrescar" | Implementar un botón de "Refrescar" o un gesto de Pull-to-Refresh que dispare una nueva llamada al endpoint de recomendaciones para obtener un nuevo conjunto de 6 libros. | 2 | Developer Team | Done |
+| | 3 | Implementar la navegación a la pantalla de Detalles del Libro | Configurar la acción de tocar una recomendación para navegar a la pantalla de Detalles del Libro, pasando el ID del libro seleccionado como parámetro. | 1.5 | Developer Team | Done |
+| | 4 | Asegurar la visualización de datos esenciales (Portada y Título) | Garantizar que la Tarjeta de Recomendación siempre muestre la miniatura del libro y el título de manera clara y visible, como lo exige el requerimiento. | 1 | Developer Team | Done |
+| US22 | | **Buscar libros y contenido en la aplicación** | | |  |  |
+| | 1 | Diseñar e implementar el componente visual de Barra de Búsqueda Global | Crear un campo de entrada en la cabecera de la aplicación que sea accesible para iniciar una búsqueda. | 2 | Developer Team | Done |
+| | 2 | Desarrollar la pantalla de "Resultados de Búsqueda" | Implementar la estructura de la pantalla que se activa al realizar una búsqueda, incluyendo un listado para mostrar los resultados de libros, autores y comunidades. | 3.5 | Developer Team | Done |
+| | 3 | Implementar la lógica de búsqueda en tiempo real | Conectar el campo de búsqueda para que, al ingresar texto, se llame a un endpoint de búsqueda y se actualicen los resultados de la pantalla. | 3 | Developer Team | Done |
+| | 4 | Mostrar resultados claros (Portada y Autor) | Asegurar que los resultados de libros cumplan con los criterios de aceptación, mostrando claramente la miniatura del libro, el título y el autor. | 1.5 | Developer Team | Done |
+| US24 | | **Valorar y dejar reseña de libros** | | |  |  |
+| | 1 | Crear el componente interactivo de Valoración con Estrellas (1-5) | Desarrollar un widget de Flutter que permita al usuario seleccionar una puntuación de 1 a 5 estrellas para un libro. | 2 | Developer Team | Done |
+| | 2 | Desarrollar el formulario modal para "Escribir Reseña" | Crear la interfaz modal o de pantalla completa que contenga un campo de texto multi-línea para la reseña y un botón de "Publicar". | 3 | Developer Team | Done |
+| | 3 | Implementar la lógica frontend para combinar valoración y reseña | Desarrollar la función que capture tanto la calificación de estrellas (Task 1) como el texto de la reseña (Task 2) y los prepare para el envío. | 1.5 | Developer Team | Done |
+| | 4 | Conexión para simular el envío de Reseña al Backend | Configurar la lógica para realizar una llamada simulada al endpoint de envío de reseñas y manejar la respuesta de confirmación de publicación. | 2 | Developer Team | Done |
 
 ## 4.3. Validation Interviews
 
