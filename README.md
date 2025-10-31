@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://images.seeklogo.com/logo-png/40/2/universidad-peruana-de-ciencias-aplicadas-upc-logo-png_seeklogo-402620.png" height="100px" width="100px" alt="12231">
+  <img src="https://i.imgur.com/W40DtVO.png" height="100px" width="100px" alt="12231">
 </p>
 
 ## <p align="center">Universidad Peruana de Ciencias Aplicadas (UPC)</p>
