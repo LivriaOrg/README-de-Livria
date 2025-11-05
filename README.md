@@ -4,7 +4,7 @@
 
 # <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
 ## <p align="center">Ingeniería de Software</p>
-<p align="center">Periodo: 202502</p>
+<p align="center">Periodo: 202520</p>
 <p align="center">1ACC0238 | Aplicaciones para Dispositivos Móviles</p>
 <p align="center">NRC: 12614</p>
 <p align="center">Docente: David Gerardo Quevedo Velasco</p>
@@ -13,13 +13,14 @@
 
 <br>
 
-## <p align="center">Informe del TB2</p>
+## <p align="center">Informe del Trabajo Final</p>
 
 <p align="center">Startup: Defontes</p>
 <p align="center">Producto: Livria</p>
 
 <br>
 
+<p align="center">Integrantes:</p>
 <p align="center">U202311157 - Binda Arbañil, Marcelo Alejandro</p>
 <p align="center">U202310308 - Borja Molina, Gabriel Sebastián</p>
 <p align="center">U202311701 - Castillo Garay, Ainhoa Lucía</p>
