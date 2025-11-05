@@ -3411,36 +3411,54 @@ La pantalla de Profile es el centro de control personal, diseñada para ofrecer 
 
 **Segmento 1: Lectores en Desarrollo**
 
+<p align="left"><i>Búsqueda Personalizada</i></p>
 * Como usuario, quiero poder realizar la búsqueda de libros en base a diferentes criterios y obtener resultados relacionados.
-
+<br>
 <p align="center">
-  <img src="https://i.imgur.com/HpnAIRd.jpeg" alt="12171">
+  <img src="https://i.imgur.com/BD9GXo6.jpeg" alt="12171">
 </p>
 
-El flujo de búsqueda de libros ofrece al Usuario Cliente dos vías principales para explorar el catálogo y obtener resultados relevantes. El usuario puede optar por la Búsqueda Directa (happy path), que implica ingresar el TÍTULO O AUTOR en la pantalla de Search para generar un listado inmediato de resultados. Alternativamente, puede seguir la ruta de Búsqueda por Categoría, navegando primero a la pantalla de Categories y seleccionando un Género específico. Ambas rutas —búsqueda directa y navegación por categoría— permiten al usuario aplicar Filtros y Criterios Adicionales para refinar los listados, cumpliendo el objetivo de obtener resultados precisos y acotados. Finalmente, cualquier resultado finalizado en estas vistas conduce a la Vista de Libro Individual, donde el usuario puede evaluar y proceder a la compra del título.
+El flujo de Búsqueda Personalizada comienza en la Pantalla de Inicio, donde el usuario pulsa el ícono de búsqueda (lupa) en la esquina superior. Esto lo lleva a la Pantalla de Búsqueda inicial, que solicita ingresar un título o autor en el campo de texto. Una vez que el usuario ingresa un término de búsqueda, la aplicación muestra una Pantalla de Búsqueda con una lista de Resultados relacionados. Desde esta pantalla, el usuario tiene la opción de Filtrar los resultados (mediante el ícono de filtro) o puede seleccionar un libro de la lista para ver más detalles. Al seleccionarlo, el flujo concluye con la Visualización del resultado seleccionado en la Pantalla de Libro, donde se muestra información completa como la portada, el autor, precio, un resumen, y reseñas, permitiendo al usuario decidir si desea añadirlo al carrito.
+<br>
 
-* Como usuario, quiero poder buscar y obtener recomendaciones personalizadas en mis intereses.
-
+<p align="left"><i>Búsqueda por Categorías</i></p>
+* Como usuario, quiero poder realizar una búsqueda amplia de libros entre los diferentes géneros literarios.
+<br>
 <p align="center">
-  <img src="https://i.imgur.com/IC7keGq.jpeg" alt="12171">
+  <img src="https://i.imgur.com/weS07Si.jpeg" alt="12171">
 </p>
 
-El flujo se centra en la Pantalla de Recomendaciones, donde el usuario recibe un listado inicial de sugerencias. Desde allí, el usuario tiene la opción de iniciar o repetir el ciclo tocando el botón 'REFRESH' para solicitar un nuevo conjunto de libros. Al interactuar con cada sugerencia, el usuario proporciona feedback directo al sistema: el Feedback Positivo (usando el 'Marcador') le indica al algoritmo que debe priorizar ese tipo de contenido. Por otro lado, el Feedback Negativo ('No Me Gusta/Negativo') instruye al Algoritmo de Recomendación para reducir la frecuencia de ese contenido, asegurando que las futuras sugerencias se alineen más estrechamente con los intereses del usuario. Esta interacción funciona con cualquier libro, sea uno buscado específicamente por el usuario o no.
+El flujo de Búsqueda por Categorías en la aplicación LIVRIA permite a los usuarios realizar una exploración amplia de géneros literarios. El proceso inicia en la Pantalla de Inicio, donde el usuario puede ver un resumen de las categorías disponibles. Para acceder a la lista completa, el usuario selecciona el ícono de Categorías, lo que lo lleva a la Visualización de la pantalla de Categorías. En esta Pantalla de Categorías, se presenta un listado organizado de todos los géneros, tales como Literatura, No Ficción, Ficción, Mangas & Cómics, Juvenil, Infantil, y E-books & Audiolibros. El usuario debe Seleccionar una categoría a buscar. Tras la selección, el flujo culmina con la Visualización de la categoría seleccionada en la Pantalla de una Categoría, donde se presenta un listado completo de los libros que pertenecen a ese género específico, permitiendo una exploración amplia dentro del tema elegido.
+<br>
+
+<p align="left"><i>Recomendaciones Personalizadas</i></p>
+* Como usuario, quiero poder marcar interés en diferentes libros y visualizar recomendaciones basadas en mis gustos literarios.
+<br>
+<p align="center">
+  <img src="https://i.imgur.com/VFKV41o.jpeg" alt="12171">
+</p>
+
+El flujo comienza en la Pantalla de Inicio, desde la cuál accede a la Pantalla de Búsqueda para encontrar un título en específico. Al interactuar con cada libro, el usuario proporciona feedback directo al sistema: el Feedback Positivo (usando el 'Marcador') le indica al algoritmo que debe priorizar ese tipo de contenido. Por otro lado, el Feedback Negativo ('No Me Gusta/Negativo') instruye al Algoritmo de Recomendación para reducir la frecuencia de ese contenido, asegurando que las futuras sugerencias se alineen más estrechamente con los intereses del usuario. Esta interacción funciona con cualquier libro, sea uno buscado específicamente por el usuario o no. Desde la Pantalla de Recomendaciones, el usuario recibe un listado inicial de sugerencias y tiene la opción de repetir el ciclo tocando el botón 'REFRESH' para solicitar un nuevo conjunto de libros.
+
+<br><br>
 
 **Segmento 2: Lectores Comunitarios**
 
-* Como usuario, quiero poder unirme a comunidades temáticas y crear publicaciones para compartir activamente mis opiniones, iniciar debates y conectar con otros lectores con intereses literarios similares.
-
+<p align="left"><i>Comunidades Temáticas</i></p>
+* Como usuario, quiero poder unirme a comunidades temáticas, crear publicaciones y conectar con otros lectores con intereses literarios similares.
+<br>
 <p align="center">
-  <img src="https://i.imgur.com/7IhfJae.jpeg" alt="12171">
+  <img src="https://i.imgur.com/fyGaQSF.jpeg" alt="12171">
 </p>
 
 El flujo permite al usuario, desde la Pantalla de Comunidades, elegir entre Crear una nueva comunidad o Ingresar a una existente. Tras ingresar los datos requeridos, estos se mostraran en su pantalla personalizada, ante la cual se podrá empezar con la publicación de pensamientos y/o imágenes. Contrariamente, si ingresa a una comunidad existente (la Vista de Comunidad Única), debe seleccionar 'JOIN +' para unirse al grupo. Una vez dentro de la vista comunitaria, el usuario puede cumplir su objetivo central de socialización al Crear una Publicación (añadiendo texto y/o imágenes). Finalmente, al publicar su contenido, el flujo culmina en la Visualización de la publicación hecha, confirmando que el usuario ha compartido activamente sus opiniones e iniciado la interacción con otros lectores en el grupo temático.
+<br>
 
-* Como usuario, quiero poder personalizar ciertos aspectos de mi perfil para mostrar a los demás lectores mi personalidad literaria.
-
+<p align="left"><i>Personalización del Perfil</i></p>
+* Como usuario, quiero poder personalizar ciertos aspectos de mi perfil.
+<br>
 <p align="center">
-  <img src="https://i.imgur.com/xaRoTl8.jpeg" alt="12171">
+  <img src="https://i.imgur.com/iM458EJ.jpeg" alt="12171">
 </p>
 
 El flujo de personalización se inicia en el Registro. Esto lleva al usuario a las pantallas con formularios, donde puede personalizar su Profile Picture, Nickname, Username y la Phrase de perfil. Una vez que el usuario ingresa su personalidad literaria deseada, confirma los cambios con el botón 'REGISTER'. El flujo lo lleva a la pantalla de Inicio, desde la cual puede acceder a la pantalla de Perfil mediante el menú inferior. La información ingresada previamente ahora se muestra en el perfil y a la comunidad de lectores, cumpliendo el objetivo de proyectar su identidad literaria.
