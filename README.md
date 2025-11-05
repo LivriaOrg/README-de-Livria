@@ -3,8 +3,8 @@
 </p>
 
 ## <p align="center">Universidad Peruana de Ciencias Aplicadas (UPC)</p>
-<p align="center">Carrera: Ingeniería de Software</p>
-<p align="center">Periodo: 202520</p>
+# <p align="center">Carrera: Ingeniería de Software</p>
+<p align="center">Periodo: 202502</p>
 <p align="center">1ACC0238 | Aplicaciones Móviles</p>
 <p align="center">NRC: 12614</p>
 <p align="center">Docente: David Gerardo Quevedo Velasco</p>
@@ -28,7 +28,7 @@
 
 <br>
 
-<p align="center"><i>Septiembre 2025</i></p>
+<p align="center"><i>Noviembre 2025</i></p>
 
 <br>
 
