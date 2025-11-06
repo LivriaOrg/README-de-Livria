@@ -1059,444 +1059,506 @@ En esta sección se consolidan los requisitos del producto digital a partir del 
 
 Las User Stories permiten traducir la visión del producto en necesidades concretas de los lectores y de la comunidad que se busca construir. Cada historia refleja, desde la perspectiva del usuario, las funcionalidades que harán posible explorar, adquirir y disfrutar libros dentro de la plataforma. De esta manera, se transforman los objetivos de Livria en requisitos claros y accionables para el equipo de desarrollo. Estas historias no solo sirven como una guía práctica para priorizar y organizar el trabajo en el Product Backlog, sino que también garantizan que cada funcionalidad esté alineada con la propuesta de valor de Livria.
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US01 | Visitante de Landing Page | 1 – Must Have | EP01: Landing Page  |
-| **Title** | Presentar Servicios de Livria |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero ver información relevante sobre las funcionalidades principales que ofrece Livria, para conocer las característica únicas de la aplicación. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Acceso a “Servicios” desde el inicio Dado que** el visitante se encuentra en el inicio de la landing page **Y** el visitante quiere ver las funcionalidad de Livria, **Cuando** el visitante hace clic en “Ver Más \+” **Entonces** la página se desplaza hasta la sección “Servicios”. **Escenario 2: Acceso a “Servicios” desde el encabezado Dado que** el visitante se encuentra en cualquier otra sección de la landing page **Y** el visitante quiere ir a la sección “Servicios”, **Cuando** el visitante hace clic en el link “Servicios” del encabezado **Entonces** la página se desplaza hacia dicha sección de forma fluida. **Escenario 3: Acceso a “Servicios” mediante scroll Dado que** el visitante se encuentra en la landing page, **Cuando** el visitante empieza a hacer scroll desde el inicio **Entonces** la página le muestra la siguiente sección, es decir, la de “Servicios”. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US01 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Presentar Servicios de Livria |
+| **Description** | Como visitante, quiero ver información relevante sobre las funcionalidades principales que ofrece Livria, para conocer las características únicas de la aplicación. |
+| **Acceptance Criteria – Escenario 1: Presentación de servicios** | Dado que el visitante accede a la landing page, **Cuando** requiere entender las funcionalidades principales que ofrece Livria, **Entonces** el sistema debe mostrar una sección que describa claramente los servicios ofrecidos. |
+| **Acceptance Criteria – Escenario 2: Accesibilidad a información de servicios** | Dado que el visitante se encuentra navegando en la landing page, **Cuando** desea acceder a la información sobre los servicios de Livria, **Entonces** el sistema debe permitir llegar a dicha información desde cualquier sección de la página. |
+| **Acceptance Criteria – Escenario 3: Contenido mínimo de la sección de servicios** | Dado que el sistema presenta la sección de servicios, **Cuando** el visitante revisa dicha sección, **Entonces** esta debe incluir como mínimo una descripción de las funcionalidades principales y su valor diferencial. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US02 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page  |
-| **Title** | Acceder a la sección “Sobre Nosotros” desde la landing page |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero acceder fácilmente a la sección “Sobre Nosotros”, para conocer la trayectoria de los creadores de Livria, comprender en qué consiste la plataforma y descubrir las funcionalidades que ofrece. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Acceso a “Sobre Nosotros” desde el encabezado Dado que** el visitante se encuentra en cualquier sección de la landing page **Y** el visitante quiere ver información sobre los creadores de Livria, **Cuando** el visitante hace clic en el link “Sobre Nosotros” del encabezado **Entonces** la página se desplaza hacia dicha sección de forma fluida. **Escenario 2: Acceso a “Sobre Nosotros” mediante scroll Dado que** el visitante se encuentra en la landing page, **Cuando** el visitante empieza a hacer scroll desde el inicio **Entonces** la página le muestra las siguientes secciones hasta llegar a la de “Sobre Nosotros”. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US02 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Acceder a la sección “Sobre Nosotros” desde la landing page |
+| **Description** | Como visitante, quiero acceder fácilmente a la sección “Sobre Nosotros”, para conocer la trayectoria de los creadores de Livria, comprender en qué consiste la plataforma y descubrir las funcionalidades que ofrece. |
+| **Acceptance Criteria – Escenario 1: Disponibilidad de sección “Sobre Nosotros”** | Dado que el visitante accede a la landing page, **Cuando** busca conocer información sobre Livria y sus creadores, **Entonces** el sistema debe mostrar una sección que describa el propósito, origen y propuesta de valor de la plataforma. |
+| **Acceptance Criteria – Escenario 2: Accesibilidad a la sección “Sobre Nosotros”** | Dado que el visitante se encuentra navegando en la landing page, **Cuando** desea acceder a la sección “Sobre Nosotros”, **Entonces** el sistema debe permitir llegar a dicha sección desde cualquier parte de la página. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US03 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page |
-| **Title** | Cambiar de idioma en la Landing Page |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero navegar por la plataforma en mi idioma preferido, para comprender fácilmente el contenido de presentación de Livria. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Cambio de inglés a español Dado que** el visitante quiere cambiar el idioma de la landing page **Y** la página se encuentra en inglés, **Cuando** el visitante hace clic en “ES” del encabezado o en el link igual del pie de página **Entonces** la página cambia de idioma al español. **Escenario 2: Cambio de español a inglés Dado que** el visitante quiere cambiar el idioma de la landing page **Y** la página se encuentra en español, **Cuando** el visitante hace clic en “EN” del encabezado o en el link igual del pie de página **Entonces** la página cambia de idioma al inglés. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US03 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Cambiar de idioma en la Landing Page |
+| **Description** | Como visitante, quiero navegar por la plataforma en mi idioma preferido, para comprender fácilmente el contenido de presentación de Livria. |
+| **Acceptance Criteria – Escenario 1: Activación del idioma español** | Dado que el sistema está presentando el contenido en inglés, **Cuando** el sistema recibe la solicitud del usuario para cambiar el idioma a español (ES), **Entonces** el sistema debe cargar y mostrar todo el contenido localizado en español. |
+| **Acceptance Criteria – Escenario 2: Activación del idioma inglés** | Dado que el sistema está presentando el contenido en español, **Cuando** el sistema recibe la solicitud del usuario para cambiar el idioma a inglés (EN), **Entonces** el sistema debe cargar y mostrar todo el contenido localizado en inglés. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US04 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page |
-| **Title** | Visualizar la sección “Home” en la landing page |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero leer un resumen sobre qué es Livria en el inicio de la página, para entender rápidamente qué producto me ofrece |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Acceso a “Home” Dado que** el visitante quiere conocer más sobre Livria **Cuando** el visitante entre a la landing page **Entonces** la página muestra el inicio, es decir, “Home” **Y** esta sección muestra un resumen de Livria y un carrusel de imágenes. **Escenario 2: Acceso a “Home” desde el encabezado Dado que** el visitante se encuentra en cualquier otra sección de la landing page **Y** el visitante quiere ir a la sección de inicio, **Cuando** el visitante hace clic en el link “Home” del encabezado **Entonces** la página se desplaza hacia dicha sección de forma fluida. **Escenario 3: Acceso a “Home” mediante el logo Dado que** el visitante se encuentra en cualquier otra sección de la landing page, **Cuando** el visitante hace clic en el logo de Livria, **Entonces** la página le muestra el inicio, es decir, “Home”. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US04 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Visualizar la sección “Home” en la landing page |
+| **Description** | Como visitante, quiero leer un resumen sobre qué es Livria en el inicio de la página, para entender rápidamente qué producto me ofrece |
+| **Acceptance Criteria – Escenario 1: Presentación inicial del contenido de Livria** | Dado que el visitante accede a la plataforma por primera vez, **Cuando** el sistema carga la Landing Page, **Entonces** el sistema debe presentar el punto de entrada principal de la información, **Y** esta sección debe contener el resumen informativo sobre la oferta de Livria. |
+| **Acceptance Criteria – Escenario 2: Retorno al punto de entrada principal** | Dado que el visitante se encuentra en cualquier otra sección de la Landing Page, **Cuando** el sistema recibe la solicitud de navegación hacia el inicio, **Entonces** el sistema debe presentar el contenido del inicio de forma inmediata. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US05 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page |
-| **Title** | Acceder a la sección “Contáctanos” desde la landing page |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero identificar fácilmente la sección “Contáctanos”, para poder establecer comunicación en caso de necesitar información adicional sobre la plataforma o tener interés en colaborar con el equipo de Livria. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Acceso a “Contáctanos” desde el encabezado Dado que** el visitante se encuentra en cualquier sección de la landing page **Y** el visitante quiere contactarse con el equipo de Bookify \- Livria, **Cuando** el visitante hace clic en el link “Contáctanos” del encabezado **Entonces** la página se desplaza hacia dicha sección de forma fluida. **Escenario 2: Acceso a “Contáctanos” mediante scroll Dado que** el visitante se encuentra en la landing page, **Cuando** el visitante empieza a hacer scroll desde el inicio **Entonces** la página le muestra las siguientes secciones hasta llegar a la de “Contáctanos”. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US05 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Acceder a la sección “Contáctanos” desde la landing page |
+| **Description** | Como visitante, quiero identificar fácilmente la sección “Contáctanos”, para poder establecer comunicación en caso de necesitar información adicional sobre la plataforma o tener interés en colaborar con el equipo de Livria. |
+| **Acceptance Criteria – Escenario 1: Disponibilidad de la sección de contacto** | Dado que el visitante se encuentra navegando la plataforma, **Cuando** el sistema carga la Landing Page, **Entonces** la sección "Contáctanos" debe estar disponible para la visualización del usuario, **Y** esta sección debe contener la información necesaria para establecer comunicación con el equipo de Livria. |
+| **Acceptance Criteria – Escenario 2: Acceso directo a la sección de contacto** | Dado que el visitante se encuentra en cualquier otra sección de la Landing Page, **Cuando** el sistema recibe la solicitud de navegación hacia la sección "Contáctanos", **Entonces** el sistema debe presentar dicha sección para su interacción inmediata. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US06 | Visitante de Landing Page | 1 – Must Have | EP01: Landing Page |
-| **Title** | Navegar de manera simple entre secciones en la Landing Page |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero visualizar un encabezado con las secciones de la landing page, para navegar fácil y rápidamente entre ellas. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Acceso inmediato al llegar Dado que** el visitante acaba de ingresar a la landing page, **Cuando** la página cargue la pantalla inicial y el encabezado **Entonces** el visitante puede identificar rápidamente cómo navegar por la página y cómo acceder a las secciones que le interesen. **Escenario 2: Navegación desde el encabezado Dado que** el visitante se encuentra en la landing page de Livria, **Cuando** el visitante hace clic en cualquiera de las opciones del encabezado **Entonces** la página muestra dicha sección de manera fluida y sin contratiempos. **Escenario 3: Encabezado visible durante el scroll Dado que** el visitante se desplaza en la página mediante el scroll, **Cuando** el visitante navegue las distintas secciones **Entonces** el encabezado permanece fijo y visible en la parte superior de la página **Y** el encabezado permite cambiar de sección en cualquier momento sin necesidad de volver al inicio. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US06 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Navegar de manera simple entre secciones en la Landing Page |
+| **Description** | Como visitante, quiero visualizar un encabezado con las secciones de la landing page, para navegar fácil y rápidamente entre ellas. |
+| **Acceptance Criteria – Escenario 1: Disponibilidad inmediata del punto de navegación** | Dado que el visitante accede a la Landing Page, **Cuando** el sistema carga la pantalla inicial, **Entonces** el sistema debe presentar el componente de navegación principal, **Y** este componente debe identificar claramente las secciones disponibles para el usuario. |
+| **Acceptance Criteria – Escenario 2: Acceso a las secciones desde la navegación principal** | Dado que el visitante se encuentra en la Landing Page, **Cuando** el sistema recibe una solicitud de navegación hacia una sección específica, **Entonces** el sistema debe presentar dicha sección sin interrupciones. |
+| **Acceptance Criteria – Escenario 3: Permanencia del componente de navegación** | Dado que el visitante se encuentra navegando a través de las distintas secciones, **Cuando** el contenido de la página es desplazado, **Entonces** el componente de navegación principal debe permanecer visible y fijo, **Y** debe permitir la transición a otras secciones en cualquier momento. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US07 | Visitante de Landing Page | 1 – Must Have | EP01: Landing Page |
-| **Title** | Ver un diseño atractivo de la landing page |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero que la landing page sea visualmente atractiva, para sentirme interesado por Livria y motivado a usar la aplicación que ofrecen. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Presentación visualmente atractiva Dado que** el visitante accede a la landing page de Livria, **Cuando** la página cargue todos sus elementos **Entonces** la página mostrará un diseño visual armonioso, imágenes llamativas, una paleta de colores atractiva y una tipografía clara. **Escenario 2: Elementos visuales concordantes Dado que** el visitante se encuentra en la landing page de Livria **Cuando** el visitante navegue a través de las secciones de la página **Entonces** los elementos visuales seguirán la tipografía y la paleta de colores establecida, de modo que sea agradable a la vista. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US07 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Ver un diseño atractivo de la landing page |
+| **Description** | Como visitante, quiero que la landing page sea visualmente atractiva, para sentirme interesado por Livria y motivado a usar la aplicación que ofrecen. |
+| **Acceptance Criteria – Escenario 1: Cumplimiento de los estándares de marca en la carga inicial** | Dado que el visitante accede a la Landing Page de Livria, **Cuando** el sistema carga todos los elementos de la página, **Entonces** el diseño presentado debe adherirse a la paleta de colores oficial de Livria, **Y** el sistema debe aplicar la tipografía y los estilos de texto definidos en la guía de diseño. |
+| **Acceptance Criteria – Escenario 2: Consistencia visual en la navegación** | Dado que el visitante se encuentra navegando la Landing Page, **Cuando** el sistema presenta el contenido de las distintas secciones, **Entonces** todos los elementos visuales presentados (imágenes, textos y componentes) deben mantener la consistencia de la paleta de colores y la tipografía establecida en los estándares de diseño. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US08 | Visitante de Landing Page | 2 – Should Have | EP01: Landing Page |
-| **Title** | Redirigir a la descarga de la aplicación móvil |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero tener un acceso directo a la tienda para descargar Livria, para empezar a utilizar la aplicación. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Redirección a descarga de aplicación móvil Dado que** el visitante se encuentra en el inicio de la landing page **Cuando** el visitante hace clic en el botón “Descargar” **Entonces** la página lo redirecciona a su tienda de aplicaciones local para que descargue la aplicación. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US08 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Redirigir a la descarga de la aplicación móvil |
+| **Description** | Como visitante, quiero tener un acceso directo a la tienda para descargar Livria, para empezar a utilizar la aplicación. |
+| **Acceptance Criteria – Escenario 1: Inicio de la descarga de la aplicación móvil** | Dado que el visitante accede al sistema con intención de descargar la aplicación, **Cuando** el sistema recibe la solicitud de descarga, **Entonces** el sistema debe identificar la plataforma del visitante (iOS o Android), **Y** debe iniciar la redirección hacia la tienda de aplicaciones correspondiente para la descarga de Livria. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US09 | Visitante de Landing Page | 3 – Could Have | EP01: Landing Page |
-| **Title** | Acceder a las redes sociales de Livria |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero poder navegar a las redes sociales oficiales de Livria, para mantenerme informado sobre sus novedades y explorar contenido adicional. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Ir a las cuentas oficiales de Livria Dado que** el visitante se encuentra en el pie de página, **Cuando** el usuario hace clic en uno de los íconos de redes sociales **Entonces** se abre en una nueva pestaña la cuenta oficial de Livria en la red social seleccionada. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US09 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 3 – Could Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Acceder a las redes sociales de Livria |
+| **Description** | Como visitante, quiero poder navegar a las redes sociales oficiales de Livria, para mantenerme informado sobre sus novedades y explorar contenido adicional. |
+| **Acceptance Criteria – Escenario 1: Redirección a la red social oficial** | Dado que el sistema presenta las opciones de redes sociales de Livria, **Cuando** el sistema recibe la solicitud del visitante para acceder a una red social específica, **Entonces** el sistema debe abrir el perfil oficial de Livria en la red social seleccionada, **Y** la navegación debe ocurrir en una ventana externa a la plataforma. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US10 | Visitante de Landing Page | 3 – Could Have | EP01: Landing Page |
-| **Title** | Navegar en el footer de la Landing Page |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero visualizar un apartado en el pie de página con las secciones de la landing page, para retornar a cualquiera de ellas. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Navegación desde el pie de página Dado que** el visitante está en la parte inferior de la landing page **Cuando** el visitante hace clic en las opciones del apartado de “Navegación” del pie de página **Entonces** la página se desliza automáticamente hacia la sección correspondiente. **Escenario 2: Navegación rápida tras desplazamiento largo Dado que** el visitante ha hecho scroll por toda la página y deseo volver al inicio, **Cuando** el visitante hace clic en el enlace “Home” dentro del pie de página, **Entonces** la página se desplaza automáticamente hacia la parte superior mostrando la sección de inicio. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US10 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 3 – Could Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Navegar en el footer de la Landing Page |
+| **Description** | Como visitante, quiero visualizar un apartado en el pie de página con las secciones de la landing page, para retornar a cualquiera de ellas. |
+| **Acceptance Criteria – Escenario 1: Navegación de retorno desde el pie de página** | Dado que el sistema presenta la sección de pie de página al usuario, **Cuando** el sistema recibe la solicitud de navegación hacia una sección diferente de la Landing Page, **Entonces** el sistema debe presentar el contenido de la sección solicitada. |
+| **Acceptance Criteria – Escenario 2: Retorno rápido al punto de entrada principal** | Dado que el visitante se encuentra en el pie de página, **Cuando** el sistema recibe la solicitud de navegación hacia el inicio, **Entonces** el sistema debe presentar la sección de inicio inmediatamente. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US11 | Visitante de Landing Page | 3 – Could Have | EP01: Landing Page |
-| **Title** | Enviar un mensaje al equipo de Livria |  |  |
-| **Description** |  |  |  |
-| Como visitante, quiero dejar mi información para que el equipo de Bookify \- Livria me contacte para resolver una duda o trabajar con ellos. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Consulta general con el equipo de Livria Dado que** el visitante desea realizar alguna consulta al equipo de Livria **Cuando** el visitante rellene los campos “Nombres y Apellidos”, “Correo electrónico”, “Número celular” y “Motivo de contacto” **Y** el visitante acceda a compartir su información personal **Entonces** el formulario enviará esta consulta al equipo de Livria. **Escenario 2: Oportunidad Laboral en el equipo de Livria Dado que** el visitante desea trabajar con el equipo de Livria **Cuando** el visitante rellene todos los campos de información de contacto **Y** el visitante adjunte el archivo de su CV **Y** el visitante acceda a compartir su información personal **Entonces** el formulario enviará la postulación al equipo de Livria. **Escenario 3: Falta de consentimiento Dado que** el visitante desea realizar una consulta o postular para trabajo en Livria **Cuando** rellene los campos pero no seleccione la casilla de consentimiento del envío de información personal **Entonces** el formulario no enviará la consulta o postulación al equipo de Livria **Y** la página mostrará un popup señalando que marque la casilla. **Escenario 4: Información incompleta Dado que** el visitante desea realizar una consulta o postular para trabajo en Livria **Cuando** rellene solo algunos campos de información de contacto **Entonces** el formulario no enviará la consulta o postulación al equipo de Livria **Y** la página mostrará un popup señalando que rellene todos los campos. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US11 |
+| **User** | Visitante de Landing Page |
+| **Priority** | 3 – Could Have |
+| **Epic** | EP01: Landing Page |
+| **Title** | Enviar un mensaje al equipo de Livria |
+| **Description** | Como visitante, quiero dejar mi información para que el equipo de Bookify - Livria me contacte para resolver una duda o trabajar con ellos. |
+| **Acceptance Criteria – Escenario 1: Envío exitoso de consulta** | Dado que el visitante proporciona la información de contacto requerida, **Cuando** el sistema recibe el consentimiento para el uso de la información, **Entonces** el sistema debe validar los campos requeridos, **Y** debe enviar la consulta al canal de comunicación interna del equipo de Livria. |
+| **Acceptance Criteria – Escenario 2: Envío exitoso de postulación laboral** | Dado que el visitante proporciona la información de contacto requerida y adjunta el archivo de su CV, **Cuando** el sistema recibe el consentimiento para el uso de la información, **Entonces** el sistema debe validar los campos requeridos y el formato del archivo adjunto, **Y** debe enviar la postulación al canal de comunicación interna del equipo de Livria. |
+| **Acceptance Criteria – Escenario 3: Rechazo por falta de consentimiento** | Dado que el visitante intenta enviar la información al equipo de Livria, **Cuando** el sistema no detecta el consentimiento para el envío y procesamiento de la información personal, **Entonces** el sistema debe rechazar el envío del formulario, **Y** debe notificar al visitante la obligatoriedad del consentimiento. |
+| **Acceptance Criteria – Escenario 4: Rechazo por información incompleta** | Dado que el sistema recibe una solicitud de envío del formulario, **Cuando** el sistema detecta que faltan datos en campos marcados como obligatorios, **Entonces** el sistema debe rechazar el envío, **Y** debe señalar al visitante qué campos deben ser completados. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US12 | Usuario de Livria | 1 – Must Have | EP02: Personalización de la experiencia lectora |
-| **Title** | Interactuar con recomendaciones según preferencias literarias |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero recibir recomendaciones personalizadas basadas en mis preferencias literarias para poder descubrir nuevos libros y autores. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Recomendaciones iniciales aleatorias Dado que** el usuario acaba de crear una cuenta en Livria **Cuando** el usuario ingrese a la sección de “Recomendaciones” **Entonces** la plataforma mostrará las primeras recomendaciones aleatorias para el nuevo usuario. **Escenario 2: Marcar un libro como interesante Dado que** el usuario está explorando los libros **Cuando** el usuario hace clic en el ícono del bookmark **Entonces** el sistema registra el libro como preferencia positiva, **Y** la plataforma muestra una confirmación visual **Y** el algoritmo de recomendaciones se adapta a la selección. **Escenario 3: Marcar un libro como no interesante Dado que** el usuario está explorando los libros **Cuando** el usuario hace clic en el ícono del negativo **Entonces** el sistema registra el libro como preferencia negativa, **Y** la plataforma muestra una confirmación visual **Y** el algoritmo de recomendaciones se adapta a la selección. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US12 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP02: Personalización de la experiencia lectora |
+| **Title** | Interactuar con recomendaciones según preferencias literarias |
+| **Description** | Como lector, quiero recibir recomendaciones personalizadas basadas en mis preferencias literarias para poder descubrir nuevos libros y autores. |
+| **Acceptance Criteria – Escenario 1: Generación de recomendaciones iniciales** | Dado que el usuario accede a la sección de recomendaciones por primera vez, **Cuando** el sistema identifica la falta de datos de preferencia del usuario, **Entonces** el sistema debe generar un conjunto de recomendaciones iniciales basadas en criterios genéricos o aleatorios. |
+| **Acceptance Criteria – Escenario 2: Registro de preferencia positiva** | Dado que el sistema presenta una recomendación de libro al usuario, **Cuando** el sistema recibe la indicación del usuario de interés en el libro, **Entonces** el sistema debe registrar el libro como una preferencia positiva, **Y** el algoritmo de recomendación debe actualizar la calificación de los criterios literarios asociados a ese libro para futuras sugerencias. |
+| **Acceptance Criteria – Escenario 3: Registro de preferencia negativa** | Dado que el sistema presenta una recomendación de libro al usuario, **Cuando** el sistema recibe la indicación del usuario de desinterés en el libro, **Entonces** el sistema debe registrar el libro como una preferencia negativa (ocultar), **Y** el algoritmo de recomendación debe reducir la calificación de los criterios literarios asociados a ese libro para futuras sugerencias. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US13 | Usuario de Livria | 2 – Should have | EP03: Notificaciones de usuario |
-| **Title** | Configurar notificaciones |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero tener la posibilidad de personalizar mis preferencias de notificación, para recibir únicamente la información que realmente me interesa y así mejorar mi experiencia dentro de la plataforma. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Acceso a la sección de configuración de notificaciones Dado que** el usuario accede al menú de ajustes de su cuenta **Cuando** selecciona la opción de configuración de notificaciones **Entonces** podrá visualizar todas las categorías disponibles de notificaciones de la aplicación. **Escenario 2: Personalización de preferencias de notificación Dado que** el usuario está dentro de la sección de configuración de notificaciones **Cuando** decide activar o desactivar alguna categoría específica **Entonces** la plataforma actualizará inmediatamente las preferencias según su elección, manteniéndolas activas hasta que el usuario decida modificarlas nuevamente o restablecer los valores predeterminados. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US13 |
+| **User** | Usuario de Livria |
+| **Priority** | 2 – Should have |
+| **Epic** | EP03: Notificaciones de usuario |
+| **Title** | Configurar notificaciones |
+| **Description** | Como lector, quiero tener la posibilidad de personalizar mis preferencias de notificación, para recibir únicamente la información que realmente me interesa y así mejorar mi experiencia dentro de la plataforma. |
+| **Acceptance Criteria – Escenario 1: Disponibilidad de las opciones de configuración** | Dado que el lector solicita acceder a la configuración de notificaciones, **Cuando** el sistema procesa dicha solicitud, **Entonces** el sistema debe presentar al lector todas las categorías de eventos notificables disponibles en la aplicación. |
+| **Acceptance Criteria – Escenario 2: Persistencia de las preferencias personalizadas** | Dado que el lector establece nuevas preferencias para una o más categorías de notificación, **Cuando** el sistema recibe el conjunto actualizado de preferencias, **Entonces** el sistema debe almacenar y aplicar inmediatamente la nueva configuración, **Y** debe usar esta configuración para filtrar todas las notificaciones futuras. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US14 | Usuario de Livria | 1 – Must Have | EP03: Notificaciones de usuario |
-| **Title** | Recibir notificaciones instantáneas |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero recibir notificaciones instantáneas en la aplicación, para mantenerme al tanto sobre nuevas publicaciones en la comunidad y libros disponibles. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Notificación de incremento de stock Dado que** el usuario ha marcado previamente un libro como favorito **Cuando** el sistema dispone de nuevo stock a un libro agotado **Y** el usuario ha marcado ese libro como preferido **Entonces** el usuario recibe una notificación sobre la actualización de stock. **Escenario 2: Notificación de nuevas publicaciones Dado que** el usuario pertenece a una comunidad existente **Cuando** otros usuarios realicen publicaciones en esa comunidad **Entonces** el usuario recibe una notificación sobre las nuevas publicaciones.  |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US14 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP03: Notificaciones de usuario |
+| **Title** | Recibir notificaciones instantáneas |
+| **Description** | Como lector, quiero recibir notificaciones instantáneas en la aplicación, para mantenerme al tanto sobre nuevas publicaciones en la comunidad y libros disponibles. |
+| **Acceptance Criteria – Escenario 1: Notificación por actualización de stock de favoritos** | Dado que el lector tiene un libro registrado como favorito, **Cuando** el sistema detecta que el stock de ese libro agotado se ha actualizado y está disponible para la venta, **Entonces** el sistema debe generar y enviar una notificación instantánea al lector sobre la disponibilidad del libro. |
+| **Acceptance Criteria – Escenario 2: Notificación por nuevas publicaciones en comunidad** | Dado que el lector es miembro activo de una comunidad, **Cuando** el sistema detecta la publicación de nuevo contenido dentro de dicha comunidad, **Entonces** el sistema debe generar y enviar una notificación instantánea al lector sobre la nueva publicación. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US15 | Usuario de Livria | 1 – Must Have | EP04: Gestión de cuenta y seguridad de usuario |
-| **Title** | Registrar un usuario e iniciar sesión |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero poder registrarme e iniciar sesión con mis credenciales, para acceder a la plataforma y descubrir nuevos títulos de mi agrado. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Registro de nuevo usuario Dado que** el usuario abre la aplicación **Y** el usuario selecciona la opción “Registrarse” **Cuando** el usuario completa correctamente los campos requeridos **Y** el usuario confirma el registro **Entonces** el sistema debe crear una cuenta nueva, iniciar sesión automáticamente y mostrar un mensaje de registro exitoso. **Escenario 2: Inicio de sesión de usuario registrado Dado que** el usuario ya tiene una cuenta creada en Livria **Cuando** el usuario introduce su username y contraseña en el formulario de inicio de sesión **Entonces** el sistema debe autenticar sus credenciales y redirigirlo a su panel principal, donde podrá continuar con su experiencia de lectura. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US15 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP04: Gestión de cuenta y seguridad de usuario |
+| **Title** | Registrar un usuario e iniciar sesión |
+| **Description** | Como lector, quiero poder registrarme e iniciar sesión con mis credenciales, para acceder a la plataforma y descubrir nuevos títulos de mi agrado. |
+| **Acceptance Criteria – Escenario 1: Creación y autenticación de una cuenta nueva** | Dado que el sistema recibe una solicitud de registro con información válida y única, **Cuando** el sistema procesa la creación de la nueva cuenta y confirma la aceptación de los términos, **Entonces** el sistema debe almacenar las credenciales de forma segura, **Y** debe autenticar automáticamente al nuevo lector, permitiendo el acceso a la plataforma. |
+| **Acceptance Criteria – Escenario 2: Autenticación exitosa de un lector registrado** | Dado que el lector proporciona credenciales (usuario y contraseña) a la sección de ingreso, **Cuando** el sistema verifica la validez de las credenciales, **Entonces** el sistema debe otorgar acceso al lector, **Y** debe redirigirlo a la sección de contenido principal de la plataforma. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US16 | Usuario de Livria | 1 – Must Have | EP02: Personalización de la experiencia lectora |
-| **Title** | Visualizar recomendaciones en la plataforma |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero observar mis recomendaciones de manera ordenada y atractiva para poder elegir mi siguiente lectura. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Visualización clara de recomendaciones Dado que** el usuario está en la aplicación web de Livria, **Cuando** el usuario quiere ver sus recomendaciones **Y** el usuario accede a la sección de “Recomendaciones” **Entonces** la plataforma muestra seis recomendaciones con una miniatura del libro y su título.  **Escenario 2: Visualización clara de recomendaciones Dado que** el usuario se encuentra en la sección de “Recomendaciones” **Cuando** el usuario hace clic en el botón de “Refrescar” **Entonces** la plataforma muestra nuevas seis recomendaciones con una miniatura del libro y su título. **Escenario 3: Acceso directo al libro recomendado Dado que** el usuario se encuentra en la sección de “Recomendaciones” **Cuando** el usuario hace clic en una de las recomendaciones **Entonces** la plataforma lo dirige a la visualización completa del libro con más detalles y opciones. |  |  |  |
-| US16 | | **Visualizar recomendaciones en la plataforma** | | |  |  |
-| | 1 | Integrar la visualización de la lista de 6 recomendaciones | Usar el *widget* de Tarjeta de Libro desarrollado en US12(2) para mostrar las recomendaciones en un formato de lista o cuadrícula en la pantalla de "Recomendaciones". | 2.5 |  Developer Team | Done |
-| | 2 | Desarrollar la lógica del botón "Refrescar" | Implementar un botón de "Refrescar" o un gesto de *Pull-to-Refresh* que dispare una nueva llamada al *endpoint* de recomendaciones para obtener un nuevo conjunto de 6 libros. | 2 | Developer Team | Done |
-| | 3 | Implementar la navegación a la pantalla de Detalles del Libro | Configurar la acción de tocar una recomendación para navegar a la pantalla de **Detalles del Libro** (TS20), pasando el ID del libro seleccionado como parámetro. | 1.5 | Developer Team | Done |
-| | 4 | Asegurar la visualización de datos esenciales (Portada y Título) | Garantizar que la Tarjeta de Recomendación siempre muestre la miniatura del libro y el título de manera clara y visible, como lo exige el requerimiento. | 1 | Developer Team | Done |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US16 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP02: Personalización de la experiencia lectora |
+| **Title** | Visualizar recomendaciones en la plataforma |
+| **Description** | Como lector, quiero observar mis recomendaciones de manera ordenada y atractiva para poder elegir mi siguiente lectura. |
+| **Acceptance Criteria – Escenario 1: Presentación y actualización de recomendaciones** | Dado que el lector accede a la sección de recomendaciones, **Cuando** el sistema procesa la solicitud de recomendación, **Entonces** el sistema debe presentar un conjunto de libros recomendados con información esencial (imagen y título), **Y** el sistema debe poder generar y presentar un nuevo conjunto de recomendaciones cuando se solicite. |
+| **Acceptance Criteria – Escenario 2: Acceso directo a los detalles del libro** | Dado que el sistema presenta las recomendaciones de libros, **Cuando** el sistema recibe una solicitud de acceso a una recomendación específica, **Entonces** el sistema debe presentar la vista completa de los detalles de ese libro con toda su información y opciones disponibles. |
 
+| Campo | Valor |
+|---|---|
+| **Story ID** | US17 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP04: Gestión de cuenta y seguridad de usuario |
+| **Title** | Cerrar sesión |
+| **Description** | Como lector, quiero poder cerrar sesión de mi cuenta cuando lo desee, para proteger mi información personal y asegurar la privacidad de mis datos al finalizar el uso de la plataforma. |
+| **Acceptance Criteria – Escenario 1: Terminación exitosa de la sesión activa** | Dado que el lector tiene una sesión activa en el sistema, **Cuando** el sistema recibe la solicitud de cierre de sesión, **Entonces** el sistema debe invalidar la sesión actual de forma segura, **Y** debe eliminar todos los datos de autenticación del dispositivo, **Y** debe presentar la pantalla de ingreso o registro (login) como punto de entrada de la aplicación. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US17 | Usuario de Livria | 1 – Must Have | EP04: Gestión de cuenta y seguridad de usuario |
-| **Title** | Cerrar sesión |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero poder cerrar sesión de mi cuenta cuando lo desee, para proteger mi información personal y asegurar la privacidad de mis datos al finalizar el uso de la plataforma. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Registro de nuevo usuario Dado que** el usuario ha iniciado sesión **Y** el usuario se encuentra en la sección de configuración de su cuenta **Cuando** el usuario selecciona la opción "Cerrar sesión" **Entonces** el sistema debe cerrar su sesión activa de forma segura **Y** redirigirlo automáticamente a la pantalla de login de Livria. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US18 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP05: Comunidades |
+| **Title** | Crear publicaciones en comunidades |
+| **Description** | Como lector, quiero poder crear y compartir publicaciones dentro de las comunidades temáticas de la plataforma, para interactuar con otros lectores a través de imágenes. |
+| **Acceptance Criteria – Escenario 1: Creación de publicación con contenido gráfico** | Dado que el lector tiene una sesión activa en una comunidad, **Cuando** el sistema recibe el envío de una publicación que incluye un archivo de imagen, **Entonces** el sistema debe almacenar el contenido de la imagen de forma segura, **Y** debe registrar la publicación como disponible para la visualización y comentarios por parte de otros miembros de la comunidad. |
+| **Acceptance Criteria – Escenario 2: Creación de publicación con solo contenido textual** | Dado que el lector desea compartir una publicación, **Cuando** el sistema recibe el envío de la publicación con solo contenido de texto, **Entonces** el sistema debe registrar y hacer visible la publicación en la comunidad, **Y** debe habilitar la opción de comentarios para el nuevo contenido textual. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US18 | Usuario de Livria | 1 – Must Have | EP05: Comunidades |
-| **Title** | Crear publicaciones en comunidades |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero poder crear y compartir publicaciones dentro de las comunidades temáticas de la plataforma, para interactuar con otros lectores a través de imágenes. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Publicación de imágenes o contenido gráfico Dado que** el usuario decide crear una nueva publicación dentro de una comunidad **Y** el usuario opta por subir una imagen o ilustración **Cuando** el usuario selecciona y carga el archivo desde su dispositivo **Entonces** el sistema debe mostrar correctamente la imagen en la publicación, habilitando los comentarios por parte de otros usuarios. **Escenario 2: Publicación textual sin contenido gráfico Dado que** el usuario desea compartir una publicación sin usar imágenes **Cuando** el usuario ingresa un texto en el campo de publicación **Y** el usuario lo envía **Entonces** el sistema debe guardar y mostrar la publicación correspondiente |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US19 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP05: Comunidades |
+| **Title** | Gestionar comunidades |
+| **Description** | Como lector, quiero poder crear y unirse a comunidades relacionadas con mis intereses literarios con el fin de conectar con distintos lectores o autores de títulos reconocidos. |
+| **Acceptance Criteria – Escenario 1: Creación y registro de una nueva comunidad** | Dado que el lector proporciona información requerida para la comunidad, **Cuando** el sistema recibe la solicitud de creación de la comunidad, **Entonces** el sistema debe validar y registrar la nueva comunidad, **Y** debe incluirla en el listado general de comunidades disponibles en la plataforma. |
+| **Acceptance Criteria – Escenario 2: Asignación de membresía a una comunidad** | Dado que el lector accede a una comunidad existente, **Cuando** el sistema recibe la solicitud del lector para unirse, **Entonces** el sistema debe registrar al lector como miembro activo de esa comunidad, **Y** debe otorgar al lector acceso a la creación y visualización de contenido dentro de la misma. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US19 | Usuario de Livria | 1 – Must Have | EP05: Comunidades |
-| **Title** | Gestionar comunidades |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero poder crear y unirme a comunidades relacionadas con mis intereses literarios con el fin de conectar con distintos lectores o autores de títulos reconocidos.  |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Crear una comunidad literaria Dado que** el usuario se encuentra en la sección "Comunidades" **Cuando** el usuario selecciona la opción "Crear comunidad" **Y** el usuario completa el formulario con un nombre, descripción y categoría de la comunidad **Entonces** el sistema debe registrar la nueva comunidad **Y** el sistema debe mostrarla dentro del listado general de comunidades disponibles en Livria. **Escenario 2: Unirse a una comunidad existente Dado que** el usuario está explorando la lista de comunidades disponibles **Cuando** el usuario ingresa al perfil de una comunidad de su interés **Y** el usuario selecciona la opción "Unirse" **Entonces** el sistema debe agregarlo como miembro de dicha comunidad **Y** el sistema debe mostrar una confirmación visual de su ingreso exitoso. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US20 |
+| **User** | Usuario de Livria |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP05: Comunidades |
+| **Title** | Comentar en publicaciones |
+| **Description** | Como lector, quiero poder comentar en las publicaciones dentro de las comunidades literarias, para compartir opiniones, intercambiar ideas sobre libros y conectar con otros lectores. |
+| **Acceptance Criteria – Escenario 1: Envío y registro de un nuevo comentario** | Dado que el lector está visualizando una publicación dentro de una comunidad, **Cuando** el sistema recibe el contenido del comentario enviado por el lector, **Entonces** el sistema debe registrar el comentario, **Y** debe hacerlo visible inmediatamente para el lector y otros miembros de la comunidad. |
+| **Acceptance Criteria – Escenario 2: Visualización de comentarios existentes** | Dado que el lector accede a la sección de comentarios de una publicación, **Cuando** el sistema presenta los comentarios, **Entonces** el lector debe poder visualizar todos los comentarios que han sido registrados por otros miembros en la publicación. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US20 | Usuario de Livria | 2 – Should Have | EP05: Comunidades |
-| **Title** | Comentar en publicaciones |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero poder comentar en las publicaciones dentro de las comunidades literarias, para compartir opiniones, intercambiar ideas sobre libros y conectar con otros lectores. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Agregar un comentario Dado que** el usuario se encuentra explorando una comunidad **Y** el usuario visualiza una publicación donde desea comentar **Cuando** el usuario selecciona la opción comentar **Entonces** el sistema despliega un cuadro de texto **Y** el sistema debe publicar su comentario al enviarlo correctamente. **Escenario 2: Visualización de comentarios Dado que** el usuario está visualizando una publicación dentro de una comunidad Y el usuario accede a la sección de comentarios **Cuando** el usuario hace scroll en esa sección **Entonces** el usuario visualiza los comentarios realizados por otros usuarios |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US21 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP06: Compra de libros |
+| **Title** | Comprar libros digitales y físicos |
+| **Description** | Como lector, quiero poder comprar libros digitales y físicos desde la plataforma para acceder a lecturas nuevas de manera inmediata o recibir ediciones impresas en mi domicilio. |
+| **Acceptance Criteria – Escenario 1: Proceso de compra y entrega de libro digital** | Dado que el lector selecciona un libro que está catalogado como digital, **Cuando** el sistema confirma la recepción del pago, **Entonces** el sistema debe registrar la compra, **Y** debe otorgar al lector acceso inmediato a la descarga del archivo del libro. |
+| **Acceptance Criteria – Escenario 2: Proceso de compra y gestión de libro físico** | Dado que el lector selecciona un libro que está catalogado como físico, **Cuando** el sistema confirma la recepción del pago y la información de envío, **Entonces** el sistema debe registrar la compra, **Y** debe generar un pedido con el estado inicial "En Proceso" para su posterior envío. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US21 | Usuario de Livria | 1 – Must Have | EP06: Compra de libros |
-| **Title** | Comprar libros digitales y físicos |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero poder comprar libros digitales y físicos desde la plataforma para acceder a lecturas nuevas de manera inmediata o recibir ediciones impresas en mi domicilio. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Compra de libro digital Dado que** el usuario está navegando por el catálogo de Livria **Cuando** el usuario selecciona un libro digital y presiona “Comprar” Y el usuario completa el proceso de pago **Entonces** el sistema debe confirmar la compra **Y** el sistema permite la descarga inmediata del libro en su biblioteca digital. **Escenario 2: Compra de libro físico Dado que** el usuario está navegando por el catálogo **Cuando** el usuario selecciona un libro físico y presiona “Comprar” Y el usuario completa el proceso de pago y envío **Entonces** el sistema debe confirmar la compra Y el sistema genera el pedido con estado “En proceso”. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US22 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP06: Compra de libros |
+| **Title** | Buscar libros y contenido en la aplicación |
+| **Description** | Como lector, quiero utilizar una barra de búsqueda para encontrar libros, autores y comunidades literarias de forma rápida y precisa, con el fin de acceder fácilmente a contenido de interés sin tener que navegar por toda la plataforma. |
+| **Acceptance Criteria – Escenario 1: Búsqueda por título o contenido de libro** | Dado que el lector inicia una consulta de búsqueda, **Cuando** el sistema recibe términos relacionados con el título o contenido de un libro, **Entonces** el sistema debe presentar una lista de resultados que contengan información esencial del libro (título, autor e imagen). |
+| **Acceptance Criteria – Escenario 2: Búsqueda por autor específico** | Dado que el lector desea encontrar obras de un autor en particular, **Cuando** el sistema recibe el nombre de dicho autor en la consulta de búsqueda, **Entonces** el sistema debe mostrar todos los libros de catálogo pertenecientes a ese autor. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US22 | Usuario de Livria | 1 – Must Have | EP06: Compra de libros |
-| **Title** | Buscar libros y contenido en la aplicación |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero utilizar una barra de búsqueda para encontrar libros, autores y comunidades literarias de forma rápida y precisa, con el fin de acceder fácilmente a contenido de interés sin tener que navegar por toda la plataforma. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Búsqueda de libros específicos Dado que** el usuario interactúa con la barra de búsqueda**Cuando** el usuario escribe el nombre de un libro **Entonces** el sistema debe mostrar una lista de resultados relacionados con el título ingresado, incluyendo portadas y autor. **Escenario 2: Búsqueda de autores Dado que** el usuario desea encontrar obras de un autor en particular**Cuando** ingresa el nombre del autor en la barra de búsqueda **Entonces** el sistema debe mostrar todos los libros de catálogo pertenecientes a dicho autor. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US23 |
+| **User** | Usuario de Livria |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP06: Compra de libros |
+| **Title** | Gestionar pago de libros |
+| **Description** | Como lector, quiero poder pagar mis libros mediante distintos métodos de pago, para asegurarme de que mi compra sea rápida y confiable mediante una única plataforma de pago. |
+| **Acceptance Criteria – Escenario 1: Procesamiento y confirmación de pago exitoso** | Dado que el lector ha finalizado la selección de libros para la compra, **Cuando** el sistema recibe la información y la aprobación del método de pago elegido, **Entonces** el sistema debe procesar la transacción de forma segura, **Y** debe registrar el pago de la orden, **Y** debe generar y presentar la confirmación de la transacción al lector. |
+| **Acceptance Criteria – Escenario 2: Notificación y reintento en caso de error de transacción** | Dado que el lector está intentando completar el pago, **Cuando** la plataforma de pago detecta un error o rechazo en la transacción, **Entonces** el sistema debe notificar al lector sobre la causa del fallo, **Y** debe permitir al lector reintentar la operación con el mismo o con un método de pago diferente. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US23 | Usuario de Livria | 2 – Should Have | EP06: Compra de libros |
-| **Title** | Gestionar pago de libros |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero poder pagar mis libros mediante distintos métodos de pago, para asegurarme de que mi compra sea rápida y confiable mediante una única plataforma de pago. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Pago exitoso Dado que** el usuario ha añadido uno o más libros a su carrito de compras **Cuando** el usuario selecciona una opción de pago y completa los datos solicitados **Entonces** el sistema procesa el pago correctamente **Y** el sistema muestra un mensaje de confirmación con el comprobante de la transacción. **Escenario 2: Error en el proceso de pago Dado que** el usuario intenta completar el pago mediante la opción seleccionada **Cuando** ocurre un error **Entonces** el sistema muestra un mensaje explicando el error **Y** el sistema permite reintentar la operación. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US24 |
+| **User** | Usuario de Livria |
+| **Priority** | 3 – Could Have |
+| **Epic** | EP02: Personalización de la experiencia lectora |
+| **Title** | Valorar y dejar reseña de libros |
+| **Description** | Como lector, quiero poder valorar y dejar reseñas en los libros que he leído, para compartir mi opinión y ayudar a otros lectores en su elección. |
+| **Acceptance Criteria – Escenario 1: Registro de la puntuación de un libro** | Dado que el lector ha finalizado la lectura de un libro, **Cuando** el sistema recibe una calificación numérica para ese libro (entre 1 y 5), **Entonces** el sistema debe registrar la valoración, **Y** debe actualizar la puntuación promedio general en la ficha de detalles del libro. |
+| **Acceptance Criteria – Escenario 2: Envío y publicación de una reseña** | Dado que el lector desea proporcionar una opinión detallada del libro, **Cuando** el sistema recibe el contenido textual de la reseña, **Entonces** el sistema debe registrar la reseña vinculándola al libro y al lector, **Y** debe hacer que la reseña esté disponible para la visualización pública en la sección de opiniones del libro. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US24 | Usuario de Livria | 3 – Could Have | EP02: Personalización de la experiencia lectora |
-| **Title** | Valorar y dejar reseña de libros |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero poder valorar y dejar reseñas en los libros que he leído, para compartir mi opinión y ayudar a otros lectores en su elección. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Valoración con estrellas Dado que** el usuario ha finalizado la lectura de un libro **Cuando** accede a la sección de valoraciones **Entonces** puede calificar el libro con una puntuación de 1 a 5 estrellas **Y** la valoración se actualiza en la ficha del libro **Escenario 2: Escribir una reseña Dado que** el usuario desea dejar un comentario detallado **Cuando** accede a la opción “Escribir reseña” **Entonces** puede redactar y publicar su opinión sobre el contenido, estilo o experiencia de lectura. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US25 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP04: Gestión de cuenta y seguridad de usuario |
+| **Title** | Gestionar plan de suscripción |
+| **Description** | Como lector, quiero poder actualizar mi plan de suscripción, recibir notificaciones sobre pagos y revertir cambios si me arrepiento, para tener un mayor control sobre mi experiencia en la plataforma. |
+| **Acceptance Criteria – Escenario 1: Actualización exitosa a un plan de pago** | Dado que el lector tiene un plan de suscripción gratuito, **Cuando** el sistema confirma la recepción del pago por la actualización al nuevo plan, **Entonces** el sistema debe actualizar el estado de la suscripción del lector a *Activa*, **Y** debe habilitar el acceso a las funcionalidades premium (Comunidades), **Y** debe enviar una notificación al lector confirmando la transacción. |
+| **Acceptance Criteria – Escenario 2: Reversión a la suscripción gratuita** | Dado que el lector tiene un plan de pago activo, **Cuando** el sistema recibe la solicitud del lector para cambiar al plan gratuito, **Entonces** el sistema debe revertir inmediatamente el estado de la suscripción a *Gratuita*, **Y** debe restringir el acceso a las funcionalidades premium. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US25 | Usuario de Livria | 1 – Must Have | EP04: Gestión de cuenta y seguridad de usuario |
-| **Title** | Gestionar plan de suscripción |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero poder actualizar mi plan de suscripción, recibir notificaciones sobre pagos y revertir cambios si me arrepiento, para tener un mayor control sobre mi experiencia en la plataforma. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Cambio de plan (actualización) Dado que** el usuario tiene un plan gratuito **Cuando** el usuario selecciona el plan “Community” **Y** el usuario realiza el pago, completando los datos requeridos**Entonces** el sistema habilita el acceso a la vista e interacción de comunidades **Y** el usuario recibe una notificación confirmando la transacción exitosa **Escenario 2: Reversión al plan gratuito Dado que** el usuario se encuentra suscrito a un plan de pago activo **Cuando** el usuario decide cambiar al plan gratuito desde la sección de configuración de suscripción **Entonces** el sistema revierte su suscripción al plan gratuito inmediatamente. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US26 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP07: Accesibilidad y experiencia de uso multiplataforma |
+| **Title** | Acceder a la plataforma en cualquier momento |
+| **Description** | Como lector, quiero que la plataforma esté disponible en cualquier momento del día, para acceder a mis libros, comunidades y funcionalidades sin importar el lugar o la hora. |
+| **Acceptance Criteria – Escenario 1: Disponibilidad y acceso ininterrumpido** | Dado que el lector intenta acceder al sistema, **Cuando** la solicitud de acceso ocurre en cualquier momento del día (24/7) y desde cualquier ubicación geográfica, **Entonces** el servidor debe responder y permitir la conexión al sistema, **Y** todas las funcionalidades principales deben estar operativas y accesibles sin interrupción. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US26 | Usuario de Livria | 1 – Must Have | EP07: Accesibilidad y experiencia de uso multiplataforma |
-| **Title** | Acceder a la plataforma en cualquier momento |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero que la plataforma esté disponible en cualquier momento del día, para acceder a mis libros, comunidades y funcionalidades sin importar el lugar o la hora. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Acceso ininterrumpido Dado que** el usuario desea acceder a la plataforma en cualquier momento **Cuando** el usuario inicia sesión en Livria en cualquier horario**Entonces** el sistema debe estar disponible **Y** el sistema debe permitir el acceso sin restricciones. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US27 |
+| **User** | Usuario de Livria |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP07: Accesibilidad y experiencia de uso multiplataforma |
+| **Title** | Navegar la aplicación de forma fácil e intuitiva |
+| **Description** | Como lector, quiero una interfaz intuitiva y fácil de usar, para navegar entre libros, comunidades y configuraciones sin complicaciones ni curvas de aprendizaje. |
+| **Acceptance Criteria – Escenario 1: Acceso directo a secciones principales** | Dado que el lector ha iniciado sesión en la plataforma, **Cuando** el sistema presenta el punto de navegación principal, **Entonces** el lector debe poder acceder a las secciones clave (Home, Comunidades, Perfil) utilizando la estructura de navegación de nivel superior. |
+| **Acceptance Criteria – Escenario 2: Filtrado y presentación de contenido por categoría** | Dado que el lector solicita navegar por una categoría específica, **Cuando** el sistema recibe la solicitud de filtrado por esa categoría, **Entonces** el sistema debe presentar únicamente los libros que concuerdan con la categoría seleccionada. |
+| **Acceptance Criteria – Escenario 3: Cumplimiento de estándares de accesibilidad visual** | Dado que el lector interactúa con la plataforma, **Cuando** el sistema presenta cualquier elemento visual (texto, iconos, botones), **Entonces** el contraste de color debe cumplir con el estándar WCAG AA mínimo, **Y** el tamaño del texto debe ser legible en la configuración predeterminada para garantizar la usabilidad. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US27 | Usuario de Livria | 1 – Must Have | EP07: Accesibilidad y experiencia de uso multiplataforma |
-| **Title** | Navegar la aplicación de forma fácil e intuitiva |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero una interfaz intuitiva y fácil de usar, para navegar entre libros, comunidades y configuraciones sin complicaciones ni curvas de aprendizaje. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Navegación clara y sencilla Dado que** el usuario inicia sesión en la plataforma **Cuando** desea acceder a las secciones principales como la pantalla de inicio o “Recomendaciones” **Entonces** podrá hacerlo con pocos clics y sin confusión, gracias a una estructura organizada y un diseño intuitivo. **Escenario 2: Navegación entre categorías Dado** **que** el usuario se encuentra en la barra superior de navegación **Cuando** el usuario hace clic en una categoría **Entonces** el sistema le redirige a una página que muestra únicamente libros correspondientes a esa categoría. **Escenario 3: Accesibilidad visual Dado que** el usuario interactúa con la aplicación **Cuando** el usuario visualiza la interfaz **Entonces** los botones, textos e íconos deben tener buen contraste, tamaño adecuado y estar correctamente etiquetados para garantizar la accesibilidad. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US28 |
+| **User** | Usuario de Livria |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP07: Accesibilidad y experiencia de uso multiplataforma |
+| **Title** | Usar la aplicación en diferentes dispositivos |
+| **Description** | Como lector, quiero ingresar a Livria desde distintos dispositivos, para acceder a mis libros y comunidades desde cualquier lugar y sin perder mi progreso. |
+| **Acceptance Criteria – Escenario 1: Portabilidad y consistencia entre plataformas** | Dado que el lector accede a la plataforma desde diferentes sistemas operativos (Web, Android, iOS, etc.), **Cuando** el sistema presenta el contenido y las funcionalidades, **Entonces** la plataforma debe ser completamente funcional y adaptable a la resolución de cualquier dispositivo compatible, **Y** todos los datos del lector (biblioteca, progreso, suscripción) deben estar sincronizados y accesibles de forma consistente. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US28 | Usuario de Livria | 2 – Should Have | EP07: Accesibilidad y experiencia de uso multiplataforma |
-| **Title** | Usar la aplicación en diferentes dispositivos |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero ingresar a Livria desde distintos dispositivos, para acceder a mis libros y comunidades desde cualquier lugar y sin perder mi progreso. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Compatibilidad con diferentes sistemas operativos Dado** que el usuario utiliza distintos dispositivos  **Cuando** el usuario accede a Livria desde cualquiera de ellos **Entonces** la experiencia debe mantenerse fluida y funcional, sin errores de formato o limitaciones de funciones. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | US29 |
+| **User** | Usuario de Livria |
+| **Priority** | 3 – Could Have |
+| **Epic** | EP06: Compra de libros |
+| **Title** | Filtrar por atributos del libro |
+| **Description** | Como lector, quiero filtrar los libros según subcategorías, orden de precio o título, formato e idioma para encontrar más fácilmente el contenido que me interesa. |
+| **Acceptance Criteria – Escenario 1: Aplicación de ordenamiento por criterios** | Dado que el lector está visualizando un listado de libros, **Cuando** el sistema recibe la solicitud de ordenamiento por un criterio específico (ej: precio ascendente o título), **Entonces** el sistema debe presentar la lista de libros reordenada según el criterio seleccionado. |
+| **Acceptance Criteria – Escenario 2: Aplicación de filtro por atributo** | Dado que el lector desea refinar la búsqueda, **Cuando** el sistema recibe la selección de un atributo de filtro (ej: idioma o formato), **Entonces** el sistema debe mostrar únicamente los libros que coincidan con el atributo seleccionado. |
+| **Acceptance Criteria – Escenario 3: Restablecimiento de filtros y orden** | Dado que el lector ha aplicado uno o más filtros y criterios de orden, **Cuando** el sistema recibe la solicitud de restablecer la selección de filtros, **Entonces** el sistema debe eliminar todos los filtros y criterios de orden activos, **Y** debe mostrar la lista de libros en su estado predeterminado inicial. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| US29 | Usuario de Livria | 3 – Could Have | EP06: Compra de libros |
-| **Title** | Filtrar por atributos del libro |  |  |
-| **Description** |  |  |  |
-| Como usuario, quiero filtrar los libros según subcategorías, orden de precio o título, formato e idioma para encontrar más fácilmente el contenido que me interesa. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Ordenamiento por criterios Dado** **que** el usuario se encuentra en una pestaña de un género específico Y el usuario quiere ordenar los resultados **Cuando** el usuario elige una opción como “Menor a mayor precio” **Entonces** la lista se reordena automáticamente según esos criterios. **Escenario 2: Filtrado por idioma Dado** **que** el usuario se encuentra en una pestaña de un género específico Y el usuario quiere ordenar los resultados **Cuando** el usuario selecciona el idioma de su preferencia **Entonces** se muestran los libros que coincidan con el idioma elegido. **Escenario 3: Borrado de filtros aplicados Dado** **que** el usuario se encuentra en una pestaña de un género específico Y el usuario ha aplicado filtros **Cuando** el usuario presiona el botón “Borrar selección” **Entonces** se eliminan todos los filtros activos **Y** la lista vuelve a su estado inicial. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS01 |
+| **User** | Developer |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Acceder rápido a las secciones del sistema desde el Dashboard |
+| **Description** | Como developer, quiero tener acceso rápido a las principales secciones del sistema, para poder acceder a la gestión libros, pedidos, inventarios, estadísticas y configuraciones de manera rápida. |
+| **Acceptance Criteria – Escenario 1: Acceso a la gestión de libros** | Dado que el desarrollador está autenticado y en el Dashboard de administración, **Cuando** el sistema recibe la solicitud de navegación a la sección de libros, **Entonces** el sistema debe presentar la vista de gestión y catálogo de libros. |
+| **Acceptance Criteria – Escenario 2: Acceso a la gestión de pedidos** | Dado que el desarrollador está autenticado y en el Dashboard de administración, **Cuando** el sistema recibe la solicitud de navegación a la sección de pedidos, **Entonces** el sistema debe presentar la vista de seguimiento y gestión de órdenes. |
+| **Acceptance Criteria – Escenario 3: Acceso a la gestión de inventario** | Dado que el desarrollador está autenticado y en el Dashboard de administración, **Cuando** el sistema recibe la solicitud de navegación a la sección de inventarios, **Entonces** el sistema debe presentar la vista de control de stock y almacén. |
+| **Acceptance Criteria – Escenario 4: Acceso a las estadísticas** | Dado que el desarrollador está autenticado y en el Dashboard de administración, **Cuando** el sistema recibe la solicitud de navegación a la sección de estadísticas, **Entonces** el sistema debe presentar la vista de métricas y rendimiento del sistema. |
+| **Acceptance Criteria – Escenario 5: Acceso a la configuración** | Dado que el desarrollador está autenticado y en el Dashboard de administración, **Cuando** el sistema recibe la solicitud de navegación a la sección de configuraciones, **Entonces** el sistema debe presentar la vista de ajustes globales del sistema. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS01 | Developer | 1 – Must Have | EP08: Vista de administrador |
-| **Title** | Acceder rápido a las secciones del sistema desde el Dashboard |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero tener acceso rápido a las principales secciones del sistema, para poder acceder a la gestión libros, pedidos, inventarios, estadísticas y configuraciones de manera rápida. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Acceso a “Books” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Books" en la sección de “Quick Actions”,**Entonces** el sistema redirige al developer a la sección de libros. **Escenario 2: Acceso a “Orders” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Orders" en la sección de “Quick Actions”,**Entonces** el sistema redirige al administrador a la sección de pedidos. **Escenario 3: Acceso a “Inventory” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Inventory" en la sección de “Quick Actions”,**Entonces** el sistema redirige al administrador a la sección de inventarios. **Escenario 4: Acceso a “Stadistics” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Statistics" en la sección de “Quick Actions”,**Entonces** el sistema redirige al administrador a la sección de estadísticas. **Escenario 5: Acceso a “Settings” desde el DashboardDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer hace clic en el botón de "Settings" en la sección de “Quick Actions”,**Entonces** el sistema redirige al administrador a la sección de configuraciones. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS02 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Visualizar estadísticas de libros |
+| **Description** | Como developer, quiero ver estadísticas relevantes sobre los libros, para poder tomar decisiones informadas sobre los libros más populares, más vendidos y otros datos clave del inventario. |
+| **Acceptance Criteria – Escenario 1: Presentación de métricas de catálogo** | Dado que el desarrollador está en la sección de gestión de libros, **Cuando** el sistema procesa la solicitud de visualización de estadísticas, **Entonces** el sistema debe calcular y mostrar el número total de libros registrados, **Y** debe mostrar el número total de géneros distintos registrados en el sistema. |
+| **Acceptance Criteria – Escenario 2: Presentación de métricas financieras** | Dado que el desarrollador requiere datos financieros agregados, **Cuando** el sistema procesa las estadísticas, **Entonces** el sistema debe calcular y mostrar el precio promedio de venta de todos los libros del catálogo. |
+| **Acceptance Criteria – Escenario 3: Presentación de métricas de inventario** | Dado que el desarrollador necesita información sobre el stock, **Cuando** el sistema procesa las estadísticas, **Entonces** el sistema debe calcular y mostrar el número total de unidades de libros disponibles para la venta (en stock). |
+| **Acceptance Criteria – Escenario 4: Presentación de métricas de rendimiento y ventas** | Dado que el desarrollador necesita métricas de popularidad y ventas, **Cuando** el sistema procesa las estadísticas, **Entonces** el sistema debe identificar y mostrar el libro con el mayor número de visualizaciones en la plataforma, **Y** debe identificar y mostrar el libro con el mayor número de unidades vendidas. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS02 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Visualizar estadísticas de libros |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero ver estadísticas relevantes sobre los libros, para poder tomar decisiones informadas sobre los libros más populares, más vendidos y otros datos clave del inventario. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Ver el total de libros y el total de géneros Dado que** el developer se encuentra en la sección de Books,**Cuando** el developer visualiza el apartado de estadísticas,**Entonces** el sistema muestra el total de libros disponibles en el sistema y el total de géneros de libros registrados. **Escenario 2: Ver el precio promedio de los librosDado que** el developer se encuentra en la sección de Books,**Cuando** el developer visualiza el apartado de estadísticas,**Entonces** el sistema muestra el precio promedio de todos los libros en el sistema. **Escenario 3: Ver la cantidad de libros en stockDado que** el developer se encuentra en la sección de Books,**Cuando** el developer visualiza el apartado de estadísticas,**Entonces** el sistema muestra el número total de libros en stock, es decir, aquellos disponibles para la venta. **Escenario 4: Ver el libro con más reseñasDado que** el developer se encuentra en la sección de Books,**Cuando** el developer visualiza el apartado de estadísticas,**Entonces** el sistema muestra el libro más visto en la plataforma y el libro más vendido de la plataforma. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS03 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Buscar libros como administrador |
+| **Description** | Como developer, quiero poder buscar libros de la colección utilizando diversos filtros, para encontrar fácilmente uno o más libros en específico. |
+| **Acceptance Criteria – Escenario 1: Búsqueda por término específico (título o autor)** | Dado que el desarrollador está en la sección de gestión de libros, **Cuando** el sistema recibe una consulta de búsqueda que incluye términos de título o autor, **Entonces** el sistema debe presentar una lista de resultados que coincidan con los términos ingresados. |
+| **Acceptance Criteria – Escenario 2: Aplicación de filtros por categoría y atributo** | Dado que el desarrollador refina la búsqueda, **Cuando** el sistema recibe la selección de un filtro por género o por idioma, **Entonces** el sistema debe limitar y presentar la lista de libros que cumplen con ambos criterios. |
+| **Acceptance Criteria – Escenario 3: Ordenamiento de los resultados del catálogo** | Dado que el desarrollador requiere una visualización organizada, **Cuando** el sistema recibe la selección de un criterio de ordenamiento (ej: por precio o por fecha de publicación), **Entonces** el sistema debe reordenar la lista de libros según el criterio seleccionado. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS03 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Buscar libros como administrador |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero poder buscar libros de la colección utilizando diversos filtros, para encontrar fácilmente uno o más libros en específico. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Búsqueda por título o autorDado que** el developer se encuentra en el apartado de "Book Collection" en Books,**Cuando** el developer ingresa un título o autor en el campo de búsqueda,**Entonces** el sistema muestra los libros que coinciden con el título o autor ingresado. **Escenario 2: Filtro por género e idiomaDado que** el developer se encuentra en el apartado de "Book Collection" en Books,**Cuando** el developer selecciona un género en el filtro o un idioma en el  filtro**Entonces** el sistema muestra los libros que pertenecen a ese género específico o a ese idioma en específico. **Escenario 3: Ordenamiento de librosDado que** el developer se encuentra en el apartado de "Book Collection" en Books,**Cuando** el developer selecciona un criterio de ordenamiento (por ejemplo, precio, popularidad, fecha de publicación),**Entonces** el sistema ordena los libros según el criterio seleccionado. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS04 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Visualizar detalles completos de un libro |
+| **Description** | Como developer, quiero ver la información completa de un libro, para poder tomar decisiones informadas sobre la gestión de mis productos. |
+| **Acceptance Criteria – Escenario 1: Presentación de la información esencial del libro** | Dado que el desarrollador está en la sección de gestión de libros, **Cuando** el sistema presenta el listado de la colección, **Entonces** el sistema debe mostrar la información esencial de cada libro, incluyendo título, autor, género, idioma, stock actual y el recuento de reseñas registradas. |
+| **Acceptance Criteria – Escenario 2: Acceso a la vista de detalles de gestión** | Dado que el desarrollador solicita acceder a la información extendida de un libro, **Cuando** el sistema recibe la solicitud para la vista de detalles, **Entonces** el sistema debe presentar la información completa del producto, incluyendo la sinopsis, los costos financieros (precio de compra y de venta) y el historial de stock. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS04 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Visualizar detalles completos de un libro |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero ver la información completa de un libro, para poder tomar decisiones informadas sobre la gestión de mis productos. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Ver la información básica del libroDado que** el developer se encuentra en el apartado de "Book Collection" en Books,**Cuando** el developer observa un libro en específico,**Entonces** el sistema muestra una miniatura con la portada del libro, su título, autor, género, idioma, stock y cantidad de reviews. **Escenario 2: Botón "View" para acceder a más detalles del libroDado que** el developer está visualizando un libro en el apartado de "Book Collection" en Books,**Cuando** el developer hace clic en el botón de "View",**Entonces** el sistema muestra una ventana con información detallada y completa sobre el libro, incluyendo la sinopsis y datos relacionados con su precio de compra, de venta y de stock. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS05 |
+| **User** | Developer |
+| **Priority** | 3 – Could Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Visualizar estadísticas y análisis de órdenes |
+| **Description** | Como developer, quiero ver estadísticas clave sobre todas las órdenes, para poder realizar un análisis completo y tomar decisiones informadas sobre las ventas. |
+| **Acceptance Criteria – Escenario 1: Presentación de métricas financieras de alto nivel** | Dado que el desarrollador está en la sección de gestión de órdenes, **Cuando** el sistema procesa la solicitud de estadísticas, **Entonces** el sistema debe calcular y mostrar el número total de órdenes registradas en la plataforma, **Y** debe calcular y mostrar el valor total de las ganancias generadas por esas órdenes. |
+| **Acceptance Criteria – Escenario 2: Presentación de métricas de estado de órdenes** | Dado que el desarrollador requiere un resumen del flujo de trabajo, **Cuando** el sistema procesa las estadísticas, **Entonces** el sistema debe calcular y mostrar el número total de órdenes que están pendientes (en espera de procesamiento o envío), **Y** debe calcular y mostrar el número total de órdenes que han sido marcadas como completadas. |
+| **Acceptance Criteria – Escenario 3: Presentación de métricas de valor promedio** | Dado que el desarrollador necesita analizar el comportamiento del cliente, **Cuando** el sistema procesa las estadísticas, **Entonces** el sistema debe calcular y mostrar el valor promedio de las órdenes realizadas en la plataforma. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS05 | Developer | 3 – Could Have | EP08: Vista de administrador |
-| **Title** | Visualizar estadísticas y análisis de órdenes |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero ver estadísticas clave sobre todas las órdenes, para poder realizar un análisis completo y tomar decisiones informadas sobre las ventas. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Ver el total de órdenes y de gananciasDado que** el developer se encuentra en la sección de Orders,  **Cuando** el developer visualiza el apartado de "Manage and Analyze All Livria Orders",**Entonces** el sistema muestra el total de órdenes realizadas en la plataforma y el total de ganancias generadas por todas las órdenes. **Escenario 2: Ver órdenes pendientes y completasDado que** el developer se encuentra en la sección de Orders,  **Cuando** el developer visualiza el apartado de "Manage and Analyze All Livria Orders",**Entonces** el sistema muestra el número total de órdenes pendientes de procesamiento o envío y el número total de órdenes completas que han sido procesadas y entregadas. **Escenario 3: Ver el promedio del valor de las órdenesDado que** el developer se encuentra en la sección de Orders,  **Cuando** el developer visualiza el apartado de "Manage and Analyze All Livria Orders",**Entonces** el sistema muestra el valor promedio de las órdenes realizadas en la plataforma. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS06 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Buscar y filtrar de órdenes |
+| **Description** | Como developer, quiero poder buscar órdenes por ID de pedido o por el nombre del cliente, y poder filtrar de distintas formas, para encontrar fácilmente las órdenes que me interesan. |
+| **Acceptance Criteria – Escenario 1: Búsqueda por identificador o por cliente** | Dado que el desarrollador está en la sección de gestión de órdenes, **Cuando** el sistema recibe una consulta de búsqueda que incluye un ID de pedido o el nombre de un cliente, **Entonces** el sistema debe presentar las órdenes que coinciden con el identificador o que están asociadas al cliente ingresado. |
+| **Acceptance Criteria – Escenario 2: Filtrado por estado de procesamiento** | Dado que el desarrollador necesita revisar órdenes con un estado específico, **Cuando** el sistema recibe el filtro por estado (Pendiente, En Proceso o Completado), **Entonces** el sistema debe mostrar únicamente las órdenes que tienen el estado de procesamiento seleccionado. |
+| **Acceptance Criteria – Escenario 3: Filtrado por rango de fechas** | Dado que el desarrollador requiere analizar un período específico, **Cuando** el sistema recibe un rango de fechas para el filtro, **Entonces** el sistema debe limitar y mostrar solo las órdenes que fueron registradas dentro de ese período de tiempo. |
+| **Acceptance Criteria – Escenario 4: Aplicación de criterio de ordenamiento** | Dado que el desarrollador requiere organizar la lista, **Cuando** el sistema recibe la selección de un criterio de ordenamiento (ej: por fecha de creación o por valor total), **Entonces** el sistema debe reordenar la lista de órdenes según el criterio especificado. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS06 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Buscar y filtrar de órdenes |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero poder buscar órdenes por ID de pedido o por el nombre del cliente, y poder filtrar de distintas formas, para encontrar fácilmente las órdenes que me interesan. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Buscar por ID de orden o por nombre del clienteDado que** el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders,**Cuando** el developer ingresa un ID de orden o el nombre del cliente en el campo de búsqueda,**Entonces** el sistema muestra las órdenes que coinciden con ese ID o asociadas a ese cliente. **Escenario 2: Filtrar por estado del pedidoDado que** el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders,**Cuando** el developer selecciona un estado de pedido (pendiente, en proceso, completado),**Entonces** el sistema muestra sólo las órdenes con el estado seleccionado. **Escenario 3: Filtrar por fechaDado que** el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders,**Cuando** el developer selecciona un rango de fechas,**Entonces** el sistema muestra sólo las órdenes que corresponden a ese rango de fechas. **Escenario 4: Filtrar por ordenamientoDado que** el developer se encuentra en el apartado de "Manage and Analyze All Livria Orders" de Orders,**Cuando** el developer selecciona un criterio de ordenamiento (por ejemplo, por fecha, por total, por estado),**Entonces** el sistema ordena las órdenes según el criterio seleccionado. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS07 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Visualizar una tabla con detalles de las órdenes |
+| **Description** | Como developer, quiero que el sistema me muestre una tabla con detalles generales de las órdenes, para gestionar las órdenes de manera eficiente. |
+| **Acceptance Criteria – Escenario 1: Presentación estructurada de los detalles de las órdenes** | Dado que el desarrollador está en la sección de gestión de órdenes, **Cuando** el sistema carga la vista de listado de órdenes, **Entonces** el sistema debe presentar la información de cada orden de manera estructurada, **Y** la estructura debe incluir todos los atributos esenciales de cada orden para la gestión (ej: ID de la orden, fecha, cliente asociado, valor total y estado). |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS07 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Visualizar una tabla con detalles de las órdenes |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero que el sistema me muestre una tabla con detalles generales de las órdenes, para gestionar las órdenes de manera eficiente. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Ver la tabla con detalles de las órdenes Dado que** el developer se encuentra en la sección Orders, **Cuando** el developer visualiza el apartado de "Order List", **Entonces** el sistema muestra una tabla con diversos atributos relacionados a cada orden.  |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS08 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Buscar y filtrar libros en el Inventario |
+| **Description** | Como developer, quiero tener una barra de búsqueda y filtros en la sección "Book Collection" del inventario, para poder buscar fácilmente un libro específico dentro del inventario. |
+| **Acceptance Criteria – Escenario 1: Búsqueda por término dentro del inventario** | Dado que el desarrollador está en la sección de gestión de inventario, **Cuando** el sistema recibe una consulta de búsqueda, **Entonces** el sistema debe presentar únicamente los libros del inventario que coinciden con el término ingresado. |
+| **Acceptance Criteria – Escenario 2: Aplicación de filtro por categoría y atributo** | Dado que el desarrollador refina la búsqueda, **Cuando** el sistema recibe la selección de un filtro por género o por idioma, **Entonces** el sistema debe mostrar la lista de libros que cumplen con el criterio seleccionado. |
+| **Acceptance Criteria – Escenario 3: Aplicación de criterio de ordenamiento** | Dado que el desarrollador selecciona un criterio de ordenamiento (ej: por precio, por stock, por fecha de publicación), **Cuando** el sistema procesa la solicitud, **Entonces** el sistema debe reordenar la vista de libros del inventario según el criterio especificado. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS08 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Buscar y filtrar libros en el Inventario |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero tener una barra de búsqueda y filtros en la sección "Book Collection" del inventario, para poder buscar fácilmente un libro específico dentro del inventario. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Barra de búsquedaDado que** el developer está en el apartado de "Book Collection" de la sección Inventory,**Cuando** el developer ingresa un término en la barra de búsqueda,**Entonces** el sistema muestra los libros que coinciden con el término de búsqueda. **Escenario 2: Filtro por género o por lenguajeDado que** el developer está en el apartado de "Book Collection" de la sección Inventory,**Cuando** el developer selecciona un género en el filtro o un lenguaje en el filtro,**Entonces** el sistema muestra los libros que pertenecen a ese género específico o los libros disponibles en ese lenguaje. **Escenario 3: Ordenamiento de librosDado que** el developer está en el apartado de "Book Collection" de la sección Inventory,**Cuando** el developer selecciona un criterio de ordenamiento (por ejemplo, por precio, por stock, por fecha de publicación),**Entonces** el sistema ordena los libros según el criterio seleccionado. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS09 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Visualizar libros en el inventario |
+| **Description** | Como developer, quiero ver una tabla que contenga los detalles de cada libro, como su portada, título, autor, etc., para gestionar fácilmente el inventario de libros. |
+| **Acceptance Criteria – Escenario 1: Presentación estructurada de los detalles de inventario** | Dado que el desarrollador está en la sección de gestión de inventario, **Cuando** el sistema carga la vista del inventario, **Entonces** el sistema debe presentar de forma estructurada los detalles de cada libro, incluyendo el título, autor, género, idioma, stock actual y el precio de compra. |
+| **Acceptance Criteria – Escenario 2: Procesamiento de aumento de stock** | Dado que el desarrollador solicita aumentar las unidades disponibles de un libro, **Cuando** el sistema recibe la cantidad de nuevas unidades a agregar, **Entonces** el sistema debe validar que la cantidad sea un número entero positivo, **Y** debe calcular el costo total de la adquisición (precio de compra * cantidad), **Y** debe actualizar el stock del libro con la nueva cantidad. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS09 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Visualizar libros en el inventario |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero ver una tabla que contenga los detalles de cada libro, como su portada, título, autor, etc., para gestionar fácilmente el inventario de libros. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Ver la tabla con detalles del libroDado que** el developer está en la sección Inventory,**Cuando** el developer visualiza el apartado de "Book Collection",**Entonces** el sistema presenta una tabla con los campos de portada, título, autor, género, lenguaje, stock, precio de compra, cantidad y acción. **Escenario 2: Aumentar stock de un libro de la colecciónDado que** el administrador está visualizando la tabla de "Book Collection" la sección Inventory Y el developer desea aumentar el stock de un libro**Cuando** el developer completa el campo de Quantity con un número entero Y el developer hace clic en el botón "+" para ese libro,**Entonces** el sistema cobra el precio de compra multiplicado por la cantidad ingresada, la cual es aumentada al stock del libro seleccionado. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS10 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Añadir un libro al inventario |
+| **Description** | Como developer, quiero agregar un libro nuevo al inventario de Livria, para ampliar el catálogo y aumentar las ventas. |
+| **Acceptance Criteria – Escenario 1: Disponibilidad de la función de registro de libro** | Dado que el desarrollador está en la sección de gestión de inventario, **Cuando** el sistema recibe la solicitud de registro de un nuevo producto, **Entonces** el sistema debe presentar la interfaz para la entrada de toda la información requerida del libro. |
+| **Acceptance Criteria – Escenario 2: Procesamiento y registro exitoso de un nuevo libro** | Dado que el desarrollador proporciona toda la información esencial del libro (título, género, stock inicial, precios, etc.), **Cuando** el sistema recibe la solicitud de alta del nuevo libro, **Entonces** el sistema debe validar la integridad y unicidad de la información, **Y** debe registrar el nuevo libro en la base de datos, **Y** debe reflejar el nuevo producto en el listado visible de la colección del inventario. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS10 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Añadir un libro al inventario |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero agregar un libro nuevo al inventario de Livria, para ampliar el catálogo y aumentar las ventas. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Visualizar opción de añadir libroDado que** el developer está en la sección Inventory,**Cuando** el developer visualiza el apartado de "Add a new book to the inventory",**Entonces** el sistema presenta un formulario con campos a rellenar relacionados con la información del libro. **Escenario 2: Agregar el nuevo libro al inventarioDado que** el developer se encuentra en el formulario del apartado de "Add a new book to the inventory",**Cuando** el developer completa los campos de información del libro como título, género, stock, etc. Y el developer hace clic en el botón "Add new book",**Entonces** el sistema aumenta ese libro con la información proporcionada al inventario Y el sistema permite visualizarlo en el apartado de "Book Collection". |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS11 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Visualizar estadísticas de negocio |
+| **Description** | Como developer, quiero ver gráficos sobre la gestión del capital y de las ventas para poder manejar mejor las compras de nuevos libros y supervisar las ventas. |
+| **Acceptance Criteria – Escenario 1: Presentación de los libros con mejor rendimiento en ventas** | Dado que el desarrollador está en la sección de estadísticas, **Cuando** el sistema procesa los datos de venta, **Entonces** el sistema debe identificar y presentar los tres libros con el mayor volumen de ventas totales. |
+| **Acceptance Criteria – Escenario 2: Presentación del análisis de ganancias por género** | Dado que el desarrollador requiere una segmentación del rendimiento financiero, **Cuando** el sistema procesa los datos de ganancias, **Entonces** el sistema debe calcular la contribución porcentual al total de las ganancias por cada género literario. |
+| **Acceptance Criteria – Escenario 3: Presentación del análisis de flujo de capital** | Dado que el desarrollador necesita supervisar las finanzas operativas, **Cuando** el sistema procesa la información de capital y ventas, **Entonces** el sistema debe mostrar la comparación histórica entre el capital invertido (compras) y el ingreso generado (ventas). |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS11 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Visualizar estadísticas de negocio |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero ver gráficos sobre la gestión del capital y de las ventas para poder manejar mejor las compras de nuevos libros y supervisar las ventas. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Visualizar libros más vendidosDado que** el developer está en la sección Stadistics,**Cuando** el developer visualiza el apartado de "Top Three Best Selling Books",**Entonces** el sistema presenta los 3 libros más vendidos entre todas las compras realizadas por los usuarios. **Escenario 2: Visualizar ganancias según génerosDado que** el developer está en la sección Stadistics,**Cuando** el developer visualiza el apartado de "Revenue according the genres",**Entonces** el sistema muestra un gráfico de torta que contiene información sobre las ganancias generadas de acuerdo con cada género literario. **Escenario 3: Visualizar el flujo de capitalDado que** el developer está en la sección Stadistics,**Cuando** el developer visualiza el apartado de "Capital Flow and Operations",**Entonces** el sistema muestra un gráfico lineal sobre el flujo del capital comparado con las ventas de Livria. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS12 |
+| **User** | Developer |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Gestionar la configuración del perfil |
+| **Description** | Como developer, quiero poder gestionar mi perfil desde una sección de configuración, para poder ver, actualizar mi información personal o cambiar mi contraseña si es necesario. |
+| **Acceptance Criteria – Escenario 1: Presentación de la información de la cuenta** | Dado que el desarrollador accede a la sección de configuración del perfil, **Cuando** el sistema carga la vista, **Entonces** el sistema debe presentar la información personal actual del administrador, incluyendo nombre, nombre de usuario y correo electrónico. |
+| **Acceptance Criteria – Escenario 2: Actualización de datos de perfil** | Dado que el desarrollador modifica la información de su nombre, nombre de usuario o correo electrónico, **Cuando** el sistema recibe la solicitud de guardar los cambios, **Entonces** el sistema debe validar los nuevos datos, **Y** debe actualizar la información del perfil del administrador en la base de datos. |
+| **Acceptance Criteria – Escenario 3: Modificación de la contraseña** | Dado que el desarrollador solicita cambiar su contraseña, **Cuando** el sistema recibe y valida la nueva credencial de acceso, **Entonces** el sistema debe actualizar la contraseña de la cuenta del administrador de forma segura. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS12 | Developer | 1 – Must Have | EP08: Vista de administrador |
-| **Title** | Gestionar la configuración del perfil |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero poder gestionar mi perfil desde una sección de configuración, para poder ver, actualizar mi información personal o cambiar mi contraseña si es necesario. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Ver información del perfilDado que** el developer se encuentra en la sección Settings,**Cuando** el developer accede a la pestaña "Profile",**Entonces** se muestra la información del perfil actual del administrador, incluyendo su nombre, nombre de usuario, correo electrónico y un campo de contraseña. **Escenario 2: Actualizar la información del perfilDado que** el developer está en la sección Settings,**Cuando** el developer realiza cambios en su nombre, nombre de usuario o correo electrónico,**Entonces** el sistema permite al administrador guardar los cambios al hacer clic en "Save Changes". **Escenario 3: Cambiar la contraseñaDado que** el developer está en la sección Settings,**Cuando** el developer hace clic en "Change Password",**Entonces** el sistema permite al developer ingresar y actualizar su contraseña. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS13 |
+| **User** | Developer |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Gestionar la configuración de la aplicación |
+| **Description** | Como developer, quiero gestionar la configuración de la aplicación desde una sección de configuración, para poder activar o desactivar notificaciones, alertas por correo electrónico, autoguardado de cambios y cambiar la configuración de la cantidad de elementos por página. |
+| **Acceptance Criteria – Escenario 1: Control de notificaciones internas** | Dado que el desarrollador está en la sección de configuración, **Cuando** el sistema recibe la solicitud de cambiar el estado de las notificaciones dentro de la aplicación, **Entonces** el sistema debe almacenar y aplicar el nuevo estado (habilitado/deshabilitado) para todas las notificaciones internas. |
+| **Acceptance Criteria – Escenario 2: Control de alertas por correo electrónico** | Dado que el desarrollador está en la sección de configuración, **Cuando** el sistema recibe la solicitud de cambiar el estado de las alertas enviadas por correo electrónico, **Entonces** el sistema debe almacenar y aplicar el nuevo estado para todas las comunicaciones externas por email. |
+| **Acceptance Criteria – Escenario 3: Control de la función de autoguardado** | Dado que el desarrollador modifica la configuración de guardado automático, **Cuando** el sistema recibe el nuevo estado (activo/inactivo), **Entonces** el sistema debe habilitar o deshabilitar el guardado automático de los cambios en la configuración del administrador. |
+| **Acceptance Criteria – Escenario 4: Configuración de la paginación de elementos** | Dado que el desarrollador ajusta el número de elementos que se muestran por página, **Cuando** el sistema recibe el nuevo valor (ej: 5, 10, 20), **Entonces** el sistema debe almacenar y aplicar la cantidad especificada de elementos a todas las listas paginadas de la vista de administrador. |
+| **Acceptance Criteria – Escenario 5: Persistencia de los cambios de configuración** | Dado que el desarrollador ha modificado una o más opciones de la configuración de la aplicación, **Cuando** el sistema recibe la solicitud de guardar la configuración, **Entonces** el sistema debe almacenar permanentemente los cambios realizados, **Y** debe aplicarlos a la funcionalidad de la aplicación inmediatamente. |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS13 | Developer | 1 – Must Have | EP08: Vista de administrador |
-| **Title** | Gestionar la configuración de la aplicación |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero gestionar la configuración de la aplicación desde una sección de configuración, para poder activar o desactivar notificaciones, alertas por correo electrónico, autoguardado de cambios y cambiar la configuración de la cantidad de elementos por página. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Activar/desactivar notificaciones en la aplicaciónDado que** el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application",**Cuando** el administrador marca o desmarca la opción "Receive notifications in the app",**Entonces** el sistema habilita o deshabilita las notificaciones dentro de la aplicación según la elección del administrador. **Escenario 2: Activar/desactivar alertas por correo electrónicoDado que** el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application",**Cuando** el developer marca o desmarca la opción "Receive email alerts",**Entonces** el sistema habilita o deshabilita las alertas por correo electrónico según la elección del administrador. **Escenario 3: Activar/desactivar auto guardado de cambiosDado que** el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application", **Cuando** el developer marca o desmarca la opción "Automatically save changes",**Entonces** el sistema habilita o deshabilita el guardado automático de los cambios en la configuración de la aplicación. **Escenario 4: Configurar el tamaño de páginaDado que** el developer está en la sección Settings, Y el developer se encuentra en la pestaña "Application",**Cuando** el developer ajusta el número de "Items per page" (por ejemplo, a 5, 10, 20, 50),**Entonces** el sistema ajusta la cantidad de elementos que se muestran por página según la configuración seleccionada. **Escenario 5: Guardar los cambios realizados en la configuraciónDado que** el developer ha realizado cambios en las opciones de "Application",**Cuando** el developer hace clic en "Save Changes",**Entonces** el sistema guarda los cambios y los aplica inmediatamente a la configuración de la aplicación. |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS14 |
+| **User** | Developer |
+| **Priority** | 2 – Should Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Acceder a barra lateral de navegación en el dashboard del administrador |
+| **Description** | Como developer, quiero tener una barra lateral en el dashboard que contenga la información fundamental, para poder navegar de forma rápida y eficiente a las diferentes áreas del sistema. |
+| **Acceptance Criteria – Escenario 1: Disponibilidad de la navegación principal** | Dado que el desarrollador está en el Dashboard de administración, **Cuando** el sistema presenta el componente de navegación de alto nivel, **Entonces** el sistema debe proporcionar accesos directos a las secciones de Home, Books, Orders, Inventory y Statistics. |
+| **Acceptance Criteria – Escenario 2: Disponibilidad de la función de localización** | Dado que el desarrollador está en el Dashboard de administración, **Cuando** el sistema presenta el componente de navegación, **Entonces** el sistema debe ofrecer la funcionalidad para alternar el idioma de la interfaz entre inglés (EN) y español (ES). |
+| **Acceptance Criteria – Escenario 3: Disponibilidad de las acciones de control de cuenta** | Dado que el desarrollador está en el Dashboard de administración, **Cuando** el sistema presenta el componente de navegación, **Entonces** el sistema debe proporcionar accesos directos a la sección de configuración ("Settings") y la función de cierre de sesión ("Log out"). |
 
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS14 | Developer | 2 – Should Have | EP08: Vista de administrador |
-| **Title** | Acceder a barra lateral de navegación en el dashboard del administrador |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero tener una barra lateral en el dashboard que contenga la información fundamental, para poder navegar de forma rápida y eficiente a las diferentes áreas del sistema. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Ver secciones principales de navegaciónDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer dirige su atención la barra lateral,**Entonces** el sistema muestra accesos directos a las secciones de Home, Books, Orders, Inventory y Stadistics. **Escenario 2: Ver botón para cambiar el idiomaDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer dirige su atención la barra lateral,**Entonces** el sistema muestra un botón para cambiar el idioma entre "EN" (inglés) y "ES" (español). **Escenario 3: Ver configuraciones y cerrar sesiónDado que** el developer se encuentra en el dashboard de la vista de administrador,**Cuando** el developer dirige su atención la barra lateral,**Entonces** el sistema muestra un enlace a la sección "Settings" (configuraciones) y un botón para "Log out" (cerrar sesión). |  |  |  |
-
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| TS15 | Developer | 1 – Must Have | EP08: Vista de administrador |
-| **Title** | Registrar una cuenta con control y seguridad. |  |  |
-| **Description** |  |  |  |
-| Como developer, quiero ingresar a la vista de administrador para poder gestionar operaciones de Livria como el inventario y las ventas. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Inicio de sesión exitoso de administrador**
-**Dado que** el developer intenta iniciar sesión en el login de Admin,**Cuando** el developer rellena los campos del formulario con las credenciales default asignadas,**Entonces** el sistema valida los datos proporcionados y confirma el inicio de sesión como exitoso. **Escenario 2: Inicio de sesión inválido** **Dado que** el developer intenta iniciar sesión en el login de Admin,**Cuando** el developer rellena los campos del formulario con credenciales incorrectas o anteriores,**Entonces** el sistema rechaza el registro y retorna un mensaje de error. |  |  |  |
-
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| SS01 | Equipo de desarrollo | 2 – Should Have | E09: Investigación y Prototipado |
-| **Title** | Prototipar el Algoritmo de Recomendación |  |  |
-| **Description** |  |  |  |
-| Como equipo de desarrollo, quiero investigar y prototipar un algoritmo de recomendación de libros, para que podamos validar la viabilidad técnica y determinar el mejor enfoque para ofrecer sugerencias personalizadas a los usuarios. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Investigación de tipos de algoritmosDado que** el equipo de desarrollo necesita entender los diferentes tipos de algoritmos de recomendación,  **Cuando** el desarrollador investiga sobre el filtrado colaborativo, basado en contenido y los enfoques híbridos,  **Entonces** el desarrollador documenta en un informe compartido los pros y contras de cada modelo para el contexto de Livria. **Escenario 2: Investigación de tipos de algoritmosDado que** el equipo de desarrollo debe seleccionar la mejor herramienta para el desarrollo,  **Cuando** el desarrollador compara bibliotecas de código abierto (como Apache Mahout) con servicios de IA de terceros (como Google Cloud AI Platform),  **Entonces** el desarrollador propone una solución recomendada basada en costos, escalabilidad y curva de aprendizaje. **Escenario 3: Investigación de tipos de algoritmosDado que** el equipo de desarrollo necesita validar el concepto,  **Cuando** el desarrollador construye un prototipo simple que toma datos de prueba (ej. calificaciones de usuarios) y genera recomendaciones,  **Entonces** el prototipo es funcional y se añade el código de demostración al informe final. **Escenario 4: Investigación de tipos de algoritmosDado que** el algoritmo requiere datos para funcionar,  **Cuando** el desarrollador  identifica qué datos de usuario son esenciales para el sistema,  **Entonces** el desarrollador lista estos campos para su inclusión en la base de datos del proyecto. |  |  |  |
-
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| SS02 | Equipo de desarrollo | 2 – Should Have | E09: Investigación y Prototipado |
-| **Title** |   Investigar la Estructura de Comunidades |  |  |
-| **Description** |  |  |  |
-| Como equipo de desarrollo, quiero investigar las tecnologías y la arquitectura para la sección de comunidad de Livria, para que podamos asegurar un sistema escalable y seguro que gestione las publicaciones y comentarios. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Evaluación de arquitecturas de comunidadDado que** la comunidad es una funcionalidad central de Livria,**Cuando** el desarrollador investiga y evalúa diferentes soluciones (ej. APIs REST propias, Firebase Firestore o plataformas de terceros),**Entonces** el desarrollador propone una arquitectura clara que detalle cómo se manejará el contenido generado por los usuarios. **Escenario 2: Moderación del contenido de la comunidadDado que** el contenido de la comunidad debe ser moderado,**Cuando** el desarrollador analiza los requisitos para la moderación y las herramientas disponibles (ej. detección de lenguaje ofensivo),**Entonces** el desarrollador documenta en el informe una estrategia inicial para asegurar un entorno seguro para los usuarios. **Escenario 3: Identificación de cuellos de botellaDado que** el sistema debe manejar un alto volumen de interacciones,**Cuando** el desarrollador identifica los posibles cuellos de botella de rendimiento y escalabilidad (ej. carga de múltiples reseñas en una página),**Entonces** el desarrollador propone posibles soluciones de optimización, como la paginación o el almacenamiento en caché. |  |  |  |
-
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| SS03 | Equipo de desarrollo | 2 – Should Have | E09: Investigación y Prototipado |
-| **Title** | Investigar e Integrar Métodos de Pago |  |  |
-| **Description** |  |  |  |
-| Como equipo de desarrollo, quiero investigar la integración de una pasarela de pago para la venta de libros y suscripciones, para que podamos entender las implicaciones técnicas, los requisitos de seguridad y el esfuerzo necesario para una implementación completa. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Evaluación de plataformas de pagoDado que** Livria necesita una solución de pagos confiable,**Cuando** el desarrollador investiga plataformas como Stripe o PayPal, evaluando sus APIs, SDKs y compatibilidad con nuestro stack,**Entonces** el desarrollador documenta las funcionalidades clave, las tarifas y los requisitos de configuración en un informe. **Escenario 2: Seguridad de las transaccionesDado que** se debe garantizar la seguridad de las transacciones,**Cuando** el desarrollador analiza los requisitos de cumplimiento, la tokenización de datos y el manejo de información sensible en el backend,**Entonces** el desarrollador incluye en el informe un resumen de los riesgos de seguridad y las estrategias de mitigación. **Escenario 3: Diagrama del flujo de pagosDado que** el equipo necesita entender el flujo de datos,**Cuando** el desarrollador crea un diagrama que ilustra el proceso de una compra o una suscripción, desde la interfaz de usuario hasta el backend y la pasarela de pago,**Entonces** el desarrollador incluye este diagrama en el informe para una mejor comprensión. |  |  |  |
-
-| Story ID | User | Priority | Epic |
-| ----- | ----- | :---: | :---: |
-| SS04 | Equipo de desarrollo | 2 – Should Have | E09: Investigación y Prototipado |
-| **Title** | Prototipar el Gestor de Notificaciones Personalizadas |  |  |
-| **Description** |  |  |  |
-| Como equipo de desarrollo, quiero investigar y prototipar un gestor de notificaciones que envíe alertas personalizadas a los usuarios, para que podamos validar la infraestructura necesaria para fomentar el hábito de la lectura y la participación en la comunidad. |  |  |  |
-| **Acceptance Criteria** |  |  |  |
-| **Escenario 1: Evaluación de servicios de notificaciónDado que** se deben enviar diferentes tipos de notificaciones,**Cuando** el desarrollador investiga las APIs y los servicios de mensajería para notificaciones push, correo electrónico y alertas dentro de la aplicación,**Entonces** el desarrollador propone la mejor plataforma para cada tipo de notificación en el informe. **Escenario 2: Definición de reglas de personalizaciónDado que** las notificaciones deben ser personalizadas,**Cuando** el desarrollador define las reglas para la activación de las notificaciones (ej. "el usuario no ha leído en 3 días" o "un amigo ha comentado en tu reseña"),**Entonces** el desarrollador detalla la lógica necesaria en el backend para generar y enviar estas alertas. **Escenario 3: Validación del flujo de notificacionesDado que** el equipo necesita validar el flujo,**Cuando** el desarrollador crea un prototipo simple que envía una notificación de prueba basada en un evento simulado,**Entonces** la notificación es recibida correctamente en un dispositivo de prueba y el código se documenta para futuras implementaciones.  |  |  |  |
+| Campo | Valor |
+|---|---|
+| **Story ID** | TS15 |
+| **User** | Developer |
+| **Priority** | 1 – Must Have |
+| **Epic** | EP08: Vista de administrador |
+| **Title** | Registrar una cuenta con control y seguridad. |
+| **Description** | Como developer, quiero ingresar a la vista de administrador para poder gestionar operaciones de Livria como el inventario y las ventas. |
+| **Acceptance Criteria – Escenario 1: Autenticación exitosa y acceso al panel de administración** | Dado que el desarrollador proporciona credenciales válidas y con rol de administrador, **Cuando** el sistema recibe la solicitud de ingreso, **Entonces** el sistema debe verificar y autenticar las credenciales correctamente, **Y** debe otorgar acceso al desarrollador a la vista principal del panel de administración. |
+| **Acceptance Criteria – Escenario 2: Rechazo por credenciales no válidas** | Dado que el desarrollador intenta autenticarse, **Cuando** el sistema recibe credenciales que no coinciden con ningún registro de administrador activo, **Entonces** el sistema debe denegar el acceso, **Y** debe notificar que las credenciales son incorrectas. |
 
 | Campo | Valor |
 |---|---|
@@ -1504,12 +1566,12 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **User** | Equipo de desarrollo |
 | **Priority** | 2 – Should Have |
 | **Epic** | E09: Investigación y Prototipado |
-| **Title** | Prototipado de Algoritmo de Recomendación |
+| **Title** | Prototipar el Algoritmo de Recomendación |
 | **Description** | Como equipo de desarrollo, quiero investigar y prototipar un algoritmo de recomendación de libros, para que podamos validar la viabilidad técnica y determinar el mejor enfoque para ofrecer sugerencias personalizadas a los usuarios. |
-| **Acceptance Criteria – Escenario 1: Investigación de tipos de algoritmos** | Dado que el equipo de desarrollo necesita entender los diferentes tipos de algoritmos de recomendación, Cuando el desarrollador investiga sobre el filtrado colaborativo, basado en contenido y los enfoques híbridos, Entonces el desarrollador documenta en un informe compartido los pros y contras de cada modelo para el contexto de Livria. |
-| **Acceptance Criteria – Escenario 2: Investigación de tipos de algoritmos** | Dado que el equipo de desarrollo debe seleccionar la mejor herramienta para el desarrollo, Cuando el desarrollador compara bibliotecas de código abierto (como Apache Mahout) con servicios de IA de terceros (como Google Cloud AI Platform), Entonces el desarrollador propone una solución recomendada basada en costos, escalabilidad y curva de aprendizaje. |
-| **Acceptance Criteria – Escenario 3: Investigación de tipos de algoritmos** | Dado que el equipo de desarrollo necesita validar el concepto, Cuando el desarrollador construye un prototipo simple que toma datos de prueba (ej. calificaciones de usuarios) y genera recomendaciones, Entonces el prototipo es funcional y se añade el código de demostración al informe final. |
-| **Acceptance Criteria – Escenario 4: Investigación de tipos de algoritmos** | Dado que el algoritmo requiere datos para funcionar, Cuando el desarrollador  identifica qué datos de usuario son esenciales para el sistema, Entonces el desarrollador lista estos campos para su inclusión en la base de datos del proyecto. |
+| **Acceptance Criteria – Escenario 1: Investigación de tipos de algoritmos** | Dado que el equipo de desarrollo necesita entender los diferentes tipos de algoritmos de recomendación, **Cuando** el desarrollador investiga sobre el filtrado colaborativo, basado en contenido y los enfoques híbridos, **Entonces** el desarrollador documenta en un informe compartido los pros y contras de cada modelo para el contexto de Livria. |
+| **Acceptance Criteria – Escenario 2: Investigación de tipos de algoritmos** | Dado que el equipo de desarrollo debe seleccionar la mejor herramienta para el desarrollo, **Cuando** el desarrollador compara bibliotecas de código abierto (como Apache Mahout) con servicios de IA de terceros (como Google Cloud AI Platform), **Entonces** el desarrollador propone una solución recomendada basada en costos, escalabilidad y curva de aprendizaje. |
+| **Acceptance Criteria – Escenario 3: Investigación de tipos de algoritmos** | Dado que el equipo de desarrollo necesita validar el concepto, **Cuando** el desarrollador construye un prototipo simple que toma datos de prueba (ej. calificaciones de usuarios) y genera recomendaciones, **Entonces** el prototipo es funcional y se añade el código de demostración al informe final. |
+| **Acceptance Criteria – Escenario 4: Investigación de tipos de algoritmos** | Dado que el algoritmo requiere datos para funcionar, **Cuando** el desarrollador identifica qué datos de usuario son esenciales para el sistema, **Entonces** el desarrollador lista estos campos para su inclusión en la base de datos del proyecto. |
 
 | Campo | Valor |
 |---|---|
@@ -1517,11 +1579,11 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **User** | Equipo de desarrollo |
 | **Priority** | 2 – Should Have |
 | **Epic** | E09: Investigación y Prototipado |
-| **Title** |  Investigación de Estructura de Comunidades |
+| **Title** | Investigar la Estructura de Comunidades |
 | **Description** | Como equipo de desarrollo, quiero investigar las tecnologías y la arquitectura para la sección de comunidad de Livria, para que podamos asegurar un sistema escalable y seguro que gestione las publicaciones y comentarios. |
-| **Acceptance Criteria – Escenario 1: Evaluación de arquitecturas de comunidad** | Dado que la comunidad es una funcionalidad central de Livria, Cuando el desarrollador investiga y evalúa diferentes soluciones (ej. APIs REST propias, Firebase Firestore o plataformas de terceros), Entonces el desarrollador propone una arquitectura clara que detalle cómo se manejará el contenido generado por los usuarios. |
-| **Acceptance Criteria – Escenario 2: Moderación del contenido de la comunidad** | Dado que el contenido de la comunidad debe ser moderado, Cuando el desarrollador analiza los requisitos para la moderación y las herramientas disponibles (ej. detección de lenguaje ofensivo), Entonces el desarrollador documenta en el informe una estrategia inicial para asegurar un entorno seguro para los usuarios. |
-| **Acceptance Criteria – Escenario 3: Identificación de cuellos de botella** | Dado que el sistema debe manejar un alto volumen de interacciones, Cuando el desarrollador identifica los posibles cuellos de botella de rendimiento y escalabilidad (ej. carga de múltiples reseñas en una página), Entonces el desarrollador propone posibles soluciones de optimización, como la paginación o el almacenamiento en caché. |
+| **Acceptance Criteria – Escenario 1: Evaluación de arquitecturas de comunidad** | Dado que la comunidad es una funcionalidad central de Livria, **Cuando** el desarrollador investiga y evalúa diferentes soluciones (ej. APIs REST propias, Firebase Firestore o plataformas de terceros), **Entonces** el desarrollador propone una arquitectura clara que detalle cómo se manejará el contenido generado por los usuarios. |
+| **Acceptance Criteria – Escenario 2: Moderación del contenido de la comunidad** | Dado que el contenido de la comunidad debe ser moderado, **Cuando** el desarrollador analiza los requisitos para la moderación y las herramientas disponibles (ej. detección de lenguaje ofensivo), **Entonces** el desarrollador documenta en el informe una estrategia inicial para asegurar un entorno seguro para los usuarios. |
+| **Acceptance Criteria – Escenario 3: Identificación de cuellos de botella** | Dado que el sistema debe manejar un alto volumen de interacciones, **Cuando** el desarrollador identifica los posibles cuellos de botella de rendimiento y escalabilidad (ej. carga de múltiples reseñas en una página), **Entonces** el desarrollador propone posibles soluciones de optimización, como la paginación o el almacenamiento en caché. |
 
 | Campo | Valor |
 |---|---|
@@ -1529,11 +1591,11 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **User** | Equipo de desarrollo |
 | **Priority** | 2 – Should Have |
 | **Epic** | E09: Investigación y Prototipado |
-| **Title** | Investigación y Integración de Métodos de Pago |
+| **Title** | Investigar e Integrar Métodos de Pago |
 | **Description** | Como equipo de desarrollo, quiero investigar la integración de una pasarela de pago para la venta de libros y suscripciones, para que podamos entender las implicaciones técnicas, los requisitos de seguridad y el esfuerzo necesario para una implementación completa. |
-| **Acceptance Criteria – Escenario 1: Evaluación de plataformas de pago** | Dado que Livria necesita una solución de pagos confiable, Cuando el desarrollador investiga plataformas como Stripe o PayPal, evaluando sus APIs, SDKs y compatibilidad con nuestro stack, Entonces el desarrollador documenta las funcionalidades clave, las tarifas y los requisitos de configuración en un informe. |
-| **Acceptance Criteria – Escenario 2: Seguridad de las transacciones** | Dado que se debe garantizar la seguridad de las transacciones, Cuando el desarrollador analiza los requisitos de cumplimiento, la tokenización de datos y el manejo de información sensible en el backend, Entonces el desarrollador incluye en el informe un resumen de los riesgos de seguridad y las estrategias de mitigación. |
-| **Acceptance Criteria – Escenario 3: Diagrama del flujo de pagos** | Dado que el equipo necesita entender el flujo de datos, Cuando el desarrollador crea un diagrama que ilustra el proceso de una compra o una suscripción, desde la interfaz de usuario hasta el backend y la pasarela de pago, Entonces el desarrollador incluye este diagrama en el informe para una mejor comprensión. |
+| **Acceptance Criteria – Escenario 1: Evaluación de plataformas de pago** | Dado que Livria necesita una solución de pagos confiable, **Cuando** el desarrollador investiga plataformas como Stripe o PayPal, evaluando sus APIs, SDKs y compatibilidad con nuestro stack, **Entonces** el desarrollador documenta las funcionalidades clave, las tarifas y los requisitos de configuración en un informe. |
+| **Acceptance Criteria – Escenario 2: Seguridad de las transacciones** | Dado que se debe garantizar la seguridad de las transacciones, **Cuando** el desarrollador analiza los requisitos de cumplimiento, la tokenización de datos y el manejo de información sensible en el backend, **Entonces** el desarrollador incluye en el informe un resumen de los riesgos de seguridad y las estrategias de mitigación. |
+| **Acceptance Criteria – Escenario 3: Diagrama del flujo de pagos** | Dado que el equipo necesita entender el flujo de datos, **Cuando** el desarrollador crea un diagrama que ilustra el proceso de una compra o una suscripción, desde la interfaz de usuario hasta el backend y la pasarela de pago, **Entonces** el desarrollador incluye este diagrama en el informe para una mejor comprensión. |
 
 | Campo | Valor |
 |---|---|
@@ -1541,23 +1603,11 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **User** | Equipo de desarrollo |
 | **Priority** | 2 – Should Have |
 | **Epic** | E09: Investigación y Prototipado |
-| **Title** | Prototipado de Gestor de Notificaciones Personalizadas |
+| **Title** | Prototipar el Gestor de Notificaciones Personalizadas |
 | **Description** | Como equipo de desarrollo, quiero investigar y prototipar un gestor de notificaciones que envíe alertas personalizadas a los usuarios, para que podamos validar la infraestructura necesaria para fomentar el hábito de la lectura y la participación en la comunidad. |
-| **Acceptance Criteria – Escenario 1: Evaluación de servicios de notificación** | Dado que se deben enviar diferentes tipos de notificaciones, Cuando el desarrollador investiga las APIs y los servicios de mensajería para notificaciones push, correo electrónico y alertas dentro de la aplicación, Entonces el desarrollador propone la mejor plataforma para cada tipo de notificación en el informe. |
-| **Acceptance Criteria – Escenario 2: Definición de reglas de personalización** | Dado que las notificaciones deben ser personalizadas, Cuando el desarrollador define las reglas para la activación de las notificaciones (ej. "el usuario no ha leído en 3 días" o "un amigo ha comentado en tu reseña"), Entonces el desarrollador detalla la lógica necesaria en el backend para generar y enviar estas alertas. |
-| **Acceptance Criteria – Escenario 3: Validación del flujo de notificaciones** | Dado que el equipo necesita validar el flujo, Cuando el desarrollador crea un prototipo simple que envía una notificación de prueba basada en un evento simulado, Entonces la notificación es recibida correctamente en un dispositivo de prueba y el código se documenta para futuras implementaciones. |
-
-| Campo | Valor |
-|---|---|
-| **Story ID** | SS05 |
-| **User** | Equipo de desarrollo |
-| **Priority** | 2 – Should Have |
-| **Epic** | E09: Investigación y Prototipado |
-| **Title** |  Investigación de Gestión de Libros Físicos y Digitales |
-| **Description** | Como equipo de desarrollo, quiero investigar la estructura de datos y el almacenamiento para manejar un catálogo de libros físicos y digitales, para que podamos crear un sistema flexible y escalable que soporte ambos formatos y sus metadatos asociados. |
-| **Acceptance Criteria – Escenario 1: Diseño del modelo de datos de libros** | Dado que la plataforma necesita un catálogo unificado, Cuando el desarrollador diseña el esquema de la base de datos para almacenar la información de los libros (ej. autor, género, sinopsis, ISBN, precio, etc.) de forma que sea compatible con ambos formatos, Entonces el desarrollador presenta el modelo de datos en el informe. |
-| **Acceptance Criteria – Escenario 2: Almacenamiento de archivos digitales** | Dado que los libros digitales y audiolibros son archivos que deben ser gestionados, Cuando el desarrollador investiga y prototipa el almacenamiento de archivos en la nube para manejar estos activos digitales, Entonces el desarrollador documenta el flujo de carga y acceso a los archivos de forma segura. |
-| **Acceptance Criteria – Escenario 3: Poblamiento del catálogo con APIs públicas** | Dado que se necesita poblar el catálogo, Cuando el desarrollador investiga la viabilidad de utilizar APIs de catálogos públicos para enriquecer la información de los libros, Entonces el desarrollador incluye en el informe un plan para la ingestión inicial de datos y la actualización del catálogo. |
+| **Acceptance Criteria – Escenario 1: Evaluación de servicios de notificación** | Dado que se deben enviar diferentes tipos de notificaciones, **Cuando** el desarrollador investiga las APIs y los servicios de mensajería para notificaciones push, correo electrónico y alertas dentro de la aplicación, **Entonces** el desarrollador propone la mejor plataforma para cada tipo de notificación en el informe. |
+| **Acceptance Criteria – Escenario 2: Definición de reglas de personalización** | Dado que las notificaciones deben ser personalizadas, **Cuando** el desarrollador define las reglas para la activación de las notificaciones (ej. "el usuario no ha leído en 3 días" o "un amigo ha comentado en tu reseña"), **Entonces** el desarrollador detalla la lógica necesaria en el backend para generar y enviar estas alertas. |
+| **Acceptance Criteria – Escenario 3: Validación del flujo de notificaciones** | Dado que el equipo necesita validar el flujo, **Cuando** el desarrollador crea un prototipo simple que envía una notificación de prueba basada en un evento simulado, **Entonces** la notificación es recibida correctamente en un dispositivo de prueba y el código se documenta para futuras implementaciones. |
 
 ### 2.4.2. Impact Mapping
 
