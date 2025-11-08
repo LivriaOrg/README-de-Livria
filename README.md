@@ -1266,8 +1266,8 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **Priority** | 1 – Must Have |
 | **Epic** | EP05: Comunidades |
 | **Title** | Gestionar comunidades |
-| **Description** | Como lector, quiero poder crear y unirse a comunidades relacionadas con mis intereses literarios con el fin de conectar con distintos lectores o autores de títulos reconocidos. |
-| **Acceptance Criteria – Escenario 1: Creación y registro de una nueva comunidad** | Dado que el lector proporciona información requerida para la comunidad, **Cuando** el sistema recibe la solicitud de creación de la comunidad, **Entonces** el sistema debe validar y registrar la nueva comunidad, **Y** debe incluirla en el listado general de comunidades disponibles en la plataforma. |
+| **Description** | Como lector, quiero poder crear y unirse a comunidades relacionadas con mis intereses literarios, para conectar con distintos lectores o autores de títulos reconocidos. |
+| **Acceptance Criteria – Escenario 1: Creación y registro de una nueva comunidad** | Dado que el lector proporciona información requerida para la comunidad, **Cuando** el sistema recibe la solicitud de creación de la comunidad, **Entonces** el sistema debe validar y registrar la nueva comunidad, **Y** debe incluirla entre las comunidades disponibles en la plataforma. |
 | **Acceptance Criteria – Escenario 2: Asignación de membresía a una comunidad** | Dado que el lector accede a una comunidad existente, **Cuando** el sistema recibe la solicitud del lector para unirse, **Entonces** el sistema debe registrar al lector como miembro activo de esa comunidad, **Y** debe otorgar al lector acceso a la creación y visualización de contenido dentro de la misma. |
 
 | Campo | Valor |
