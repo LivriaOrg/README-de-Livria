@@ -1299,7 +1299,7 @@ Las User Stories permiten traducir la visión del producto en necesidades concre
 | **Priority** | 1 – Must Have |
 | **Epic** | EP06: Compra de libros |
 | **Title** | Buscar libros y contenido en la aplicación |
-| **Description** | Como lector, quiero utilizar una barra de búsqueda para encontrar libros, autores y comunidades literarias de forma rápida y precisa, con el fin de acceder fácilmente a contenido de interés sin tener que navegar por toda la plataforma. |
+| **Description** | Como lector, quiero utilizar una barra de búsqueda para encontrar libros, autores y comunidades literarias de forma rápida y precisa, para así acceder fácilmente a contenido de interés sin tener que navegar por toda la plataforma. |
 | **Acceptance Criteria – Escenario 1: Búsqueda por título o contenido de libro** | Dado que el lector inicia una consulta de búsqueda, **Cuando** el sistema recibe términos relacionados con el título o contenido de un libro, **Entonces** el sistema debe presentar una lista de resultados que contengan información esencial del libro (título, autor e imagen). |
 | **Acceptance Criteria – Escenario 2: Búsqueda por autor específico** | Dado que el lector desea encontrar obras de un autor en particular, **Cuando** el sistema recibe el nombre de dicho autor en la consulta de búsqueda, **Entonces** el sistema debe mostrar todos los libros de catálogo pertenecientes a ese autor. |
 
