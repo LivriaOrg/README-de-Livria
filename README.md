@@ -280,6 +280,7 @@ Durante el TP, el equipo colaboró activamente en la elaboración del informe de
         - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas-1)
         - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 + [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
++ [Glosario](#glosario)
 + [Bibliografía](#bibliografía)
 
 # Student Outcome
@@ -4850,19 +4851,6 @@ Para acceder a la documentación interactiva de la API, navegamos al enlace fina
 | | 3 | Endpoint de Preferencias | Crear API para guardar la configuración de notificaciones del usuario. | 1 | Developer Team | To-Do |
 | | 4 | Validación de Configuración | Asegurar que los cambios del usuario se respeten al enviar notificaciones. | 1 | Developer Team | To-Do |
 
-#### 4.2.3.3. Development Evidence for Sprint Review
-
-#### 4.2.3.4. Testing Suite Evidence for Sprint Review
-
-#### 4.2.3.5. Execution Evidence for Sprint Review
-
-#### 4.2.3.6. Services Documentation Evidence for Sprint Review
-
-#### 4.2.3.7. Software Deployment Evidence for Sprint Review
-
-#### 4.2.3.8. Team Collaboration Insights during Sprint
-
-
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
@@ -5185,6 +5173,110 @@ TABLA RESUMEN:
 8. Antes del despliegue del backend, es necesario que un miembro del equipo haga una revisión exhaustiva del mismo, verificando su funcionamiento, calidad y cumplimiento de estándares, con el fin de prevenir errores y posibles redepliegues futuros.
 
 9. En el desarrollo multiplataforma en Flutter, para evitar tener grandes bloques de código o una alta complejidad en un solo archivo, se sugiere dividir la capa de presentación en una carpeta de widgets y otra para pages. Así se promueve un código más organizado, modular y fácil de mantener.
+
+# Glosario
+
+Acceptance Criteria (Criterios de Aceptación): Las condiciones específicas que una Historia de Usuario (User Story) debe cumplir para ser considerada "terminada" desde la perspectiva del Product Owner.
+
+Agile (Metodología Ágil): Un enfoque de gestión de proyectos, utilizado en este documento, que se basa en la entrega de trabajo en ciclos iterativos cortos llamados Sprints.
+
+Aggregate (Agregado - DDD): Un clúster de entidades y objetos de valor del dominio que se tratan como una única unidad cohesiva. Por ejemplo, el agregado LibroAggregate agrupa la entidad Libro y sus Reseñas.
+
+API (Application Programming Interface): Un contrato que define cómo dos componentes de software se comunican. En este proyecto, se refiere al Backend (API REST) que se comunica con la aplicación móvil y la Landing Page.
+
+Application Layer (Capa de Aplicación - DDD): La capa de la arquitectura que orquesta los casos de uso (comandos y queries) pero que no contiene lógica de negocio (la cual reside en el Domain Layer).
+
+ASO (App Store Optimization): El proceso de optimizar el título, el ícono y la descripción de una aplicación móvil para mejorar su visibilidad y ranking en tiendas como Google Play Store.
+
+Azure App Service: El servicio de Microsoft Azure utilizado para alojar (desplegar) el backend y la API de Livria.
+
+Backend: La parte del sistema que se ejecuta en el servidor. Es responsable de la lógica de negocio, la base de datos y la seguridad.
+
+BDD (Behavior Driven Development): Una metodología ágil en la que las pruebas (Acceptance Tests) se escriben en un lenguaje natural (Gherkin) que describe el comportamiento del sistema.
+
+Bounded Context (Contexto Delimitado - DDD): El concepto central de Domain-Driven Design. Es un límite (como un módulo) dentro del cual un modelo de dominio específico y un lenguaje ubicuo son consistentes. Ejemplos en el proyecto son "Comunidades", "Órdenes" y "Libro".
+
+C4 Model (Modelo C4): Una metodología para visualizar la arquitectura de software en cuatro niveles de abstracción: Contexto, Contenedores, Componentes y Código.
+
+CI/CD (Continuous Integration / Continuous Deployment): Integración Continua y Despliegue Continuo. Práctica de automatización para construir, probar y desplegar cambios de código de forma frecuente y fiable.
+
+Container (Contenedor - C4): Una unidad ejecutable o desplegable del sistema. En el proyecto Livria, los contenedores son la "Mobile Application", la "Web Application (Landing Page)", la "API" y la "Base de datos".
+
+Context Mapping (Mapeo de Contextos - DDD): Un diagrama que muestra las relaciones y patrones de integración (como Upstream/Downstream o Cliente/Proveedor) entre diferentes Bounded Contexts.
+
+Conventional Commits: Un estándar para los mensajes de commit en Git (ej. feat:, fix:) que ayuda a mantener un historial limpio y automatizar el versionado.
+
+DDD (Domain-Driven Design): Enfoque de diseño de software (utilizado en el Capítulo 2) que se centra en modelar el software para que coincida con el dominio de negocio, utilizando conceptos como Bounded Contexts y Ubiquitous Language.
+
+Domain Layer (Capa de Dominio - DDD): El núcleo de la arquitectura. Contiene la lógica de negocio pura, las Entidades, los Agregados y los Objetos de Valor, sin depender de la tecnología (UI o Base de Datos).
+
+Empathy Mapping (Mapa de Empatía): Herramienta de UX utilizada para obtener una comprensión más profunda del usuario, visualizando lo que dice, piensa, siente y hace.
+
+Entity (Entidad - DDD): Un objeto del dominio que se define por su identidad única y su ciclo de vida (ej. Libro, Usuario), a diferencia de un Objeto de Valor.
+
+EventStorming: Una técnica de taller colaborativo utilizada en el proyecto para explorar y modelar un dominio de negocio complejo identificando eventos (post-its naranjas) que ocurren en él.
+
+Figma: Herramienta de diseño de interfaces (UI/UX) basada en la nube, utilizada para crear los wireframes, mockups y prototipos de Livria.
+
+Frontend: La parte del sistema con la que el usuario interactúa directamente (la interfaz de usuario), como la aplicación móvil en Flutter o la Landing Page en la web.
+
+Gherkin: El lenguaje de texto plano (Dado, Cuando, Entonces) utilizado para escribir los escenarios de prueba en BDD.
+
+GitFlow: Un modelo de ramificación (branching model) para Git que define roles estrictos para las ramas main, develop y feature, utilizado para la gestión del código fuente.
+
+Heurísticas (Heuristics): Principios o "reglas de oro" (como las de Nielsen) utilizadas para evaluar la usabilidad de un diseño de interfaz.
+
+Impact Mapping: Una técnica de planificación estratégica utilizada para alinear los entregables del proyecto (User Stories) con los objetivos de negocio.
+
+Infrastructure Layer (Capa de Infraestructura - DDD): La capa más externa de la arquitectura, responsable de detalles técnicos como la comunicación con la base de datos (Entity Framework Core), llamadas a APIs externas o el framework de la app (Flutter).
+
+Interface Layer (Capa de Interfaz - DDD): La capa que maneja la interacción con el exterior, ya sea un usuario (UI/Controllers) o otro sistema. En el proyecto, se refiere a los Controllers de la API.
+
+Jira: Herramienta de software de Atlassian utilizada por el equipo para la gestión de proyectos ágil (Scrum), la planificación de Sprints y el seguimiento del Product Backlog.
+
+Kotlin: Lenguaje de programación moderno utilizado en el proyecto para el desarrollo de la aplicación móvil de administrador en Android Studio.
+
+Landing Page: Una página web única diseñada con un propósito específico, en este caso, presentar el producto Livria (EP01).
+
+Lean UX: Metodología de diseño centrada en eliminar el desperdicio y validar hipótesis rápidamente, utilizando artefactos como el Lean UX Canvas.
+
+Mock-up: Un modelo visual estático de alta fidelidad que representa cómo se verá el diseño final de la aplicación, incluyendo colores, tipografía y branding.
+
+Product Backlog: El listado maestro, priorizado, de todo el trabajo (User Stories, Tareas Técnicas) que se requiere para el producto.
+
+Repository (Repositorio - DDD): Un patrón de diseño que media entre el Dominio y la Infraestructura. Abstrae la lógica de persistencia (guardar/leer) de la base de datos.
+
+SEO (Search Engine Optimization): Optimización para motores de búsqueda. Técnicas (como Meta Tags) utilizadas en la Landing Page para mejorar su visibilidad en Google.
+
+SPA (Single Page Application): Aplicación de una sola página. Un tipo de aplicación web (como el Admin Dashboard) que carga una única página HTML y actualiza el contenido dinámicamente.
+
+Sprint: Un ciclo de trabajo corto, de tiempo fijo (en este proyecto, de 2 semanas), en el que el equipo desarrolla un incremento funcional del producto.
+
+Sprint Backlog: El conjunto de Historias de Usuario (ítems del Product Backlog) seleccionadas para ser completadas durante un Sprint específico, junto con las tareas (Work-Items) necesarias para lograrlas.
+
+Sprint Planning: La ceremonia de Scrum donde el equipo planifica el trabajo que se realizará en el próximo Sprint.
+
+Story Points: Una unidad de medida relativa utilizada en Scrum para estimar el esfuerzo (complejidad, incertidumbre) de una Historia de Usuario.
+
+Swagger: Una herramienta (ahora parte de OpenAPI) utilizada para diseñar, documentar y probar APIs RESTful, usada para documentar el backend de Livria.
+
+TB1 / TP: Abreviaturas para las entregas académicas del curso: Trabajo 1 (TB1) y Trabajo Parcial (TP).
+
+Ubiquitous Language (Lenguaje Ubicuo - DDD): Un lenguaje común y compartido, desarrollado por el equipo y los expertos del dominio, para describir el negocio (ej. "Lector", "Comunidad") sin ambigüedad.
+
+User Journey Mapping: Una visualización del proceso (pasos, acciones, emociones) que un usuario sigue para lograr un objetivo con el producto.
+
+User Persona: Un personaje arquetípico y ficticio (ej. "Yoel Ramírez", "Lucia Carnero") creado para representar a un segmento de usuarios objetivo.
+
+User Story (Historia de Usuario): Una descripción corta, simple e informal de una funcionalidad desde la perspectiva del usuario (Como... quiero... para...).
+
+Value Object (Objeto de Valor - DDD): Un objeto del dominio definido por sus atributos, no por una identidad única (ej. RangoPrecio, Fecha). Es inmutable.
+
+Velocity (Velocidad): Una métrica de Scrum que mide la cantidad de Story Points que un equipo completa en promedio por Sprint.
+
+Wireflow: Un diagrama que combina wireframes de bajo nivel con la lógica de un diagrama de flujo, mostrando el recorrido del usuario pantalla por pantalla.
+
+Wireframe: Un boceto o "blueprint" de baja fidelidad que define la estructura y jerarquía de una pantalla, sin colores ni estilos.
 
 # Anexos
 
