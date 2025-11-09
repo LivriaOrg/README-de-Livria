@@ -5100,6 +5100,12 @@ TABLA RESUMEN:
 
 6. La anticipación en la definición de Style Guidelines es un acierto estratégico que facilitará la unidad de marca y la velocidad de desarrollo en sprints futuros, al proporcionar un sistema de diseño reutilizable.
 
+7. Es importante que, antes de empezar el desarrollo, el equipo defina el flujo, historias de usuario y tareas que se llevarán a cabo en todos los sprints, asegurando así una planificación clara desde el inicio y evitando improvisaciones o retrabajos durante la ejecución del proyecto.
+
+8. Antes del despliegue del backend, es necesario que un miembro del equipo haga una revisión exhaustiva del mismo, verificando su funcionamiento, calidad y cumplimiento de estándares, con el fin de prevenir errores y posibles redepliegues futuros.
+
+9. En el desarrollo multiplataforma en Flutter, para evitar tener grandes bloques de código o una alta complejidad en un solo archivo, se sugiere dividir la capa de presentación en una carpeta de widgets y otra para pages. Así se promueve un código más organizado, modular y fácil de mantener.
+
 # Anexos
 
 Anexo A. Video exposición TP. https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/ER_7rYbJD4FMv55jQXJGb28Bsegg0FGUiPPFWs6NUkN9Tw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WpwW0C
