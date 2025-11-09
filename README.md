@@ -4802,6 +4802,64 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
+En el Sprint 2, se hizo un redespliegue con la base de datos actualizada, con la implementación de todos los endpoints necesarios para el desarrollo de Livira-User. Para el despliegue de la base de datos de Livria, se aprovisionó un servidor flexible de Azure Database for MySQL.
+
+<p align="center">
+  <img src="https://i.imgur.com/2bp9MI1.png" alt="12171">
+</p>
+
+Seleccionamos creación rápida.
+
+<p align="center">
+  <img src="https://i.imgur.com/WbmmBR9.png" alt="12171">
+</p>
+
+Se procedió a ingresar la información esencial: el nombre del servidor, la región, la zona de disponibilidad, el grupo de recursos asociado, las credenciales de acceso, y el tipo de carga de trabajo. Finalmente, se seleccionó "Revisar y crear" para iniciar el aprovisionamiento.
+
+<p align="center">
+  <img src="https://i.imgur.com/46JEYR3.png" alt="12171">
+</p>
+
+Esperamos la finalización de la implementación de la base de datos, lo que nos permitió acceder al recurso y obtener la dirección del servidor.
+
+<p align="center">
+  <img src="https://i.imgur.com/fwiIY2q.png" alt="12171">
+</p>
+
+El despliegue de la API se realizó directamente desde el IDE Rider, nuestra herramienta de desarrollo para el backend con Swagger.  
+
+<p align="center">
+  <img src="https://i.imgur.com/DJxgrmr.png" alt="12171">
+</p>
+
+Se actualizó la cadena de conexión DefaultConnection en los archivos appsettings.json y appsettings.Development.json para reflejar las credenciales de la nueva base de datos.
+
+<p align="center">
+  <img src="https://i.imgur.com/NkcpfK3.png" alt="12171">
+</p>
+
+Luego procedemos a publicar el proyecto de la API hacia Azure App Service  
+
+<p align="center">
+  <img src="https://i.imgur.com/uI7mvwC.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/xluzrMN.png" alt="12171">
+</p>
+
+Creamos una Web App en Azure con el nombre de la API y procedimos a ejecutarla para iniciar el deployment, lo que, tras unos segundos, nos proporcionó el enlace de la API para acceder en el navegador.
+
+<p align="center">
+  <img src="https://i.imgur.com/VVpXrs8.png" alt="12171">
+</p>
+
+Para acceder a la documentación interactiva de la API, navegamos al enlace final, añadiendo la extensión /swagger/index.html.  
+
+<p align="center">
+  <img src="https://i.imgur.com/XgkXXQr.png" alt="12171">
+</p>
+
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
 
