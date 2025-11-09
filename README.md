@@ -5136,11 +5136,21 @@ Anexo H. Sprint Backlog. https://livriaaplicacionesmoviles12.atlassian.net/jira/
 
 # Bibliografía
 
+Alaminkarno. (2024, enero 8). *DDD (Domain-Driven Design) in Flutter – Too much or just right?* DEV Community. https://dev.to/alaminkarno/ddd-domain-driven-design-in-flutter-too-much-or-just-right-d1g
+
 Allen, C. (2024). *The impact of book clubs on millennials: Best way to instill a love of reading*. Recuperado de [https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading](https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading)
 
 Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. [https://www.leanconstructionmexico.com.mx/post/5w2h-qué-significa-para-qué-sirve-cómo-aplicarla-y-algunos-ejemplos](https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos)
 
+Dart Packages. (s. f.). *pub.dev*. https://pub.dev
+
 Fabiana, E., & Vega, J. (2022). La motivación en el aprendizaje de la lectura en los estudiantes. Revista EDUCARE \- UPEL-IPB \- Segunda Nueva Etapa 2.0, 26(Extraordinario), 476–493. [https://doi.org/10.46498/reduipb.v26iExtraordinario.1641](https://doi.org/10.46498/reduipb.v26iExtraordinario.1641) 
+
+Flutter Dev. (s. f.). *Flutter documentation*. https://docs.flutter.dev
+
+Google Fonts. (s. f.). *Alexandria*. https://fonts.google.com/specimen/Alexandria
+
+Google Fonts. (s. f.). *Asap Condensed*. https://fonts.google.com/specimen/Asap+Condensed
 
 Mamani, B., Chata, L., & Choque, D. (2024). Efecto del uso de Tik Tok en el rendimiento académico de estudiantes de 5to grado . Revista Tribunal, 4(9), 161-175. [https://doi.org/10.59659/revistatribunal.v4i9.71](https://doi.org/10.59659/revistatribunal.v4i9.71)
 
