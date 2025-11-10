@@ -5154,6 +5154,12 @@ TABLA RESUMEN:
 
 6. El desglose detallado de las User Stories en tareas específicas dentro del Sprint Backlog ha permitido cuantificar la carga de trabajo del equipo con alta precisión. Esta granularidad es clave para realizar una planificación realista de la capacidad del Sprint, asegurar la distribución equitativa de responsabilidades y minimizar la incertidumbre durante la fase de desarrollo.
 
+7. La implementación del proyecto móvil en Flutter demostró que la aplicación del Domain-Driven Design (DDD) a nivel táctico facilitó la separación de las responsabilidades del sistema. La clara segregación de capas (Dominio, Infraestructura, Presentación) permitió que la lógica de negocio fuera completamente independiente de los detalles tecnológicos (APIs, Base de Datos, UI), resultando en un código más mantenible, testeable y desacoplado.
+
+8. La realización de validaciones con usuarios (heurísticas) sobre el prototipo reveló fricciones clave en la experiencia de usuario. Esta práctica fue crucial para identificar problemas de usabilidad  y priorizar soluciones.
+
+9. El equipo logró la integración funcional de los componentes críticos para el ciclo de vida del usuario (Login, Registro y Logout). Esto implicó la conexión de la lógica del frontend (Flutter) con el backend desplegado en Azure, asegurando la persistencia del estado de la sesión (JWT/SharedPreferences) y validando la arquitectura de la solución.
+
 **Recomendaciones**
 
 1. Se recomienda continuar aplicando los principios de Domain-Driven Design en el desarrollo tanto del frontend como del backend, asegurando que la lógica de negocio y las reglas del dominio estén alineadas con las necesidades identificadas en el proceso de investigación. Esto permitirá mantener una arquitectura coherente y sostenible.
