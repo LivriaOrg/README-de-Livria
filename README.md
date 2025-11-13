@@ -4889,6 +4889,42 @@ Para acceder a la documentación interactiva de la API, navegamos al enlace fina
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
+Durante este Sprint, el equipo concentró todos sus esfuerzos en la implementación y despliegue de la aplicación móvil dirigida al usuario final (lector), utilizando el framework Flutter dentro del entorno Android Studio. El enfoque principal fue la construcción de una interfaz de usuario fiel a los diseños y la arquitectura del cliente, asegurando una navegación fluida y una experiencia nativa consistente.
+
+Dado que la infraestructura del servidor ya se encontraba operativa, el trabajo técnico se focalizó en la integración desde el cliente, desarrollando la capa de datos y repositorios en la aplicación móvil para consumir los servicios RESTful existentes. Esto permitió validar los flujos de autenticación y obtención de datos sin necesidad de realizar modificaciones en el código fuente del backend.
+
+Actividades de implementación:
+
+* La aplicación móvil de usuario fue desarrollada en Flutter, implementando la lógica de negocio en el cliente y las pantallas de Autenticación (Login/Registro), Inicio, Búsqueda y Comunidades conforme a los prototipos de Figma.
+* Se desarrolló la capa de infraestructura en la aplicación móvil para gestionar la comunicación HTTP, el manejo de errores y el almacenamiento seguro de tokens (JWT) recibidos del backend.
+* Se validó la integración de los servicios mediante pruebas de conexión desde el aplicativo Android, garantizando que la visualización de libros, comunidades y perfiles de usuario respondiera correctamente a la data existente.
+
+Visualización de commits:
+
+<p align="center">
+  <img src="https://i.imgur.com/JzpufE4.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/plbWVA5.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/LjeyLl1.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/0Y4Qt3w.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/ajnLREa.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/kQOxqPW.png" alt="12171">
+</p>
+
 ### 4.2.3. Sprint 3
 
 #### 4.2.3.1. Sprint Planning 3
