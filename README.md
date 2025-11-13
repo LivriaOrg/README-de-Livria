@@ -4723,6 +4723,22 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 2, el equipo completó exitosamente 8 Historias de Usuario, alcanzando los objetivos trazados respecto al ciclo de vida del usuario y la interacción social. El enfoque principal estuvo en la implementación de un sistema de seguridad robusto, habilitando los flujos de autenticación (registro, inicio y cierre de sesión) mediante tokens JWT. Paralelamente, se logró un progreso significativo en la experiencia de descubrimiento de contenido, integrando un motor de búsqueda global, filtros avanzados por atributos y un sistema de recomendaciones interactivas que responde a las preferencias del usuario. El equipo cumplió con la entrega de las funcionalidades sociales clave, permitiendo la gestión de comunidades (creación y unión) y la interacción mediante publicaciones en el muro, asegurando una integración fluida entre el Frontend móvil y la API Backend para validar la retención y el engagement dentro de la plataforma Livria.
+
+Backend de Livria desplegado en Azure, visualizado en Swagger:
+
+<p align="center">
+  <img src="https://i.imgur.com/xXlTt26.png" alt="12543254">
+</p>
+
+Pantalla de Usuario desarrollada en Flutter:
+
+<p align="center">
+  <img src="https://i.imgur.com/viQovwm.png" alt="214325">
+</p>
+
+Video de validación: 
+
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
