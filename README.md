@@ -4719,6 +4719,92 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 
 #### 4.2.2.3. Development Evidence for Sprint Review
 
+Durante el Sprint 2, se alcanzaron avances significativos en la consolidación de la lógica de negocio y la experiencia de usuario dentro de la aplicación móvil de Livria, cumpliendo con los objetivos de interacción social y seguridad establecidos para esta etapa. A través de los repositorios del equipo, se registraron múltiples commits que reflejan el progreso constante en diversos aspectos del proyecto, entre ellos:
+
+| Repository | Branch | Commit Id | Commit Message | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| https://github.com/LivriaOrg/Livria-User | feat/recommendations | 102ac2c09984ef9f8da63a73d711f4da29a2d423 | Fix indentation | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/recommendations | ea74baed037750bd522de224c92614835cd8bb25 | Merge branch 'develop' of https://github.com/LivriaOrg/Livria-User into feat/recommendations | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/recommendations | b816811972f10cf583c584a8741802d26add1123 | Add recommendations page | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/home | da33a83ab393a961896ea3f4021da1d2473b6306 | Add home view | 10/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | c2101fc3d7d9f92c69d8c809c8808f2b13c9cedf | Design Improvements | 10/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 08fdc704d0aabd33f5f0065be9dfee0aa5895d5a | Design Improvements | 10/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 4f501d4c2568d65f0b624a2951a46db24db59d6b | Design Improvements | 10/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/search | 260805b44324bd23218c2e9861349b364615f5cf | Eng -> Esp (v2) | 09/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/search | 9790ff1729883553d8a02eb1ceb94f62f66bc173 | Add filters | 09/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/search | 0b7480208c182effc2c5418d6563f0ed5e1582d1 | Eng -> Esp | 09/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/search | 2f9f0cabd7a9ae6376fd8f198cb6783b672d71a6 | Add search by Author and Title | 09/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 59b49151cabb75ca7c1ab927ed7bdad7eaa53b00 | Merge branch 'feat/communities' into develop | 08/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | a4f07effe5ad2699d2c1240457abeca9227469fb | Add communities widgets, Modify community services and repository, Add post widgets and services | 08/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | db3fa6e72725441fe22a8bfda83f8b47b7f91ae6 | Add Livria App Logo | 08/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 795e1a4bad9378b2516b9efcae09a7d7c4445d63 | Merge branch 'feat/communities' of https://github.com/LivriaOrg/Livria-User into feat/communities | 08/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | bc1e57f1d0ae05a40d3445a3c458d13787dc4f35 | Review Card Improvement | 08/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 2c1824071107cdd616122d8ff45d711f3ba650a4 | POST for Review implementation | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | e268dc103f23b525b84db6ea7017d4199779f29b | POST for Review methods | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 64e438e3c5158dff86aa08ba159c2ea03daf4a53 | Token implementation in ReviewDataSource | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 4e2d53de9e0858869c820e16b047d3e11b39a70c | Fixing merge conflicts | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 066a1ba40b16f95f6f914e5533fadaf218a42e22 | Merge branch 'singleBook' into develop | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 12f50289660164ffe67f2fd8a94e116afdda8e32 | ReviewCard Implementation | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 3f3f49a759337021f8b3b16445ec0abaefd40f94 | Review Service | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 5c41dba4c020f7a6af367028abaf89616ab12f53 | Review Repository Implementation | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 63a6aefbf982c4aa60b282ec04b389f4270c1979 | Review Repository | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 64f5bafa5d05ddedfbc3d018542496ec3c40f8e2 | Review Data Source | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 4c20583ad4e011ea0c5548e687b2d759c3b9da3e | Review Entity | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | bb4336b6fa464ad10b6105c57716d9b13f48815b | Design Improvements | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 26edb09f231b733ff55e3103714e222197a74d1e | Design Improvements | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 50442fce484a9b1656eddb22fa97b5003caf8164 | SingleBook Route Improvement | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 20c98eab87d227de5d3395fb3334bfb9fcb1ffe4 | SingleBookView Improvement | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 4b5949295ada7c18705fdd699f6dbf19d72468f3 | SingleBookView Improvement | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | f7eca8b1822996141c53eb22177492b6839e78a2 | SingleBook Route Improvement | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 84039ad189061f787c10d34a050d7c6995ff3c53 | Add route for SingleBook | 07/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | c90bf7fd40b3c64360179d2640e1248f922bda8a | AppBar Improvement | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 12b9e0b048771038c2d88a783da2f8defbfdc44c | Design Improvements | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | e9adff82fc46588734388137e4d5de1cf5be0264 | Design Improvements | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 16ad0a9d8ea0ef4d72185f9f8acb7eaa746821f4 | Merge branch 'auth' into develop | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/auth | 311d7abe1eec3dabba7333fe0f29328b8b1253a7 | Implement Logout button | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | dc4fa5f9436cf80bb62aa7a22552ef8af759fb75 | Design Startpoint | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 9e4ccd438a8d3d3ca9a1d98286d75b1517ed3f67 | Initial Progress | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 2d5509b9549f007b22197dfdcc3e5bec544f01ef | Merge branch feat/communities into develop | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | d812866e494209a4e5b4fd8f791aaadae0759755 | feat: Add community_repository, community_card, community_repository_api. Modified community_page | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/auth | 644066e8baa4d8443892d2bfff5a56510846fbfb | Implement Register Page | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 1b36708507ace10e49d8ad78f27f93e897a5bf91 | feat: Modify community_service, Add community_remote_datasource, community_repository, community_repository_impl | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/auth | 8f5774cfd3723fb1c0ff1cb4bbb68c8567d3b118 | Implement Login Page | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | aca17ae71e192edafd05cb42fa1a78931a328784 | Merge branch 'develop' of https://github.com/LivriaOrg/Livria-User into feat/communities | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/auth | 6297c337a3ec9d3ebad44748d1ac6fbb617f790e | Implement authentication repository | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/auth | 1da65c48238c9d932777778b05c5575fb6ca7752 | Implement datasources from infrastructure layer | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 38c6b5f8e14110a5970689379b2a66b1a421c6fc | Modify community_service, community and post | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 360b3ab8081870e4e48a9c9a30841297835bfc41 | Merge branch 'feat/search' into develop | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/search | 7bec5ba236363a55cd9aa0f628da1988278dc5c7 | Implement database logic for search feature | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/search | 259f00311f2d5d0a3a1c14724dff96b204a0d50b | Fix dependencies | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 8d75afd003906393c8447319ec97ed9a7ee02bbf | Merge branch 'feat/search' into develop | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/search | 12488868ee86d55c99ca278e863d5ab87e1ae9e1 | Add Category_Page | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/auth | ce3aaaf42d56ff3d72006d5b832918451c45707f | Implement use cases from domain layer | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/auth | 34534387c4bab5158170af325d0d86d0778b671c | Create initial auth files | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 7a508087af156408030a660cb61e23b0ea8f2521 | Modify community_service | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | e5f13196e0eaa5caaac60129a794526f941782f2 | Merge branch 'develop' of https://github.com/LivriaOrg/LIvria-User into develop | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 9fbc8f9f3b3b6d93b3dff5b5efcf64632fde7849 | Add http package tu pubspec.yaml | 06/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 66bfd84c4ddcb3b4d2b3b02c99940d88a1efb3a8 | Create community and post entities, Create community_service file, Add http package to pubspec.yaml | 05/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/singleBook | 9a2a2b4d05c4765629f69edfc944c1d8fb21f2ee | Single Book startpoint | 05/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | a7d2449aaab988252ccff9ea5f28876553e5127b | Merge branch 'navigation' into develop | 04/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 1a95a79378af0137cc509fa601c475a29a527ac7 | Fix Flashing Home Error | 04/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 8bca879786cbdbcb6967b21ef38366978ef21f5a | Merge branch 'navigation' into develop | 04/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/navigation | b998c7d7cc7941498247577010dd61937f02aca1 | Improve AppBar Styles | 04/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/navigation | 2cb7d836c32f76cd27d3278b0ffe92b58c07bcc4 | Improve Bottom Navigation Bar Styles | 04/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/navigation | f58d83409f85847e254ccaa1406e9dfb4b0f9101 | Add AppBar Navigation Logic | 04/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/navigation | 8bce3b818d0515cbd640c198885024f196e1eb75 | Add Bottom Navigation Bar logic | 04/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | a9f6df0d3afc35a77f419da8bde4003abff8d245 | Change font value | 03/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | f56f07bf68fbdd203eea99ab15eccbbc81260867 | Change font value | 03/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 223f5bc72da25cccf33b93f3cf598ff330075043 | Separate pages into different directories | 03/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | a1dbd7b35a4490399844ae066165642d40c2258f | Create Initial Pages | 03/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 255bd1a538f1e602851612218719757270ca1a21 | Create Initial Pages | 03/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | fe5c541c140c2f6cc8c9870138cbde8e8a98ef5d | Add Livria Icons | 03/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | d5523445f9ceca394867df361b1a5f4091c87bc9 | Add Livria Colors | 03/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 2bbb02454468df2383d272d0bbe08dddf95face6 | Add Livria Fonts | 03/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | fed98f1058c99c422d8d2dd5f09f8c4c6c2c412d | Add Livria Fonts to app_theme | 31/10/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | e9d163affe0d95db73bcfb5e5a8ee7ce2a14dbfa | Add crucial flutter and dart packages for development | 30/10/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | eb2c92ecbcf6b8cfdf08e9ab8ecdf29000de32ec | Create DDD directories | 30/10/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | c0f1e7444d33997c194a04e9a23ae959e27989cc | Initial Commit | 30/10/25 |
+
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
