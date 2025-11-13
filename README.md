@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://i.imgur.com/AcfbrST.png" height="150px" width="150px" alt="Logo UPC">
-</p>
-
 # <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
 ## <p align="center">Ingeniería de Software</p>
 <p align="center">Periodo: 202520</p>
@@ -80,7 +76,12 @@ Repositorio donde está el project report: https://github.com/LivriaOrg/README-d
 
 Para la elaboración del informe, se utilizó Google Docs como plataforma de trabajo colaborativo, para posteriormente migrar el contenido al archivo README.md presente en su respectivo repositorio.
 
-Insights del Repositorio de la Aplicación Móvil
+Insights del Repositorio de la Aplicación Móvil (Flutter)
+<p align="center">
+  <img src="https://i.imgur.com/GNUVrMr.png" alt="project report collaboration insights111">
+</p>
+
+Insights del Repositorio de la Aplicación Móvil (Kotlin)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9f44e1d3-6deb-4ec3-b311-328cc68fbccb">
 </p>
@@ -90,7 +91,7 @@ Insights del Repositorio de la Landing
   <img src="https://github.com/user-attachments/assets/1e78c2e1-93bd-40ea-bd8e-9527fcd09ff7">
 </p>
 
-Durante el TP, el equipo colaboró activamente en la elaboración del informe dentro del repositorio de GitHub, coordinando la redacción, revisión y estructuración de cada sección del documento. Se mantuvo un flujo constante de commits y revisiones cruzadas para asegurar coherencia y calidad en el contenido. Cada integrante aportó tanto en la redacción como en la corrección del informe, consolidando una dinámica de trabajo colaborativa y organizada.
+Durante el TB2, el equipo colaboró activamente en el desarrollo de la aplicación dentro del repositorio de GitHub, coordinando la implementación de funcionalidades, la integración de módulos y la arquitectura del software. Se mantuvo un flujo constante de commits y revisiones de código (Pull Requests) para asegurar la coherencia y calidad del código fuente. Cada integrante aportó tanto en el desarrollo de las historias de usuario asignadas como en la resolución de conflictos y la corrección de errores, consolidando una dinámica de trabajo colaborativa y organizada.
 
 # Contenido
 
