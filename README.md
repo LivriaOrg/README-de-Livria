@@ -4297,11 +4297,11 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 
 Capturas del proyecto en Jira:
 <p align="center">
-  <img src="https://i.imgur.com/pUHcWf1.png" alt="12171">
+  <img src="https://i.imgur.com/gLsIPPD.png" alt="12171">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/2RJkOv9.png" alt="12171">
+  <img src="https://i.imgur.com/szONKvD.png" alt="12171">
 </p>
 
 <p align="center">
@@ -4817,9 +4817,6 @@ Capturas del proyecto en Jira:
 <p align="center">
   <img src="https://i.imgur.com/UXBOjoQ.jpeg" alt="12171">
 </p>
-<p align="center">
-  <img src="https://i.imgur.com/72xfUin.jpeg" alt="12171">
-</p>
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
@@ -4961,6 +4958,9 @@ Visualización de commits:
 
 #### 4.2.3.2. Sprint Backlog 3
 
+Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9](https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9)
+
+
 | Sprint n | Sprint 3 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **User Story** | **Work-Item / Task** | | | | | | |
@@ -5005,6 +5005,15 @@ Visualización de commits:
 | | 2 | Implementación Frontend | Programar la lógica de toggles y la interacción con la API. | 1.5 | Developer Team | To-Do |
 | | 3 | Endpoint de Preferencias | Crear API para guardar la configuración de notificaciones del usuario. | 1 | Developer Team | To-Do |
 | | 4 | Validación de Configuración | Asegurar que los cambios del usuario se respeten al enviar notificaciones. | 1 | Developer Team | To-Do |
+
+Capturas del proyecto en Jira:
+<p align="center">
+  <img src="https://i.imgur.com/Ancoqj6.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/OaYhUvV.png" alt="12171">
+</p>
 
 ## 4.3. Validation Interviews
 
