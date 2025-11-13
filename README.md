@@ -4810,6 +4810,17 @@ Durante el Sprint 2, se alcanzaron avances significativos en la consolidación d
 | https://github.com/LivriaOrg/Livria-User | develop | eb2c92ecbcf6b8cfdf08e9ab8ecdf29000de32ec | Create DDD directories | 30/10/25 |
 | https://github.com/LivriaOrg/Livria-User | develop | c0f1e7444d33997c194a04e9a23ae959e27989cc | Initial Commit | 30/10/25 |
 
+Capturas del proyecto en Jira:
+<p align="center">
+  <img src="https://i.imgur.com/Op62Ko2.jpeg" alt="12171">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/UXBOjoQ.jpeg" alt="12171">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/72xfUin.jpeg" alt="12171">
+</p>
+
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
