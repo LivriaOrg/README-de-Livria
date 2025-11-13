@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.imgur.com/frPdUOx.png" alt="logo">
+</p>
+
 # <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
 ## <p align="center">Ingeniería de Software</p>
 <p align="center">Periodo: 202520</p>
