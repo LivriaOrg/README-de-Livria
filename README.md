@@ -731,7 +731,7 @@ Acerca de la entrevista:
   <img src="https://imgur.com/QN0La0c.jpg" alt="12231">
 </p>
 
-* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+* Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 * Instante en el que inicia: 0:01
 * Duración: 3:09
 
@@ -758,7 +758,7 @@ Acerca de la entrevista:
   <img src="https://imgur.com/ow2WB78.jpg" alt="12231">
 </p>
 
-* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+* Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 * Instante en el que inicia: 3:09
 * Duración: 3:01
 
@@ -783,7 +783,7 @@ Acerca de la entrevista:
   <img src="https://imgur.com/pFD4v3B.jpg" alt="12231">
 </p>
 
-* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+* Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 * Instante en el que inicia: 6:11
 * Duración: 3:48
 
@@ -809,7 +809,7 @@ Acerca de la entrevista:
 </p>
 
 
-* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+* Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 * Instante en el que inicia: 10:00
 * Duración: 4:55
 
@@ -836,7 +836,7 @@ Acerca de la entrevista:
   <img src="https://imgur.com/gCau8K5.jpg" alt="12231">
 </p>
 
-* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+* Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 * Instante en el que inicia: 14:55
 * Duración: 4:23
 
@@ -861,7 +861,7 @@ Acerca de la entrevista:
   <img src="https://imgur.com/drReFnp.jpg" alt="12231">
 </p>
 
-* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+* Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 * Instante en el que inicia: 19:18
 * Duración: 3:08
 
@@ -886,7 +886,7 @@ Acerca de la entrevista:
   <img src="https://imgur.com/Vfa4w8u.jpg" alt="12231">
 </p>
 
-* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+* Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 * Instante en el que inicia: 22:27
 * Duración: 4:58
 
@@ -911,7 +911,7 @@ Acerca de la entrevista:
   <img src="https://imgur.com/RSSwukT.jpg" alt="12231">
 </p>
 
-* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+* Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 * Instante en el que inicia: 27:26
 * Duración: 5:06
 
@@ -4864,7 +4864,7 @@ Pantalla de Usuario desarrollada en Flutter:
   <img src="https://i.imgur.com/viQovwm.png" alt="214325">
 </p>
 
-Video de validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AdKp11aZ4PR5HhnSGp2cgmA?e=3AWeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+Video de validación: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AdKp11aZ4PR5HhnSGp2cgmA?e=3AWeoS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
 
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
@@ -5320,7 +5320,7 @@ User Flow utilizados:
 
 Enlace de las entrevistas de validación:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EQlLtO8aYaxFvZxl_mX-m1oBO06-X2oQiswQ41e7tmg3qQ?e=tAFA1n
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EQlLtO8aYaxFvZxl_mX-m1oBO06-X2oQiswQ41e7tmg3qQ?e=tAFA1n>
 
 
 **Segmento objetivo \#1: Lectores en Desarrollo**
@@ -5579,7 +5579,7 @@ TABLA RESUMEN:
   <img src="https://i.imgur.com/yKP6FGA.png" alt="12171">
 </p>
 
-Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=1i1zDc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=bn1ilP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Enlace de Visualización: [<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=1i1zDc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=bn1ilP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 **About The Product**
@@ -5589,7 +5589,7 @@ El propósito principal del video about the product es persuadir a los usuarios 
   <img src="https://i.imgur.com/dFJoOl7.png" alt="12171">
 </p>
 
-Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi)
+Enlace de Visualización: [<https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi>](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi)
 
 **About The Team**
 El video "About The Team" presenta un resumen consolidado del proyecto Livria, destacando los logros del equipo Defontes en el desarrollo de una solución móvil dual (aplicación de Cliente en Flutter y aplicación de Administración en Jetpack Compose). El contenido del video se enfoca en demostrar el cumplimiento de los Student Outcomes de ABET (EAC), especialmente la capacidad de adquirir y aplicar nuevos conocimientos, evidenciado por el dominio de dos frameworks de desarrollo móvil así como distintas actividades realizadas a lo largo del proyecto.
@@ -5715,7 +5715,7 @@ Wireframe: Un boceto o "blueprint" de baja fidelidad que define la estructura y 
 
 # Anexos
 
-Anexo A. Video exposición TP. https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/ER_7rYbJD4FMv55jQXJGb28Bsegg0FGUiPPFWs6NUkN9Tw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WpwW0C
+Anexo A. Video exposición TP. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/ER_7rYbJD4FMv55jQXJGb28Bsegg0FGUiPPFWs6NUkN9Tw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WpwW0C>
 
 Anexo B. Wireframes y Mockups. https://www.figma.com/design/eKCqZoU0IF7n3wNTA8kuZc/livria?node-id=923-589&t=llsYI4TxYraymJaX-1
 
@@ -5725,9 +5725,9 @@ Anexo D. Landing Page. https://livriaorg.github.io/LivriaLanding/
 
 Anexo E. Api de Livria. https://livria-api.azurewebsites.net/swagger/index.html
 
-Anexo F. Entrevistas Validación. https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EQlLtO8aYaxFvZxl_mX-m1oBO06-X2oQiswQ41e7tmg3qQ?e=tAFA1n
+Anexo F. Entrevistas Validación. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EQlLtO8aYaxFvZxl_mX-m1oBO06-X2oQiswQ41e7tmg3qQ?e=tAFA1n>
 
-Anexo G. Entrevistas Needfinding. https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp
+Anexo G. Entrevistas Needfinding. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 
 Anexo H. Sprint Backlog. https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9
 
