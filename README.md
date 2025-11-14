@@ -4820,6 +4820,34 @@ Capturas del proyecto en Jira:
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
+Esta sección documenta los distintos niveles de pruebas automatizadas implementadas durante el Sprint, correspondientes a los User Stories desarrollados. Durante este ciclo se implementó un conjunto completo de pruebas automatizadas, enfocadas en la validación de la lógica de negocio, la conectividad con Web Services y el sistema de enrutamiento de la interfaz de usuario.
+
+Las pruebas unitarias en este Sprint se enfocaron en validar el comportamiento atómico de la lógica de negocio y la funcionalidad de enrutamiento, aislando las dependencias mediante Mocks. Se implementaron pruebas exhaustivas en clases de servicio, para garantizar el correcto filtrado, la obtención de datos y el manejo de parámetros de negocio. Por ejemplo, se validó la búsqueda de libros por género y la recuperación de listas de comunidades con paginación. 
+
+<p align="center">
+  <img src="https://i.imgur.com/a7SSJMC.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/ehIoAJH.png" alt="12171">
+</p>
+
+Tambien se desarrollaron pruebas de integración, enfocadas en validar la interacción con las APIs remotas, asegurando la capa de infraestructura y la conectividad. Estas pruebas validan el comportamiento de la capa de Repositorio, como BookRepositoryImpl y PostRepositoryImpl, y la capa de Datasource como se hizo con ReviewRemoteDataSource ante respuestas HTTP simuladas. El objetivo es garantizar la correcta serialización/deserialización de datos, el manejo de errores HTTP y la aplicación de la lógica de seguridad y autenticación para el manejo de tokens.
+
+<p align="center">
+  <img src="https://i.imgur.com/srwVdhB.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/3qlbDQQ.png" alt="12171">
+</p>
+
+
+| Repository       | Branch       | CommitId                                 | Commit Message                  | Commit Message Body | Committed on (Date) |
+|------------------|--------------|------------------------------------------|---------------------------------|----------------------|----------------------|
+| Livria-User      | test         | 8756385e0b7a113b884806cb871338cd8e353409 | Add unit and integration tests  | -                    | 13/11/2025           |
+| Livria-User      | test         | 3c1816998bafe3bbd06ffce1c9c2ff890fd1f22b | Add integration and unit tests  | -                    | 13/11/2025           |
+
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
 Durante el Sprint 2, el equipo completó exitosamente 8 Historias de Usuario, alcanzando los objetivos trazados respecto al ciclo de vida del usuario y la interacción social. El enfoque principal estuvo en la implementación de un sistema de seguridad robusto, habilitando los flujos de autenticación (registro, inicio y cierre de sesión) mediante tokens JWT. Paralelamente, se logró un progreso significativo en la experiencia de descubrimiento de contenido, integrando un motor de búsqueda global, filtros avanzados por atributos y un sistema de recomendaciones interactivas que responde a las preferencias del usuario. El equipo cumplió con la entrega de las funcionalidades sociales clave, permitiendo la gestión de comunidades (creación y unión) y la interacción mediante publicaciones en el muro, asegurando una integración fluida entre el Frontend móvil y la API Backend para validar la retención y el engagement dentro de la plataforma Livria.
