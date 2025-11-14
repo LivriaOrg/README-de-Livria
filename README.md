@@ -5574,6 +5574,36 @@ TABLA RESUMEN:
 
 9. En el desarrollo multiplataforma en Flutter, para evitar tener grandes bloques de código o una alta complejidad en un solo archivo, se sugiere dividir la capa de presentación en una carpeta de widgets y otra para pages. Así se promueve un código más organizado, modular y fácil de mantener.
 
+**App Validation**
+<p align="center">
+  <img src="https://i.imgur.com/yKP6FGA.png" alt="12171">
+</p>
+
+Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=1i1zDc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=bn1ilP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+**About The Product**
+
+
+
+**About The Team**
+El video "About The Team" presenta un resumen consolidado del proyecto Livria, destacando los logros del equipo Defontes en el desarrollo de una solución móvil dual (aplicación de Cliente en Flutter y aplicación de Administración en Jetpack Compose). El contenido del video se enfoca en demostrar el cumplimiento de los Student Outcomes de ABET (EAC), especialmente la capacidad de adquirir y aplicar nuevos conocimientos, evidenciado por el dominio de dos frameworks de desarrollo móvil así como distintas actividades realizadas a lo largo del proyecto.
+Timestamps:
+00:00 Animación de Inicio
+00:15 Insights de Ainhoa Castillo
+02:00 Insights de Cassius Martel
+03:30 Insights de Marcelo Binda
+04:45 Insights de Tomio Nakamurakare
+06:12 Insights de Gabriel Borja
+07:22 Evidencia de Reuniones de Trabajo Grupal
+12:30 Animación de Salida
+
+<p align="center">
+  <img src="https://i.imgur.com/undefined.png" alt="12171">
+</p>
+Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=bn1ilP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=bn1ilP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 # Glosario
 
 Acceptance Criteria (Criterios de Aceptación): Las condiciones específicas que una Historia de Usuario (User Story) debe cumplir para ser considerada "terminada" desde la perspectiva del Product Owner.
