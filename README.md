@@ -5583,8 +5583,13 @@ Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20
 
 
 **About The Product**
+El propósito principal del video about the product es persuadir a los usuarios objetivo para que adopten la plataforma, convirtiéndola en su herramienta principal para acceder a libros y fomentar un hábito de lectura constante y social. Se trata de informar sobre la existencia de Livria como una solución moderna y accesible, al hacernos percibir como plataforma integral que combate activamente la crisis de baja lectura al ofrecer acceso, personalización y una comunidad activa.
 
+<p align="center">
+  <img src="https://i.imgur.com/dFJoOl7.png" alt="12171">
+</p>
 
+Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi)
 
 **About The Team**
 El video "About The Team" presenta un resumen consolidado del proyecto Livria, destacando los logros del equipo Defontes en el desarrollo de una solución móvil dual (aplicación de Cliente en Flutter y aplicación de Administración en Jetpack Compose). El contenido del video se enfoca en demostrar el cumplimiento de los Student Outcomes de ABET (EAC), especialmente la capacidad de adquirir y aplicar nuevos conocimientos, evidenciado por el dominio de dos frameworks de desarrollo móvil así como distintas actividades realizadas a lo largo del proyecto.
