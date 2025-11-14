@@ -5606,7 +5606,7 @@ Timestamps:
 <p align="center">
   <img src="https://i.imgur.com/undefined.png" alt="12171">
 </p>
-Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=bn1ilP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQDyXkfrb646QLsXtQZhOl51AeKkRC9WAIh3OtdD6XNAHlg?e=bn1ilP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/IQCn4_ZI8L53QZuJzKOQ-UZLAQmNy4oqdZkjKtFCbL83AxA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=A26Dlw](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/IQCn4_ZI8L53QZuJzKOQ-UZLAQmNy4oqdZkjKtFCbL83AxA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=A26Dlw)
 
 
 # Glosario
