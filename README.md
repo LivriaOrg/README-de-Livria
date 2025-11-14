@@ -5575,6 +5575,7 @@ TABLA RESUMEN:
 9. En el desarrollo multiplataforma en Flutter, para evitar tener grandes bloques de código o una alta complejidad en un solo archivo, se sugiere dividir la capa de presentación en una carpeta de widgets y otra para pages. Así se promueve un código más organizado, modular y fácil de mantener.
 
 **App Validation**
+
 <p align="center">
   <img src="https://i.imgur.com/yKP6FGA.png" alt="12171">
 </p>
@@ -5583,6 +5584,7 @@ Enlace de Visualización: [<https://upcedupe-my.sharepoint.com/:v:/g/personal/u2
 
 
 **About The Product**
+
 El propósito principal del video about the product es persuadir a los usuarios objetivo para que adopten la plataforma, convirtiéndola en su herramienta principal para acceder a libros y fomentar un hábito de lectura constante y social. Se trata de informar sobre la existencia de Livria como una solución moderna y accesible, al hacernos percibir como plataforma integral que combate activamente la crisis de baja lectura al ofrecer acceso, personalización y una comunidad activa.
 
 <p align="center">
@@ -5592,21 +5594,32 @@ El propósito principal del video about the product es persuadir a los usuarios 
 Enlace de Visualización: [<https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi>](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi)
 
 **About The Team**
+
 El video "About The Team" presenta un resumen consolidado del proyecto Livria, destacando los logros del equipo Defontes en el desarrollo de una solución móvil dual (aplicación de Cliente en Flutter y aplicación de Administración en Jetpack Compose). El contenido del video se enfoca en demostrar el cumplimiento de los Student Outcomes de ABET (EAC), especialmente la capacidad de adquirir y aplicar nuevos conocimientos, evidenciado por el dominio de dos frameworks de desarrollo móvil así como distintas actividades realizadas a lo largo del proyecto.
+
 Timestamps:
+
 00:00 Animación de Inicio
+
 00:15 Insights de Ainhoa Castillo
+
 02:00 Insights de Cassius Martel
+
 03:30 Insights de Marcelo Binda
+
 04:45 Insights de Tomio Nakamurakare
+
 06:12 Insights de Gabriel Borja
+
 07:22 Evidencia de Reuniones de Trabajo Grupal
+
 12:30 Animación de Salida
 
 <p align="center">
-  <img src="https://i.imgur.com/undefined.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/59cb2151-334d-43be-9fc8-8d2b07656342" alt="12171">
 </p>
-Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/IQCn4_ZI8L53QZuJzKOQ-UZLAQmNy4oqdZkjKtFCbL83AxA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=A26Dlw](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/IQCn4_ZI8L53QZuJzKOQ-UZLAQmNy4oqdZkjKtFCbL83AxA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=A26Dlw)
+
+Enlace de Visualización: [https://upcedupe-my.sharepoint.com/personal/u202311701_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311701_upc_edu_pe%2FDocuments%2FAbout_The_Team-Livria%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2075ad76-4f28-41b4-9466-ad494159d1ab](https://upcedupe-my.sharepoint.com/personal/u202311701_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311701_upc_edu_pe%2FDocuments%2FAbout_The_Team-Livria%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2075ad76-4f28-41b4-9466-ad494159d1ab)
 
 
 # Glosario
