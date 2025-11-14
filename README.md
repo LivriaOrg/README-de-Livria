@@ -4865,90 +4865,103 @@ A continuación, se muestra una tabla con los Endpoints implementados para este 
 
 Capturas de pantalla:
 
-**/api/v1/authentication/register:**
+**POST /api/v1/communities**
 <p align="center">
-  <img src="https://i.imgur.com/36KKSwv.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/77a544af-6a0c-4a0a-a888-207111c8dedc" alt="12171">
 </p>
 
-Esta solicitud POST inicia una nueva sesión como usuario administrador, con acceso a la vista de gestión de librería. Para lograr esto, utiliza las credenciales de administrador cargadas por defecto al sistema y devuelve un JSON Web Token (JWT).
+Crea una nueva comunidad en el sistema. Recibe en el cuerpo de la petición el nombre, descripción, tipo, imagen y banner. Devuelve la comunidad recién creada con su ID.
 
-**/api/v1/authentication/sign-in/client:**
-
+**GET /api/v1/communities**
 <p align="center">
-  <img src="https://i.imgur.com/sBkG9fM.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/d9603e8f-a1fa-4395-b755-5c5a1088b5b8" alt="12171">
 </p>
 
-Esta solicitud POST auténtica al cliente con las credenciales de usuario de tipo cliente proporcionadas. Valida la sesión y devuelve un JSON Web Token (JWT) para la autenticación.
+Obtiene una lista de todas las comunidades registradas en el sistema. Devuelve un arreglo de objetos de comunidad.
 
-**/api/v1/books:**
-
+**GET /api/v1/communities/{id}**
 <p align="center">
-  <img src="https://i.imgur.com/zElCiAA.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/045a1695-ef2e-4a9c-ae51-70e2cf4909d8" alt="12171">
 </p>
 
-Esta solicitud POST crea un nuevo libro en el sistema. Permite registrar un libro con su título, descripción, autor, precio, stock, imagen de portada, género e idioma.
+Obtiene los datos de una comunidad específica usando su ID como parámetro en la URL. Devuelve el objeto de la comunidad solicitada.
 
+**POST /api/v1/communities/join**
 <p align="center">
-  <img src="https://i.imgur.com/x5oByk6.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/54389499-bc58-483c-9380-cd83455bdb70" alt="12171">
 </p>
 
-Esta solicitud GET obtiene los datos de todos los libros disponibles. Muestra una lista completa de los libros registrados en el sistema.
+Permite que un userClientId se una a una communityId. Recibe ambos IDs en el cuerpo de la petición y devuelve un objeto confirmando la unión y la fecha.
 
-**/api/v1/books/{id}:**
-
+**DELETE /api/v1/communities/{communityId}/members/{userId}**
 <p align="center">
-  <img src="https://i.imgur.com/Y9B0aDg.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/1e21822f-f796-49cd-8ef5-6c4b687aadb6" alt="12171">
 </p>
 
-Esta solicitud GET obtiene los datos de un libro en específico, utilizando su ID. Muestra los detalles del libro solicitado.
+Permite a un usuario salir de una comunidad. Utiliza tanto el communityId como el userId en la URL para identificar y eliminar la membresía.
 
-**/api/vi/books/{bookId}/stock:**
-
+**POST /api/v1/authentication/register**
 <p align="center">
-  <img src="https://i.imgur.com/CCV93QN.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/82048fa0-1693-45cc-91e7-154b2edf7e15" alt="12171">
 </p>
 
-Esta solicitud PUT actualiza el stock disponible de un libro específico, usando su ID. Permite modificar la cantidad de libros en existencia.
+Registra un nuevo usuario cliente en el sistema. Recibe todos los datos del formulario (username, password, email, display, etc.) en el cuerpo de la petición.
 
-**/api/v1/orders:**
-
+**POST /api/v1/authentication/sign-in/client**
 <p align="center">
-  <img src="https://i.imgur.com/dc8v46S.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/d112c7cf-5d77-4c87-b669-9aa720a5a207" alt="12171">
 </p>
 
-Esta solicitud POST crea una nueva orden en el sistema. Permite registrar una compra con detalles del cliente, envío y los ítems comprados.
+Inicia sesión para un usuario cliente. Recibe username y password, y si tiene éxito, devuelve un objeto con el userId, username y el token (JWT) de sesión.
 
-**/api/v1/orders/{id}:**
-
+**POST /api/v1/posts/communities/{communityId}**
 <p align="center">
-  <img src="https://i.imgur.com/dc8v46S.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/49096c07-0922-4f23-a357-7358152856cc" alt="12171">
 </p>
 
-Esta solicitud GET obtiene los datos de una orden en específico, usando su ID. Muestra los detalles de la orden buscada.
+Crea una nueva publicación (post) dentro de una comunidad específica. El communityId se pasa en la URL, y el contenido (username, content, img) se envía en el cuerpo.
 
-**/api/v1/orders/code/{code}:**
-
+**GET /api/v1/posts/{id}**
 <p align="center">
-  <img src="https://i.imgur.com/WRcdUZX.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/0797064c-0420-40eb-8c61-8fdecfbfbe91" alt="12171">
 </p>
 
-Esta solicitud GET obtiene los datos de una orden específica por medio de su código. Muestra los detalles de la orden que coincida con el código.
+Obtiene los datos de una publicación (post) específica usando su ID en la URL.
 
-**/api/v1/orders/users/{userClientId}:**  
-
+**GET /api/v1/posts/community/{communityId}**
 <p align="center">
-  <img src="https://i.imgur.com/h5dYSqv.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/7b1e58d6-5960-4796-8858-b1ec5dbfb84e" alt="12171">
 </p>
 
-Esta solicitud GET obtiene todas las órdenes de un usuario cliente específico, usando su ID. Muestra una lista de todas las compras realizadas por ese usuario.
+Obtiene una lista de todas las publicaciones asociadas a un communityId específico, pasado en la URL.
 
-**/api/v1/orders/{orderId}/status:**
-
+**GET /api/v1/recommendations/users/{userClientId}**
 <p align="center">
-  <img src="https://i.imgur.com/stgPl8L.png" alt="12171">
+  <img src="https://github.com/user-attachments/assets/d82454e0-a0d0-430a-9fc9-e5b323d58a9c" alt="12171">
 </p>
 
-Esta solicitud PUT actualiza el estado de una orden, usando su ID. Permite cambiar el estado de una orden entre 'pending', 'in progress' o 'delivered'.
+Obtiene las recomendaciones de libros personalizadas para un usuario específico, identificado por su userClientId en la URL.
+
+**POST /api/v1/reviews**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a3d94f32-3a76-4ec6-a7f7-dd850c029e73" alt="12171">
+</p>
+
+Crea una nueva reseña (review) en el sistema. Recibe el bookId, userClientId, el content (texto) y las stars (estrellas) en el cuerpo de la petición.
+
+**GET /api/v1/reviews/{id}**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/76cd139a-854c-4014-810c-aa44b15967b7" alt="12171">
+</p>
+
+Obtiene los datos de una reseña específica usando su ID en la URL.
+
+**GET /api/v1/reviews/book/{bookId}**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/13e81ac8-1d17-4f05-b1bc-9e7f18e019bd" alt="12171">
+</p>
+
+Obtiene una lista de todas las reseñas asociadas a un libro específico, identificado por su bookId en la URL.
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
