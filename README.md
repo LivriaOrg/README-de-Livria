@@ -4841,6 +4841,182 @@ Video de validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2023111
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 2, se desarrollaron e implementaron los Endpoints para funcionalidades core de la aplicación en Flutter para usuarios en Livria, como la visualización de recomendaciones de libros o la sección de comunidades. Todos estos endpoints fueron agregados al backend previo de la TB1, complementando funcionalidades clave. Este último se desarrollo con MySQL y C#, y fue desplegado en Azure.
+
+A continuación, se muestra una tabla con los Endpoints implementados para este Sprint:
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de request | Respuesta |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| /api/v1/communities | Crea una nueva comunidad en el sistema. | POST | /api/v1/communities | Ninguno (cuerpo JSON) | {"name": "Club de Lectura Fantasía Épica", "description": "Un espacio para debatir sobre Tolkien, Brandon Sanderson y las mejores sagas de fantasía.", "type": 1, "image": "https://livria-assets.com/icons/fantasia-epic-icon.png", "banner": "https://livria-assets.com/banners/epic-banner.jpg"} | **Code 201 (Created)** <br> {"id": 12, "name": "Club de Lectura Fantasía Épica", "description": "Un espacio para debatir sobre Tolkien, Brandon Sanderson y las mejores sagas de fantasía.", "type": 1, "image": "https://livria-assets.com/icons/fantasia-epic-icon.png", "banner": "https://livria-assets.com/banners/epic-banner.jpg"} |
+
+
+Capturas de pantalla:
+
+**/api/v1/authentication/register:**
+<p align="center">
+  <img src="https://i.imgur.com/36KKSwv.png" alt="12171">
+</p>
+
+Esta solicitud POST inicia una nueva sesión como usuario administrador, con acceso a la vista de gestión de librería. Para lograr esto, utiliza las credenciales de administrador cargadas por defecto al sistema y devuelve un JSON Web Token (JWT).
+
+**/api/v1/authentication/sign-in/client:**
+
+<p align="center">
+  <img src="https://i.imgur.com/sBkG9fM.png" alt="12171">
+</p>
+
+Esta solicitud POST auténtica al cliente con las credenciales de usuario de tipo cliente proporcionadas. Valida la sesión y devuelve un JSON Web Token (JWT) para la autenticación.
+
+**/api/v1/books:**
+
+<p align="center">
+  <img src="https://i.imgur.com/zElCiAA.png" alt="12171">
+</p>
+
+Esta solicitud POST crea un nuevo libro en el sistema. Permite registrar un libro con su título, descripción, autor, precio, stock, imagen de portada, género e idioma.
+
+<p align="center">
+  <img src="https://i.imgur.com/x5oByk6.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene los datos de todos los libros disponibles. Muestra una lista completa de los libros registrados en el sistema.
+
+**/api/v1/books/{id}:**
+
+<p align="center">
+  <img src="https://i.imgur.com/Y9B0aDg.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene los datos de un libro en específico, utilizando su ID. Muestra los detalles del libro solicitado.
+
+**/api/vi/books/{bookId}/stock:**
+
+<p align="center">
+  <img src="https://i.imgur.com/CCV93QN.png" alt="12171">
+</p>
+
+Esta solicitud PUT actualiza el stock disponible de un libro específico, usando su ID. Permite modificar la cantidad de libros en existencia.
+
+**/api/v1/orders:**
+
+<p align="center">
+  <img src="https://i.imgur.com/dc8v46S.png" alt="12171">
+</p>
+
+Esta solicitud POST crea una nueva orden en el sistema. Permite registrar una compra con detalles del cliente, envío y los ítems comprados.
+
+**/api/v1/orders/{id}:**
+
+<p align="center">
+  <img src="https://i.imgur.com/dc8v46S.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene los datos de una orden en específico, usando su ID. Muestra los detalles de la orden buscada.
+
+**/api/v1/orders/code/{code}:**
+
+<p align="center">
+  <img src="https://i.imgur.com/WRcdUZX.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene los datos de una orden específica por medio de su código. Muestra los detalles de la orden que coincida con el código.
+
+**/api/v1/orders/users/{userClientId}:**  
+
+<p align="center">
+  <img src="https://i.imgur.com/h5dYSqv.png" alt="12171">
+</p>
+
+Esta solicitud GET obtiene todas las órdenes de un usuario cliente específico, usando su ID. Muestra una lista de todas las compras realizadas por ese usuario.
+
+**/api/v1/orders/{orderId}/status:**
+
+<p align="center">
+  <img src="https://i.imgur.com/stgPl8L.png" alt="12171">
+</p>
+
+Esta solicitud PUT actualiza el estado de una orden, usando su ID. Permite cambiar el estado de una orden entre 'pending', 'in progress' o 'delivered'.
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, la labor de despliegue se centró en establecer la accesibilidad y el funcionamiento inicial de los componentes principales del proyecto. Los despliegues críticos realizados incluyeron la Landing Page, que fue desplegada exitosamente mediante GitHub Pages para asegurar el acceso a la información de nuestro servicio por parte de los clientes. De forma paralela, la API Backend, responsable de interactuar con la base de datos de Livria, también fue desplegada en Azure App Service, estableciendo la infraestructura clave para el backend de la aplicación y sentando las bases operativas del sistema.
+
+Subimos el código de la Landing Page al repositorio principal de GitHub.
+
+<p align="center">
+  <img src="https://i.imgur.com/fMl8y94.png" alt="12171">
+</p>
+
+Accedimos a la configuración del repositorio y seleccionamos la sección "Pages". Configuramos la rama main para que fuera la fuente de la página y guardamos los cambios para iniciar el proceso de despliegue.
+
+<p align="center">
+  <img src="https://i.imgur.com/6LxdOu0.png" alt="12171">
+</p>
+
+Esperamos unos minutos a que GitHub Pages construyera el sitio y accedemos al enlace generado para verificar la página publicada.
+
+<p align="center">
+  <img src="https://i.imgur.com/ZLOsctC.png" alt="12171">
+</p>
+
+Para el despliegue de la base de datos de Livria, se aprovisionó un servidor flexible de Azure Database for MySQL.
+
+<p align="center">
+  <img src="https://i.imgur.com/2bp9MI1.png" alt="12171">
+</p>
+
+Seleccionamos creación rápida.
+
+<p align="center">
+  <img src="https://i.imgur.com/WbmmBR9.png" alt="12171">
+</p>
+
+Se procedió a ingresar la información esencial: el nombre del servidor, la región, la zona de disponibilidad, el grupo de recursos asociado, las credenciales de acceso, y el tipo de carga de trabajo. Finalmente, se seleccionó "Revisar y crear" para iniciar el aprovisionamiento.
+
+<p align="center">
+  <img src="https://i.imgur.com/46JEYR3.png" alt="12171">
+</p>
+
+Esperamos la finalización de la implementación de la base de datos, lo que nos permitió acceder al recurso y obtener la dirección del servidor.
+
+<p align="center">
+  <img src="https://i.imgur.com/fwiIY2q.png" alt="12171">
+</p>
+
+El despliegue de la API se realizó directamente desde el IDE Rider, nuestra herramienta de desarrollo para el backend con Swagger.  
+
+<p align="center">
+  <img src="https://i.imgur.com/DJxgrmr.png" alt="12171">
+</p>
+
+Se actualizó la cadena de conexión DefaultConnection en los archivos appsettings.json y appsettings.Development.json para reflejar las credenciales de la nueva base de datos.
+
+<p align="center">
+  <img src="https://i.imgur.com/NkcpfK3.png" alt="12171">
+</p>
+
+Luego procedemos a publicar el proyecto de la API hacia Azure App Service  
+
+<p align="center">
+  <img src="https://i.imgur.com/uI7mvwC.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/xluzrMN.png" alt="12171">
+</p>
+
+Creamos una Web App en Azure con el nombre de la API y procedimos a ejecutarla para iniciar el deployment, lo que, tras unos segundos, nos proporcionó el enlace de la API para acceder en el navegador.
+
+<p align="center">
+  <img src="https://i.imgur.com/VVpXrs8.png" alt="12171">
+</p>
+
+Para acceder a la documentación interactiva de la API, navegamos al enlace final, añadiendo la extensión /swagger/index.html.  
+
+<p align="center">
+  <img src="https://i.imgur.com/XgkXXQr.png" alt="12171">
+</p>
+
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
 En el Sprint 2, se hizo un redespliegue con la base de datos actualizada, con la implementación de todos los endpoints necesarios para el desarrollo de Livira-User. Para el despliegue de la base de datos de Livria, se aprovisionó un servidor flexible de Azure Database for MySQL.
