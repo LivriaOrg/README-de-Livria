@@ -66,7 +66,7 @@
 | 3.3 (TB2) | 06/11/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation**<br>- 4.2.2.4. Testing Suite Evidence For Sprint Review |
 | 3.4 (TB2) | 07/11/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation**<br>- 4.2.2.5. Execution Evidence For Sprint Review |
 | 3.5 (TB2) | 08/11/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | - Segunda Revisión de User Stories |
-| 3.6 (TB2) | 09/11/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation**<br>- 4.2.2.6. Services Documentation Evidence For Sprint Review<br>- 4.2.2.7. Software Deployment Evidence For Sprint Review |
+| 3.6 (TB2) | 09/11/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation**<br>- 4.2.2.6. Services Documentation Evidence For Sprint Review<br>- 4.2.2.7. Software  Evidence For Sprint Review |
 | 3.7 (TB2) | 10/11/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | **Capítulo IV: Product Implementation & Validation**<br>- 4.2.2.8. Team Collaboration Insights |
 | 3.8 (TB2) | 11/11/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | - Actualización de Student Outcome<br>- Actualización de Conclusiones y Recomendaciones<br>- Actualización de Bibliografía<br>- Actualización de Project Report Collaboration Insights |
 | 3.9 (TB2) | 12/11/25 | - Binda Arbañil, Marcelo Alejandro<br>- Borja Molina, Gabriel Sebastián<br>- Castillo Garay, Ainhoa Lucía<br>- Martel Andrade, Cassius Estefano<br>- Nakamurakare Teruya, Alex Tomio | - Inserción de Enlaces de videos de validación, About-The-Team y About-The-Product<br>- Actualización de Registro de Versiones del Informe |
@@ -145,7 +145,7 @@ Durante el TB2, el equipo colaboró activamente en el desarrollo de la aplicaci�
       - [2.5.3. Software Architecture](#253-software-architecture)
       - [2.5.3.1. Software Architecture Context Level Diagram](#2531-software-architecture-context-level-diagrams)
       - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
-      - [2.5.3.3. Software Architecture Deployment Diagrams](#253-software-architecture-deployment-diagrams)
+      - [2.5.3.3. Software Architecture  Diagrams](#253-software-architecture-deployment-diagrams)
   + [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
     + [2.6.1. Bounded Context: Search](#261-bounded-context-search)
       - [2.6.1.1. Domain Layer](#2611-domain-layer)
@@ -5244,6 +5244,96 @@ Capturas del proyecto en Jira:
 <p align="center">
   <img src="https://i.imgur.com/OaYhUvV.png" alt="12171">
 </p>
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+Livria Admin:
+
+El presente reporte documenta el proceso integral de despliegue y configuración de la infraestructura en la nube para el aplicativo móvil Android Livria Admin mediante la plataforma Firebase. El procedimiento abarca desde la validación de la identidad del proyecto y el registro del paquete en la consola administrativa, hasta la implementación técnica de las credenciales de servicio (google-services.json) y la inyección de dependencias del SDK en los scripts de construcción Gradle. Finalmente, se detalla la configuración del entorno de distribución continua (App Distribution) para gestionar la entrega de versiones preliminares a los equipos de control de calidad, asegurando la integridad operativa del entorno de desarrollo.
+
+<p align="center">
+  <img src="https://imgur.com/8GVuK3U.png" alt="12176">
+</p>
+
+En esta interfaz se presenta el panel de control general del proyecto LivriaDeployment en Firebase. Aquí se valida la integridad de la infraestructura en la nube, confirmando la vinculación exitosa del aplicativo Android Livria Admin y supervisando el registro de actividad de usuarios a través de las métricas de Analytics.
+
+<p align="center">
+  <img src="https://imgur.com/VCasD59.png" alt="121712">
+</p>
+
+En esta interfaz se exponen las credenciales administrativas y la identidad técnica del proyecto LivriaDeployment. Se identifican parámetros críticos como el 'ID del proyecto' (livriaadmindeploy) y el 'Número del proyecto', los cuales resultan indispensables para configurar el acceso desde la línea de comandos (CLI) y autorizar la comunicación entre los servicios de backend y las aplicaciones cliente. Adicionalmente, se constata que la clasificación del tipo de entorno permanece sin especificar en esta etapa del desarrollo.
+
+<p align="center">
+  <img src="https://imgur.com/ftc9h6g.png" alt="121713">
+</p>
+
+En esta fase del proceso de integración, se constata el registro exitoso de la aplicación cliente en la plataforma Firebase. Se ha definido el identificador único del paquete como com.example.adminlivria, el cual es crítico para establecer la comunicación biunívoca entre el sistema operativo Android y los servicios en la nube. Asimismo, se ha asignado el alias Livria Admin para facilitar la gestión e identificación del aplicativo dentro de la consola de administración.
+
+<p align="center">
+  <img src="https://imgur.com/H2M0p6k.png" alt="121714">
+</p>
+
+En esta etapa del proceso de integración, se gestiona la incorporación de las credenciales de servicio al entorno de desarrollo local. Se instruye la descarga del archivo google-services.json, un componente crítico que encapsula la totalidad de los parámetros de conexión del proyecto (tales como claves de API e identificadores de cliente). Posteriormente, se visualiza la directriz técnica para ubicar este archivo específicamente en el directorio raíz del módulo de la aplicación (app/) dentro de la estructura de carpetas de Android Studio.
+
+<p align="center">
+  <img src="https://imgur.com/A5Z5wNp.png" alt="12175">
+</p>
+
+En esta vista del entorno de desarrollo, se valida la correcta implementación local del archivo de configuración google-services.json, el cual ha sido ubicado exitosamente en el directorio raíz del módulo app para permitir su lectura durante la compilación. El contenido del archivo confirma la integridad de las credenciales de conexión, evidenciando que tanto el project_id (livriaadmindeploy) como el package_name (com.example.adminlivria) coinciden con los parámetros definidos en la consola remota, asegurando así la autenticación de los servicios cliente.
+
+<p align="center">
+  <img src="https://imgur.com/1wkh6qV.png" alt="12176">
+</p>
+
+En esta fase técnica, se procede a la integración del SDK de Firebase mediante la modificación del script de construcción a nivel de proyecto (build.gradle.kts). Se instruye la incorporación del complemento com.google.gms.google-services como una dependencia del sistema de compilación, acción indispensable para que Gradle pueda interpretar los parámetros del archivo google-services.json y habilitar la comunicación efectiva entre la aplicación y los servicios de la plataforma.
+
+<p align="center">
+  <img src="https://imgur.com/yQyzyoJ.png" alt="12177">
+</p>
+
+En esta vista del entorno de desarrollo, se verifica la configuración del archivo de construcción a nivel raíz (build.gradle.kts), donde se ha declarado la dependencia del complemento de servicios de Google. Se observa la inclusión de la línea id("com.google.gms.google-services") version "4.4.4" apply false, instrucción que define la versión del plugin para todo el proyecto sin aplicarlo en el directorio raíz, permitiendo que los módulos subordinados (como app) hereden esta capacidad para procesar las credenciales de Firebase posteriormente.
+
+<p align="center">
+  <img src="https://imgur.com/eTFwpEp.png" alt="12178">
+</p>
+
+En el archivo de construcción del módulo (app/build.gradle.kts), se valida la activación efectiva del complemento com.google.gms.google-services dentro del bloque de plugins, paso técnico final que permite a la aplicación procesar las credenciales del archivo JSON. Asimismo, se verifica que el applicationId se encuentre definido como com.example.adminlivria, manteniendo la concordancia estricta con el paquete registrado en la consola para garantizar la correcta identificación del cliente ante el servidor.
+
+<p align="center">
+  <img src="https://imgur.com/60i9TEK.png" alt="12179">
+</p>
+
+En esta sección del archivo build.gradle.kts a nivel de módulo, se gestiona la importación de las bibliotecas operativas mediante la implementación de la plataforma firebase-bom (Bill of Materials) en su versión 34.6.0. Este mecanismo asegura la compatibilidad semántica entre las distintas dependencias de Firebase, permitiendo la integración de firebase-analytics sin especificar su versión individual, lo cual habilita las capacidades de telemetría y monitoreo en la aplicación final.
+
+<p align="center">
+  <img src="https://imgur.com/MRhPBzP.png" alt="1217100">
+</p>
+
+En esta interfaz conclusiva del asistente de configuración, se valida la finalización exitosa del ciclo de integración de Firebase en la aplicación Android. Se confirma mediante los indicadores de estado que las fases críticas —registro del aplicativo, implementación de credenciales y vinculación del SDK— han sido ejecutadas y verificadas correctamente por la plataforma, otorgando el estado '¡Listo!' que habilita oficialmente el entorno para el desarrollo de funcionalidades productivas.
+
+<p align="center">
+  <img src="https://imgur.com/UR5z4Q7.png" alt="1217101">
+</p>
+
+En el panel de App Distribution, se gestiona el ciclo de entrega de versiones preliminares para el control de calidad (QA). Se evidencia que la versión 1.0 (1) del aplicativo Livria Admin fue cargada exitosamente en la plataforma el 29 de noviembre y se ha cursado una invitación a un verificador; sin embargo, las métricas de estado ('Aceptada 0', 'Descargado 0') indican que el usuario de prueba aún no ha accedido al binario para iniciar la validación. Asimismo, la interfaz se mantiene activa para la recepción de nuevos archivos ejecutables (APK o AAB), facilitando la iteración continua de las pruebas.
+
+<p align="center">
+  <img src="https://imgur.com/ZuIkOp8.png" alt="1217102">
+</p>
+
+En esta sección del archivo build.gradle.kts a nivel de módulo, se gestiona la importación de las bibliotecas operativas mediante la implementación de la plataforma firebase-bom (Bill of Materials) en su versión 34.6.0. Este mecanismo asegura la compatibilidad semántica entre las distintas dependencias de Firebase, permitiendo la integración de firebase-analytics sin especificar su versión individual, lo cual habilita las capacidades de telemetría y monitoreo en la aplicación final.
+
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
 
 ## 4.3. Validation Interviews
 
