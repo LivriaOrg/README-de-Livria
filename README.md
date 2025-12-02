@@ -5486,6 +5486,67 @@ En el panel de App Distribution, se gestiona el ciclo de entrega de versiones pr
 
 En esta sección del archivo build.gradle.kts a nivel de módulo, se gestiona la importación de las bibliotecas operativas mediante la implementación de la plataforma firebase-bom (Bill of Materials) en su versión 34.6.0. Este mecanismo asegura la compatibilidad semántica entre las distintas dependencias de Firebase, permitiendo la integración de firebase-analytics sin especificar su versión individual, lo cual habilita las capacidades de telemetría y monitoreo en la aplicación final.
 
+Livria Client:
+
+<p align="center">
+  <img src="https://imgur.com/5Zxcia4.png" alt="12171022">
+</p>
+
+En esta vista del panel de control general, se valida la arquitectura multiplataforma del ecosistema LivriaDeployment. Se evidencia la integración de cinco aplicaciones distintas operando bajo un mismo contenedor de backend: además del módulo administrativo previamente configurado (Livria Admin), se confirma el registro exitoso del cliente de usuario (livria_user) para múltiples entornos de ejecución, incluyendo Android, iOS, Web y Windows. Esta configuración centralizada demuestra una estrategia de despliegue unificado, permitiendo la gestión consistente de servicios como autenticación y base de datos a través de todos los canales de acceso del usuario final
+
+<p align="center">
+  <img src="https://imgur.com/F8Ey3Zf.png" alt="12171023">
+</p>
+
+En la vista detallada de configuración del módulo cliente, se examinan las credenciales técnicas del aplicativo livria_user (android). Se corrobora que el paquete com.livria.livria_user posee un 'ID de la app' único generado por la plataforma, elemento esencial para la trazabilidad de eventos y la segmentación de usuarios. Asimismo, la interfaz proporciona acceso directo a la descarga del archivo google-services.json específico para este entorno y habilita la gestión de huellas digitales de certificado (SHA), configuración indispensable para autorizar mecanismos de seguridad avanzados como la autenticación federada (Google Sign-In) y los enlaces dinámicos.
+
+<p align="center">
+  <img src="https://imgur.com/g5BXPGx.png" alt="12171024">
+</p>
+
+En esta sección de la consola, se verifica la integración del cliente livria_user para el ecosistema de Apple. Se constata que la aplicación ha sido registrada exitosamente bajo el Bundle ID com.livria.livriaUser, parámetro que debe coincidir estrictamente con el perfil de aprovisionamiento en Xcode. Adicionalmente, se identifica la disponibilidad del archivo de configuración GoogleService-Info.plist, componente crítico que cumple la función homóloga al JSON de Android, encapsulando las credenciales necesarias para que el SDK de Firebase inicialice la conexión segura en dispositivos iOS
+
+<p align="center">
+  <img src="https://imgur.com/WP81U3o.png" alt="12171025">
+</p>
+
+En esta etapa técnica, se ejecuta la configuración automatizada mediante la herramienta FlutterFire CLI. Se observa la activación del paquete global mediante el comando dart pub global activate flutterfire_cli, seguido de la instrucción de vinculación flutterfire configure --project=livriaadmindeploy. Este procedimiento resulta crítico, ya que su ejecución registra automáticamente las aplicaciones nativas (Android e iOS) en la consola de Firebase y genera el archivo lib/firebase_options.dart, el cual centraliza las credenciales de acceso para todas las plataformas destino sin requerir intervención manual en los archivos Gradle o Plist.
+
+<p align="center">
+  <img src="https://imgur.com/srnZh8X.png" alt="12171026">
+</p>
+
+En esta captura de la terminal, se valida la autenticación y operatividad de las herramientas de administración local. Se confirma la inicialización exitosa de la Firebase CLI mediante el mensaje de bienvenida y la verificación de las credenciales de usuario activo (Already logged in as...). Adicionalmente, la ejecución del comando firebase projects:list permite corroborar la conectividad con la nube al listar los proyectos disponibles, identificando correctamente el entorno de trabajo LivriaDeployment con su respectivo ID (livriaadmindeploy), paso indispensable antes de ejecutar cualquier comando de configuración automatizada como flutterfire configure.
+
+<p align="center">
+  <img src="https://imgur.com/nUCRb6m.png" alt="12171027">
+</p>
+
+En esta etapa de desarrollo, se presenta la directriz para la inicialización programática del SDK dentro del punto de entrada de la aplicación Flutter (generalmente main.dart). Se instruye la implementación del método asíncrono Firebase.initializeApp, el cual utiliza el parámetro options: DefaultFirebaseOptions.currentPlatform. Este argumento es arquitectónicamente crítico, pues vincula la ejecución con el archivo firebase_options.dart generado previamente por la CLI, permitiendo que el sistema inyecte dinámicamente las credenciales correctas según el entorno operativo (Android, iOS o Web) sin requerir lógica condicional manual.
+
+<p align="center">
+  <img src="https://imgur.com/yR1C4jj.png" alt="12171028">
+</p>
+
+En esta vista del entorno de desarrollo, se examina el archivo lib/firebase_options.dart, generado automáticamente por la herramienta CLI. Se evidencia la implementación de la clase DefaultFirebaseOptions y su método estático currentPlatform, el cual incorpora una estructura de control (switch) diseñada para detectar el sistema operativo anfitrión (Android, iOS, macOS) en tiempo de ejecución. Este mecanismo es fundamental para la arquitectura multiplataforma, ya que garantiza que el SDK de Firebase reciba las credenciales precisas correspondientes al dispositivo donde se despliega la aplicación, centralizando la gestión de claves de API e identificadores en un único componente de software mantenible.
+
+<p align="center">
+  <img src="https://imgur.com/OXOe8Le.png" alt="12171029">
+</p>
+
+En el archivo de configuración pubspec.yaml, se valida la incorporación de las bibliotecas esenciales para la operatividad del ecosistema móvil. Se destaca la inclusión de firebase_core (versión ^4.2.1), componente base indispensable para inicializar la conexión con la nube y habilitar el uso de los servicios de Firebase en la aplicación Flutter. Adicionalmente, se observa la integración de paquetes alineados con los requerimientos funcionales del Sprint 3, tales como flutter_stripe para la gestión de transacciones financieras y flutter_local_notifications para el sistema de alertas, consolidando las capacidades transaccionales y de interacción del cliente de usuario.
+
+<p align="center">
+  <img src="https://imgur.com/z0uwgiS.png" alt="12171030">
+</p>
+
+En el archivo principal de ejecución (main.dart), se valida la orquestación de los servicios de infraestructura críticos previo al arranque de la interfaz gráfica. Se observa la configuración explícita de la pasarela de pagos mediante la asignación de la Stripe.publishableKey (en entorno de pruebas), paso indispensable para habilitar las transacciones financieras definidas en el alcance del Sprint. Concurrentemente, se ejecuta la inicialización asíncrona del núcleo de Firebase invocando DefaultFirebaseOptions.currentPlatform, asegurando que la conexión con los servicios en la nube y la inyección de dependencias se completen satisfactoriamente antes de instruir el lanzamiento del widget raíz MyApp.
+
+<p align="center">
+  <img src="https://imgur.com/SherlQ5.png" alt="12171031">
+</p>
+
+En el presente apartado se documenta la integración técnica del cliente de usuario (livria_user) bajo una arquitectura multiplataforma desarrollada en Flutter. El despliegue se orquestó mediante la herramienta FlutterFire CLI, permitiendo la configuración automatizada de los entornos para Android, iOS, Web y Windows, y la generación dinámica del archivo firebase_options.dart para la gestión centralizada de credenciales. Se habilitó el canal de distribución continua (App Distribution) para asegurar la entrega y validación de versiones preliminares en el ciclo de desarrollo.
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
