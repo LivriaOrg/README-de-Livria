@@ -5256,11 +5256,11 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 
 Capturas del proyecto en Jira:
 <p align="center">
-  <img src="https://i.imgur.com/Ancoqj6.png" alt="12171">
+  <img src="https://i.imgur.com/undefined.png" alt="12171">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/OaYhUvV.png" alt="12171">
+  <img src="https://i.imgur.com/upvlhOU.png" alt="12171">
 </p>
 
 #### 4.2.3.3. Development Evidence for Sprint Review
