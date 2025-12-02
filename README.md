@@ -5550,6 +5550,39 @@ En el presente apartado se documenta la integración técnica del cliente de usu
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
+Durante este Sprint, el equipo orientó sus esfuerzos a la consolidación de la aplicación móvil (Flutter/Android Studio) como una plataforma transaccional completa y personalizada. El enfoque principal fue la implementación de los flujos de comercio electrónico (Carrito de Compras, Órdenes) y la gestión integral del perfil de usuario, asegurando que la arquitectura soportara operaciones complejas de estado y persistencia de datos de manera fluida.
+
+En el ámbito técnico, el trabajo se focalizó en la integración de lógica de negocio avanzada en el cliente y la conexión con servicios externos y actualizados del backend. Se desarrolló la gestión de estados globales para el manejo de stock y compras, además de incorporar herramientas de geolocalización y aseguramiento de calidad (Testing) para validar la robustez del sistema antes de la entrega final.
+
+Actividades de implementación:
+
+La aplicación móvil integró los módulos de E-commerce y Suscripciones, implementando las pantallas de Carrito de Compras, Pasarela de Pagos, Historial de Órdenes y Edición de Perfil, completando el ciclo de vida comercial del usuario.
+
+Se desarrollaron funcionalidades de infraestructura avanzada, incluyendo la integración con Google Maps para la gestión de direcciones, un sistema de notificaciones y la optimización del algoritmo de recomendaciones con lógica de exclusión y favoritos (bookmarks).
+
+Se incorporó una fase rigurosa de calidad mediante la implementación de pruebas unitarias y de integración, garantizando que tanto la lógica de negocio (cálculos de carrito, stock) como la navegación entre módulos funcionaran correctamente bajo distintos escenarios de uso.
+
+Visualización de commits:
+
+<p align="center">
+  <img src="https://imgur.com/7S4tqD6.png" alt="12171031">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/hxTkrCu.png" alt="12171031">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/aDaJCVz.png" alt="12171031">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/JssVcP1.png" alt="12171031">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/AwtJY2V.png" alt="12171031">
+</p>
 
 ## 4.3. Validation Interviews
 
