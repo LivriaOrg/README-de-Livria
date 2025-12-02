@@ -5950,6 +5950,8 @@ Anexo H. Sprint Backlog. https://livriaaplicacionesmoviles12.atlassian.net/jira/
 
 Anexo I. Jira. https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/issues?jql=project+%3D+"LVR"+ORDER+BY+created+DESC&atlOrigin=eyJpIjoiZWU4ZTBhYzA3YTgxNDk5YWE1MWFkN2Q4ZDY0ODAyMmUiLCJwIjoiaiJ9
 
+Anexo J. Firebase Admin. https://appdistribution.firebase.dev/i/c3fc09bf882e3789
+
 # Bibliografía
 
 Alaminkarno. (2024, enero 8). *DDD (Domain-Driven Design) in Flutter – Too much or just right?* DEV Community. https://dev.to/alaminkarno/ddd-domain-driven-design-in-flutter-too-much-or-just-right-d1g
