@@ -5323,6 +5323,35 @@ Capturas del proyecto en Jira:
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
+Esta sección documenta los distintos niveles de pruebas automatizadas implementadas durante el Sprint, correspondientes a los User Stories desarrollados. Durante este ciclo se implementó un conjunto completo de pruebas automatizadas, enfocadas en la validación de la lógica de negocio, la conectividad con Web Services y el sistema de enrutamiento de la interfaz de usuario.
+
+Las pruebas unitarias en este Sprint se enfocaron en validar el comportamiento atómico de la lógica de negocio y la funcionalidad de enrutamiento, aislando las dependencias mediante Mocks. Se implementaron pruebas exhaustivas en clases de servicio, para garantizar el correcto filtrado, la obtención de datos y el manejo de parámetros de negocio. Por ejemplo, se valido el repositorio de exclusiones, para verificar un correcto funcionamiento de este.
+
+<p align="center">
+  <img src="https://i.imgur.com/H8FAxOs.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/qNMy3Mr.png" alt="12171">
+</p>
+
+
+Tambien se desarrollaron pruebas de integración, enfocadas en validar la interacción con las APIs remotas, asegurando la capa de infraestructura y la conectividad. Alguna de las pruebas realizadas fueron en la capa de Datasource, como en el datasource de notificaciones. Por ejemplo este test se encarga de verificar si el endpoint de patch funciona correctamente
+
+<p align="center">
+  <img src="https://i.imgur.com/DGHfTjc.png" alt="12171">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/ruIda2Y.png" alt="12171">
+</p>
+
+| Repository       | Branch       | CommitId                                 | Commit Message                  | Commit Message Body | Committed on (Date) |
+|------------------|--------------|------------------------------------------|---------------------------------|----------------------|----------------------|
+| Livria-User      | test         | 8756385e0b7a113b884806cb871338cd8e353409 | Add unit and integration tests  | -                    | 13/11/2025           |
+| Livria-User      | test         | 3c1816998bafe3bbd06ffce1c9c2ff890fd1f22b | Add integration and unit tests  | -                    | 13/11/2025           |
+| Livria-User      | test         | 6190bb113a5c1509d90ca964053c99a3eb030eaf | Add tests                       | -                    | 02/12/2025           |
+
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
 Durante el Sprint 3, el equipo completó exitosamente 7 Historias de Usuario, alcanzando los objetivos críticos relacionados con la monetización y la fidelización del usuario (engagement). El enfoque principal residió en la implementación de la capa transaccional, integrando una pasarela de pagos segura que habilita tanto la compra de libros (físicos y digitales) como la gestión de suscripciones (actualización a planes Premium), validando correctamente los flujos de facturación y permisos de acceso. Paralelamente, se potenció la interacción social mediante la incorporación de sistemas de valoración (estrellas) y reseñas escritas en los libros, así como la funcionalidad de comentarios en publicaciones de la comunidad. Finalmente, el equipo culminó el desarrollo del cliente de usuario (user_client) al integrar un sistema de notificaciones push en tiempo real con gestión de preferencias, asegurando una comunicación proactiva y completando la experiencia funcional de la aplicación móvil.
