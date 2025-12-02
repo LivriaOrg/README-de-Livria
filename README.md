@@ -5494,7 +5494,10 @@ En el panel de App Distribution, se gestiona el ciclo de entrega de versiones pr
 
 En esta sección del archivo build.gradle.kts a nivel de módulo, se gestiona la importación de las bibliotecas operativas mediante la implementación de la plataforma firebase-bom (Bill of Materials) en su versión 34.6.0. Este mecanismo asegura la compatibilidad semántica entre las distintas dependencias de Firebase, permitiendo la integración de firebase-analytics sin especificar su versión individual, lo cual habilita las capacidades de telemetría y monitoreo en la aplicación final.
 
-Link de proyecto Livria Admin: <https://appdistribution.firebase.google.com/testerapps/1:303943428374:android:60d9f55922094c3cba8837/releases/4ud2u033g5uag?utm_source=firebase-console>
+Link de acceso al proyecto en Firebase: <https://appdistribution.firebase.google.com/testerapps/1:303943428374:android:60d9f55922094c3cba8837/releases/4ud2u033g5uag?utm_source=firebase-console>
+Link del tester de Livria Admin: <https://appdistribution.firebase.dev/i/02a419929f3400e5> 
+
+-----
 
 Livria Client:
 
@@ -5558,7 +5561,8 @@ En el archivo principal de ejecución (main.dart), se valida la orquestación de
 
 En el presente apartado se documenta la integración técnica del cliente de usuario (livria_user) bajo una arquitectura multiplataforma desarrollada en Flutter. El despliegue se orquestó mediante la herramienta FlutterFire CLI, permitiendo la configuración automatizada de los entornos para Android, iOS, Web y Windows, y la generación dinámica del archivo firebase_options.dart para la gestión centralizada de credenciales. Se habilitó el canal de distribución continua (App Distribution) para asegurar la entrega y validación de versiones preliminares en el ciclo de desarrollo.
 
-Link de proyecto Livria User Client: <https://appdistribution.firebase.google.com/testerapps/1:303943428374:android:60d9f55922094c3cba8837/releases/3q3hftu0oh7sg?utm_source=firebase-console>
+Link de acceso al proyecto en Firebase: <https://appdistribution.firebase.google.com/testerapps/1:303943428374:android:60d9f55922094c3cba8837/releases/3q3hftu0oh7sg?utm_source=firebase-console>
+Link del tester de Livria User: <https://appdistribution.firebase.dev/i/2c6c867d5d634d84>
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
