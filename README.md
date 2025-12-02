@@ -110,7 +110,7 @@ Durante el TB2, el equipo colaboró activamente en el desarrollo de la aplicaci�
     + [1.2.1. Antecedentes y Problemática](#121-antecedentes-y-problemática)
     + [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.2. Lean UX ](#1222-lean-ux-)
       - [1.2.2.3. Lean UX Hypothesis](#1223-lean-ux-hypothesis)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   * [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
@@ -486,6 +486,13 @@ Nota. Adaptado de Efecto del uso de Tik Tok en el rendimiento académico de estu
 
 ### 1.2.2. Lean UX Process
 
+#### 1.2.2.2. Lean UX Problem Statement
+Nuestro servicio busca ofrecer un entorno digital literario que unifique la experiencia de compra, descubrimiento y conexión social de los lectores. A través de este entorno, los usuarios pueden transformar la lectura de una obligación a un placer, acceder a contenidos de interés y participar en una comunidad.
+
+Hemos observado un factor crítico que afecta el cumplimiento de estos objetivos, y es la ausencia de un entorno digital que integre la compra, el descubrimiento y la conexión social. Hoy en día, la lectura profunda se enfrenta a un declive acelerado, y la experiencia del lector está fragmentada entre lo físico y lo virtual, lo cual impide la interacción fluida y el acceso a contenidos relevantes.
+
+¿Cómo podemos diseñar un ecosistema literario digital unificado que motive el hábito lector, mejore la comprensión de los usuarios, facilite la compra de libros y fortalezca la conexión entre lectores en una comunidad accesible y atractiva?
+
 #### 1.2.2.2. Lean UX Assumptions
 
 ##### Features
@@ -548,13 +555,13 @@ FitManager debe tener un diseño moderno, claro y profesional, con una interfaz 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Creemos que, al facilitar el acceso a libros en formato físico, digital (ebooks) y audiolibro en la aplicación de Livria, aumentaremos la constancia lectora de nuestros usuarios y mejoraremos el hábito de lectura en comunidades con baja frecuencia de lectura. Sabremos que hemos tenido éxito, cuando veamos un aumento del 60% en el número de usuarios que terminan de completar al menos un libro por mes en cualquier tipo de formato utilizado.
+Creemos que, al ofrecer recomendaciones de libros altamente personalizadas y dinámicas, para los nuevos usuarios de la plataforma, obtendremos una mejora significativa en la experiencia de descubrimiento de contenido nuevo y aumentará su retención. Sabremos que hemos tenido éxito, cuando veamos que los usuarios interactúan frecuentemente con el contenido sugerido y compran los libros recomendados.
 
-Creemos que, al ofrecer recomendaciones personalizadas basados en los gustos, hábitos de lectura e intereses de nuestros clientes, mejoraremos la experiencia del usuario y fomentaremos que descubran diversos libros nuevos con la finalidad de aumentar la retención y participación en la aplicación. Sabremos que hemos tenido éxito, cuando veamos que al menos un 80% de los usuarios interactúa con la sección de recomendaciones y registra libros sugeridos por la aplicación.
+Creemos que, al integrar una sección de comunidad vibrante donde se pueda interactuar, compartir y formar grupos de lectura, para personas que buscan motivación y compromiso social, obtendremos un incremento en el descubrimiento de libros y la participación activa en la aplicación. Sabremos que hemos tenido éxito, cuando veamos un crecimiento en la generación de contenido social (comentarios, publicaciones y reseñas) y en la creación de comunidades de Livria.
 
-Creemos que, al diseñar una aplicación accesible y funcional en múltiples dispositivos para nuestros clientes, permitirá una adopción más inclusiva en el hábito de la lectura. Sabremos que hemos tenido éxito, cuando veamos que un 70% de los usuarios activos, que acceden a la aplicación desde diferentes plataformas, provienen de distintos contextos sociales y niveles educativos.
+Creemos que, al integrar y facilitar el acceso a libros en múltiples formatos (físico, E-book, audiolibro), para usuarios con baja frecuencia de lectura, obtendremos un aumento en la constancia y el compromiso con la lectura. Sabremos que hemos tenido éxito, cuando veamos que las ventas de los diferentes formatos aumentan significativamente.
 
-Creemos que, al integrar una sección de comunidad en Livria, donde los usuarios puedan interactuar, compartir recomendaciones, participar en foros literarios y formar redes con otros lectores, incrementaremos la motivación y el compromiso con la lectura, especialmente en personas que actualmente no leen con frecuencia o abandonan libros antes de terminarlos. Sabremos que hemos tenido éxito cuando observemos que al menos el 65% de los usuarios activos participan en alguna actividad de la comunidad (comentarios, reseñas, debates, grupos de lectura, etc.) y que el 50% de ellos reporta haber terminado más libros gracias al incentivo de estas interacciones sociales.
+Creemos que, al implementar la publicación de reseñas y calificación con estrellas en cada libro, para los usuarios que han leído diferentes obras literarias y para los usuarios interesados en leerlas, obtendremos una mayor confianza en el catálogo y un crecimiento en interacciones sociales. Sabremos que hemos tenido éxito, cuando veamos un incremento de calificaciones en los libros y de ventas en aquellos que tienen mayor cantidad de reseñas.
 
 #### 1.2.2.3. Lean UX Canvas
 <p align="center">
