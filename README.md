@@ -5253,6 +5253,62 @@ Capturas del proyecto en Jira:
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
+Durante el Sprint 3, se alcanzaron hitos decisivos en la transformación de Livria hacia un producto transaccional y altamente personalizado, completando los flujos de comercio electrónico y gestión integral del usuario. El enfoque principal estuvo en la implementación del sistema de compras y suscripciones, así como en la optimización de la experiencia post-registro. Paralelamente, se robusteció la calidad del software mediante la incorporación de pruebas automatizadas y la integración de algoritmos de recomendación más precisos. A través de los repositorios del equipo, se registraron múltiples commits que reflejan el progreso constante en diversos aspectos del proyecto, entre ellos:
+
+| Repository | Branch | Commit Id | Commit Message | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| https://github.com/LivriaOrg/Livria-User | develop | 7288b9aa92c0cdf5cb05da98340283180839f9d1 | Merge branch 'feat/recommendations' into develop | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/recommendations | 0d97765e378636c5307ff9004419de4c2f455445 | Update recommendations algorithm | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | fix/communities | aba05bb417b4cc10edfed1a74c82d8baa0ad5fd7 | Fix communities gallery bug | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/recommendations | 6f77650b5a7b1c2cada9aceae8f807d9ef13834d | Add exclusion feature | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/cart | 6a8a9a36441409d6d306da3716d19240a73ebc07 | Add stock logic | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 3a252146f1fb87744fd13b72d9a15969f5f234ef | Merge branch 'develop' of https://github.com/LivriaOrg/Livria-User into develop | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 91a638369abdb5e8e8335e90fd33f6bcb63810a5 | Update api source | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/legal | cac44745cee146789ab42fd3b6d3375a40a49369 | Add Privacy Policy and Terms and Conditions | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/subscription | a34d96da44af902095748ed25c64dbe911c84934 | Add subscription payment page | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/profile | 9531791d3668c3bbaa53551f7e059338fe0785c4 | Remove username editor | 01/12/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 053024309fb6aff73d21488b848eaf4d2e9617ce | Merge branch 'feat/notifications' into develop | 30/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/notifications | eb5af3a31d1ffcb608841cdf42d8f292e899ab77 | Add notifications view | 30/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 3c2bf8069e81d9aa408f68467fdd78038f207116 | Update communities_page.dart | 30/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 156b10178d8f159634a8e326da7ade092229011d | feat: add communities join/leave functionality and subscription verification | 30/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/recommendations | a1da222edf69685f61078e47e09f8c7358b2b570 | Update recommendations data source | 29/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/home | bb0723f940fcffc960adbe4b33f75b6d5fa46f14 | Add bookmark functionality | 29/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 65a5388f6b9f73c65a9b65fdbfadaa65c2754651 | Update backend connection | 29/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/maps | 43760816d5eb7a059274f0b385dbb0ce66710224 | Add Google Maps permission | 29/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/orders | 26cbedd49f7405b5e4afef665bc5dd396ce8bebf | Add my orders tab | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/profile | 0f0cdd63e4cb8fb6129360db00e011eba0f68757 | Add profile picture edit | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/subscription | ed39b3714b92568870c5ef7f80ed844ed4881418 | Add Subscription change | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/profile | 5e12fc738a23e45f7a5378c1f1375a4da9d3edcb | Add profil UI | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/orders | 74fd7b23b6d4b0151b039e5c2aad29e4529ca8ce | Update orders feature | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/profile | b9d3635c0daa8c0e0754f9861cc7496b4a901bd9 | Add user profile repository | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/profile | 7293c3fc97500fc71a3628810ff26c62de2b3add | Add user profile datasource | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/profile | 07641be08043f8b5e21ac97231cebfa433b8de9e | Add user profile entity | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/payment | eeb4ebb024b893f2dc87e0a90310167aed217909 | Add payment page | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/orders | e27a85db8cf37065a3a2f7a8f2970a74ba84ea87 | Add address information page | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/orders | af555b08e2c71b9f44a6b2a4a94213381ed58812 | Add recipient information page | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/orders | 071fe1430666a4f7a62a0b269814a95126d08199 | Add orders db connection | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/cart | 27657c718fe5b3451e344ab4cce4798e08360d82 | Complete Cart Functionality | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/cart | 63ff5c020251d9e92ecc2673876d4d50862d4f5e | Add Cart Repository | 27/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/cart | d7838e8c23ea8c6578635b919d3e00af2dc0046e | Add Cart Datasource | 26/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/cart | 8697b69eb989fab5caa3ceae7b6df910238833cd | Add Cart Entity | 26/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | 0215338e9e4a58f5d8545137c2f81de1a21dd53b | Backend v2 | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | develop | d1a8b6595e94fa95af2c03779e64458d9ff7487a | Merge branch 'test' into develop | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | test | 3c1816998bafe3bbd06ffce1c9c2ff890fd1f22b | Add integration and unit tests | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 13ad705527461dfec85d32419cf7bba07a67a69c | Update communities_page.dart | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | test | 5b289d15baeba3114bb704732d0f740be210cf55 | Merge branch 'develop' into test | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/design | a253ff9f46e8e7f531ed25f885c10439f0c9dd43 | Design Improvements | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 89d3a36b7392ef3f6324f45f5e504271c9a36ab1 | Community Improvements | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | test | 8756385e0b7a113b884806cb871338cd8e353409 | Add unit and integration tests | 13/11/25 |
+| https://github.com/LivriaOrg/Livria-User | feat/communities | 88bc85a17662871e3c3bc6e7be1c7d89cfdaf8b2 | Community Detail Improvements | 13/11/25 |
+
+Capturas del proyecto en Jira:
+<p align="center">
+  <img src="https://imgur.com/r0dYcEK.jpeg" alt="12171">
+</p>
+<p align="center">
+  <img src="https://imgur.com/VoiJ6ko.jpeg" alt="12171">
+</p>
+
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
