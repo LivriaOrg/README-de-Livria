@@ -5950,7 +5950,7 @@ Anexo H. Sprint Backlog. https://livriaaplicacionesmoviles12.atlassian.net/jira/
 
 Anexo I. Jira. https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/issues?jql=project+%3D+"LVR"+ORDER+BY+created+DESC&atlOrigin=eyJpIjoiZWU4ZTBhYzA3YTgxNDk5YWE1MWFkN2Q4ZDY0ODAyMmUiLCJwIjoiaiJ9
 
-Anexo J. Firebase Admin. https://appdistribution.firebase.dev/i/c3fc09bf882e3789
+Anexo J. Firebase Admin. https://appdistribution.firebase.dev/i/73a4bb1402de2ba6
 
 # Bibliografía
 
