@@ -5556,11 +5556,9 @@ En el ámbito técnico, el trabajo se focalizó en la integración de lógica de
 
 Actividades de implementación:
 
-La aplicación móvil integró los módulos de E-commerce y Suscripciones, implementando las pantallas de Carrito de Compras, Pasarela de Pagos, Historial de Órdenes y Edición de Perfil, completando el ciclo de vida comercial del usuario.
-
-Se desarrollaron funcionalidades de infraestructura avanzada, incluyendo la integración con Google Maps para la gestión de direcciones, un sistema de notificaciones y la optimización del algoritmo de recomendaciones con lógica de exclusión y favoritos (bookmarks).
-
-Se incorporó una fase rigurosa de calidad mediante la implementación de pruebas unitarias y de integración, garantizando que tanto la lógica de negocio (cálculos de carrito, stock) como la navegación entre módulos funcionaran correctamente bajo distintos escenarios de uso.
+* La aplicación móvil integró los módulos de E-commerce y Suscripciones, implementando las pantallas de Carrito de Compras, Pasarela de Pagos, Historial de Órdenes y Edición de Perfil, completando el ciclo de vida comercial del usuario.
+* Se desarrollaron funcionalidades de infraestructura avanzada, incluyendo la integración con Google Maps para la gestión de direcciones, un sistema de notificaciones y la optimización del algoritmo de recomendaciones con lógica de exclusión y favoritos (bookmarks).
+* Se incorporó una fase rigurosa de calidad mediante la implementación de pruebas unitarias y de integración, garantizando que tanto la lógica de negocio (cálculos de carrito, stock) como la navegación entre módulos funcionaran correctamente bajo distintos escenarios de uso.
 
 Visualización de commits:
 
