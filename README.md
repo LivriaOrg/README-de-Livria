@@ -5214,45 +5214,45 @@ Enlace del proyecto en Jira: [https://livriaaplicacionesmoviles12.atlassian.net/
 | **User Story** | **Work-Item / Task** | | | | | | |
 | **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** | |
 | **US23: Gestionar pago de libros** | | | | | | | |
-| | 1 | Integración Pasarela de Pago (Frontend) | Implementar el SDK del proveedor de pagos (ej. Stripe/PayPal) en el checkout. | 3 | Developer Team | To-Do |
-| | 2 | Validaciones de Pago Frontend | Añadir validaciones de formulario y verificación de campos antes de enviar al proveedor. | 1 | Developer Team | To-Do |
-| | 3 | Webhook de Verificación de Pago (Backend) | Crear el endpoint seguro que recibe la confirmación del proveedor de pagos para validar la transacción. | 3 | Developer Team | To-Do |
-| | 4 | Manejo de Estados de Pago Backend | Registrar pagos fallidos o incompletos en la base de datos y generar logs para auditoría. | 2 | Developer Team | To-Do |
-| | 5 | Manejo de Errores de Pago UI | Implementar pantallas y mensajes para tarjetas rechazadas o fallos de conexión durante el pago. | 2 | Developer Team | To-Do |
+| | 1 | Integración Pasarela de Pago (Frontend) | Implementar el SDK del proveedor de pagos (ej. Stripe/PayPal) en el checkout. | 3 | Developer Team | Done |
+| | 2 | Validaciones de Pago Frontend | Añadir validaciones de formulario y verificación de campos antes de enviar al proveedor. | 1 | Developer Team | Done |
+| | 3 | Webhook de Verificación de Pago (Backend) | Crear el endpoint seguro que recibe la confirmación del proveedor de pagos para validar la transacción. | 3 | Developer Team | Done |
+| | 4 | Manejo de Estados de Pago Backend | Registrar pagos fallidos o incompletos en la base de datos y generar logs para auditoría. | 2 | Developer Team | Done |
+| | 5 | Manejo de Errores de Pago UI | Implementar pantallas y mensajes para tarjetas rechazadas o fallos de conexión durante el pago. | 2 | Developer Team | Done |
 | **US21: Comprar libros digitales y físicos** | | | | | | | |
-| | 1 | Lógica de Procesamiento de Orden | Conectar la confirmación de pago con la creación definitiva de la orden y reducción de stock. | 2 | Developer Team | To-Do |
-| | 2 | Validaciones y Estado de Orden | Implementar validaciones de datos de la orden y actualización de estado en backend. | 1 | Developer Team | To-Do |
+| | 1 | Lógica de Procesamiento de Orden | Conectar la confirmación de pago con la creación definitiva de la orden y reducción de stock. | 2 | Developer Team | Done |
+| | 2 | Validaciones y Estado de Orden | Implementar validaciones de datos de la orden y actualización de estado en backend. | 1 | Developer Team | Done |
 | **US25: Gestionar plan de suscripción** | | | | | | | |
-| | 1 | UI Selección de Planes | Crear la vista para comparar y seleccionar planes de suscripción (Gratuito vs Premium). | 1.5 | Developer Team | To-Do |
-| | 2 | Validaciones de Selección de Plan | Asegurar que el usuario solo pueda elegir un plan activo a la vez y mostrar mensajes de error si corresponde. | 0.5 | Developer Team | To-Do |
-| | 3 | Backend de Suscripciones | Implementar la lógica de facturación recurrente (vía pasarela de pago) y actualización de rol de usuario. | 3 | Developer Team | To-Do |
-| | 4 | Control de Acceso Premium | Actualizar los "guards" de navegación para restringir/permitir acceso a Comunidades según el plan. | 1 | Developer Team | To-Do |
-| | 5 | Notificaciones de Cambio de Plan | Enviar correo o notificación al usuario cuando se actualice su suscripción. | 1 | Developer Team | To-Do |
+| | 1 | UI Selección de Planes | Crear la vista para comparar y seleccionar planes de suscripción (Gratuito vs Premium). | 1.5 | Developer Team | Done |
+| | 2 | Validaciones de Selección de Plan | Asegurar que el usuario solo pueda elegir un plan activo a la vez y mostrar mensajes de error si corresponde. | 0.5 | Developer Team | Done |
+| | 3 | Backend de Suscripciones | Implementar la lógica de facturación recurrente (vía pasarela de pago) y actualización de rol de usuario. | 3 | Developer Team | Done |
+| | 4 | Control de Acceso Premium | Actualizar los "guards" de navegación para restringir/permitir acceso a Comunidades según el plan. | 1 | Developer Team | Done |
+| | 5 | Notificaciones de Cambio de Plan | Enviar correo o notificación al usuario cuando se actualice su suscripción. | 1 | Developer Team | Done |
 | **US20: Comentar en publicaciones** | | | | | | | |
-| | 1 | Componente de Comentarios UI | Crear la interfaz para visualizar la lista de comentarios y el input para añadir uno nuevo en un post. | 2 | Developer Team | To-Do |
-| | 2 | API de Comentarios - Crear | Implementar endpoint para crear un nuevo comentario en un post específico. | 1 | Developer Team | To-Do |
-| | 3 | API de Comentarios - Listar | Implementar endpoint para listar todos los comentarios de un post. | 1 | Developer Team | To-Do |
-| | 4 | API de Comentarios - Editar/Eliminar | Implementar endpoints para actualizar o borrar un comentario existente (propio del usuario). | 1 | Developer Team | To-Do |
-| | 5 | Integración Frontend-Backend | Conectar el componente de UI con los endpoints de comentarios y manejar errores básicos. | 1 | Developer Team | To-Do |
+| | 1 | Componente de Comentarios UI | Crear la interfaz para visualizar la lista de comentarios y el input para añadir uno nuevo en un post. | 2 | Developer Team | Done |
+| | 2 | API de Comentarios - Crear | Implementar endpoint para crear un nuevo comentario en un post específico. | 1 | Developer Team | Done |
+| | 3 | API de Comentarios - Listar | Implementar endpoint para listar todos los comentarios de un post. | 1 | Developer Team | Done |
+| | 4 | API de Comentarios - Editar/Eliminar | Implementar endpoints para actualizar o borrar un comentario existente (propio del usuario). | 1 | Developer Team | Done |
+| | 5 | Integración Frontend-Backend | Conectar el componente de UI con los endpoints de comentarios y manejar errores básicos. | 1 | Developer Team | Done |
 | **US24: Valorar y dejar reseña de libros** | | | | | | | |
-| | 1 | UI Selector de Estrellas | Implementar el componente visual para seleccionar 1-5 estrellas en la ficha del libro. | 2 | Developer Team | To-Do |
-| | 2 | UI Campo de Texto para Reseña | Añadir el campo de texto para que el usuario escriba su reseña del libro. | 1 | Developer Team | To-Do |
-| | 3 | Endpoint de Guardado de Valoración | Crear el endpoint para registrar la valoración del usuario y asociarla al libro. | 2 | Developer Team | To-Do |
-| | 4 | Endpoint de Guardado de Reseña | Crear el endpoint para registrar la reseña escrita por el usuario. | 1 | Developer Team | To-Do |
-| | 5 | Cálculo de Rating Promedio | Implementar la lógica backend para actualizar el rating promedio del libro tras cada nueva valoración. | 2 | Developer Team | To-Do |
-| | 6 | Integración Frontend-Backend | Conectar el UI con los endpoints de valoración y reseña, mostrando feedback inmediato al usuario. | 1 | Developer Team | To-Do |
+| | 1 | UI Selector de Estrellas | Implementar el componente visual para seleccionar 1-5 estrellas en la ficha del libro. | 2 | Developer Team | Done |
+| | 2 | UI Campo de Texto para Reseña | Añadir el campo de texto para que el usuario escriba su reseña del libro. | 1 | Developer Team | Done |
+| | 3 | Endpoint de Guardado de Valoración | Crear el endpoint para registrar la valoración del usuario y asociarla al libro. | 2 | Developer Team | Done |
+| | 4 | Endpoint de Guardado de Reseña | Crear el endpoint para registrar la reseña escrita por el usuario. | 1 | Developer Team | Done |
+| | 5 | Cálculo de Rating Promedio | Implementar la lógica backend para actualizar el rating promedio del libro tras cada nueva valoración. | 2 | Developer Team | Done |
+| | 6 | Integración Frontend-Backend | Conectar el UI con los endpoints de valoración y reseña, mostrando feedback inmediato al usuario. | 1 | Developer Team | Done |
 | **US14: Recibir notificaciones instantáneas** | | | | | | | |
-| | 1 | Configuración Servicio Push | Instalar y configurar el servicio de notificaciones push (ej. Firebase FCM) en backend. | 4 | Developer Team | To-Do |
-| | 2 | Integración Cliente Push | Integrar el servicio de notificaciones en la app web/móvil para recibir eventos. | 4 | Developer Team | To-Do |
-| | 3 | Triggers de Eventos Stock | Implementar backend para notificar cambios de stock de libros favoritos del usuario. | 2.5 | Developer Team | To-Do |
-| | 4 | Triggers de Eventos Comunidad | Implementar backend para notificar actividad en comunidades que el usuario sigue. | 2.5 | Developer Team | To-Do |
-| | 5 | Vista de Historial de Notificaciones | Crear UI para que el usuario vea todas las notificaciones recibidas. | 3 | Developer Team | To-Do |
-| | 6 | Integración Frontend-Backend | Conectar la UI con el backend para mostrar notificaciones en tiempo real. | 2 | Developer Team | To-Do |
+| | 1 | Configuración Servicio Push | Instalar y configurar el servicio de notificaciones push (ej. Firebase FCM) en backend. | 4 | Developer Team | Done |
+| | 2 | Integración Cliente Push | Integrar el servicio de notificaciones en la app web/móvil para recibir eventos. | 4 | Developer Team | Done |
+| | 3 | Triggers de Eventos Stock | Implementar backend para notificar cambios de stock de libros favoritos del usuario. | 2.5 | Developer Team | Done |
+| | 4 | Triggers de Eventos Comunidad | Implementar backend para notificar actividad en comunidades que el usuario sigue. | 2.5 | Developer Team | Done |
+| | 5 | Vista de Historial de Notificaciones | Crear UI para que el usuario vea todas las notificaciones recibidas. | 3 | Developer Team | Done |
+| | 6 | Integración Frontend-Backend | Conectar la UI con el backend para mostrar notificaciones en tiempo real. | 2 | Developer Team | Done |
 | **US13: Configurar notificaciones** | | | | | | | |
-| | 1 | Diseño UI Preferencias | Crear la interfaz con toggles para activar/desactivar tipos de notificaciones. | 1.5 | Developer Team | To-Do |
-| | 2 | Implementación Frontend | Programar la lógica de toggles y la interacción con la API. | 1.5 | Developer Team | To-Do |
-| | 3 | Endpoint de Preferencias | Crear API para guardar la configuración de notificaciones del usuario. | 1 | Developer Team | To-Do |
-| | 4 | Validación de Configuración | Asegurar que los cambios del usuario se respeten al enviar notificaciones. | 1 | Developer Team | To-Do |
+| | 1 | Diseño UI Preferencias | Crear la interfaz con toggles para activar/desactivar tipos de notificaciones. | 1.5 | Developer Team | Done |
+| | 2 | Implementación Frontend | Programar la lógica de toggles y la interacción con la API. | 1.5 | Developer Team | Done |
+| | 3 | Endpoint de Preferencias | Crear API para guardar la configuración de notificaciones del usuario. | 1 | Developer Team | Done |
+| | 4 | Validación de Configuración | Asegurar que los cambios del usuario se respeten al enviar notificaciones. | 1 | Developer Team | Done |
 
 Capturas del proyecto en Jira:
 <p align="center">
@@ -5486,6 +5486,8 @@ En el panel de App Distribution, se gestiona el ciclo de entrega de versiones pr
 
 En esta sección del archivo build.gradle.kts a nivel de módulo, se gestiona la importación de las bibliotecas operativas mediante la implementación de la plataforma firebase-bom (Bill of Materials) en su versión 34.6.0. Este mecanismo asegura la compatibilidad semántica entre las distintas dependencias de Firebase, permitiendo la integración de firebase-analytics sin especificar su versión individual, lo cual habilita las capacidades de telemetría y monitoreo en la aplicación final.
 
+Link de proyecto Livria Admin: <https://appdistribution.firebase.google.com/testerapps/1:303943428374:android:60d9f55922094c3cba8837/releases/4ud2u033g5uag?utm_source=firebase-console>
+
 Livria Client:
 
 <p align="center">
@@ -5547,6 +5549,8 @@ En el archivo principal de ejecución (main.dart), se valida la orquestación de
 </p>
 
 En el presente apartado se documenta la integración técnica del cliente de usuario (livria_user) bajo una arquitectura multiplataforma desarrollada en Flutter. El despliegue se orquestó mediante la herramienta FlutterFire CLI, permitiendo la configuración automatizada de los entornos para Android, iOS, Web y Windows, y la generación dinámica del archivo firebase_options.dart para la gestión centralizada de credenciales. Se habilitó el canal de distribución continua (App Distribution) para asegurar la entrega y validación de versiones preliminares en el ciclo de desarrollo.
+
+Link de proyecto Livria User Client: <https://appdistribution.firebase.google.com/testerapps/1:303943428374:android:60d9f55922094c3cba8837/releases/3q3hftu0oh7sg?utm_source=firebase-console>
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
@@ -6075,25 +6079,29 @@ Wireframe: Un boceto o "blueprint" de baja fidelidad que define la estructura y 
 
 Anexo A. Video exposición TP. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/ER_7rYbJD4FMv55jQXJGb28Bsegg0FGUiPPFWs6NUkN9Tw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WpwW0C>
 
-Anexo B. Wireframes y Mockups. https://www.figma.com/design/eKCqZoU0IF7n3wNTA8kuZc/livria?node-id=923-589&t=llsYI4TxYraymJaX-1
+Anexo B. Wireframes y Mockups. <https://www.figma.com/design/eKCqZoU0IF7n3wNTA8kuZc/livria?node-id=923-589&t=llsYI4TxYraymJaX-1>
 
-Anexo C. Prototipo. https://www.figma.com/proto/eKCqZoU0IF7n3wNTA8kuZc/livria?node-id=923-591&p=f&t=aaOc209xUIWnbuOx-1&scaling=scale-down&content-scaling=fixed&page-id=923%3A589
+Anexo C. Prototipo. <https://www.figma.com/proto/eKCqZoU0IF7n3wNTA8kuZc/livria?node-id=923-591&p=f&t=aaOc209xUIWnbuOx-1&scaling=scale-down&content-scaling=fixed&page-id=923%3A589>
 
-Anexo D. Landing Page. https://livriaorg.github.io/LivriaLanding/
+Anexo D. Landing Page. <https://livriaorg.github.io/LivriaLanding/>
 
-Anexo E. Api de Livria. https://livria-api.azurewebsites.net/swagger/index.html
+Anexo E. Api de Livria. <https://lililivria.azurewebsites.net/swagger/index.html>
 
 Anexo F. Entrevistas Validación. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EQlLtO8aYaxFvZxl_mX-m1oBO06-X2oQiswQ41e7tmg3qQ?e=tAFA1n>
 
 Anexo G. Entrevistas Needfinding. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/EWZiS1n_89FKgISqOVCjVmUB9Kn699X3OkaJF1K_yNxkpQ?e=6ctcJp>
 
-Anexo H. Sprint Backlog. https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9
+Anexo H. Sprint Backlog. <https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/boards/34/backlog?atlOrigin=eyJpIjoiYWRkMGZmYTBmZTI2NDg2ZjhjMzRiNWM2YjY5NDkzMjQiLCJwIjoiaiJ9>
 
-Anexo I. Jira. https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/issues?jql=project+%3D+"LVR"+ORDER+BY+created+DESC&atlOrigin=eyJpIjoiZWU4ZTBhYzA3YTgxNDk5YWE1MWFkN2Q4ZDY0ODAyMmUiLCJwIjoiaiJ9
+Anexo I. Jira. <https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/issues?jql=project+%3D+"LVR"+ORDER+BY+created+DESC&atlOrigin=eyJpIjoiZWU4ZTBhYzA3YTgxNDk5YWE1MWFkN2Q4ZDY0ODAyMmUiLCJwIjoiaiJ9>
 
-Anexo J. Firebase Admin. https://appdistribution.firebase.dev/i/73a4bb1402de2ba6
+Anexo J. Firebase Admin. <https://appdistribution.firebase.dev/i/73a4bb1402de2ba6>
 
-Anexo K. Firebase Client. https://appdistribution.firebase.dev/i/e3cfd224546811fb
+Anexo K. Firebase Client. <https://appdistribution.firebase.dev/i/045aefbd2800c09d>
+
+Anexo L. Livria User Client Validation Video. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQBaHQrqMDe6RbO_6YbdsW-9Ab-_kYpB61r9yLvAZZr2KTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jfg557>
+
+Anexo M. Livria Admin Client Validation Video. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQAT-amU-5jsQ68cSS4E6DO_ActN7O9fRylA8KuJ8tKodPE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dHjHGg>
 
 # Bibliografía
 
