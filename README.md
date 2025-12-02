@@ -280,6 +280,12 @@ Durante el TB2, el equipo colaboró activamente en el desarrollo de la aplicaci�
       - [4.2.3. Sprint 3](#422-sprint-3)
         - [4.2.3.1. Sprint Planning 3](#4221-sprint-planning-3)
         - [4.2.3.2. Sprint Backlog 3](#4222-sprint-backlog-3)
+        - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+        - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234testing-suite-evidence-for-sprint-review)
+        - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+        - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+        - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+        - [4.2.3.8. Team Collaboration Insight during Sprint](#4238-team-collaboration-insight-during-sprint)
     + [4.3. Validation Interviews](#43-validation-interviews)
         - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas-1)
         - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas-1)
@@ -5262,6 +5268,48 @@ Pantalla de Usuario desarrollada en Flutter:
 Video de validación: 
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, se desarrollaron e implementaron los Endpoints para funcionalidades extra de la aplicación en Flutter, como preferencias de libros y el refinamiento de las comunidades. Todos estos endpoints fueron agregados al backend previo de la TB2, complementando funcionalidades clave. Este último se desarrollo con MySQL y C#, y fue desplegado en Azure.
+
+A continuación, se muestra una tabla con los Endpoints implementados para este Sprint:
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de request | Respuesta |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| /api/v1/communities/{communityId}/members/{userId}/is-member | Verificar la membresía de un usuario en una comunidad. | GET | /api/v1/communities/1/members/3/is-member | communityId: Integer (path), userId: Integer (path) | curl -X 'GET' 'https://lililivria.azurewebsites.net/api/v1/communities/1/members/3/is-member' | **Code 200 (OK)** <br> { "isMember": false } |
+| /api/v1/userclients/{userClientId}/exclusions/{bookId} | Agregar un libro existente a la lista de exclusión. | POST | /api/v1/userclients/3/exclusions/1 | userClientId: Integer (path), bookId: Integer (path) | curl -X 'POST' 'https://lililivria.azurewebsites.net/api/v1/userclients/3/exclusions/1' | **Code 200 (OK)** <br> { "icon": "data:image/jpeg;base64,/9j/4QBqRXhpZgAATU0AKg...", "id": 3, "display": "ksedudu_gamepluplu", "username": "ksedudu", "email": "ksedudu@gmail.com", "phrase": "soy ksedo xdxdxxd", "subscription": "communityplan" } |
+| /api/v1/userclients/{userClientId}/exclusions | Obtener los datos de los libros excluidos de un usuario. | GET | /api/v1/userclients/3/exclusions | userClientId: Integer (path) | curl -X 'GET' 'https://lililivria.azurewebsites.net/api/v1/userclients/3/exclusions' | **Code 200 (OK)** <br> [ { "id": 1, "title": "Cien años de soledad", "author": "Gabriel García Márquez", "salePrice": 49.55, "stock": 11, "cover": "https://i.imgur.com/4Bv3Eq5.jpeg", "genre": "literature" } ] |
+| /api/v1/userclients/{userClientId}/exclusions/{bookId} | Eliminar un libro de la lista de exclusión de un UserClient. | DELETE | /api/v1/userclients/3/exclusions/1 | userClientId: Integer (path), bookId: Integer (path) | curl -X 'DELETE' 'https://lililivria.azurewebsites.net/api/v1/userclients/3/exclusions/1' | **Code 200 (OK)** <br> { "icon": "data:image/jpeg;base64/...", "id": 3, "display": "ksedudu_gamepluplu", "username": "ksedudu", "email": "ksedudu@gmail.com", "phrase": "soy ksedo xdxdxxd", "subscription": "communityplan" } |
+
+Capturas de pantalla:
+
+**POST /api/v1/communities/{communityId}/members/{userId}/is-member**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5b9821f0-e248-438b-b433-833d798dc8b3" alt="12171">
+</p>
+
+Comprueba si un usuario específico es miembro activo de una comunidad determinada.
+
+**POST /api/v1/userclients/{userClientId}/exclusions/{bookId}**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e4c2bc70-5922-4ee8-8839-1d3f8ca0843c" alt="12171">
+</p>
+
+Añade un libro a la lista de exclusión del usuario para que no aparezca en sus recomendaciones.
+
+**GET /api/v1/userclients/{userClientId}/exclusions**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/99c2d228-974e-414b-89f5-02ef67471577" alt="12171">
+</p>
+
+Recupera el listado completo de todos los libros que el usuario ha decidido excluir.
+
+**DELETE /api/v1/userclients/{userClientId}/exclusions/{bookId}**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/26c15ae7-7ff8-401b-8b1e-1123b8d5dfc6" alt="12171">
+</p>
+
+
+Remueve un libro específico de la lista de exclusión del usuario, permitiendo que vuelva a ser recomendado.
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
