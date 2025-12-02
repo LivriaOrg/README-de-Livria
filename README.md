@@ -5251,6 +5251,16 @@ Capturas del proyecto en Jira:
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 3, el equipo completó exitosamente 7 Historias de Usuario, alcanzando los objetivos críticos relacionados con la monetización y la fidelización del usuario (engagement). El enfoque principal residió en la implementación de la capa transaccional, integrando una pasarela de pagos segura que habilita tanto la compra de libros (físicos y digitales) como la gestión de suscripciones (actualización a planes Premium), validando correctamente los flujos de facturación y permisos de acceso. Paralelamente, se potenció la interacción social mediante la incorporación de sistemas de valoración (estrellas) y reseñas escritas en los libros, así como la funcionalidad de comentarios en publicaciones de la comunidad. Finalmente, el equipo culminó el desarrollo del cliente de usuario (user_client) al integrar un sistema de notificaciones push en tiempo real con gestión de preferencias, asegurando una comunicación proactiva y completando la experiencia funcional de la aplicación móvil.
+
+Pantalla de Usuario desarrollada en Flutter:
+
+<p align="center">
+  <img src="https://imgur.com/Bf3ebVM.png" alt="1217145">
+</p>
+
+Video de validación: 
+
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
