@@ -73,7 +73,7 @@
 
 # Project Report Collaboration Insights
 <p align="center">
-  <img src="https://i.imgur.com/ZNgi6W7.png" alt="project report collaboration insights">
+  <img src="https://github.com/user-attachments/assets/d6aa0ea8-1240-4015-8be2-9bd882cd813a" alt="project report collaboration insights">
 </p>
 
 Repositorio donde está el project report: https://github.com/LivriaOrg/README-de-Livria
@@ -82,20 +82,20 @@ Para la elaboración del informe, se utilizó Google Docs como plataforma de tra
 
 Insights del Repositorio de la Aplicación Móvil (Flutter)
 <p align="center">
-  <img src="https://i.imgur.com/GNUVrMr.png" alt="project report collaboration insights111">
+  <img src="https://github.com/user-attachments/assets/f11eec56-e86c-4ac0-860c-9773eec287e2" alt="project report collaboration insights111">
 </p>
 
 Insights del Repositorio de la Aplicación Móvil (Kotlin)
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9f44e1d3-6deb-4ec3-b311-328cc68fbccb">
+  <img src="https://github.com/user-attachments/assets/bf95985d-8ecf-40a9-a295-9a74d7c59a7d">
 </p>
 
 Insights del Repositorio de la Landing
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1e78c2e1-93bd-40ea-bd8e-9527fcd09ff7">
+  <img src="https://github.com/user-attachments/assets/284d910c-1ba0-4e97-ba26-216b97f60d36">
 </p>
 
-Durante el TB2, el equipo colaboró activamente en el desarrollo de la aplicación dentro del repositorio de GitHub, coordinando la implementación de funcionalidades, la integración de módulos y la arquitectura del software. Se mantuvo un flujo constante de commits y revisiones de código (Pull Requests) para asegurar la coherencia y calidad del código fuente. Cada integrante aportó tanto en el desarrollo de las historias de usuario asignadas como en la resolución de conflictos y la corrección de errores, consolidando una dinámica de trabajo colaborativa y organizada.
+Durante el TF, el equipo colaboró activamente en el desarrollo de la aplicación dentro del repositorio de GitHub, coordinando la implementación de funcionalidades, la integración de módulos y la arquitectura del software. Se mantuvo un flujo constante de commits y revisiones de código (Pull Requests) para asegurar la coherencia y calidad del código fuente. Cada integrante aportó tanto en el desarrollo de las historias de usuario asignadas como en la resolución de conflictos y la corrección de errores, consolidando una dinámica de trabajo colaborativa y organizada.
 
 # Contenido
 
