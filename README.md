@@ -1850,10 +1850,13 @@ Objetivo SMART: Conseguir que el 30% de los usuarios activos participen en al me
 | 48 | US10 | Footer de la Landing Page | 1 |
 | 49 | TS15 | Registro de cuenta con control y seguridad | 3 |
 
-Evidencias de la implementación del Product Backlog en Pivotal Tracker:
+Evidencias de la implementación del Product Backlog en Jira:
 
 <p align="center">
-  <img src="https://imgur.com/7F2Y29E.jpg" alt="12231">
+  <img src="https://imgur.com/XY8Yqyw.jpg" alt="12231">
+</p>
+<p align="center">
+  <img src="https://imgur.com/rzug1N7.jpg" alt="12231">
 </p>
 
 ## 2.5. Strategic-Level Domain-Driven Design
@@ -5812,7 +5815,7 @@ El propósito principal del video about the product es persuadir a los usuarios 
   <img src="https://i.imgur.com/dFJoOl7.png" alt="12171">
 </p>
 
-Enlace de Visualización: [<https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi>](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQA0ZQZZLmGkTbu9gzB3ZjkBAUSufzi4APG9VnmVlbAjLtY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JBORoi)
+Enlace de Visualización: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312287_upc_edu_pe/IQChm34JlNBBQoi42BHW9D4SAdt1ydeEIEGOrGip7l670Ok?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VeWxCf](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312287_upc_edu_pe/IQChm34JlNBBQoi42BHW9D4SAdt1ydeEIEGOrGip7l670Ok?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VeWxCf)
 
 **About The Team**
 
