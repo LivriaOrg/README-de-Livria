@@ -5333,7 +5333,7 @@ Pantalla de Usuario desarrollada en Flutter:
   <img src="https://imgur.com/Bf3ebVM.png" alt="1217145">
 </p>
 
-Video de validación: 
+Video de validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQBaHQrqMDe6RbO_6YbdsW-9Ab-_kYpB61r9yLvAZZr2KTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jfg557
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
