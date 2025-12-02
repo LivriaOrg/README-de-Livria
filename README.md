@@ -5972,6 +5972,8 @@ Anexo I. Jira. https://livriaaplicacionesmoviles12.atlassian.net/jira/software/p
 
 Anexo J. Firebase Admin. https://appdistribution.firebase.dev/i/73a4bb1402de2ba6
 
+Anexo K. Firebase Client. https://appdistribution.firebase.dev/i/e3cfd224546811fb
+
 # Bibliografía
 
 Alaminkarno. (2024, enero 8). *DDD (Domain-Driven Design) in Flutter – Too much or just right?* DEV Community. https://dev.to/alaminkarno/ddd-domain-driven-design-in-flutter-too-much-or-just-right-d1g
