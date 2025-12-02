@@ -5765,6 +5765,10 @@ TABLA RESUMEN:
 
 9. El equipo logró la integración funcional de los componentes críticos para el ciclo de vida del usuario (Login, Registro y Logout). Esto implicó la conexión de la lógica del frontend (Flutter) con el backend desplegado en Azure, asegurando la persistencia del estado de la sesión (JWT/SharedPreferences) y validando la arquitectura de la solución.
 
+10. El desarrollo del módulo de Checkout (envío, pago y confirmación) demostró la eficacia del patrón Provider para mantener la consistencia de los datos a través de múltiples pantallas. La centralización de la lógica de la orden en un OrderProvider permitió desacoplar la interfaz de usuario de la lógica de negocio, facilitando la validación progresiva de la información antes de su persistencia final en el backend.
+
+11. La implementación de validaciones en tiempo real (como el control de stock en el carrito y la lógica de suscripciones) y el manejo eficiente de la conversión de imágenes (Base64) reforzaron la integridad de los datos entre el cliente y el servidor. Estas prácticas no solo previenen errores en el backend, sino que mejoran la experiencia del usuario al proporcionar retroalimentación inmediata y evitar estados inconsistentes en la aplicación.
+
 **Recomendaciones**
 
 1. Se recomienda continuar aplicando los principios de Domain-Driven Design en el desarrollo tanto del frontend como del backend, asegurando que la lógica de negocio y las reglas del dominio estén alineadas con las necesidades identificadas en el proceso de investigación. Esto permitirá mantener una arquitectura coherente y sostenible.
