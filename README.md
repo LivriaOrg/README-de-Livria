@@ -5785,6 +5785,10 @@ TABLA RESUMEN:
 
 9. En el desarrollo multiplataforma en Flutter, para evitar tener grandes bloques de código o una alta complejidad en un solo archivo, se sugiere dividir la capa de presentación en una carpeta de widgets y otra para pages. Así se promueve un código más organizado, modular y fácil de mantener.
 
+10. Se recomienda encarecidamente utilizar mecanismos de Tokenización para el procesamiento de pagos (como se implementa con Stripe), evitando el almacenamiento directo de información financiera sensible en la base de datos propia. Al delegar la seguridad de los datos de tarjeta a un proveedor certificado y manejar solo "tokens" o referencias en el backend, se reduce drásticamente la superficie de ataque y se garantiza la integridad financiera de los usuarios.
+
+11. Es aconsejable implementar patrones de Optimistic UI en la gestión de estados, especialmente para interacciones frecuentes como "Agregar al carrito" o "Unirse a una comunidad". Al actualizar visualmente el estado de la interfaz de manera inmediata, se mejora la percepción de velocidad y fluidez de la aplicación, siempre manteniendo un mecanismo de reversión (rollback) en caso de que la petición falle.
+
 **App Validation**
 
 <p align="center">
