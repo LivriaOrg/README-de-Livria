@@ -6103,9 +6103,9 @@ Anexo H. Sprint Backlog. <https://livriaaplicacionesmoviles12.atlassian.net/jira
 
 Anexo I. Jira. <https://livriaaplicacionesmoviles12.atlassian.net/jira/software/projects/LVR/issues?jql=project+%3D+"LVR"+ORDER+BY+created+DESC&atlOrigin=eyJpIjoiZWU4ZTBhYzA3YTgxNDk5YWE1MWFkN2Q4ZDY0ODAyMmUiLCJwIjoiaiJ9>
 
-Anexo J. Firebase Admin. <https://appdistribution.firebase.dev/i/73a4bb1402de2ba6>
+Anexo J. Firebase Admin. <https://appdistribution.firebase.dev/i/02a419929f3400e5>
 
-Anexo K. Firebase Client. <https://appdistribution.firebase.dev/i/045aefbd2800c09d>
+Anexo K. Firebase Client. <https://appdistribution.firebase.dev/i/2c6c867d5d634d84>
 
 Anexo L. Livria User Client Validation Video. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQBaHQrqMDe6RbO_6YbdsW-9Ab-_kYpB61r9yLvAZZr2KTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jfg557>
 
