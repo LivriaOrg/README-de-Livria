@@ -5962,25 +5962,25 @@ Timestamps:
 
 00:00 Animación de Inicio
 
-00:15 Insights de Ainhoa Castillo
+00:15 Evidencia de Reuniones de Trabajo Grupal (Voice Off)
 
-02:00 Insights de Cassius Martel
+03:27 Insights de Ainhoa Castillo
 
-03:30 Insights de Marcelo Binda
+05:11 Insights de Cassius Martel
 
-04:45 Insights de Tomio Nakamurakare
+06:44 Insights de Marcelo Binda
 
-06:12 Insights de Gabriel Borja
+07:55 Insights de Tomio Nakamurakare
 
-07:22 Evidencia de Reuniones de Trabajo Grupal
+09:23 Insights de Gabriel Borja
 
-12:30 Animación de Salida
+10:34 Animación de Salida
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/59cb2151-334d-43be-9fc8-8d2b07656342" alt="12171">
 </p>
 
-Enlace de Visualización: [https://upcedupe-my.sharepoint.com/personal/u202311701_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311701_upc_edu_pe%2FDocuments%2FAbout_The_Team-Livria%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2075ad76-4f28-41b4-9466-ad494159d1ab](https://upcedupe-my.sharepoint.com/personal/u202311701_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311701_upc_edu_pe%2FDocuments%2FAbout_The_Team-Livria%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2075ad76-4f28-41b4-9466-ad494159d1ab)
+Enlace de Visualización: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311701_upc_edu_pe/IQAsF91iElyOSLb_LXxdy_dRAaA0ZAvKCxO8AH4PB2Qa7TM?e=fOkerz>
 
 
 # Glosario
@@ -6110,6 +6110,8 @@ Anexo I. Jira. <https://livriaaplicacionesmoviles12.atlassian.net/jira/software/
 Anexo J. Firebase Admin. <https://appdistribution.firebase.dev/i/02a419929f3400e5>
 
 Anexo K. Firebase Client. <https://appdistribution.firebase.dev/i/2c6c867d5d634d84>
+
+Anexo L. Video De Exposición de proyecto. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f855_upc_edu_pe/IQDbNI31nf-ISIFVMT6GWF0yAYwHJtB5RnUh9-UzR_qCqJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wQ9t2G>
 
 Anexo L. Livria User Client Validation Video. <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/IQBaHQrqMDe6RbO_6YbdsW-9Ab-_kYpB61r9yLvAZZr2KTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jfg557>
 
