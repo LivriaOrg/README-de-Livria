@@ -575,11 +575,11 @@ Creemos que, al implementar la publicación de reseñas y calificación con estr
 
 #### 1.2.2.3. Lean UX Canvas
 <p align="center">
-  <img src="https://imgur.com/e7jJez9.jpg" alt="12231">
+  <img src="https://imgur.com/x1hEKKV.jpg" alt="12231">
 </p>
 
 <p align="center">
-  <img src="https://imgur.com/u8fO3mz.jpg" alt="122312">
+  <img src="https://imgur.com/iiE6SOn.jpg" alt="122312">
 </p>
 
 Link del Lean UX Canvas: https://docs.google.com/document/d/1J1PJ1gn62fnoB0Saa-rrgXwppnVQFzs8/edit?usp=sharing&ouid=112054289490328588638&rtpof=true&sd=true
